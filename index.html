@@ -143,6 +143,15 @@
   /* ── Interactive lab shared ───────────────────────────── */
   .snap-note { font-family: var(--mono); font-size: .74rem; color: var(--muted); border: 1px dashed var(--line); border-radius: 8px; padding: 9px 12px; margin-bottom: 20px; display: flex; gap: 8px; align-items: baseline; }
   .snap-note b { color: var(--warn); font-weight: 500; }
+  .snap-note.live { border-style: solid; }
+  .snap-note.live b { color: var(--accent); }
+  .snap-note .mark { flex: none; }
+  .snap-note.live .mark { color: var(--accent); }
+  .sev-PENDING, .sev-NEWS { color: var(--muted); background: var(--panel-2); border: 1px solid var(--line); }
+  a.src { color: inherit; }
+  a.src:hover { color: var(--accent); text-decoration: none; }
+  .cve .id a.src { color: var(--accent-2); }
+  .cve .meta span.hot { color: var(--crit); border-color: rgba(255,92,108,.3); }
   .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 20px; }
   .inp, .sel { font-family: var(--mono); font-size: .85rem; background: var(--panel-2); border: 1px solid var(--line); color: var(--fg); border-radius: 8px; padding: 10px 12px; }
   .inp:focus, .sel:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }
@@ -325,8 +334,8 @@
 
 <section id="vulns"><div class="wrap">
   <div class="sec-head"><span class="sec-no">05</span><h2 class="sec-title">Vulnerability Dashboard</h2></div>
-  <p class="lead">Interactive triage view of notable CVEs — filter by severity, search by product or ID, and read CVSS context the way a risk register entry would.</p>
-  <div class="snap-note" style="margin-top:18px"><span>▲</span><span><b>Snapshot data.</b> A curated set of landmark CVEs with their CVSS scores, not a live NVD feed.</span></div>
+  <p class="lead">Triage view of the vulnerabilities most recently confirmed as exploited in the wild — filter by severity, search by product or ID, and read CVSS context the way a risk register entry would.</p>
+  <div class="snap-note" id="vulnNote" style="margin-top:18px"></div>
   <div class="stat-row" id="statRow"></div>
   <div class="toolbar">
     <input id="cveSearch" class="inp" type="search" placeholder="search CVE id, product, keyword…" aria-label="Search CVEs">
@@ -337,12 +346,12 @@
 
 <section id="cti"><div class="wrap">
   <div class="sec-head"><span class="sec-no">06</span><h2 class="sec-title">Threat Intel Briefing</h2></div>
-  <p class="lead">A daily-style CTI digest — the kind of briefing that feeds a risk committee. Cycle the briefing to rotate through tracked campaigns, advisories and ransomware activity.</p>
-  <div class="snap-note" style="margin-top:18px"><span>▲</span><span><b>Snapshot data.</b> This panel rotates a curated briefing set, not a live feed.</span></div>
+  <p class="lead">A daily-style CTI digest — the kind of briefing that feeds a risk committee. Cycle the briefing to rotate through newly exploited vulnerabilities, ransomware-linked activity and threat headlines.</p>
+  <div class="snap-note" id="ctiNote" style="margin-top:18px"></div>
   <div class="cti-wrap">
     <div class="cti-top">
-      <div class="ts">last refresh: <b id="ctiTs">—</b> · briefing <b id="ctiIdx">1</b></div>
-      <button class="btn" id="ctiRefresh">↻ refresh briefing</button>
+      <div class="ts">briefing <b id="ctiIdx">1</b> · <b id="ctiLabel"></b></div>
+      <button class="btn" id="ctiRefresh">↻ next briefing</button>
     </div>
     <div class="cti-feed" id="ctiFeed"></div>
   </div>
@@ -394,8 +403,8 @@
 
 <section id="news"><div class="wrap">
   <div class="sec-head"><span class="sec-no">08</span><h2 class="sec-title">APAC Cybersecurity News</h2></div>
-  <p class="lead">Notable incidents and developments across Singapore and the wider APAC region — the landscape that shapes MAS TRM, CCoP and CII obligations. Filter by region.</p>
-  <div class="snap-note" style="margin-top:18px"><span>▲</span><span><b>Snapshot data.</b> A curated set of notable regional incidents, not a live news feed.</span></div>
+  <p class="lead">Advisories and incidents across Singapore and the wider APAC region — the landscape that shapes MAS TRM, CCoP and CII obligations. Filter by region.</p>
+  <div class="snap-note" id="newsNote" style="margin-top:18px"></div>
   <div id="newsChips" role="group" aria-label="Filter by region" style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px"></div>
   <div class="news-list" id="newsList"></div>
 </div></section>
@@ -491,13 +500,7 @@ const CONFIG = {
     { title: "Cross-Border Fraud Investigations", desc: "Investigated global Card-Not-Present fraud for Apple, combining cybersecurity tooling, social-engineering analysis and financial-institution collaboration.", stack: ["Fraud","CNP","OSINT"] }
   ],
 
-  /* ── LIVE-DATA HOOK (1 of 2): Vulnerability Dashboard ──────────────────
-     Curated snapshot of real, landmark CVEs with their real CVSS base
-     scores & vectors. To go live, replace this array at runtime with a
-     fetch() to YOUR backend that proxies the NVD API v2
-     (https://services.nvd.nist.gov/rest/json/cves/2.0). Keep the same
-     field shape: { id, published, cvss, severity, vector, product, desc }.
-     ------------------------------------------------------------------- */
+  /* Fallback only — shown if data/vulns.json cannot be loaded. */
   cves: [
     { id: "CVE-2023-22515", published: "2023-10-04", cvss: 10.0, severity: "CRITICAL", vector: "Network / Low / None", product: "Atlassian Confluence", desc: "Broken access control allowing creation of unauthorised administrator accounts on Data Center & Server." },
     { id: "CVE-2024-3094", published: "2024-03-29", cvss: 10.0, severity: "CRITICAL", vector: "Network / Low / None", product: "XZ Utils (liblzma)", desc: "Malicious backdoor injected into the upstream XZ build, enabling SSH remote code execution — a landmark supply-chain compromise." },
@@ -517,11 +520,7 @@ const CONFIG = {
     { id: "CVE-2014-0160", published: "2014-04-07", cvss: 7.5, severity: "HIGH", vector: "Network / Low / None", product: "OpenSSL", desc: "'Heartbleed' out-of-bounds read in the TLS heartbeat extension, leaking private keys and memory contents." }
   ],
 
-  /* ── LIVE-DATA HOOK (2 of 2): CTI Briefing ─────────────────────────────
-     Each entry is one briefing "page". Replace at runtime with a fetch()
-     to your server-side CTI aggregator (CISA KEV, MISP, vendor feeds).
-     Field shape per item: { cat, sev, title, desc, tags }.
-     ------------------------------------------------------------------- */
+  /* Fallback only — shown if data/cti.json cannot be loaded. */
   ctiBriefings: [
     [
       { cat: "Ransomware", sev: "CRITICAL", title: "Double-extortion group targets managed file-transfer appliances", desc: "Threat actors continue mass-exploitation of edge file-transfer software to steal data before deploying encryptors — echoing the MOVEit campaign. Prioritise patching and egress monitoring on internet-facing transfer systems.", tags: ["MFT","exfiltration"], attack: [ {id:"T1190", name:"Exploit Public-Facing Application"}, {id:"T1567", name:"Exfiltration Over Web Service"}, {id:"T1486", name:"Data Encrypted for Impact"} ] },
@@ -540,13 +539,7 @@ const CONFIG = {
     ]
   ],
 
-  /* ── LIVE-DATA HOOK (3 of 3): APAC / Regional Cybersecurity News ───────
-     Curated snapshot of real, notable regional incidents & developments.
-     To go live, replace at runtime with a fetch() to your backend
-     aggregating regional sources (CSA SG, regional CERTs, news feeds).
-     Field shape: { date, region, cat, title, desc, tags }.
-     region drives the filter chips (e.g. SG, MY, APAC, AU, ID, IN, JP).
-     ------------------------------------------------------------------- */
+  /* Fallback only — shown if data/news.json cannot be loaded. */
   news: [
     { date: "2024-06", region: "ID", cat: "Ransomware", title: "Indonesia National Data Centre (PDN) hit by ransomware", desc: "A Brain Cipher (LockBit 3.0-derived) attack disrupted immigration and 200+ government services; backups were largely absent, spotlighting public-sector resilience gaps across the region.", tags: ["public-sector","BCM/DR","LockBit"] },
     { date: "2024-05", region: "SG", cat: "Regulation", title: "Singapore Cybersecurity (Amendment) Act 2024 passed", desc: "Expanded CSA oversight to systems of temporary critical importance, major Foundational Digital Infrastructure and CII held on third-party/cloud — reinforcing CCoP obligations for operators.", tags: ["CSA","CCoP","CII"] },
@@ -713,56 +706,97 @@ CONFIG.contactLinks.forEach(l => { const a = el("a", "btn", esc(l.label)); a.hre
 $("footL").textContent = `${CONFIG.name} · ${CONFIG.location || ""}`.trim();
 $("footR").textContent = CONFIG.footerNote;
 
+/* ── Live data: data/*.json is refreshed by a scheduled GitHub Action ──── */
+const safeUrl = (u) => /^https?:\/\//i.test(String(u || "")) ? String(u) : "";
+const linkOpen = (u) => `<a class="src" href="${esc(u)}" target="_blank" rel="noopener noreferrer">`;
+function fmtUpdated(iso) {
+  const d = new Date(iso); if (isNaN(d)) return "";
+  const mins = Math.round((Date.now() - d.getTime()) / 60000);
+  const ago = mins < 1 ? "just now" : mins < 60 ? mins + " min ago" : mins < 2880 ? Math.round(mins / 60) + " h ago" : Math.round(mins / 1440) + " days ago";
+  return d.toISOString().slice(0, 16).replace("T", " ") + " UTC (" + ago + ")";
+}
+function setNote(id, live, html) {
+  const n = $(id); n.className = "snap-note" + (live ? " live" : "");
+  n.innerHTML = `<span class="mark">${live ? "●" : "▲"}</span><span>${html}</span>`;
+}
+function loadFeed(file, valid) {
+  return fetch("data/" + file, { cache: "no-cache" })
+    .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+    .then(d => { if (!valid(d)) throw new Error("unexpected shape"); return d; });
+}
+
 /* ── Vulnerability Dashboard ─────────────────────────────────────────── */
 (function vulnDashboard() {
-  const sevColor = { CRITICAL: "var(--crit)", HIGH: "var(--warn)", MEDIUM: "var(--med)", LOW: "var(--low)" };
+  const sevColor = { CRITICAL: "var(--crit)", HIGH: "var(--warn)", MEDIUM: "var(--med)", LOW: "var(--low)", PENDING: "var(--muted)" };
   const order = ["CRITICAL","HIGH","MEDIUM","LOW"];
-  const data = (CONFIG.cves || []).slice().sort((a,b) => b.cvss - a.cvss);
-  let activeSev = "ALL", q = "";
-
-  // stat tiles
-  const counts = { CRITICAL:0, HIGH:0, MEDIUM:0, LOW:0 };
-  data.forEach(c => counts[c.severity] !== undefined && counts[c.severity]++);
-  const tiles = [["tot","total CVEs", data.length],["crit","critical", counts.CRITICAL],["high","high", counts.HIGH],["med","medium", counts.MEDIUM]];
-  tiles.forEach(([cls,label,n]) => { const s = el("div", "stat " + cls); s.appendChild(el("div","n",String(n))); s.appendChild(el("div","l",esc(label))); $("statRow").appendChild(s); });
+  let data = [], activeSev = "ALL", q = "";
 
   // severity chips
-  const chips = ["ALL", ...order];
-  chips.forEach(sev => { const b = el("button","chip",esc(sev.toLowerCase())); b.setAttribute("aria-pressed", sev === "ALL" ? "true":"false"); b.dataset.sev = sev; b.addEventListener("click", () => { activeSev = sev; [...$("sevChips").children].forEach(c => c.setAttribute("aria-pressed", c.dataset.sev === sev ? "true":"false")); draw(); }); $("sevChips").appendChild(b); });
-
+  ["ALL", ...order].forEach(sev => { const b = el("button","chip",esc(sev.toLowerCase())); b.setAttribute("aria-pressed", sev === "ALL" ? "true":"false"); b.dataset.sev = sev; b.addEventListener("click", () => { activeSev = sev; [...$("sevChips").children].forEach(c => c.setAttribute("aria-pressed", c.dataset.sev === sev ? "true":"false")); draw(); }); $("sevChips").appendChild(b); });
   $("cveSearch").addEventListener("input", e => { q = e.target.value.toLowerCase().trim(); draw(); });
+
+  function setData(rows, totalLabel) {
+    data = rows;
+    const counts = { CRITICAL:0, HIGH:0, MEDIUM:0, LOW:0 };
+    data.forEach(c => counts[c.severity] !== undefined && counts[c.severity]++);
+    $("statRow").innerHTML = "";
+    [["tot", totalLabel, data.length],["crit","critical", counts.CRITICAL],["high","high", counts.HIGH],["med","medium", counts.MEDIUM]]
+      .forEach(([cls,label,n]) => { const s = el("div", "stat " + cls); s.appendChild(el("div","n",String(n))); s.appendChild(el("div","l",esc(label))); $("statRow").appendChild(s); });
+    draw();
+  }
 
   function draw() {
     const list = $("cveList"); list.innerHTML = "";
-    const rows = data.filter(c => (activeSev === "ALL" || c.severity === activeSev) && (!q || (c.id + " " + c.product + " " + c.desc).toLowerCase().includes(q)));
+    const rows = data.filter(c => (activeSev === "ALL" || c.severity === activeSev) && (!q || (c.id + " " + c.product + " " + (c.name || "") + " " + c.desc).toLowerCase().includes(q)));
     if (!rows.length) { list.appendChild(el("div","empty","No CVEs match this filter.")); return; }
     rows.forEach(c => {
+      const sev = sevColor[c.severity] ? c.severity : "PENDING";
+      const scored = typeof c.cvss === "number";
       const row = el("div","cve");
       const score = el("div","score");
-      score.innerHTML = `<div class="sv" style="color:${sevColor[c.severity]}">${c.cvss.toFixed(1)}</div><div class="sb"><i style="width:${(c.cvss/10*100).toFixed(0)}%;background:${sevColor[c.severity]}"></i></div>`;
+      score.innerHTML = `<div class="sv" style="color:${sevColor[sev]}">${scored ? c.cvss.toFixed(1) : "—"}</div><div class="sb"><i style="width:${scored ? (c.cvss/10*100).toFixed(0) : 0}%;background:${sevColor[sev]}"></i></div>`;
+      const url = safeUrl(c.url);
+      const meta = [];
+      if (c.kevAdded) meta.push(`<span>KEV added ${esc(c.kevAdded)}</span>`);
+      if (c.published) meta.push(`<span>published ${esc(c.published)}</span>`);
+      if (c.vector) meta.push(`<span>${esc(c.vector)}</span>`);
+      if (c.due) meta.push(`<span>remediate by ${esc(c.due)}</span>`);
+      if (c.ransomware) meta.push(`<span class="hot">ransomware use</span>`);
       const mid = el("div","mid");
-      mid.innerHTML = `<div class="id">${esc(c.id)} · <span style="color:var(--fg)">${esc(c.product)}</span></div><div class="desc">${esc(c.desc)}</div><div class="meta"><span>published ${esc(c.published)}</span><span>${esc(c.vector)}</span></div>`;
-      const badge = el("div","sev-badge sev-" + c.severity, esc(c.severity));
+      mid.innerHTML = `<div class="id">${url ? linkOpen(url) + esc(c.id) + "</a>" : esc(c.id)} · <span style="color:var(--fg)">${esc(c.product)}</span></div><div class="desc">${esc(c.desc)}</div><div class="meta">${meta.join("")}</div>`;
+      const badge = el("div","sev-badge sev-" + sev, sev === "PENDING" ? "CVSS PENDING" : esc(sev));
       row.appendChild(score); row.appendChild(mid); row.appendChild(badge);
       list.appendChild(row);
     });
   }
-  draw();
+
+  // Embedded snapshot first, replaced by the live feed when it loads.
+  setData((CONFIG.cves || []).slice().sort((a,b) => b.cvss - a.cvss), "total CVEs");
+  setNote("vulnNote", false, "<b>Loading live data…</b> Showing a snapshot of landmark CVEs meanwhile.");
+  loadFeed("vulns.json", d => Array.isArray(d.items) && d.items.length > 0)
+    .then(d => {
+      setData(d.items, "latest KEV entries");
+      setNote("vulnNote", true, `<b>Live data.</b> Latest ${d.items.length} of ${esc(d.catalogCount)} entries in the CISA Known Exploited Vulnerabilities catalogue, newest first, with CVSS from NVD. Updated ${esc(fmtUpdated(d.updated))}.`);
+    })
+    .catch(() => setNote("vulnNote", false, "<b>Snapshot data.</b> The live feed could not be loaded, so this is a curated set of landmark CVEs."));
 })();
 
 /* ── CTI Briefing ────────────────────────────────────────────────────── */
 (function ctiBriefing() {
-  const sets = CONFIG.ctiBriefings || [];
-  const sevStyle = { CRITICAL: "sev-CRITICAL", HIGH: "sev-HIGH", MEDIUM: "sev-MEDIUM", LOW: "sev-LOW" };
+  const sevStyle = { CRITICAL: "sev-CRITICAL", HIGH: "sev-HIGH", MEDIUM: "sev-MEDIUM", LOW: "sev-LOW", PENDING: "sev-PENDING", NEWS: "sev-NEWS" };
+  const sevText = { PENDING: "UNSCORED" };
+  // snapshot pages are bare arrays; live pages are { label, items }
+  let sets = (CONFIG.ctiBriefings || []).map(items => ({ label: "curated briefing", items }));
   let idx = 0;
-  function stamp() { const d = new Date(); return d.toISOString().slice(0,16).replace("T"," ") + " UTC"; }
   function draw() {
     const feed = $("ctiFeed"); feed.innerHTML = "";
-    (sets[idx] || []).forEach(it => {
+    const page = sets[idx] || { label: "", items: [] };
+    page.items.forEach(it => {
       const item = el("div","cti-item");
-      const sev = el("div", "cti-sev " + (sevStyle[it.sev] || "sev-MEDIUM"), esc(it.sev));
+      const sev = el("div", "cti-sev " + (sevStyle[it.sev] || "sev-MEDIUM"), esc(sevText[it.sev] || it.sev));
       const body = el("div");
-      body.innerHTML = `<div class="cti-h"><span class="cat">${esc(it.cat)}</span>${esc(it.title)}</div><div class="cti-d">${esc(it.desc)}</div>`;
+      const url = safeUrl(it.link);
+      body.innerHTML = `<div class="cti-h"><span class="cat">${esc(it.cat)}</span>${url ? linkOpen(url) + esc(it.title) + "</a>" : esc(it.title)}</div><div class="cti-d">${esc(it.desc)}</div>`;
       const tags = el("div","cti-tags"); (it.tags||[]).forEach(t => tags.appendChild(el("span",null,esc(t)))); body.appendChild(tags);
       if (it.attack && it.attack.length) {
         const ar = el("div","attack-row"); ar.appendChild(el("span","albl","ATT&CK"));
@@ -771,11 +805,18 @@ $("footR").textContent = CONFIG.footerNote;
       }
       item.appendChild(sev); item.appendChild(body); feed.appendChild(item);
     });
-    $("ctiTs").textContent = stamp();
+    $("ctiLabel").textContent = page.label;
     $("ctiIdx").textContent = (idx + 1) + "/" + sets.length;
   }
-  $("ctiRefresh").addEventListener("click", () => { idx = (idx + 1) % sets.length; draw(); });
+  $("ctiRefresh").addEventListener("click", () => { if (sets.length) { idx = (idx + 1) % sets.length; draw(); } });
   draw();
+  setNote("ctiNote", false, "<b>Loading live data…</b> Showing a curated briefing meanwhile.");
+  loadFeed("cti.json", d => Array.isArray(d.briefings) && d.briefings.some(b => Array.isArray(b.items) && b.items.length))
+    .then(d => {
+      sets = d.briefings.filter(b => Array.isArray(b.items) && b.items.length); idx = 0; draw();
+      setNote("ctiNote", true, `<b>Live data.</b> Built from the CISA KEV catalogue, NVD and security news feeds. Updated ${esc(fmtUpdated(d.updated))}.`);
+    })
+    .catch(() => setNote("ctiNote", false, "<b>Snapshot data.</b> The live feed could not be loaded, so this panel rotates a curated briefing set."));
 })();
 
 /* ── Threat Modeling (STRIDE / OT-ICS Purdue) ────────────────────────── */
@@ -873,27 +914,38 @@ $("footR").textContent = CONFIG.footerNote;
 
 /* ── Regional / APAC News ────────────────────────────────────────────── */
 (function regionalNews() {
-  const data = CONFIG.news || [];
-  let region = "ALL";
-  const regions = ["ALL", ...Array.from(new Set(data.map(n => n.region)))];
-  regions.forEach(r => {
-    const b = el("button","chip", r === "ALL" ? "all regions" : esc(r));
-    b.setAttribute("aria-pressed", r === "ALL" ? "true" : "false"); b.dataset.region = r;
-    b.addEventListener("click", () => { region = r; [...$("newsChips").children].forEach(c => c.setAttribute("aria-pressed", c.dataset.region === r ? "true" : "false")); draw(); });
-    $("newsChips").appendChild(b);
-  });
+  let data = [], region = "ALL";
+  function setData(rows) {
+    data = rows; region = "ALL";
+    const chips = $("newsChips"); chips.innerHTML = "";
+    ["ALL", ...Array.from(new Set(data.map(n => n.region)))].forEach(r => {
+      const b = el("button","chip", r === "ALL" ? "all regions" : esc(r));
+      b.setAttribute("aria-pressed", r === "ALL" ? "true" : "false"); b.dataset.region = r;
+      b.addEventListener("click", () => { region = r; [...chips.children].forEach(c => c.setAttribute("aria-pressed", c.dataset.region === r ? "true" : "false")); draw(); });
+      chips.appendChild(b);
+    });
+    draw();
+  }
   function draw() {
     const list = $("newsList"); list.innerHTML = "";
     const rows = data.filter(n => region === "ALL" || n.region === region);
     if (!rows.length) { list.appendChild(el("div","empty","No items for this region.")); return; }
     rows.forEach(n => {
       const card = el("div","news");
-      card.innerHTML = `<div class="ntop"><span class="region">${esc(n.region)}</span><span class="ncat">${esc(n.cat)}</span><span class="ndate">${esc(n.date)}</span></div><h3>${esc(n.title)}</h3><p>${esc(n.desc)}</p>`;
+      const url = safeUrl(n.link);
+      card.innerHTML = `<div class="ntop"><span class="region">${esc(n.region)}</span><span class="ncat">${esc(n.cat)}</span><span class="ndate">${esc(n.date)}</span></div><h3>${url ? linkOpen(url) + esc(n.title) + "</a>" : esc(n.title)}</h3>${n.desc ? `<p>${esc(n.desc)}</p>` : ""}`;
       const tags = el("div","ntags"); (n.tags||[]).forEach(t => tags.appendChild(el("span",null,esc(t)))); card.appendChild(tags);
       list.appendChild(card);
     });
   }
-  draw();
+  setData(CONFIG.news || []);
+  setNote("newsNote", false, "<b>Loading live data…</b> Showing notable past incidents meanwhile.");
+  loadFeed("news.json", d => Array.isArray(d.items) && d.items.length > 0)
+    .then(d => {
+      setData(d.items);
+      setNote("newsNote", true, `<b>Live data.</b> Alerts from SingCERT, JPCERT/CC and HKCERT, plus APAC-related stories from security news feeds. Updated ${esc(fmtUpdated(d.updated))}.`);
+    })
+    .catch(() => setNote("newsNote", false, "<b>Snapshot data.</b> The live feed could not be loaded, so this is a curated set of notable regional incidents."));
 })();
 
 /* ── Terminal typing animation ───────────────────────────────────────── */

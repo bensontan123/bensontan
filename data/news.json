@@ -1,0 +1,270 @@
+{
+ "updated": "2026-11-11T07:53:23.025Z",
+ "source": "SingCERT, JPCERT/CC, HKCERT, security news feeds",
+ "items": [
+  {
+   "date": "2026-11-11",
+   "region": "JP",
+   "cat": "Advisory",
+   "title": "Security Alert: Microsoft Releases November 2026 Security Updates",
+   "desc": "",
+   "tags": [
+    "JPCERT/CC"
+   ],
+   "link": "https://www.jpcert.or.jp/english/at/2026/at260035.html"
+  },
+  {
+   "date": "2026-11-11",
+   "region": "HK",
+   "cat": "Advisory",
+   "title": "Adobe Monthly Security Update (November 2026)",
+   "desc": "Adobe has released monthly security update for their products: Vulnerable Product Risk Level Impacts Notes Details (including CVE) Adobe After Effects Medium Risk Remote Code Execution Denial of Service Information Disclosure APSB26-100…",
+   "tags": [
+    "HKCERT"
+   ],
+   "link": "https://www.hkcert.org/security-bulletin/adobe-monthly-security-update-november-2026"
+  },
+  {
+   "date": "2026-11-11",
+   "region": "HK",
+   "cat": "Advisory",
+   "title": "Fortinet Products Multiple Vulnerabilities",
+   "desc": "Multiple vulnerabilities were identified in Fortinet Products. A remote attacker could exploit some of these vulnerabilities to trigger denial of service condition, elevation of privilege, security restriction bypass, sensitive information…",
+   "tags": [
+    "HKCERT"
+   ],
+   "link": "https://www.hkcert.org/security-bulletin/fortinet-products-multiple-vulnerabilities_20261111"
+  },
+  {
+   "date": "2026-11-11",
+   "region": "HK",
+   "cat": "Advisory",
+   "title": "Microsoft Monthly Security Update (November 2026)",
+   "desc": "Microsoft has released monthly security update for their products: Vulnerable Product Risk Level Impacts Notes Windows Medium Risk Remote Code Execution Elevation of Privilege Data Manipulation Information Disclosure Denial of Service…",
+   "tags": [
+    "HKCERT"
+   ],
+   "link": "https://www.hkcert.org/security-bulletin/microsoft-monthly-security-update-november-2026"
+  },
+  {
+   "date": "2026-11-11",
+   "region": "HK",
+   "cat": "Advisory",
+   "title": "MongoDB Multiple Vulnerabilities",
+   "desc": "Multiple vulnerabilities were identified in MongoDB. A remote attacker could exploit some of these vulnerabilities to trigger denial of service condition, elevation of privilege, security restriction bypass, sensitive information…",
+   "tags": [
+    "HKCERT"
+   ],
+   "link": "https://www.hkcert.org/security-bulletin/mongodb-multiple-vulnerabilities_20261111"
+  },
+  {
+   "date": "2026-11-11",
+   "region": "HK",
+   "cat": "Advisory",
+   "title": "Synology Products Multiple Vulnerabilities",
+   "desc": "Multiple vulnerabilities were identified in Synology products. A remote attacker could exploit some of these vulnerabilities to trigger denial of service condition, sensitive information disclosure and data manipulation on the targeted…",
+   "tags": [
+    "HKCERT"
+   ],
+   "link": "https://www.hkcert.org/security-bulletin/synology-products-multiple-vulnerabilities_20261111"
+  },
+  {
+   "date": "2026-11-10",
+   "region": "SG",
+   "cat": "Advisory",
+   "title": "November 2026 Monthly Patch",
+   "desc": "Microsoft has released security patches to address multiple vulnerabilities in their software and products.",
+   "tags": [
+    "SingCERT"
+   ],
+   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-160"
+  },
+  {
+   "date": "2026-11-10",
+   "region": "HK",
+   "cat": "Advisory",
+   "title": "Apple Products Multiple Vulnerabilities",
+   "desc": "Multiple vulnerabilities were identified in Apple Products. A remote attacker could exploit some of these vulnerabilities to trigger denial of service condition, security restriction bypass, sensitive information disclosure and remote code…",
+   "tags": [
+    "HKCERT"
+   ],
+   "link": "https://www.hkcert.org/security-bulletin/apple-products-multiple-vulnerabilities_20261110"
+  },
+  {
+   "date": "2026-11-10",
+   "region": "HK",
+   "cat": "Advisory",
+   "title": "Google Chrome Multiple Vulnerabilities",
+   "desc": "Multiple vulnerabilities were identified in Google Chrome. A remote attacker could exploit some of these vulnerabilities to trigger denial of service condition, security restriction bypass and remote code execution on the targeted system…",
+   "tags": [
+    "HKCERT"
+   ],
+   "link": "https://www.hkcert.org/security-bulletin/google-chrome-multiple-vulnerabilities_20261110"
+  },
+  {
+   "date": "2026-11-10",
+   "region": "HK",
+   "cat": "Advisory",
+   "title": "Mozilla Firefox Multiple Vulnerabilities",
+   "desc": "Multiple vulnerabilities were identified in Mozilla Firefox. A remote attacker could exploit some of these vulnerabilities to trigger elevation of privilege on the targeted system. Impact Elevation of Privilege System / Technologies…",
+   "tags": [
+    "HKCERT"
+   ],
+   "link": "https://www.hkcert.org/security-bulletin/mozilla-firefox-multiple-vulnerabilities_20261110"
+  },
+  {
+   "date": "2026-11-10",
+   "region": "CN",
+   "cat": "News",
+   "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+   "desc": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical…",
+   "tags": [
+    "The Hacker News"
+   ],
+   "link": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html"
+  },
+  {
+   "date": "2026-11-10",
+   "region": "JP",
+   "cat": "News",
+   "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
+   "desc": "Nitori, a major Japanese furniture and home accessories retailer, discovered that an attacker accessed a system on its network and may have stolen 37.62 million customer records.",
+   "tags": [
+    "BleepingComputer"
+   ],
+   "link": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/"
+  },
+  {
+   "date": "2026-11-09",
+   "region": "APAC",
+   "cat": "News",
+   "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+   "desc": "The South Asian cyber espionage group known as Bitter (aka APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, and TA397) has been observed targeting South Asian organizations with a previously unreported remote access trojan called…",
+   "tags": [
+    "The Hacker News"
+   ],
+   "link": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html"
+  },
+  {
+   "date": "2026-11-09",
+   "region": "TW",
+   "cat": "News",
+   "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
+   "desc": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week. The agents also found a Taipei fire department platform exposing patient…",
+   "tags": [
+    "The Hacker News"
+   ],
+   "link": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html"
+  },
+  {
+   "date": "2026-11-05",
+   "region": "IN",
+   "cat": "News",
+   "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+   "desc": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI)…",
+   "tags": [
+    "The Hacker News"
+   ],
+   "link": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html"
+  },
+  {
+   "date": "2026-11-03",
+   "region": "SG",
+   "cat": "Advisory",
+   "title": "Active Exploitation of Vulnerability in Cisco Adaptive Security Appliance Software and Cisco Secure Firewall Threat Defense",
+   "desc": "Attackers are exploiting a high-severity vulnerability in Cisco Adaptive Security Appliance Software and Cisco Secure Firewall Threat Defense to trigger denial of service. Patch immediately.",
+   "tags": [
+    "SingCERT"
+   ],
+   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-159"
+  },
+  {
+   "date": "2026-11-03",
+   "region": "SG",
+   "cat": "Advisory",
+   "title": "Active Exploitation of Metabase Vulnerability",
+   "desc": "Attackers have been exploiting a critical vulnerability in Metabase to inject arbitrary SQL and gain administrator access. Patch immediately.",
+   "tags": [
+    "SingCERT"
+   ],
+   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-158"
+  },
+  {
+   "date": "2026-11-02",
+   "region": "SG",
+   "cat": "Advisory",
+   "title": "Active Exploitation of PHP2Shell Vulnerabilities Affecting Network and Security Products",
+   "desc": "Active exploitation of PHP2Shell has been reported against Palo Alto Networks firewalls running affected PAN-OS versions. Attackers have also reportedly chained these vulnerabilities with a separate Linux kernel flaw to gain root…",
+   "tags": [
+    "SingCERT"
+   ],
+   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-157"
+  },
+  {
+   "date": "2026-11-01",
+   "region": "SG",
+   "cat": "Advisory",
+   "title": "Multiple Vulnerabilities in Oracle Application Object Library",
+   "desc": "Attackers are targeting a critical vulnerability in Oracle Application Object Library. The product is also affected by another high-severity vulnerability. Both could allow attackers to take over affected systems. Patch immediately.",
+   "tags": [
+    "SingCERT"
+   ],
+   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-156"
+  },
+  {
+   "date": "2026-10-29",
+   "region": "SG",
+   "cat": "Advisory",
+   "title": "Active Exploitation of Critical Brotli Vulnerability Affecting Multiple Products",
+   "desc": "Attackers are actively exploiting a critical Brotli vulnerability affecting multiple products to execute arbitrary code remotely or disclose sensitive information on affected systems. Patch immediately.",
+   "tags": [
+    "SingCERT"
+   ],
+   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-154"
+  },
+  {
+   "date": "2026-10-22",
+   "region": "SG",
+   "cat": "Advisory",
+   "title": "WizLearn Technologies LMS – Authentication Bypass Vulnerability Could Allow Unauthorised Access and Administrative Control",
+   "desc": "A vulnerability has been discovered in WizLearn Technologies’ Learning Management System (LMS). WizLearn Technologies has since implemented the necessary measures to address the vulnerability. Special thanks to the researcher and WizLearn…",
+   "tags": [
+    "SingCERT"
+   ],
+   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-155"
+  },
+  {
+   "date": "2026-10-21",
+   "region": "SG",
+   "cat": "Advisory",
+   "title": "Critical Vulnerability in Fortinet FortiSIEM",
+   "desc": "Attackers can exploit a critical vulnerability in Fortinet FortiSIEM to execute arbitrary code. Patch immediately.",
+   "tags": [
+    "SingCERT"
+   ],
+   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-153"
+  },
+  {
+   "date": "2026-10-14",
+   "region": "JP",
+   "cat": "Advisory",
+   "title": "Security Alert: Microsoft Releases October 2026 Security Updates",
+   "desc": "",
+   "tags": [
+    "JPCERT/CC"
+   ],
+   "link": "https://www.jpcert.or.jp/english/at/2026/at260031.html"
+  },
+  {
+   "date": "2026-09-09",
+   "region": "JP",
+   "cat": "Advisory",
+   "title": "Security Alert: Alert Regarding Vulnerabilities in Adobe Acrobat and Reader (APSB26-141)",
+   "desc": "",
+   "tags": [
+    "JPCERT/CC"
+   ],
+   "link": "https://www.jpcert.or.jp/english/at/2026/at260026.html"
+  }
+ ]
+}

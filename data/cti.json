@@ -1,0 +1,206 @@
+{
+ "updated": "2026-11-11T07:53:45.355Z",
+ "source": "CISA KEV, NVD, security news feeds",
+ "briefings": [
+  {
+   "label": "Newly exploited — latest CISA KEV additions",
+   "items": [
+    {
+     "cat": "KEV",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-124194 — Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+     "desc": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
+     "tags": [
+      "Microsoft Office",
+      "KEV added 2026-11-10",
+      "remediate by 2026-11-24"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194"
+    },
+    {
+     "cat": "KEV",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-111793 — Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+     "desc": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience.",
+     "tags": [
+      "Openwave Messaging Limited Webtop Media Transcoder",
+      "KEV added 2026-11-10",
+      "remediate by 2026-11-24"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793"
+    },
+    {
+     "cat": "KEV",
+     "sev": "HIGH",
+     "title": "CVE-2026-20320 — Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+     "desc": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.",
+     "tags": [
+      "Cisco BroadWorks",
+      "KEV added 2026-11-10",
+      "remediate by 2026-11-24"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320"
+    },
+    {
+     "cat": "KEV",
+     "sev": "HIGH",
+     "title": "CVE-2026-111560 — Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+     "desc": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerability could allow an…",
+     "tags": [
+      "Barracuda Networks Multiple Products",
+      "KEV added 2026-11-10",
+      "remediate by 2026-11-13"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560"
+    },
+    {
+     "cat": "KEV",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-116606 — Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+     "desc": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification…",
+     "tags": [
+      "Barracuda Networks Barracuda Email Security Gateway (ESG)",
+      "KEV added 2026-11-10",
+      "remediate by 2026-11-13"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
+    }
+   ]
+  },
+  {
+   "label": "Ransomware-linked exploited vulnerabilities",
+   "items": [
+    {
+     "cat": "KEV",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-59310 — Broadcom VMware vCenter Path Traversal Vulnerability",
+     "desc": "Broadcom VMware vCenter contains a path traversal vulnerability which could allow a threat actor with network access to vCenter to execute arbitrary code.",
+     "tags": [
+      "Broadcom VMware vCenter",
+      "KEV added 2026-08-18",
+      "remediate by 2026-08-21",
+      "ransomware use"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-59310"
+    },
+    {
+     "cat": "KEV",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-63077 — JetBrains TeamCity Deserialization of Untrusted Data Vulnerability",
+     "desc": "JetBrains TeamCity contains a deserialization of untrusted data vulnerability that could allow unauthenticated remote code execution via the agent polling protocol.",
+     "tags": [
+      "JetBrains TeamCity",
+      "KEV added 2026-08-05",
+      "remediate by 2026-08-08",
+      "ransomware use"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-63077"
+    },
+    {
+     "cat": "KEV",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-20316 — Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability",
+     "desc": "Cisco Secure Firewall Management Center (FMC) formerly known as Firepower Management Center contains a use of hard-coded password vulnerability that could allow an unauthenticated, remote attacker to log in to an affected device using a low-privileged account to access sensitive data within the…",
+     "tags": [
+      "Cisco Secure Firewall Management Center (FMC)",
+      "KEV added 2026-07-29",
+      "remediate by 2026-08-01",
+      "ransomware use"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-20316"
+    },
+    {
+     "cat": "KEV",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-15409 — SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
+     "desc": "SonicWall SMA1000 Appliances contain a server-side request forgery vulnerability that could allow a remote unauthenticated attacker to potentially cause the appliance to make requests to unintended location.",
+     "tags": [
+      "SonicWall SMA1000 Appliances",
+      "KEV added 2026-07-14",
+      "remediate by 2026-07-17",
+      "ransomware use"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15409"
+    },
+    {
+     "cat": "KEV",
+     "sev": "HIGH",
+     "title": "CVE-2026-15410 — SonicWall SMA1000 Appliances Code Injection Vulnerability",
+     "desc": "SonicWall SMA1000 Appliances contain a code injection vulnerability which in specific conditions could potentially enable a remote authenticated attacker as administrator to execute arbitrary OS commands.",
+     "tags": [
+      "SonicWall SMA1000 Appliances",
+      "KEV added 2026-07-14",
+      "remediate by 2026-07-17",
+      "ransomware use"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15410"
+    }
+   ]
+  },
+  {
+   "label": "Threat headlines",
+   "items": [
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+     "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing…",
+     "tags": [
+      "2026-11-11"
+     ],
+     "link": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+     "desc": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55…",
+     "tags": [
+      "2026-11-10"
+     ],
+     "link": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+     "desc": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on that server that…",
+     "tags": [
+      "2026-11-10"
+     ],
+     "link": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+     "desc": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild. The authentication bypass flaw, which does not yet have a CVE identifier, is tracked…",
+     "tags": [
+      "2026-11-10"
+     ],
+     "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+     "desc": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical…",
+     "tags": [
+      "2026-11-10"
+     ],
+     "link": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+     "desc": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in early October 2026, involves the exploitation…",
+     "tags": [
+      "2026-11-10"
+     ],
+     "link": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html"
+    }
+   ]
+  }
+ ]
+}
