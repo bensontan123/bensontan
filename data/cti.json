@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T07:53:45.355Z",
+ "updated": "2026-11-11T19:41:36.396Z",
  "source": "CISA KEV, NVD, security news feeds",
  "briefings": [
   {
@@ -143,62 +143,62 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
-     "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-     "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing…",
+     "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+     "desc": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are listed below…",
      "tags": [
       "2026-11-11"
      ],
-     "link": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html"
+     "link": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html"
     },
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
-     "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
-     "desc": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55…",
+     "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+     "desc": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised…",
      "tags": [
-      "2026-11-10"
+      "2026-11-11"
      ],
-     "link": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html"
+     "link": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html"
     },
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
-     "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
-     "desc": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on that server that…",
+     "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+     "desc": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they identified the suspicious…",
      "tags": [
-      "2026-11-10"
+      "2026-11-11"
      ],
-     "link": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html"
+     "link": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html"
     },
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
-     "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
-     "desc": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild. The authentication bypass flaw, which does not yet have a CVE identifier, is tracked…",
+     "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+     "desc": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built by staff at the social network X and at SpaceXSI, the…",
      "tags": [
-      "2026-11-10"
+      "2026-11-11"
      ],
-     "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html"
+     "link": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html"
     },
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
-     "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
-     "desc": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical…",
+     "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+     "desc": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an…",
      "tags": [
-      "2026-11-10"
+      "2026-11-11"
      ],
-     "link": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html"
+     "link": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html"
     },
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
-     "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
-     "desc": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in early October 2026, involves the exploitation…",
+     "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
+     "desc": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys. Each intermediate CA has its own private key…",
      "tags": [
-      "2026-11-10"
+      "2026-11-11"
      ],
-     "link": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html"
+     "link": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html"
     }
    ]
   }

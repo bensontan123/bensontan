@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T07:53:23.025Z",
+ "updated": "2026-11-11T19:41:36.396Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, security news feeds",
  "items": [
   {
@@ -157,17 +157,6 @@
    "link": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html"
   },
   {
-   "date": "2026-11-05",
-   "region": "IN",
-   "cat": "News",
-   "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
-   "desc": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI)…",
-   "tags": [
-    "The Hacker News"
-   ],
-   "link": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html"
-  },
-  {
    "date": "2026-11-03",
    "region": "SG",
    "cat": "Advisory",
@@ -265,6 +254,17 @@
     "JPCERT/CC"
    ],
    "link": "https://www.jpcert.or.jp/english/at/2026/at260026.html"
+  },
+  {
+   "date": "2026-09-09",
+   "region": "JP",
+   "cat": "Advisory",
+   "title": "Security Alert: Microsoft Releases September 2026 Security Updates",
+   "desc": "",
+   "tags": [
+    "JPCERT/CC"
+   ],
+   "link": "https://www.jpcert.or.jp/english/at/2026/at260025.html"
   }
  ]
 }
