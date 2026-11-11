@@ -107,6 +107,8 @@
 .code-label { font-family: var(--mono); font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
 .code-copy { font-family: var(--mono); font-size: .68rem; color: var(--accent); background: none; border: 1px solid var(--line); border-radius: 5px; padding: 3px 9px; cursor: pointer; }
 .code-copy:hover { border-color: var(--accent); }
-.code pre { margin: 0; padding: 12px; overflow-x: auto; }
-.code code { font-family: var(--mono); font-size: .8rem; line-height: 1.55; color: var(--fg); white-space: pre; }
+.code pre { margin: 0; padding: 12px; }
+/* wrap long payload / rule lines so nothing is clipped at the card edge;
+   continuation lines are indented so wrapped code stays readable */
+.code code { font-family: var(--mono); font-size: .8rem; line-height: 1.55; color: var(--fg); white-space: pre-wrap; overflow-wrap: anywhere; display: block; padding-left: 1.6em; text-indent: -1.6em; }
 .off code { color: #ffc9ce; } .def code { color: #bdeccb; }
