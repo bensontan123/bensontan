@@ -83,19 +83,25 @@
 .ttp .tp.def { color: var(--low); border-color: rgba(110,231,168,.32); background: rgba(110,231,168,.08); }
 .ttp-caret { width: 16px; height: 16px; color: var(--muted); margin-left: 6px; transition: transform .18s; }
 .ttp[open] > summary .ttp-caret { transform: rotate(180deg); }
-.ttp-body { padding: 4px 14px 16px; border-top: 1px solid var(--line); }
+.ttp-body { padding: 4px 14px 16px; border-top: 1px solid var(--line); container-type: inline-size; }
 .ttp-ctx { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 8px; }
 .ttp-ctx span { font-family: var(--mono); font-size: .68rem; color: var(--muted); border: 1px solid var(--line); border-radius: 5px; padding: 2px 7px; }
 .ttp-link { font-family: var(--mono); font-size: .72rem; display: inline-block; margin: 6px 0 4px; }
-.ttp-split { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 10px; }
-@media (max-width: 760px) { .ttp-split { grid-template-columns: minmax(0,1fr); } }
+.ttp-split { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 14px; margin-top: 10px; }
+.ttp-split > div { min-width: 0; }
+/* collapse to one column when the card itself is narrow (e.g. nested in a STRIDE-LM threat row), so the defensive column is never clipped */
+@container (max-width: 560px) { .ttp-split { grid-template-columns: minmax(0,1fr); } }
+@supports not (container-type: inline-size) { .ttp-split { grid-template-columns: minmax(0,1fr); } }
 .ttp-split h5 { margin: 0 0 8px; font-family: var(--mono); font-size: .76rem; font-weight: 600; display: flex; align-items: center; gap: 7px; }
 .ttp-off h5 { color: var(--crit); } .ttp-off h5 .ic { color: var(--crit); }
 .ttp-def h5 { color: var(--low); } .ttp-def h5 .ic { color: var(--low); }
 .ttp-note { color: var(--muted); font-size: .84rem; margin: 0 0 10px; }
 
+/* let nested threat rows and cards shrink so code scrolls instead of clipping */
+.tcard .trow > div { min-width: 0; }
+
 /* code block */
-.code { border: 1px solid var(--line); border-radius: 8px; overflow: hidden; margin-bottom: 10px; background: var(--bg); }
+.code { border: 1px solid var(--line); border-radius: 8px; overflow: hidden; margin-bottom: 10px; background: var(--bg); min-width: 0; }
 .code.off { border-color: rgba(255,92,108,.25); } .code.def { border-color: rgba(110,231,168,.22); }
 .code-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 6px 10px; background: var(--panel); border-bottom: 1px solid var(--line); }
 .code-label { font-family: var(--mono); font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
