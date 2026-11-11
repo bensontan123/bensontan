@@ -167,9 +167,15 @@
     if (tech.sigma) detects.push({ label: "Sigma rule", lang: "yaml", code: tech.sigma });
     if (tech.yara) detects.push({ label: "YARA rule", lang: "yara", code: tech.yara });
     (tech.detect || []).forEach((d) => detects.push(d));
+    const controls = (tech.defend || []).map((k) => { const d = KB.DEFEND[k]; return d ? { key: k, d } : null; }).filter(Boolean);
+    const controlsHtml = controls.map((c) => {
+      const lbl = c.d.kind === "attack" ? c.key : "D3FEND";
+      return `<a class="ctrl ${c.d.kind}" href="${KB.defendUrl(c.key)}" target="_blank" rel="noopener noreferrer"><span class="ctrl-tag">${esc(lbl)}</span>${esc(c.d.name)}</a>`;
+    }).join("");
     const tags = [];
     if (a.code) tags.push('<span class="tp off">payload</span>');
     detects.forEach((d) => { const n = /sigma/i.test(d.label) ? "Sigma" : /yara/i.test(d.label) ? "YARA" : d.label.split(" ")[0]; tags.push(`<span class="tp def">${esc(n)}</span>`); });
+    if (controls.some((c) => c.d.kind === "d3")) tags.push('<span class="tp ctrl">D3FEND</span>');
     return `<details class="ttp">
       <summary>
         <span class="ttp-id">${esc(id)}</span>
@@ -189,6 +195,7 @@
           </div>
           <div class="ttp-def">
             <h5><svg class="ic" aria-hidden="true"><use href="#i-shield-check"></use></svg> Defensive — detection &amp; controls</h5>
+            ${controlsHtml ? `<div class="ttp-ctrl"><div class="ctrl-h">Mitigating controls · MITRE D3FEND / ATT&amp;CK</div><div class="ctrl-list">${controlsHtml}</div></div>` : ""}
             ${detects.map((d) => codeBlock(d.label, d.lang, d.code, "def")).join("")}
           </div>
         </div>
@@ -316,6 +323,8 @@
     if (tech.yara) dets.push(["YARA", "", tech.yara]);
     (tech.detect || []).forEach((d) => dets.push([d.label, d.lang, d.code]));
     dets.forEach(([lbl, lng, code]) => { o += `${indent}  - ${lbl}:\n${indent}    \`\`\`${lng || ""}\n` + code.split("\n").map((l) => indent + "    " + l).join("\n") + `\n${indent}    \`\`\`\n`; });
+    const ctrls = (tech.defend || []).map((k) => { const d = KB.DEFEND[k]; return d ? `${d.kind === "attack" ? k : "D3FEND"} ${d.name} (${KB.defendUrl(k)})` : null; }).filter(Boolean);
+    if (ctrls.length) o += `${indent}  - Mitigating controls (MITRE D3FEND / ATT&CK): ` + ctrls.join("; ") + "\n";
     return o;
   }
   function toMarkdown() {

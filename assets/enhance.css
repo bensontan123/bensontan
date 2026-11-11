@@ -104,6 +104,17 @@
 .ttp-def h5 { color: var(--low); } .ttp-def h5 .ic { color: var(--low); }
 .ttp-note { color: var(--muted); font-size: .84rem; margin: 0 0 10px; }
 
+/* mitigating controls (D3FEND / ATT&CK) */
+.ttp-ctrl { margin-bottom: 12px; }
+.ctrl-h { font-family: var(--mono); font-size: .68rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin-bottom: 8px; }
+.ctrl-list { display: flex; flex-direction: column; gap: 6px; }
+a.ctrl { display: flex; align-items: center; gap: 8px; font-size: .82rem; color: var(--fg); border: 1px solid var(--line); background: var(--panel); border-radius: 7px; padding: 6px 9px; }
+a.ctrl:hover { text-decoration: none; border-color: var(--low); }
+.ctrl-tag { font-family: var(--mono); font-size: .64rem; font-weight: 600; letter-spacing: .03em; padding: 2px 6px; border-radius: 4px; white-space: nowrap; flex: none; }
+a.ctrl.d3 .ctrl-tag { color: var(--accent); background: rgba(53,224,193,.1); border: 1px solid rgba(53,224,193,.3); }
+a.ctrl.attack .ctrl-tag { color: var(--accent-2); background: rgba(78,163,255,.1); border: 1px solid rgba(78,163,255,.3); }
+.ttp .tp.ctrl { color: var(--accent-2); border-color: rgba(78,163,255,.32); background: rgba(78,163,255,.08); }
+
 /* let nested threat rows and cards shrink so code scrolls instead of clipping */
 .tcard .trow > div { min-width: 0; }
 
