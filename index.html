@@ -776,7 +776,7 @@ function loadFeed(file, valid) {
   loadFeed("vulns.json", d => Array.isArray(d.items) && d.items.length > 0)
     .then(d => {
       setData(d.items, "latest KEV entries");
-      setNote("vulnNote", true, `<b>Live data.</b> Latest ${d.items.length} of ${esc(d.catalogCount)} entries in the CISA Known Exploited Vulnerabilities catalogue, newest first, with CVSS from NVD. Updated ${esc(fmtUpdated(d.updated))}.`);
+      setNote("vulnNote", true, `<b>Live data.</b> Latest ${d.items.length} of ${esc(d.catalogCount)} entries in the CISA Known Exploited Vulnerabilities catalogue, newest first, with CVSS from NVD. Checked every 6 hours; last changed ${esc(fmtUpdated(d.updated))}.`);
     })
     .catch(() => setNote("vulnNote", false, "<b>Snapshot data.</b> The live feed could not be loaded, so this is a curated set of landmark CVEs."));
 })();
@@ -814,7 +814,7 @@ function loadFeed(file, valid) {
   loadFeed("cti.json", d => Array.isArray(d.briefings) && d.briefings.some(b => Array.isArray(b.items) && b.items.length))
     .then(d => {
       sets = d.briefings.filter(b => Array.isArray(b.items) && b.items.length); idx = 0; draw();
-      setNote("ctiNote", true, `<b>Live data.</b> Built from the CISA KEV catalogue, NVD and security news feeds. Updated ${esc(fmtUpdated(d.updated))}.`);
+      setNote("ctiNote", true, `<b>Live data.</b> Built from the CISA KEV catalogue, NVD and security news feeds. Checked every 6 hours; last changed ${esc(fmtUpdated(d.updated))}.`);
     })
     .catch(() => setNote("ctiNote", false, "<b>Snapshot data.</b> The live feed could not be loaded, so this panel rotates a curated briefing set."));
 })();
@@ -943,7 +943,7 @@ function loadFeed(file, valid) {
   loadFeed("news.json", d => Array.isArray(d.items) && d.items.length > 0)
     .then(d => {
       setData(d.items);
-      setNote("newsNote", true, `<b>Live data.</b> Alerts from SingCERT, JPCERT/CC and HKCERT, plus APAC-related stories from security news feeds. Updated ${esc(fmtUpdated(d.updated))}.`);
+      setNote("newsNote", true, `<b>Live data.</b> Alerts from SingCERT, JPCERT/CC and HKCERT, plus APAC-related stories from security news feeds. Checked every 6 hours; last changed ${esc(fmtUpdated(d.updated))}.`);
     })
     .catch(() => setNote("newsNote", false, "<b>Snapshot data.</b> The live feed could not be loaded, so this is a curated set of notable regional incidents."));
 })();
