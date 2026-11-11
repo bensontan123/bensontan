@@ -191,11 +191,16 @@
     const tech = KB.TECH[id]; if (!tech) return "";
     const a = tech.attack || {};
     const ctx = context && context.length ? `<div class="ttp-ctx">${context.map((c) => `<span>${esc(c)}</span>`).join("")}</div>` : "";
+    const tags = [];
+    if (a.code) tags.push('<span class="tp off">payload</span>');
+    if (tech.sigma) tags.push('<span class="tp def">Sigma</span>');
+    if (tech.yara) tags.push('<span class="tp def">YARA</span>');
     return `<details class="ttp">
       <summary>
         <span class="ttp-id">${esc(id)}</span>
         <span class="ttp-name">${esc(tech.name)}</span>
         <span class="ttp-tactic">${esc(tech.tactic)}</span>
+        <span class="ttp-tags">${tags.join("")}</span>
         <svg class="ic ttp-caret" aria-hidden="true"><use href="#i-chevron"></use></svg>
       </summary>
       <div class="ttp-body">
@@ -313,6 +318,8 @@
     comps = baseComps;
     $("tmCount").textContent = String(total);
     $("tmSysLabel").textContent = system.trim() || "your system";
+    const ex = $("tmExpand");
+    if (ex) { ex.textContent = "⤢ expand all"; ex.style.display = (mode === "ot" || !total) ? "none" : ""; }
   }
 
   function setMode(m) {
@@ -420,6 +427,13 @@
       const a = document.createElement("a"); a.href = URL.createObjectURL(blob);
       a.download = (system.trim() || "threat-model").replace(/[^a-z0-9]+/gi, "-").toLowerCase() + ".json";
       document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    });
+
+    $("tmExpand").addEventListener("click", (e) => {
+      const cards = [...$("tmThreats").querySelectorAll("details.ttp")];
+      const anyClosed = cards.some((d) => !d.open);
+      cards.forEach((d) => { d.open = anyClosed; });
+      e.currentTarget.textContent = anyClosed ? "⤡ collapse all" : "⤢ expand all";
     });
 
     // delegated copy for code blocks
