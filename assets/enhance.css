@@ -63,11 +63,18 @@
 .slm { display: inline-flex; align-items: center; justify-content: center; width: 20px; height: 20px; border-radius: 5px; font-family: var(--mono); font-size: .72rem; font-weight: 600; color: var(--bg); background: var(--accent); margin-right: 6px; }
 .slm-link { font-family: var(--mono); color: var(--accent); font-weight: 600; }
 
-/* RAPID tactic grouping */
-.rapid-tac { margin-bottom: 18px; }
-.rapid-th { display: flex; align-items: center; gap: 10px; font-family: var(--mono); font-size: .85rem; font-weight: 600; color: var(--accent-2); text-transform: uppercase; letter-spacing: .06em; padding: 10px 0; border-bottom: 1px solid var(--line); margin-bottom: 12px; }
-.rapid-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex: none; }
-.rapid-n { margin-left: auto; font-size: .76rem; color: var(--muted); background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 1px 9px; }
+/* RAPIDS scenario cards */
+.scn-note { font-family: var(--mono); font-size: .76rem; color: var(--muted); margin-bottom: 14px; }
+.scn { border: 1px solid var(--line); border-radius: 12px; background: var(--panel); padding: 16px 18px; margin-bottom: 14px; }
+.scn-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.scn-key { display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 24px; border-radius: 6px; font-family: var(--mono); font-size: .82rem; font-weight: 700; color: var(--bg); background: var(--accent); flex: none; }
+.scn-ico { width: 18px; height: 18px; color: var(--accent-2); }
+.scn-name { font-size: 1.08rem; font-weight: 600; }
+.scn-n { margin-left: auto; font-size: .72rem; font-family: var(--mono); color: var(--muted); background: var(--panel-2); border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px; }
+.scn-desc { color: var(--muted); font-size: .9rem; margin: 10px 0 4px; }
+.ttp-withheld { color: var(--warn); font-size: .84rem; font-family: var(--mono); border: 1px dashed rgba(255,180,84,.4); border-radius: 8px; padding: 10px 12px; margin: 0; }
+#tmBuilder.muted { opacity: .5; }
+#tmBuilder.muted::after { content: "RAPIDS is scenario-based — components optional"; display: block; margin-top: 10px; font-family: var(--mono); font-size: .68rem; color: var(--muted); }
 
 /* TTP card (details/summary disclosure) */
 .ttp { border: 1px solid var(--line); border-radius: 9px; background: var(--panel-2); margin-top: 10px; overflow: hidden; }

@@ -389,14 +389,15 @@
 
 <section id="threatmodel"><div class="wrap">
   <div class="sec-head"><span class="sec-no">07</span><h2 class="sec-title">Threat Model Lab</h2></div>
-  <p class="lead">Import an architecture diagram or build one by hand, then generate a threat model three ways: <b>STRIDE-LM</b> (per-component), <b>RAPID</b> (MITRE ATT&amp;CK TTPs by kill-chain tactic), or <b>OT/ICS</b> (Purdue + ATT&amp;CK for ICS). Each technique expands into an offensive attack/payload sample and the matching Sigma + YARA detections — the purple-team view I bring to system security risk assessments.</p>
+  <p class="lead">Import an architecture diagram or build one by hand, then generate a threat model four ways — enterprise IT or OT/ICS (Purdue), each as <b>STRIDE-LM</b> or <b>RAPIDS</b> scenarios. Every path resolves to MITRE ATT&amp;CK TTPs, and each technique expands into an offensive attack/payload sample and the matching defensive controls with Sigma + YARA rules — the purple-team view I bring to system security risk assessments.</p>
 
-  <div class="tm-note"><span>▲</span><span><b>Authorised use only.</b> Offensive samples mirror public MITRE ATT&amp;CK, Atomic Red Team, Sigma and YARA references, for security testing and education. Diagram parsing is 100% in your browser — nothing you import is uploaded anywhere.</span></div>
+  <div class="tm-note"><span>▲</span><span><b>Authorised use only.</b> Offensive samples mirror public MITRE ATT&amp;CK, Atomic Red Team, Sigma and YARA references, for security testing and education. OT process-manipulation payloads are bounded to read/recon or isolated test-rig examples; live-process weaponisation is withheld. Diagram parsing is 100% in your browser — nothing you import is uploaded anywhere.</span></div>
 
   <div class="mode-row" id="tmModeRow" role="group" aria-label="Threat model method" style="margin-top:18px">
-    <button class="chip" data-mode="stride" type="button" aria-pressed="true">STRIDE-LM</button>
-    <button class="chip" data-mode="rapid" type="button" aria-pressed="false">RAPID · MITRE TTP</button>
-    <button class="chip" data-mode="ot" type="button" aria-pressed="false">OT / ICS · Purdue</button>
+    <button class="chip" data-mode="it-stride" type="button" aria-pressed="true">IT · STRIDE-LM</button>
+    <button class="chip" data-mode="it-rapids" type="button" aria-pressed="false">IT · RAPIDS</button>
+    <button class="chip" data-mode="ot-stride" type="button" aria-pressed="false">OT/ICS Purdue · STRIDE-LM</button>
+    <button class="chip" data-mode="ot-rapids" type="button" aria-pressed="false">OT/ICS Purdue · RAPIDS</button>
   </div>
 
   <div class="tm-import">
@@ -415,7 +416,7 @@
   </div>
 
   <div class="tm-grid" style="margin-top:18px">
-    <div class="tm-panel">
+    <div class="tm-panel" id="tmBuilder">
       <h3>Model builder</h3>
       <div class="tm-field">
         <label for="tmSystem">System / application name</label>
@@ -436,7 +437,7 @@
     </div>
     <div>
       <div class="tm-toolbar">
-        <div class="ts">threats for <b id="tmSysLabel">your system</b> · <span id="tmCount">0</span> identified</div>
+        <div class="ts">threats for <b id="tmSysLabel">your system</b><span id="tmCountWrap"> · <span id="tmCount">0</span> identified</span></div>
         <button class="btn" id="tmExpand" type="button" style="margin-left:auto">⤢ expand all</button>
         <button class="btn" id="tmCopy" type="button">⧉ copy as Markdown</button>
         <button class="btn" id="tmJson" type="button">↓ JSON</button>

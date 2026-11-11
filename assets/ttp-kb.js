@@ -665,6 +665,187 @@ detection:
   condition: selection   # correlate with impossible-travel / new ASN
 level: medium`,
     },
+
+    "T1195.002": {
+      name: "Compromise Software Supply Chain", tactic: "Initial Access",
+      attack: {
+        note: "Poison a dependency or build artifact consumed downstream (dependency confusion / malicious publish).",
+        lang: "bash",
+        code: R`# dependency confusion: publish a higher version of an internal package name publicly
+npm version 99.0.0 && npm publish --access public
+# malicious install hook in package.json:
+#   "scripts": { "postinstall": "node collect.js" }   // exfiltrates env on install`,
+      },
+      sigma: R`title: Suspicious Package Postinstall / Build-Time Network Call
+logsource: { category: process_creation }
+detection:
+  selection:
+    ParentImage|endswith: ['\npm.exe', '\node.exe', '\pip.exe', '\python.exe']
+    CommandLine|contains: ['postinstall', 'curl ', 'Invoke-WebRequest', 'certutil']
+  condition: selection
+level: high`,
+      yara: R`rule Pkg_Postinstall_Exfil {
+  strings:
+    $a = "postinstall" ascii
+    $b = /child_process|require\(['"]https?['"]\)/ ascii
+    $c = /https?:\/\// ascii
+  condition: all of them
+}`,
+    },
+
+    "T1199": {
+      name: "Trusted Relationship", tactic: "Initial Access",
+      attack: {
+        note: "Pivot through a vendor / MSP / third party that already holds legitimate access.",
+        lang: "bash",
+        code: R`# abuse vendor remote-access tooling or a contractor service account
+crackmapexec smb 10.0.0.0/24 -u 'vendor_svc' -p 'ContractorPass!' --continue-on-success`,
+      },
+      sigma: R`title: Vendor / Third-Party Account Anomaly
+logsource: { product: windows, service: security }
+detection:
+  selection:
+    EventID: 4624
+    TargetUserName|startswith: ['vendor_', 'msp_', 'svc_contractor']
+  condition: selection   # correlate with new asset / off-hours access
+level: medium`,
+    },
+
+    "T0840": {
+      name: "Network Connection Enumeration (ICS)", tactic: "Discovery",
+      attack: {
+        note: "Read-only discovery of ICS assets and protocols. Use gentle timing — aggressive scans can disrupt fragile OT devices.",
+        lang: "bash",
+        code: R`# identify control-protocol services (read-only)
+nmap -Pn -sT -n --open -p 102,502,20000,44818,47808 10.10.0.0/24
+nmap -Pn -p 502 --script modbus-discover 10.10.0.5
+plcscan 10.10.0.5`,
+      },
+      detect: [{ label: "Zeek / network", lang: "zeek", code: R`# new host talking to control ports
+event connection_established(c: connection) {
+  if (c$id$resp_p in set(102/tcp, 502/tcp, 44818/tcp) && ! is_known_scada_client(c$id$orig_h))
+    NOTICE([$note=SCADA::New_Control_Client, $conn=c]);
+}` }],
+    },
+
+    "T0842": {
+      name: "Network Sniffing (ICS)", tactic: "Collection",
+      attack: {
+        note: "Capture control-protocol traffic on a mirrored / shared OT segment (read-only).",
+        lang: "bash",
+        code: R`tcpdump -i eth0 -w ics.pcap 'tcp port 102 or tcp port 502 or udp port 47808'
+# decode Modbus / S7comm / BACnet in Wireshark`,
+      },
+      detect: [{ label: "Linux auditd", lang: "yaml", code: R`title: OT Monitoring Host NIC Promiscuous
+logsource: { product: linux, service: auditd }
+detection:
+  selection: { type: 'ANOM_PROMISCUOUS' }
+  condition: selection
+level: medium` }],
+    },
+
+    "T0822": {
+      name: "External Remote Services (ICS)", tactic: "Initial Access",
+      attack: {
+        note: "Reach HMI/SCADA through an exposed or brokered remote service (VNC/RDP/VPN) — the most common OT entry.",
+        lang: "bash",
+        code: R`nmap -Pn -p 5900,3389 --script vnc-info,rdp-ntlm-info 10.10.0.10
+# then authenticate to the exposed HMI with weak / captured credentials`,
+      },
+      detect: [{ label: "Sigma", lang: "yaml", code: R`title: Remote Logon Into OT Zone Outside IDMZ Broker
+logsource: { product: windows, service: security }
+detection:
+  selection:
+    EventID: 4624
+    LogonType: [10, 7]
+  filter:
+    IpAddress|cidr: '10.20.0.0/24'   # approved IDMZ jump hosts
+  condition: selection and not filter
+level: high` }],
+    },
+
+    "T0886": {
+      name: "Remote Services (OT lateral)", tactic: "Lateral Movement",
+      attack: {
+        note: "Abuse engineering-workstation / jump-host remote services to move between OT zones.",
+        lang: "bash",
+        code: R`evil-winrm -i 10.10.0.20 -u eng_admin -H <NTLM>   # to the engineering workstation`,
+      },
+      detect: [{ label: "Sigma", lang: "yaml", code: R`title: Remote Execution on Engineering Workstation
+logsource: { product: windows, service: security }
+detection:
+  selection:
+    EventID: 4624
+    LogonType: 3
+    WorkstationName|startswith: 'EWS'
+  condition: selection
+level: high` }],
+    },
+
+    "T0855": {
+      name: "Unauthorized Command Message", tactic: "Impair Process Control",
+      attack: {
+        note: "Devices accept control-protocol commands without authentication. SAFETY: run writes only against an isolated test PLC / HIL rig — unauthorised writes to a live controller can injure people and damage equipment.",
+        lang: "python",
+        code: R`from pymodbus.client import ModbusTcpClient
+c = ModbusTcpClient('10.10.0.5')
+print(c.read_holding_registers(0, 10, unit=1).registers)   # recon (read — safe)
+# c.write_register(40, 1, unit=1)   # command write — ISOLATED TEST RIG ONLY`,
+      },
+      detect: [{ label: "Suricata", lang: "suricata", code: R`alert tcp any any -> $ICS_NET 502 (msg:"ICS Modbus write to control register"; \
+  flow:to_server,established; content:"|06|"; offset:7; depth:1; \
+  threshold:type limit,track by_src,count 1,seconds 60; sid:5100001; rev:1;)` }],
+    },
+
+    "T0836": {
+      name: "Modify Parameter", tactic: "Impair Process Control",
+      attack: {
+        note: "Alter a setpoint or control parameter on the controller. SAFETY: isolated test rig only.",
+        lang: "python",
+        code: R`# pymodbus setpoint change — ISOLATED TEST RIG ONLY
+c.write_registers(100, [55], unit=1)   # e.g. a setpoint holding register`,
+      },
+      detect: [{ label: "Suricata", lang: "suricata", code: R`alert tcp any any -> $ICS_NET 502 (msg:"ICS Modbus write-multiple (param change)"; \
+  flow:to_server,established; content:"|10|"; offset:7; depth:1; sid:5100002; rev:1;)` },
+      { label: "Sigma (EWS)", lang: "yaml", code: R`title: Controller Parameter / Program Change From EWS
+logsource: { product: windows, category: process_creation }
+detection:
+  selection:
+    Image|endswith: ['\Studio5000.exe', '\TIAPortal.exe', '\PACedit.exe']
+    CommandLine|contains: ['download', '/write']
+  condition: selection
+level: high` }],
+    },
+
+    "T0831": {
+      name: "Manipulation of Control", tactic: "Impair Process Control",
+      attack: {
+        note: "Drive the physical process outside safe bounds. Payload withheld — direct manipulation of a live process can cause injury, environmental or equipment damage. Validate only through a safety-reviewed HIL / test environment. Detection and mitigation follow.",
+      },
+      detect: [{ label: "Historian / Suricata", lang: "yaml", code: R`# Detect the EFFECT, not a signature: process values outside engineering limits,
+# or loss of view, independent of the control network.
+# - Historian rule: tag reading outside [low_limit, high_limit] for N samples
+# - Independent Safety Instrumented System (SIS) separate from the DCS
+# - Suricata: alert on command bursts to actuators outside the operator schedule` }],
+    },
+
+    "T0843": {
+      name: "Program Download", tactic: "Execution",
+      attack: {
+        note: "Download modified control logic to a PLC. Payload withheld — malicious logic can endanger the process. Use the vendor engineering tool only against a test controller. Detection and mitigation follow.",
+      },
+      detect: [{ label: "Sigma / controller", lang: "yaml", code: R`title: Unexpected PLC Program Download
+detection:
+  # from controller / EWS logs:
+  selection:
+    event: 'ProgramDownload'
+  filter:
+    SourceHost|startswith: 'EWS-APPROVED'
+    change_window: true
+  condition: selection and not filter
+mitigation: physical key-switch in RUN; signed logic; change management
+level: critical` }],
+    },
   };
 
   /* ── Component library (IT / general) ──────────────────────────────── */
@@ -803,8 +984,61 @@ level: medium`,
     return "process";
   }
 
+
+  /* ── Purdue-level STRIDE-LM mapping (OT domain) ────────────────────── */
+  const OT_STRIDE = {
+    level0: {
+      S: { t: "Sensor / telemetry readings are spoofed to mislead control.", m: "Redundant sensing, out-of-band verification, authenticated field protocols.", ttps: ["T0855"] },
+      T: { t: "Field I/O integrity is subverted to drive the process unsafely.", m: "Independent SIS, physical protection, actuator/sensor integrity checks.", ttps: ["T0831"] },
+      D: { t: "Loss of control or view over field devices.", m: "Safety Instrumented System, fail-safe design, independent monitoring.", ttps: ["T0831"] },
+    },
+    level1: {
+      S: { t: "Unauthorised command messages are accepted without authentication.", m: "Protocol authentication, DPI firewall, zone allow-listing.", ttps: ["T0855"] },
+      T: { t: "Control parameters or logic are tampered on the controller.", m: "Key-switch in RUN, parameter allow-listing, signed logic, change management.", ttps: ["T0836", "T0843"] },
+      E: { t: "A logic download yields control of the physical process.", m: "Disable remote programming, EWS hardening, signed logic.", ttps: ["T0843"] },
+      D: { t: "The controller is driven to an unsafe or halt state.", m: "SIS, watchdogs, redundancy.", ttps: ["T0831"] },
+    },
+    level2: {
+      S: { t: "Remote access to HMI / SCADA is abused for entry.", m: "IDMZ broker, phishing-resistant MFA, session recording.", ttps: ["T0822"] },
+      T: { t: "Rogue commands are issued over control protocols.", m: "Protocol-aware firewall / DPI, command authentication.", ttps: ["T0855"] },
+      I: { t: "Process / telemetry is sniffed on the OT segment.", m: "Segmentation, read-only taps, monitored SPAN.", ttps: ["T0842"] },
+      D: { t: "Operators lose view of the process state.", m: "HMI redundancy, alarm-integrity monitoring, independent path.", ttps: ["T0831"] },
+    },
+    level3: {
+      I: { t: "Historian / process data is collected and exfiltrated.", m: "DLP at the IT/OT boundary, egress monitoring, encryption.", ttps: ["T0842", "T0840"] },
+      L: { t: "Stolen credentials move laterally to the EWS / historian.", m: "PAM, MFA, least privilege, EWS patching and hardening.", ttps: ["T0886"] },
+    },
+    level35: {
+      S: { t: "External remote services are bridged through the DMZ.", m: "Broker and monitor all crossings, phishing-resistant MFA.", ttps: ["T0822"] },
+      L: { t: "The adversary pivots through the DMZ broker between IT and OT.", m: "Strict conduits, data diodes / unidirectional gateways, no direct L4→L2 paths.", ttps: ["T0886"] },
+    },
+    level4: {
+      S: { t: "Enterprise IT is compromised via phishing to pivot toward OT.", m: "Phishing-resistant MFA, awareness, email gateway controls.", ttps: ["T1566.001"] },
+      T: { t: "An internet-facing service is exploited as the entry point.", m: "Patch / vuln management, WAF, strict IT/OT segmentation.", ttps: ["T1190"] },
+      L: { t: "Lateral movement from IT toward the OT boundary.", m: "Segmentation, PtH-resistant logon, monitoring.", ttps: ["T1021.002", "T1550.002"] },
+    },
+  };
+
+  /* ── RAPIDS scenario catalogs (R·A·P·I·D·S) ────────────────────────── */
+  const RAPIDS_IT = [
+    { key: "R", name: "Ransomware", icon: "bug", desc: "Phishing or edge exploit → credential theft → lateral movement → data theft (double extortion) → mass encryption and recovery inhibition.", ttps: ["T1566.001", "T1003.001", "T1021.002", "T1048.003", "T1486"] },
+    { key: "A", name: "Application Vulnerability", icon: "cpu", desc: "Exploitation of an internet-facing application (injection, deserialisation, SSRF) leading to code execution and privilege escalation.", ttps: ["T1190", "T1059.001", "T1068"] },
+    { key: "P", name: "Phishing", icon: "mail", desc: "Credential-harvesting or payload lures leading to account takeover and MFA bypass.", ttps: ["T1566.001", "T1078", "T1621"] },
+    { key: "I", name: "Insider Threat", icon: "user", desc: "A trusted account abuses legitimate access to collect, tamper with and exfiltrate data.", ttps: ["T1078", "T1530", "T1565", "T1048.003"] },
+    { key: "D", name: "Denial of Service", icon: "network", desc: "Volumetric and application-layer attacks degrading availability of exposed services.", ttps: ["T1498", "T1499"] },
+    { key: "S", name: "Supply Chain Risk", icon: "flow", desc: "Compromise of software dependencies, build pipelines or trusted third parties to reach the target.", ttps: ["T1195.002", "T1199", "T1059.001"] },
+  ];
+  const RAPIDS_OT = [
+    { key: "R", name: "Ransomware (OT-impacting)", icon: "bug", desc: "IT-side intrusion crossing the IT/OT boundary to halt production (EKANS / Industroyer-style), causing loss of control.", ttps: ["T1566.001", "T1021.002", "T1486", "T0831"] },
+    { key: "A", name: "Application Vulnerability", icon: "cpu", desc: "Exploitation of an HMI, historian or remote-access appliance to issue unauthorised control commands.", ttps: ["T1190", "T0822", "T0855"] },
+    { key: "P", name: "Phishing", icon: "mail", desc: "Spearphishing of engineers for initial access, then remote services into the control network.", ttps: ["T1566.001", "T1078", "T0886"] },
+    { key: "I", name: "Insider Threat", icon: "user", desc: "An engineer or contractor misuses legitimate EWS access to sniff traffic and alter setpoints.", ttps: ["T1078", "T0842", "T0836"] },
+    { key: "D", name: "Denial of Service", icon: "network", desc: "Impairing process control or view — flooding, or manipulation causing loss of control.", ttps: ["T1498", "T0831"] },
+    { key: "S", name: "Supply Chain Risk", icon: "flow", desc: "Compromise of a vendor, firmware or third-party remote access to reach OT, then download malicious logic.", ttps: ["T1195.002", "T1199", "T0843"] },
+  ];
+
   return {
     STRIDE_LM, TACTIC_ORDER, TECH, COMPONENTS, IT_TYPE_ORDER,
-    PURDUE, OT_ORDER, SAMPLE_OT, SAMPLE_IT, inferType,
+    PURDUE, OT_STRIDE, OT_ORDER, SAMPLE_OT, SAMPLE_IT, RAPIDS_IT, RAPIDS_OT, inferType,
   };
 })();
