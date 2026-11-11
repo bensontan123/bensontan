@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Benson Tan — Security Engineer</title>
+<meta name="description" content="Benson Tan — offensive and defensive security: penetration testing, malware research, AppSec, software supply chain, and IT/OT defence.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230c1117'/%3E%3Cpath d='M9 11l6 5-6 5' fill='none' stroke='%2346d39a' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M17 22h7' stroke='%2346d39a' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+  :root {
+    --bg: #0c1117;
+    --surface: #131a22;
+    --border: #232d39;
+    --text: #e4eaf1;
+    --muted: #93a1b2;
+    --accent: #46d39a;
+    --accent-ink: #06231a;
+    --red: #f2777a;
+    --blue: #6cb6ff;
+    --mono: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f6f8fa;
+      --surface: #ffffff;
+      --border: #d9e0e7;
+      --text: #17202a;
+      --muted: #566474;
+      --accent: #0f7d57;
+      --accent-ink: #ffffff;
+      --red: #c23b3f;
+      --blue: #1f6fc4;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 var(--sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+
+  header.nav {
+    position: sticky; top: 0; z-index: 10;
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border);
+  }
+  .nav .wrap { display: flex; align-items: center; justify-content: space-between; height: 56px; gap: 16px; }
+  .brand { font-family: var(--mono); font-weight: 600; color: var(--text); white-space: nowrap; }
+  .brand span { color: var(--accent); }
+  nav { display: flex; gap: 20px; font-size: 14px; overflow-x: auto; }
+  nav a { color: var(--muted); white-space: nowrap; }
+  nav a:hover { color: var(--text); text-decoration: none; }
+
+  .hero { padding: 88px 20px 64px; }
+  .prompt { font-family: var(--mono); font-size: 14px; color: var(--accent); margin: 0 0 16px; }
+  .prompt::after { content: "▍"; margin-left: 4px; animation: blink 1.1s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { .prompt::after { animation: none; } html { scroll-behavior: auto; } }
+  h1 { font-size: clamp(36px, 7vw, 60px); line-height: 1.08; margin: 0 0 16px; letter-spacing: -0.02em; text-wrap: balance; }
+  .lede { font-size: clamp(17px, 2.4vw, 20px); color: var(--muted); max-width: 640px; margin: 0 0 32px; }
+  .cta { display: flex; flex-wrap: wrap; gap: 12px; }
+  .btn {
+    display: inline-block; padding: 10px 18px; border-radius: 8px;
+    font-weight: 600; font-size: 15px; border: 1px solid var(--border); color: var(--text);
+  }
+  .btn:hover { text-decoration: none; border-color: var(--accent); }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  .btn.primary:hover { filter: brightness(1.08); }
+
+  section { padding: 56px 0; border-top: 1px solid var(--border); }
+  h2 { font-size: 13px; font-family: var(--mono); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 0 0 28px; }
+  h2::before { content: "# "; color: var(--accent); }
+  h3 { font-size: 18px; margin: 0 0 8px; }
+  p { margin: 0 0 14px; }
+
+  .about > * { max-width: 680px; }
+  .about p { color: var(--muted); }
+  .about p:first-child { color: var(--text); font-size: 18px; }
+
+  .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 22px; }
+  .card p { color: var(--muted); font-size: 15px; margin-bottom: 14px; }
+  .tag { font-family: var(--mono); font-size: 12px; font-weight: 600; margin-bottom: 10px; display: block; }
+  .tag.red { color: var(--red); }
+  .tag.blue { color: var(--blue); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; padding: 0; margin: 0; }
+  .chips li { font-family: var(--mono); font-size: 12px; padding: 3px 9px; border: 1px solid var(--border); border-radius: 999px; color: var(--muted); }
+
+  .empty { border: 1px dashed var(--border); border-radius: 12px; padding: 28px 22px; color: var(--muted); }
+  .empty strong { color: var(--text); }
+
+  footer { padding: 32px 0 48px; border-top: 1px solid var(--border); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top"><span>~/</span>bensontan</a>
+    <nav aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#focus">Focus</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="wrap hero">
+    <p class="prompt">whoami</p>
+    <h1>Benson Tan</h1>
+    <p class="lede">Security engineer working both sides of the wire: breaking systems as a penetration tester and malware researcher, and hardening them across application security, the software supply chain, and IT/OT environments.</p>
+    <div class="cta">
+      <a class="btn primary" href="#work">See my work</a>
+      <a class="btn" href="https://github.com/bensontan123" rel="noopener">GitHub</a>
+    </div>
+  </div>
+
+  <section id="about">
+    <div class="wrap about">
+      <h2>About</h2>
+      <p>I test defences the way an attacker would, then help build the ones that hold.</p>
+      <p>My offensive work covers black-box penetration testing, payload development, and malware engineering for authorised engagements. On the defensive side I work on application security, software supply chain integrity, and MITRE-aligned detection and mitigation for both enterprise IT and operational technology.</p>
+    </div>
+  </section>
+
+  <section id="focus">
+    <div class="wrap">
+      <h2>Focus areas</h2>
+      <div class="grid">
+        <article class="card">
+          <span class="tag red">OFFENSIVE</span>
+          <h3>Penetration testing</h3>
+          <p>Black-box assessments of web applications, APIs, and networks, from reconnaissance to reporting.</p>
+          <ul class="chips"><li>Web &amp; API</li><li>Black-box</li><li>Recon</li></ul>
+        </article>
+        <article class="card">
+          <span class="tag red">OFFENSIVE</span>
+          <h3>Malware engineering</h3>
+          <p>Payload crafting and malware research to emulate real adversaries and validate detection coverage.</p>
+          <ul class="chips"><li>Payloads</li><li>Adversary emulation</li><li>Analysis</li></ul>
+        </article>
+        <article class="card">
+          <span class="tag blue">DEFENSIVE</span>
+          <h3>Application security</h3>
+          <p>Finding and fixing weaknesses in code and design before they ship, guided by OWASP practice.</p>
+          <ul class="chips"><li>OWASP</li><li>Code review</li><li>Threat modelling</li></ul>
+        </article>
+        <article class="card">
+          <span class="tag blue">DEFENSIVE</span>
+          <h3>Software supply chain</h3>
+          <p>Securing dependencies, build pipelines, and artefacts so what gets deployed is what was intended.</p>
+          <ul class="chips"><li>Dependencies</li><li>CI/CD</li><li>Provenance</li></ul>
+        </article>
+        <article class="card">
+          <span class="tag blue">DEFENSIVE</span>
+          <h3>IT &amp; OT defence</h3>
+          <p>Mapping threats and mitigations with MITRE ATT&amp;CK and D3FEND across enterprise and industrial systems.</p>
+          <ul class="chips"><li>MITRE ATT&amp;CK</li><li>ICS / OT</li><li>Detection</li></ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="wrap">
+      <h2>Work</h2>
+      <div class="empty">
+        <strong>Write-ups and projects are on the way.</strong><br>
+        In the meantime, my code lives on <a href="https://github.com/bensontan123" rel="noopener">GitHub</a>.
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap about">
+      <h2>Contact</h2>
+      <p>Open to conversations about security testing and defensive engineering.</p>
+      <div class="cta">
+        <a class="btn" href="https://github.com/bensontan123" rel="noopener">github.com/bensontan123</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© <span id="y">2026</span> Benson Tan. All testing described here is performed under authorisation.</div>
+</footer>
+
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
