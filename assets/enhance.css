@@ -1,0 +1,102 @@
+/* =======================================================================
+   Enhancements: icons, interactivity, and the Threat Model Lab.
+   Reuses the design tokens defined on :root in index.html.
+   ===================================================================== */
+
+/* ── Icons ─────────────────────────────────────────────────────────── */
+.ic { width: 1em; height: 1em; display: inline-block; vertical-align: -0.125em; flex: none; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.sec-ico { width: 20px; height: 20px; color: var(--accent); flex: none; align-self: center; }
+.sec-head { align-items: center; }
+.skill-card h3 .ic, .proj h3 .ic { color: var(--accent-2); }
+
+/* ── Nav: active link + mobile menu ─────────────────────────────────── */
+.nav-links a.active { color: var(--accent); }
+.nav-toggle { display: none; background: var(--panel); border: 1px solid var(--line); color: var(--fg); border-radius: 8px; width: 40px; height: 36px; cursor: pointer; align-items: center; justify-content: center; }
+.nav-toggle .ic { width: 20px; height: 20px; }
+.nav-toggle:hover { border-color: var(--accent); color: var(--accent); }
+@media (max-width: 880px) {
+  .nav-toggle { display: inline-flex; }
+  .nav-links {
+    display: none; position: absolute; top: calc(100% + 1px); right: 0; left: 0;
+    flex-direction: column; gap: 0; background: rgba(10,14,18,.97); backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line); padding: 8px 0;
+  }
+  .nav-links.open { display: flex; }
+  .nav-links a { padding: 11px max(20px, env(safe-area-inset-left, 0px)); border-top: 1px solid var(--line); }
+  .nav-inner { position: relative; }
+}
+
+/* ── Scroll reveal ──────────────────────────────────────────────────── */
+.reveal { opacity: 0; transform: translateY(14px); transition: opacity .5s ease, transform .5s ease; }
+.reveal.in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .reveal { opacity: 1 !important; transform: none !important; transition: none; } }
+
+/* ── Interactive affordances on existing cards ──────────────────────── */
+.skill-card, .proj, .stat, .cve, .news, .cti-item { transition: border-color .15s, transform .15s, box-shadow .15s; }
+.stat:hover { border-color: var(--accent); transform: translateY(-2px); }
+.skill-card:hover { border-color: var(--accent-2); }
+.copy:focus-visible, .btn:focus-visible, .chip:focus-visible, .code-copy:focus-visible, .nav-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* ── Threat Model Lab ───────────────────────────────────────────────── */
+.tm-note { font-family: var(--mono); font-size: .76rem; color: var(--muted); border: 1px solid var(--line); border-left: 3px solid var(--warn); border-radius: 8px; padding: 11px 14px; margin: 16px 0 6px; display: flex; gap: 10px; align-items: baseline; }
+.tm-note b { color: var(--warn); font-weight: 600; }
+
+.tm-import { border: 1px solid var(--line); border-radius: 12px; background: var(--panel); padding: 16px; margin-top: 18px; }
+.tm-drop { border: 1.5px dashed var(--line); border-radius: 10px; padding: 18px; text-align: center; transition: border-color .15s, background .15s; }
+.tm-drop.drag { border-color: var(--accent); background: rgba(53,224,193,.06); }
+.tm-drop p { margin: 0 0 12px; color: var(--muted); font-size: .9rem; }
+.tm-drop .fmts { font-family: var(--mono); font-size: .72rem; color: var(--accent); }
+.tm-actions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 12px; }
+.tm-msg { font-family: var(--mono); font-size: .76rem; margin-top: 10px; min-height: 1em; color: var(--muted); }
+.tm-msg.ok { color: var(--low); } .tm-msg.err { color: var(--crit); }
+.tm-img { margin-top: 14px; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--panel-2); }
+.tm-img-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 8px 12px; font-family: var(--mono); font-size: .74rem; color: var(--muted); border-bottom: 1px solid var(--line); }
+.tm-img img { display: block; max-width: 100%; max-height: 420px; margin: 0 auto; }
+
+.comp-list .ic { color: var(--accent-2); }
+.comp-list .flow-li .ic { color: var(--accent); }
+.tm-toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 14px; }
+.tm-toolbar .ts { font-family: var(--mono); font-size: .78rem; color: var(--muted); }
+.tm-toolbar .ts b { color: var(--accent); font-weight: 500; }
+
+/* STRIDE-LM badge */
+.slm { display: inline-flex; align-items: center; justify-content: center; width: 20px; height: 20px; border-radius: 5px; font-family: var(--mono); font-size: .72rem; font-weight: 600; color: var(--bg); background: var(--accent); margin-right: 6px; }
+.slm-link { font-family: var(--mono); color: var(--accent); font-weight: 600; }
+
+/* RAPID tactic grouping */
+.rapid-tac { margin-bottom: 18px; }
+.rapid-th { display: flex; align-items: center; gap: 10px; font-family: var(--mono); font-size: .85rem; font-weight: 600; color: var(--accent-2); text-transform: uppercase; letter-spacing: .06em; padding: 10px 0; border-bottom: 1px solid var(--line); margin-bottom: 12px; }
+.rapid-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex: none; }
+.rapid-n { margin-left: auto; font-size: .76rem; color: var(--muted); background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 1px 9px; }
+
+/* TTP card (details/summary disclosure) */
+.ttp { border: 1px solid var(--line); border-radius: 9px; background: var(--panel-2); margin-top: 10px; overflow: hidden; }
+.ttp > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 10px; padding: 11px 14px; flex-wrap: wrap; }
+.ttp > summary::-webkit-details-marker { display: none; }
+.ttp > summary:hover { background: var(--panel); }
+.ttp-id { font-family: var(--mono); font-size: .78rem; font-weight: 600; color: var(--accent); border: 1px solid rgba(53,224,193,.3); background: rgba(53,224,193,.08); border-radius: 5px; padding: 2px 7px; white-space: nowrap; }
+.ttp-name { font-weight: 600; font-size: .92rem; min-width: 0; }
+.ttp-tactic { font-family: var(--mono); font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+.ttp-caret { width: 16px; height: 16px; color: var(--muted); margin-left: auto; transition: transform .18s; }
+.ttp[open] > summary .ttp-caret { transform: rotate(180deg); }
+.ttp-body { padding: 4px 14px 16px; border-top: 1px solid var(--line); }
+.ttp-ctx { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 8px; }
+.ttp-ctx span { font-family: var(--mono); font-size: .68rem; color: var(--muted); border: 1px solid var(--line); border-radius: 5px; padding: 2px 7px; }
+.ttp-link { font-family: var(--mono); font-size: .72rem; display: inline-block; margin: 6px 0 4px; }
+.ttp-split { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 10px; }
+@media (max-width: 760px) { .ttp-split { grid-template-columns: minmax(0,1fr); } }
+.ttp-split h5 { margin: 0 0 8px; font-family: var(--mono); font-size: .76rem; font-weight: 600; display: flex; align-items: center; gap: 7px; }
+.ttp-off h5 { color: var(--crit); } .ttp-off h5 .ic { color: var(--crit); }
+.ttp-def h5 { color: var(--low); } .ttp-def h5 .ic { color: var(--low); }
+.ttp-note { color: var(--muted); font-size: .84rem; margin: 0 0 10px; }
+
+/* code block */
+.code { border: 1px solid var(--line); border-radius: 8px; overflow: hidden; margin-bottom: 10px; background: var(--bg); }
+.code.off { border-color: rgba(255,92,108,.25); } .code.def { border-color: rgba(110,231,168,.22); }
+.code-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 6px 10px; background: var(--panel); border-bottom: 1px solid var(--line); }
+.code-label { font-family: var(--mono); font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.code-copy { font-family: var(--mono); font-size: .68rem; color: var(--accent); background: none; border: 1px solid var(--line); border-radius: 5px; padding: 3px 9px; cursor: pointer; }
+.code-copy:hover { border-color: var(--accent); }
+.code pre { margin: 0; padding: 12px; overflow-x: auto; }
+.code code { font-family: var(--mono); font-size: .8rem; line-height: 1.55; color: var(--fg); white-space: pre; }
+.off code { color: #ffc9ce; } .def code { color: #bdeccb; }

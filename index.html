@@ -9,8 +9,37 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/enhance.css">
 </head>
 <body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/></symbol>
+  <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.5"/></symbol>
+  <symbol id="i-timeline" viewBox="0 0 24 24"><path d="M6 3v18"/><circle cx="6" cy="7" r="2"/><circle cx="6" cy="17" r="2"/><path d="M11 7h8M11 17h6"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3 2.6 5.5 6 .8-4.4 4.2 1.1 6-5.3-2.9-5.3 2.9 1.1-6L3.4 9.3l6-.8Z"/></symbol>
+  <symbol id="i-bug" viewBox="0 0 24 24"><rect x="8" y="7" width="8" height="12" rx="4"/><path d="M12 7V4M9 6 7 4m8 2 2-2M8 11H4m16 0h-4M8 15H4m16 0h-4M9 19l-2 2m8-2 2 2"/></symbol>
+  <symbol id="i-radar" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><path d="M12 12 19 6"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/></symbol>
+  <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.3" fill="currentColor"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.3 3 14.7 0 18M12 3c-3 3.3-3 14.7 0 18"/></symbol>
+  <symbol id="i-cap" viewBox="0 0 24 24"><path d="m2 9 10-4 10 4-10 4Z"/><path d="M6 11v5c0 1.4 2.7 3 6 3s6-1.6 6-3v-5"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 7 8.5 6 8.5-6"/></symbol>
+  <symbol id="i-scale" viewBox="0 0 24 24"><path d="M12 3v18M7 21h10M5 7h14M12 5 6 7l-3 6a3 3 0 0 0 6 0Zm0 0 6 2 3 6a3 3 0 0 1-6 0Z"/></symbol>
+  <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 11a8 8 0 0 0-14-4L4 9m0-5v5h5M4 13a8 8 0 0 0 14 4l2-2m0 5v-5h-5"/></symbol>
+  <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="8" r="4.5"/><path d="m11.2 11.2 8.3 8.3M16 16l2.5-2.5M18 18l2-2"/></symbol>
+  <symbol id="i-cpu" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/><rect x="9.5" y="9.5" width="5" height="5" rx="1"/><path d="M9 3v3m6-3v3M9 18v3m6-3v3M3 9h3m-3 6h3m12-6h3m-3 6h3"/></symbol>
+  <symbol id="i-db" viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v12c0 1.7 3.1 3 7 3s7-1.3 7-3V6M5 12c0 1.7 3.1 3 7 3s7-1.3 7-3"/></symbol>
+  <symbol id="i-flow" viewBox="0 0 24 24"><rect x="3" y="8" width="6" height="8" rx="1.5"/><rect x="15" y="8" width="6" height="8" rx="1.5"/><path d="M9 12h6m-2.5-2.5L15 12l-2.5 2.5"/></symbol>
+  <symbol id="i-server" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="7" rx="2"/><rect x="3" y="13" width="18" height="7" rx="2"/><path d="M7 7.5h.01M7 16.5h.01"/></symbol>
+  <symbol id="i-network" viewBox="0 0 24 24"><circle cx="12" cy="5" r="2.5"/><circle cx="5" cy="19" r="2.5"/><circle cx="19" cy="19" r="2.5"/><path d="M12 7.5v4m0 0-5 5m5-5 5 5"/></symbol>
+  <symbol id="i-plc" viewBox="0 0 24 24"><rect x="4" y="6" width="16" height="12" rx="2"/><path d="M8 6V4m4 2V4m4 2V4M8 20v-2m4 2v-2m4 2v-2M8 11h8M8 14h5"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+  <symbol id="i-sword" viewBox="0 0 24 24"><path d="M20 4v4L9 19l-3 1-1-3L16 6l4-2Z"/><path d="m5 17 2 2m8-11 1 1"/></symbol>
+  <symbol id="i-shield-check" viewBox="0 0 24 24"><path d="M12 3 5 5.5V11c0 4.5 3 7.4 7 9.5 4-2.1 7-5 7-9.5V5.5Z"/><path d="m9 12 2 2 4-4"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-upload" viewBox="0 0 24 24"><path d="M4 16v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3M12 3v13m-5-8 5-5 5 5"/></symbol>
+</defs></svg>
+
 <style>
   /* ── Layout concept: a single dark "GRC / SecOps console" — sticky mono
         nav with a shield mark, a terminal hero, scannable resume sections,
@@ -282,14 +311,15 @@
 <nav>
   <div class="wrap nav-inner">
     <div class="brand" id="brand"></div>
-    <div class="nav-links">
+    <button class="nav-toggle" id="navToggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="navLinks"><svg class="ic" aria-hidden="true"><use href="#i-menu"></use></svg></button>
+    <div class="nav-links" id="navLinks">
       <a href="#about">about</a>
       <a href="#skills">competencies</a>
       <a href="#experience">experience</a>
       <a href="#highlights">highlights</a>
       <a href="#vulns">vuln-dash</a>
       <a href="#cti">cti</a>
-      <a href="#threatmodel">threat-model</a>
+      <a href="#threatmodel">threat-lab</a>
       <a href="#news">apac-news</a>
       <a href="#education">education</a>
       <a href="#contact">contact</a>
@@ -358,13 +388,33 @@
 </div></section>
 
 <section id="threatmodel"><div class="wrap">
-  <div class="sec-head"><span class="sec-no">07</span><h2 class="sec-title">Threat Modeling — STRIDE</h2></div>
-  <p class="lead">An interactive threat-modeling session. Pick a method, name the system, add its components, and the model generates per-element threats with mitigations and MITRE ATT&CK references — the approach I apply in system security risk assessments across IT and OT.</p>
+  <div class="sec-head"><span class="sec-no">07</span><h2 class="sec-title">Threat Model Lab</h2></div>
+  <p class="lead">Import an architecture diagram or build one by hand, then generate a threat model three ways: <b>STRIDE-LM</b> (per-component), <b>RAPID</b> (MITRE ATT&amp;CK TTPs by kill-chain tactic), or <b>OT/ICS</b> (Purdue + ATT&amp;CK for ICS). Each technique expands into an offensive attack/payload sample and the matching Sigma + YARA detections — the purple-team view I bring to system security risk assessments.</p>
+
+  <div class="tm-note"><span>▲</span><span><b>Authorised use only.</b> Offensive samples mirror public MITRE ATT&amp;CK, Atomic Red Team, Sigma and YARA references, for security testing and education. Diagram parsing is 100% in your browser — nothing you import is uploaded anywhere.</span></div>
+
   <div class="mode-row" id="tmModeRow" role="group" aria-label="Threat model method" style="margin-top:18px">
-    <button class="chip" data-mode="it" aria-pressed="true">IT · STRIDE</button>
-    <button class="chip" data-mode="ot" aria-pressed="false">OT / ICS · Purdue + ATT&amp;CK for ICS</button>
+    <button class="chip" data-mode="stride" type="button" aria-pressed="true">STRIDE-LM</button>
+    <button class="chip" data-mode="rapid" type="button" aria-pressed="false">RAPID · MITRE TTP</button>
+    <button class="chip" data-mode="ot" type="button" aria-pressed="false">OT / ICS · Purdue</button>
   </div>
-  <div class="tm-grid" style="margin-top:4px">
+
+  <div class="tm-import">
+    <div class="tm-drop" id="tmDrop">
+      <p>Drop an architecture diagram here, or import a file.</p>
+      <div class="tm-actions">
+        <label class="btn primary" for="tmFile"><svg class="ic" aria-hidden="true" style="vertical-align:-.15em;margin-right:6px"><use href="#i-upload"></use></svg>import diagram</label>
+        <input id="tmFile" type="file" accept=".drawio,.xml,.mmd,.mermaid,.txt,.json,.csv,image/*" multiple hidden>
+        <button class="btn" id="tmSample" type="button">load sample</button>
+        <button class="btn" id="tmClear" type="button">clear</button>
+      </div>
+      <div class="fmts">draw.io (.drawio/.xml) · Mermaid (.mmd) · JSON · CSV · or an image (PNG/JPG/SVG) to tag</div>
+    </div>
+    <div class="tm-msg" id="tmImportMsg"></div>
+    <div class="tm-img" id="tmImage" hidden></div>
+  </div>
+
+  <div class="tm-grid" style="margin-top:18px">
     <div class="tm-panel">
       <h3>Model builder</h3>
       <div class="tm-field">
@@ -373,28 +423,22 @@
       </div>
       <div class="tm-field">
         <label for="tmType">Component type</label>
-        <select id="tmType" class="sel">
-          <option value="external">External Entity (user, 3rd-party)</option>
-          <option value="process">Process (service, API, app)</option>
-          <option value="datastore">Data Store (DB, bucket, file)</option>
-          <option value="dataflow">Data Flow (request, channel)</option>
-        </select>
+        <select id="tmType" class="sel"></select>
       </div>
       <div class="tm-field">
         <label for="tmName">Component name</label>
         <input id="tmName" class="inp" type="text" placeholder="e.g. Payment API">
       </div>
       <div style="display:flex;gap:8px;flex-wrap:wrap">
-        <button class="btn primary" id="tmAdd">+ add component</button>
-        <button class="btn" id="tmSample">load sample</button>
-        <button class="btn" id="tmClear">clear</button>
+        <button class="btn primary" id="tmAdd" type="button">+ add component</button>
       </div>
       <ul class="comp-list" id="tmComps"></ul>
     </div>
     <div>
-      <div class="toolbar" style="margin-bottom:14px">
-        <div class="ts" style="font-family:var(--mono);font-size:.78rem;color:var(--muted)">threats for <b id="tmSysLabel" style="color:var(--accent);font-weight:500">your system</b> · <span id="tmCount">0</span> identified</div>
-        <button class="btn" id="tmCopy" style="margin-left:auto">⧉ copy model</button>
+      <div class="tm-toolbar">
+        <div class="ts">threats for <b id="tmSysLabel">your system</b> · <span id="tmCount">0</span> identified</div>
+        <button class="btn" id="tmCopy" type="button" style="margin-left:auto">⧉ copy as Markdown</button>
+        <button class="btn" id="tmJson" type="button">↓ JSON</button>
       </div>
       <div class="tm-threats" id="tmThreats"></div>
     </div>
@@ -574,88 +618,6 @@ const CONFIG = {
   footerNote: "Built as a single self-contained page."
 };
 
-/* ── STRIDE knowledge base (threat generation rules) ─────────────────── */
-const STRIDE = {
-  S: { name: "Spoofing", prop: "Authentication" },
-  T: { name: "Tampering", prop: "Integrity" },
-  R: { name: "Repudiation", prop: "Non-repudiation" },
-  I: { name: "Information Disclosure", prop: "Confidentiality" },
-  D: { name: "Denial of Service", prop: "Availability" },
-  E: { name: "Elevation of Privilege", prop: "Authorization" }
-};
-// STRIDE-per-element applicability (classic Microsoft matrix)
-const ELEMENT = {
-  external: { label: "External Entity", apply: ["S","R"] },
-  process:  { label: "Process",         apply: ["S","T","R","I","D","E"] },
-  datastore:{ label: "Data Store",      apply: ["T","R","I","D"] },
-  dataflow: { label: "Data Flow",        apply: ["T","I","D"] }
-};
-// Threat + mitigation templates, keyed by STRIDE letter then element type
-const TMPL = {
-  S: { external: { t: "An attacker impersonates this entity to gain trust or access.", m: "Strong authentication (MFA), mutual TLS, verified identities." },
-       process:  { t: "An attacker spoofs this service to clients or peers.", m: "Service identity via mTLS / signed tokens; certificate pinning." } },
-  T: { process:  { t: "Inputs or in-memory state are tampered to alter behaviour.", m: "Input validation, integrity checks, signed/validated config." },
-       datastore:{ t: "Stored data is modified without authorisation.", m: "Access control, checksums/HMAC, immutable or audited writes." },
-       dataflow: { t: "Data in transit is modified (man-in-the-middle).", m: "TLS 1.2+/1.3, message signing, integrity verification." } },
-  R: { external: { t: "The entity denies performing an action.", m: "Strong auth + tamper-evident logging tied to identity." },
-       process:  { t: "Actions can't be reliably attributed to this process.", m: "Secure, centralised, time-synced audit logging." },
-       datastore:{ t: "Changes to data can't be traced to an actor.", m: "Append-only audit trail, versioning, log integrity." } },
-  I: { process:  { t: "The process leaks sensitive data via errors or memory.", m: "Least privilege, error handling, secrets management, encryption." },
-       datastore:{ t: "Stored sensitive data is exposed.", m: "Encryption at rest, field-level access control, data classification." },
-       dataflow: { t: "Sensitive data is intercepted in transit.", m: "Encrypt in transit (TLS), minimise data, network segmentation." } },
-  D: { process:  { t: "The process is overwhelmed and stops serving requests.", m: "Rate limiting, autoscaling, timeouts, resource quotas." },
-       datastore:{ t: "The store is exhausted or locked, denying access.", m: "Quotas, backups/DR, replication, capacity monitoring." },
-       dataflow: { t: "The channel is flooded or disrupted.", m: "DDoS protection, redundancy, QoS, circuit breakers." } },
-  E: { process:  { t: "An attacker escalates to higher privileges via this process.", m: "Least privilege, sandboxing, patch management, input validation." } }
-};
-const SAMPLE_MODEL = { system: "Customer Payment Portal", comps: [
-  { type: "external", name: "Cardholder (browser)" },
-  { type: "process",  name: "Payment API" },
-  { type: "datastore",name: "Transactions DB" },
-  { type: "dataflow", name: "API → Payment Gateway" }
-]};
-
-/* ── OT / ICS Purdue-model knowledge base (MITRE ATT&CK for ICS) ──────── */
-// Each Purdue level maps to representative ICS threats with ATT&CK technique
-// ids (T0xxx = ICS matrix, Txxxx = Enterprise) and IEC 62443-aligned control.
-const PURDUE = {
-  level0: { label: "Level 0 — Field Devices (sensors / actuators)", threats: [
-    { id: "T0831", name: "Manipulation of Control", tactic: "Impair Process Control", t: "Field I/O is manipulated to drive the physical process outside safe bounds.", m: "Independent Safety Instrumented System (SIS), physical access control, actuator/sensor integrity checks." },
-    { id: "T0856", name: "Spoof Reporting Message", tactic: "Impair Process Control", t: "Falsified sensor/telemetry readings mislead operators and logic.", m: "Out-of-band verification, redundant sensing, signed/authenticated field protocols where supported." }
-  ]},
-  level1: { label: "Level 1 — Basic Control (PLC / RTU / IED)", threats: [
-    { id: "T0836", name: "Modify Parameter", tactic: "Impair Process Control", t: "Setpoints or control parameters are altered to cause unsafe operation.", m: "Controller change management, parameter allow-listing, key-switch in RUN, 62443 SR 3.4 integrity." },
-    { id: "T0843", name: "Program Download", tactic: "Lateral Movement / Execution", t: "Malicious control logic is downloaded to the controller.", m: "Disable remote programming, engineering-workstation hardening, signed logic, physical key-switch." },
-    { id: "T0839", name: "Module Firmware", tactic: "Persistence", t: "A firmware implant persists on the controller.", m: "Signed firmware, supply-chain verification, firmware integrity monitoring." }
-  ]},
-  level2: { label: "Level 2 — Supervisory (SCADA / HMI)", threats: [
-    { id: "T0822", name: "External Remote Services", tactic: "Initial Access", t: "Remote access to HMI/SCADA is abused for entry into the control zone.", m: "Broker all remote access via IDMZ jump host, phishing-resistant MFA, session recording." },
-    { id: "T0855", name: "Unauthorized Command Message", tactic: "Impair Process Control", t: "Rogue commands are issued over control protocols (Modbus/DNP3/S7).", m: "Protocol-aware firewall / DPI, command authentication, zone-and-conduit allow-listing." },
-    { id: "T0829", name: "Loss of View", tactic: "Impact", t: "Operators lose visibility of the process state.", m: "HMI redundancy, alarm-integrity monitoring, independent monitoring path." }
-  ]},
-  level3: { label: "Level 3 — Site Operations (Historian / EWS)", threats: [
-    { id: "T0859", name: "Valid Accounts", tactic: "Lateral Movement", t: "Stolen credentials are used on the engineering workstation or historian.", m: "Least privilege, PAM, MFA, EWS patching & hardening, credential vaulting." },
-    { id: "T0882", name: "Theft of Operational Information", tactic: "Collection / Exfiltration", t: "Historian / process data is collected and exfiltrated.", m: "Data classification, egress monitoring, encryption, DLP at the IT/OT boundary." },
-    { id: "T0867", name: "Lateral Tool Transfer", tactic: "Lateral Movement", t: "Tooling is staged and moved toward the control network.", m: "Application allow-listing, segmentation, EDR on L3 assets." }
-  ]},
-  level35: { label: "Level 3.5 — Industrial DMZ (IDMZ)", threats: [
-    { id: "T0884", name: "Connection Proxy", tactic: "Command and Control", t: "The adversary pivots through a DMZ broker / jump host between IT and OT.", m: "Strict firewall conduits, data diodes / unidirectional gateways, no direct L4→L2 paths (62443 zones)." },
-    { id: "T0886", name: "Remote Services", tactic: "Lateral Movement", t: "DMZ remote services are abused to bridge the IT and OT networks.", m: "Broker and monitor all crossings, break all direct flows, enforce the IDMZ as the only path." }
-  ]},
-  level4: { label: "Level 4 / 5 — Enterprise IT", threats: [
-    { id: "T1566", name: "Phishing", tactic: "Initial Access", t: "Enterprise IT is compromised via phishing, providing a foothold to pivot toward OT.", m: "Phishing-resistant MFA, awareness ('Train, Phish & Analyse'), email gateway controls." },
-    { id: "T1190", name: "Exploit Public-Facing Application", tactic: "Initial Access", t: "An internet-facing enterprise service is exploited as the entry point.", m: "Patch/vuln management, WAF, strict IT/OT segmentation per the Purdue model." }
-  ]}
-};
-const OT_ORDER = ["level4","level35","level3","level2","level1","level0"];
-const SAMPLE_OT = { system: "Water Treatment SCADA", comps: [
-  { type: "level4",  name: "Corporate Active Directory" },
-  { type: "level35", name: "IDMZ Jump Host" },
-  { type: "level3",  name: "Process Historian" },
-  { type: "level2",  name: "Treatment SCADA / HMI" },
-  { type: "level1",  name: "Dosing PLC" },
-  { type: "level0",  name: "Chlorine Dosing Pump" }
-]};
 // ATT&CK technique → URL (handles sub-techniques like T1566.001 and ICS T0xxx)
 function attackUrl(id) { const p = String(id).split("."); return "https://attack.mitre.org/techniques/" + p[0] + (p[1] ? "/" + p[1] : "") + "/"; }
 
@@ -819,99 +781,6 @@ function loadFeed(file, valid) {
     .catch(() => setNote("ctiNote", false, "<b>Snapshot data.</b> The live feed could not be loaded, so this panel rotates a curated briefing set."));
 })();
 
-/* ── Threat Modeling (STRIDE / OT-ICS Purdue) ────────────────────────── */
-(function threatModel() {
-  let comps = [];
-  let mode = "it"; // "it" | "ot"
-  const sysEl = $("tmSystem"), typeEl = $("tmType"), nameEl = $("tmName");
-
-  // Mode definitions: how to label types, the select order, and how a
-  // component's threats are produced.
-  const IT_ORDER = ["external","process","datastore","dataflow"];
-  const typeLabel = (type) => mode === "it" ? ELEMENT[type].label : PURDUE[type].label;
-
-  function populateTypes() {
-    typeEl.innerHTML = "";
-    const order = mode === "it" ? IT_ORDER : OT_ORDER;
-    order.forEach(t => { const o = document.createElement("option"); o.value = t; o.textContent = typeLabel(t); typeEl.appendChild(o); });
-  }
-
-  // Returns [{k, name, sub, link?, t, m}] for a component, mode-aware.
-  function threatsFor(c) {
-    if (mode === "it") {
-      return ELEMENT[c.type].apply.map(k => { const tpl = TMPL[k] && TMPL[k][c.type]; return tpl ? { k, name: STRIDE[k].name, sub: STRIDE[k].prop, t: tpl.t, m: tpl.m } : null; }).filter(Boolean);
-    }
-    return (PURDUE[c.type].threats || []).map(x => ({ k: x.id, name: x.name, sub: x.tactic, link: attackUrl(x.id), t: x.t, m: x.m }));
-  }
-
-  function setMode(m) {
-    mode = m; comps = [];
-    [...$("tmModeRow").children].forEach(b => b.setAttribute("aria-pressed", b.dataset.mode === m ? "true" : "false"));
-    populateTypes();
-    nameEl.placeholder = m === "it" ? "e.g. Payment API" : "e.g. Dosing PLC";
-    sysEl.placeholder = m === "it" ? "e.g. Customer Payment Portal" : "e.g. Water Treatment SCADA";
-    render();
-  }
-  [...$("tmModeRow").children].forEach(b => b.addEventListener("click", () => setMode(b.dataset.mode)));
-
-  function add() {
-    const name = nameEl.value.trim(); if (!name) { nameEl.focus(); return; }
-    comps.push({ type: typeEl.value, name }); nameEl.value = ""; nameEl.focus(); render();
-  }
-  $("tmAdd").addEventListener("click", add);
-  nameEl.addEventListener("keydown", e => { if (e.key === "Enter") add(); });
-  sysEl.addEventListener("input", () => { $("tmSysLabel").textContent = sysEl.value.trim() || "your system"; });
-  $("tmClear").addEventListener("click", () => { comps = []; sysEl.value = ""; $("tmSysLabel").textContent = "your system"; render(); });
-  $("tmSample").addEventListener("click", () => { const s = mode === "it" ? SAMPLE_MODEL : SAMPLE_OT; sysEl.value = s.system; $("tmSysLabel").textContent = s.system; comps = s.comps.slice(); render(); });
-
-  function render() {
-    const cl = $("tmComps"); cl.innerHTML = "";
-    if (!comps.length) cl.appendChild(el("li", null, `<span class="cn" style="color:var(--muted)">No components yet — add one, or load the sample.</span>`));
-    comps.forEach((c, i) => {
-      const li = el("li");
-      li.innerHTML = `<span class="ct">${esc(typeLabel(c.type))}</span><span class="cn">${esc(c.name)}</span>`;
-      const rm = el("button", null, "✕"); rm.setAttribute("aria-label","remove"); rm.addEventListener("click", () => { comps.splice(i,1); render(); });
-      li.appendChild(rm); cl.appendChild(li);
-    });
-    const box = $("tmThreats"); box.innerHTML = ""; let total = 0;
-    if (!comps.length) { box.appendChild(el("div","empty", mode === "it" ? "Add components to generate a STRIDE threat model." : "Add Purdue-level components to generate an ICS threat model.")); $("tmCount").textContent = "0"; return; }
-    comps.forEach(c => {
-      const card = el("div","tcard");
-      const head = el("div","th"); head.innerHTML = `<span class="cn">${esc(c.name)}</span><span class="ct">${esc(typeLabel(c.type))}</span>`;
-      card.appendChild(head);
-      threatsFor(c).forEach(x => {
-        total++;
-        const row = el("div","trow");
-        const key = x.link
-          ? `<a class="tlink attack" href="${x.link}" target="_blank" rel="noopener" title="${esc(x.k)} — opens attack.mitre.org"><span class="tid">${esc(x.k)}</span></a> ${esc(x.name)}<span class="tactic">${esc(x.sub)}</span>`
-          : `${esc(x.k)} · ${esc(x.name)}<span class="tactic">${esc(x.sub)}</span>`;
-        row.innerHTML = `<div class="stride-k">${key}</div><div><div class="tt">${esc(x.t)}</div><div class="tm-mit"><b>Mitigation:</b> ${esc(x.m)}</div></div>`;
-        card.appendChild(row);
-      });
-      box.appendChild(card);
-    });
-    $("tmCount").textContent = String(total);
-  }
-
-  $("tmCopy").addEventListener("click", () => {
-    const sys = sysEl.value.trim() || "Untitled system";
-    const title = mode === "it" ? "STRIDE Threat Model" : "OT/ICS Threat Model (Purdue + ATT&CK for ICS)";
-    let out = `${title} — ${sys}\n` + "=".repeat(48) + "\n\n";
-    if (!comps.length) out += "(no components)\n";
-    comps.forEach(c => {
-      out += `[${typeLabel(c.type)}] ${c.name}\n`;
-      threatsFor(c).forEach(x => { out += `  - ${x.k} ${x.name}${x.sub ? " ("+x.sub+")" : ""}: ${x.t}\n      Mitigation: ${x.m}\n`; });
-      out += "\n";
-    });
-    const btn = $("tmCopy"), orig = btn.textContent;
-    const done = () => { btn.textContent = "✓ copied"; setTimeout(() => btn.textContent = orig, 1500); };
-    try { navigator.clipboard.writeText(out).then(done).catch(done); } catch (e) { done(); }
-  });
-
-  populateTypes();
-  render();
-})();
-
 /* ── Regional / APAC News ────────────────────────────────────────────── */
 (function regionalNews() {
   let data = [], region = "ALL";
@@ -970,5 +839,8 @@ function loadFeed(file, valid) {
   step();
 })();
 </script>
+<script src="assets/ttp-kb.js"></script>
+<script src="assets/threatlab.js"></script>
+<script src="assets/ui.js"></script>
 </body>
 </html>
