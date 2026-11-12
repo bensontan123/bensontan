@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T11:58:32.881Z",
+ "updated": "2026-11-12T15:01:06.353Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -29,7 +29,7 @@
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
-   "epss": 0.652
+   "epss": 0.693
   },
   {
    "id": "CVE-2026-102895",
@@ -46,7 +46,7 @@
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895",
-   "epss": 0.006
+   "epss": 0.005
   },
   {
    "id": "CVE-2026-116779",
@@ -63,7 +63,7 @@
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779",
-   "epss": 0.022
+   "epss": 0.025
   },
   {
    "id": "CVE-2026-123218",
@@ -80,7 +80,7 @@
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218",
-   "epss": 0.007
+   "epss": 0.005
   },
   {
    "id": "CVE-2026-114625",
@@ -114,7 +114,7 @@
    "vector": "Network / Low / None",
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606",
-   "epss": 0.016
+   "epss": 0.089
   },
   {
    "id": "CVE-2026-48356",
@@ -198,7 +198,8 @@
    "severity": "HIGH",
    "vector": "Network / Low / Required",
    "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350",
+   "epss": 0.01
   },
   {
    "id": "CVE-2026-111560",
@@ -215,7 +216,7 @@
    "vector": "Network / Low / None",
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560",
-   "epss": 0.011
+   "epss": 0.062
   },
   {
    "id": "CVE-2026-76418",
@@ -249,7 +250,7 @@
    "vector": "Network / High / None",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158",
-   "epss": 0.165
+   "epss": 0.189
   },
   {
    "id": "CVE-2026-119977",
@@ -300,7 +301,7 @@
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320",
-   "epss": 0.004
+   "epss": 0.008
   },
   {
    "id": "CVE-2026-19868",
@@ -350,7 +351,8 @@
    "severity": "MEDIUM",
    "vector": "Network / Low / Required",
    "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194",
+   "epss": 0.016
   },
   {
    "id": "CVE-2024-27834",
@@ -384,7 +386,7 @@
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793",
-   "epss": 0.003
+   "epss": 0.006
   },
   {
    "id": "CVE-2026-118527",
@@ -473,20 +475,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120002"
-  },
-  {
-   "id": "CVE-2026-110697",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "A flaw was found in Quay where the robot account listing function constructs a SQL LIKE pattern from user-controlled namespace names without escaping wildcard metacharacters. An attacker who creates a namespace containing an underscore character can match and retrieve robot accounts and their…",
-   "published": "2026-11-11",
-   "cvss": 9.9,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110697"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120002",
+   "epss": 0.009
   },
   {
    "id": "CVE-2026-16720",
@@ -541,20 +531,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89324"
-  },
-  {
-   "id": "CVE-2026-123710",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "A flaw was found in Red Hat Quay. An unauthenticated client can obtain an anonymous registry token with an audience it controls, present that token to the service key rotation endpoint, and install its own approved signing key with no expiry. Registry tokens signed with that key are accepted for…",
-   "published": "2026-11-11",
-   "cvss": 9.8,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123710"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89324",
+   "epss": 0.007
   },
   {
    "id": "CVE-2026-76954",
@@ -567,7 +545,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76954"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76954",
+   "epss": 0.006
   },
   {
    "id": "CVE-2026-17396",
@@ -594,7 +573,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / Required",
    "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120779"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120779",
+   "epss": 0.006
   },
   {
    "id": "CVE-2026-121904",
@@ -607,7 +587,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121904"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121904",
+   "epss": 0.007
   },
   {
    "id": "CVE-2026-100358",
@@ -638,6 +619,34 @@
    "epss": 0.007
   },
   {
+   "id": "CVE-2026-119757",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "BTCPay Server before 2.4.2, including 2.4.2 release candidates, contains an information disclosure vulnerability that allows unauthenticated remote attackers to retrieve .macaroon credential files for an LND (Lightning Network Daemon) node. Attackers can use the exposed macaroon to gain full…",
+   "published": "2026-11-05",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119757",
+   "epss": 0.005
+  },
+  {
+   "id": "CVE-2026-16918",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to access internal network resources due to server-side request forgery.",
+   "published": "2026-11-07",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16918",
+   "epss": 0.004
+  },
+  {
    "id": "CVE-2026-118745",
    "origin": "GHSA",
    "product": "nuget Microsoft.NETCore.App.Runtime.win-x86",
@@ -649,7 +658,8 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-x8x8-p968-x646",
-   "ghsaId": "GHSA-x8x8-p968-x646"
+   "ghsaId": "GHSA-x8x8-p968-x646",
+   "epss": 0.009
   },
   {
    "id": "CVE-2026-114152",
@@ -663,7 +673,8 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-xf35-v9jh-g65w",
-   "ghsaId": "GHSA-xf35-v9jh-g65w"
+   "ghsaId": "GHSA-xf35-v9jh-g65w",
+   "epss": 0.009
   },
   {
    "id": "CVE-2026-114151",
@@ -677,7 +688,8 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-fpxj-5c99-g7vj",
-   "ghsaId": "GHSA-fpxj-5c99-g7vj"
+   "ghsaId": "GHSA-fpxj-5c99-g7vj",
+   "epss": 0.015
   },
   {
    "id": "CVE-2026-114158",
@@ -691,7 +703,8 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-r8h3-p8p6-ggp7",
-   "ghsaId": "GHSA-r8h3-p8p6-ggp7"
+   "ghsaId": "GHSA-r8h3-p8p6-ggp7",
+   "epss": 0.009
   },
   {
    "id": "CVE-2026-114159",
@@ -705,7 +718,8 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-3cgx-w6gm-fqrx",
-   "ghsaId": "GHSA-3cgx-w6gm-fqrx"
+   "ghsaId": "GHSA-3cgx-w6gm-fqrx",
+   "epss": 0.009
   },
   {
    "id": "CVE-2026-114147",
@@ -719,7 +733,8 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-wr8v-9x5q-ggcm",
-   "ghsaId": "GHSA-wr8v-9x5q-ggcm"
+   "ghsaId": "GHSA-wr8v-9x5q-ggcm",
+   "epss": 0.013
   },
   {
    "id": "CVE-2026-120792",
@@ -733,7 +748,8 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-q6jf-24jf-m3cg",
-   "ghsaId": "GHSA-q6jf-24jf-m3cg"
+   "ghsaId": "GHSA-q6jf-24jf-m3cg",
+   "epss": 0.004
   },
   {
    "id": "CVE-2026-120778",
@@ -747,7 +763,8 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-m63f-xhvm-6mv5",
-   "ghsaId": "GHSA-m63f-xhvm-6mv5"
+   "ghsaId": "GHSA-m63f-xhvm-6mv5",
+   "epss": 0.004
   }
  ]
 }

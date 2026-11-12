@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T14:00:44.888Z",
+ "updated": "2026-11-12T15:01:06.353Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -67,6 +67,17 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/ubuntu-linux-kernel-multiple-vulnerabilities_20261111"
+  },
+  {
+   "date": "2026-11-12",
+   "region": "TW",
+   "cat": "News",
+   "title": "Hijacked email accounts complicate investigations into European bomb hoaxes",
+   "desc": "Bomb threats sent to thousands of schools across Europe this week came from a compromised email account at a Taiwanese university, the latest incident in a series of hoax threats that have targeted airports and newsrooms using messages…",
+   "tags": [
+    "The Record"
+   ],
+   "link": "https://therecord.media/europe-hoax-email-threats"
   },
   {
    "date": "2026-11-12",
@@ -254,17 +265,6 @@
     "JPCERT/CC"
    ],
    "link": "https://www.jpcert.or.jp/english/at/2026/at260031.html"
-  },
-  {
-   "date": "2026-09-09",
-   "region": "JP",
-   "cat": "Advisory",
-   "title": "Security Alert: Alert Regarding Vulnerabilities in Adobe Acrobat and Reader (APSB26-141)",
-   "desc": "",
-   "tags": [
-    "JPCERT/CC"
-   ],
-   "link": "https://www.jpcert.or.jp/english/at/2026/at260026.html"
   }
  ]
 }

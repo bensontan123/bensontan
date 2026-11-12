@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T13:00:47.016Z",
+ "updated": "2026-11-12T15:01:06.353Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -13,7 +13,8 @@
      "tags": [
       "Microsoft Office",
       "KEV added 2026-11-10",
-      "remediate by 2026-11-24"
+      "remediate by 2026-11-24",
+      "EPSS 1.6%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194"
     },
@@ -26,7 +27,7 @@
       "Openwave Messaging Limited Webtop Media Transcoder",
       "KEV added 2026-11-10",
       "remediate by 2026-11-24",
-      "EPSS 0.3%"
+      "EPSS 0.6%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793"
     },
@@ -39,7 +40,7 @@
       "Cisco BroadWorks",
       "KEV added 2026-11-10",
       "remediate by 2026-11-24",
-      "EPSS 0.4%"
+      "EPSS 0.8%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320"
     },
@@ -52,7 +53,7 @@
       "Barracuda Networks Multiple Products",
       "KEV added 2026-11-10",
       "remediate by 2026-11-13",
-      "EPSS 1.1%"
+      "EPSS 6.2%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560"
     },
@@ -65,7 +66,7 @@
       "Barracuda Networks Barracuda Email Security Gateway (ESG)",
       "KEV added 2026-11-10",
       "remediate by 2026-11-13",
-      "EPSS 1.6%"
+      "EPSS 8.9%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
     }
@@ -192,7 +193,7 @@
       "GitLab Community Edition and Enterprise Edition",
       "KEV added 2026-10-29",
       "remediate by 2026-11-01",
-      "EPSS 65.2%"
+      "EPSS 69.3%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229"
     },
@@ -253,19 +254,21 @@
      "title": "CVE-2026-120002 — advisory",
      "desc": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
      "tags": [
-      "published 2026-11-10"
+      "published 2026-11-10",
+      "EPSS 0.9%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120002"
     },
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-110697 — advisory",
-     "desc": "A flaw was found in Quay where the robot account listing function constructs a SQL LIKE pattern from user-controlled namespace names without escaping wildcard metacharacters. An attacker who creates a namespace containing an underscore character can match and retrieve robot accounts and their…",
+     "title": "CVE-2026-16720 — advisory",
+     "desc": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to obtain valid access tokens for other users due to improper authentication. Authentication against a connected directory service is not sufficiently enforced, which could allow another user's…",
      "tags": [
-      "published 2026-11-11"
+      "published 2026-11-07",
+      "EPSS 0.8%"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110697"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16720"
     }
    ]
   },
@@ -279,7 +282,8 @@
      "desc": "Microsoft Security Advisory CVE-2026-118745 - Visual Studio Remote Code Execution Vulnerability",
      "tags": [
       "nuget Microsoft.NETCore.App.Runtime.win-x86",
-      "published 2026-11-11"
+      "published 2026-11-11",
+      "EPSS 0.9%"
      ],
      "link": "https://github.com/advisories/GHSA-x8x8-p968-x646"
     },
@@ -290,7 +294,8 @@
      "desc": "Microsoft Security Advisory CVE-2026-114152 - Visual Studio Remote Code Execution Vulnerability",
      "tags": [
       "nuget Microsoft.NETCore.App.Runtime.win-x86",
-      "published 2026-11-11"
+      "published 2026-11-11",
+      "EPSS 0.9%"
      ],
      "link": "https://github.com/advisories/GHSA-xf35-v9jh-g65w"
     },
@@ -312,7 +317,8 @@
      "desc": "Microsoft Security Advisory CVE-2026-114151 - Visual Studio Remote Code Execution Vulnerability",
      "tags": [
       "nuget Microsoft.NETCore.App.Runtime.win-x86",
-      "published 2026-11-11"
+      "published 2026-11-11",
+      "EPSS 1.5%"
      ],
      "link": "https://github.com/advisories/GHSA-fpxj-5c99-g7vj"
     },
@@ -323,7 +329,8 @@
      "desc": "Microsoft Security Advisory CVE-2026-114158 - Visual Studio Remote Code Execution Vulnerability",
      "tags": [
       "nuget Microsoft.NETCore.App.Runtime.win-x86",
-      "published 2026-11-11"
+      "published 2026-11-11",
+      "EPSS 0.9%"
      ],
      "link": "https://github.com/advisories/GHSA-r8h3-p8p6-ggp7"
     }
