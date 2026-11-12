@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T17:00:44.940Z",
+ "updated": "2026-11-12T18:00:45.278Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -277,6 +277,18 @@
    "items": [
     {
      "cat": "GHSA",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-118740 — Microsoft Security Advisory CVE-2026-118740 - Aspire Security Feature Bypass Vulnerability",
+     "desc": "Microsoft Security Advisory CVE-2026-118740 - Aspire Security Feature Bypass Vulnerability",
+     "tags": [
+      "nuget Aspire.Dashboard.Sdk.linux-x64",
+      "published 2026-11-12",
+      "EPSS 0.9%"
+     ],
+     "link": "https://github.com/advisories/GHSA-4g86-54fm-h9h8"
+    },
+    {
+     "cat": "GHSA",
      "sev": "HIGH",
      "title": "CVE-2026-118745 — Microsoft Security Advisory CVE-2026-118745 - Visual Studio Remote Code Execution Vulnerability",
      "desc": "Microsoft Security Advisory CVE-2026-118745 - Visual Studio Remote Code Execution Vulnerability",
@@ -321,18 +333,6 @@
       "EPSS 1.5%"
      ],
      "link": "https://github.com/advisories/GHSA-fpxj-5c99-g7vj"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-114158 — Microsoft Security Advisory CVE-2026-114158 - Visual Studio Remote Code Execution Vulnerability",
-     "desc": "Microsoft Security Advisory CVE-2026-114158 - Visual Studio Remote Code Execution Vulnerability",
-     "tags": [
-      "nuget Microsoft.NETCore.App.Runtime.win-x86",
-      "published 2026-11-11",
-      "EPSS 0.9%"
-     ],
-     "link": "https://github.com/advisories/GHSA-r8h3-p8p6-ggp7"
     }
    ]
   },

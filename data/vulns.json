@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T17:00:44.940Z",
+ "updated": "2026-11-12T18:00:45.278Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -507,20 +507,6 @@
    "epss": 0.004
   },
   {
-   "id": "CVE-2026-17360",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to gain full administrative control due to the use of hard-coded credentials.",
-   "published": "2026-11-07",
-   "cvss": 9.8,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17360",
-   "epss": 0.006
-  },
-  {
    "id": "CVE-2026-89324",
    "origin": "NVD",
    "product": "",
@@ -605,20 +591,6 @@
    "epss": 0.004
   },
   {
-   "id": "CVE-2026-18838",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to obtain sensitive information and modify API configurations due to improper authentication. Identity information supplied in requests is not sufficiently verified, which could allow a caller to impersonate another user.",
-   "published": "2026-11-07",
-   "cvss": 9.4,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18838",
-   "epss": 0.007
-  },
-  {
    "id": "CVE-2026-119757",
    "origin": "NVD",
    "product": "",
@@ -645,6 +617,49 @@
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16918",
    "epss": 0.004
+  },
+  {
+   "id": "CVE-2026-123549",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "OpenAM before 16.1.4 fails to enforce the Valid Creation Attributes list during self-registration, allowing anonymous attackers to set restricted attributes including group membership. Attackers can register through the legacy self-service REST endpoint or User Self-Service flow to join…",
+   "published": "2026-11-08",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123549",
+   "epss": 0.004
+  },
+  {
+   "id": "CVE-2026-124427",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Craft CMS from 5.0.0 before 5.11.2 contains an authorization bypass vulnerability that allows anonymous GraphQL clients to read out-of-scope section entries via prev/next fields. Attackers can chain next hops from one visible in-scope entry to enumerate entries and read titles, slugs, and…",
+   "published": "2026-11-08",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124427",
+   "epss": 0.004
+  },
+  {
+   "id": "CVE-2026-118740",
+   "origin": "GHSA",
+   "product": "nuget Aspire.Dashboard.Sdk.linux-x64",
+   "name": "Microsoft Security Advisory CVE-2026-118740 - Aspire Security Feature Bypass Vulnerability",
+   "desc": "Microsoft Security Advisory CVE-2026-118740 - Aspire Security Feature Bypass Vulnerability",
+   "published": "2026-11-12",
+   "cvss": 9.1,
+   "severity": "CRITICAL",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-4g86-54fm-h9h8",
+   "ghsaId": "GHSA-4g86-54fm-h9h8",
+   "epss": 0.009
   },
   {
    "id": "CVE-2026-118745",
@@ -720,21 +735,6 @@
    "url": "https://github.com/advisories/GHSA-3cgx-w6gm-fqrx",
    "ghsaId": "GHSA-3cgx-w6gm-fqrx",
    "epss": 0.009
-  },
-  {
-   "id": "CVE-2026-114147",
-   "origin": "GHSA",
-   "product": "nuget Microsoft.AspNetCore.SignalR.StackExchangeRedis",
-   "name": "Microsoft Security Advisory CVE-2026-114147 - ASP.NET Core Denial of Service Vulnerability",
-   "desc": "Microsoft Security Advisory CVE-2026-114147 - ASP.NET Core Denial of Service Vulnerability",
-   "published": "2026-11-11",
-   "cvss": 7.5,
-   "severity": "HIGH",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-wr8v-9x5q-ggcm",
-   "ghsaId": "GHSA-wr8v-9x5q-ggcm",
-   "epss": 0.013
   },
   {
    "id": "CVE-2026-120792",
