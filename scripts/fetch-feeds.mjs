@@ -21,6 +21,11 @@ import { fileURLToPath } from "node:url";
 const OUT_DIR = join(dirname(fileURLToPath(import.meta.url)), "..", "data");
 const UA = "portfolio-feed-fetcher/1.1";
 const DISPLAY_LIMIT = 48;   // vulnerabilities shown on the dashboard
+// Per-source share of the dashboard, so no single source crowds out the rest.
+// KEV has thousands of entries; without a cap it would fill every slot.
+const KEV_ON_DASHBOARD = 24;
+const NVD_ON_DASHBOARD = 16;
+const GHSA_ON_DASHBOARD = 12;
 const NEWS_LIMIT = 24;
 const NVD_RECENT_DAYS = 10; // window for "recently published" NVD CVEs
 const NVD_RECENT_CAP = 30;  // cap recent NVD items merged into the dashboard
@@ -454,8 +459,14 @@ async function main() {
   const ghsa = await buildGhsa();
 
   const kevItems = kev?.items || [];
-  const merged = mergeVulns(kevItems, nvdRecent, ghsa);
-  await enrichEpss(merged);
+  // Cap each source's contribution so the dashboard stays multi-source
+  // (KEV is sorted newest-first; NVD by CVSS; GHSA newest-first).
+  const merged = mergeVulns(
+    kevItems.slice(0, KEV_ON_DASHBOARD),
+    nvdRecent.slice(0, NVD_ON_DASHBOARD),
+    ghsa.slice(0, GHSA_ON_DASHBOARD),
+  );
+  await enrichEpss(merged.concat(nvdRecent, ghsa));
 
   console.log("News feeds…");
   const general = (await Promise.all(NEWS_FEEDS.map(fetchFeed))).flat()
