@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T18:23:45.440Z",
+ "updated": "2026-11-12T20:00:41.222Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -278,6 +278,41 @@
     {
      "cat": "GHSA",
      "sev": "MEDIUM",
+     "title": "CVE-2026-125325 — pgEdge RAG Server shared keyword index leaked results between concurrent unauthenticated requests",
+     "desc": "pgEdge RAG Server shared keyword index leaked results between concurrent unauthenticated requests",
+     "tags": [
+      "go github.com/pgEdge/pgedge-rag-server",
+      "published 2026-11-12",
+      "EPSS 0.3%"
+     ],
+     "link": "https://github.com/advisories/GHSA-w437-9mwm-j6vq"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-125328 — pgEdge Go LLM Library discloses provider API key fragments in error messages",
+     "desc": "pgEdge Go LLM Library discloses provider API key fragments in error messages",
+     "tags": [
+      "go github.com/pgEdge/pgedge-go-llm-lib",
+      "published 2026-11-12",
+      "EPSS 0.3%"
+     ],
+     "link": "https://github.com/advisories/GHSA-8835-xmqj-354h"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "GHSA-7m8x-x364-m26j — Signal K Server: Buffered logs exposed to unauthenticated WebSocket clients",
+     "desc": "Signal K Server: Buffered logs exposed to unauthenticated WebSocket clients",
+     "tags": [
+      "npm signalk-server",
+      "published 2026-11-12"
+     ],
+     "link": "https://github.com/advisories/GHSA-7m8x-x364-m26j"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
      "title": "CVE-2026-84987 — code16/sharp: Server-side request forgery through an unanchored autocomplete endpoint check",
      "desc": "code16/sharp: Server-side request forgery through an unanchored autocomplete endpoint check",
      "tags": [
@@ -296,42 +331,6 @@
       "published 2026-11-12"
      ],
      "link": "https://github.com/advisories/GHSA-h24v-f482-8cwf"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-118740 — Microsoft Security Advisory CVE-2026-118740 - Aspire Security Feature Bypass Vulnerability",
-     "desc": "Microsoft Security Advisory CVE-2026-118740 - Aspire Security Feature Bypass Vulnerability",
-     "tags": [
-      "nuget Aspire.Dashboard.Sdk.linux-x64",
-      "published 2026-11-12",
-      "EPSS 0.9%"
-     ],
-     "link": "https://github.com/advisories/GHSA-4g86-54fm-h9h8"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-118745 — Microsoft Security Advisory CVE-2026-118745 - Visual Studio Remote Code Execution Vulnerability",
-     "desc": "Microsoft Security Advisory CVE-2026-118745 - Visual Studio Remote Code Execution Vulnerability",
-     "tags": [
-      "nuget Microsoft.NETCore.App.Runtime.win-x86",
-      "published 2026-11-11",
-      "EPSS 0.9%"
-     ],
-     "link": "https://github.com/advisories/GHSA-x8x8-p968-x646"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-114152 — Microsoft Security Advisory CVE-2026-114152 - Visual Studio Remote Code Execution Vulnerability",
-     "desc": "Microsoft Security Advisory CVE-2026-114152 - Visual Studio Remote Code Execution Vulnerability",
-     "tags": [
-      "nuget Microsoft.NETCore.App.Runtime.win-x86",
-      "published 2026-11-11",
-      "EPSS 0.9%"
-     ],
-     "link": "https://github.com/advisories/GHSA-xf35-v9jh-g65w"
     }
    ]
   },
