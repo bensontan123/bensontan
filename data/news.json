@@ -1,7 +1,18 @@
 {
- "updated": "2026-11-11T19:41:36.396Z",
+ "updated": "2026-11-12T01:55:45.427Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, security news feeds",
  "items": [
+  {
+   "date": "2026-11-12",
+   "region": "HK",
+   "cat": "Advisory",
+   "title": "Google Chrome Multiple Vulnerabilities",
+   "desc": "Multiple vulnerabilities were identified in Google Chrome. A remote attacker could exploit some of these vulnerabilities to trigger denial of service condition, elevation of privilege, security restriction bypass, sensitive information…",
+   "tags": [
+    "HKCERT"
+   ],
+   "link": "https://www.hkcert.org/security-bulletin/google-chrome-multiple-vulnerabilities_20261112"
+  },
   {
    "date": "2026-11-11",
    "region": "JP",
@@ -100,17 +111,6 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/google-chrome-multiple-vulnerabilities_20261110"
-  },
-  {
-   "date": "2026-11-10",
-   "region": "HK",
-   "cat": "Advisory",
-   "title": "Mozilla Firefox Multiple Vulnerabilities",
-   "desc": "Multiple vulnerabilities were identified in Mozilla Firefox. A remote attacker could exploit some of these vulnerabilities to trigger elevation of privilege on the targeted system. Impact Elevation of Privilege System / Technologies…",
-   "tags": [
-    "HKCERT"
-   ],
-   "link": "https://www.hkcert.org/security-bulletin/mozilla-firefox-multiple-vulnerabilities_20261110"
   },
   {
    "date": "2026-11-10",
