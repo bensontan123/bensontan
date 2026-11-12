@@ -3,24 +3,35 @@
 // schedule; run locally with:  node scripts/fetch-feeds.mjs
 //
 // Sources
-//   CISA Known Exploited Vulnerabilities catalogue (JSON)
-//   NVD CVE API 2.0 (CVSS scores for the KEV entries)
+//   CISA Known Exploited Vulnerabilities catalogue (JSON) — actively exploited
+//   NVD CVE API 2.0 — CVSS for KEV entries, plus recent CRITICAL/HIGH CVEs
+//   GitHub Security Advisories (GHSA) — reviewed app / supply-chain advisories
+//   FIRST.org EPSS — exploit-prediction scores (enrichment)
 //   SingCERT / CSA Singapore, JPCERT/CC, HKCERT (regional alerts, RSS)
-//   The Hacker News, BleepingComputer (security news, RSS)
+//   CISA advisories, SANS ISC, The Hacker News, BleepingComputer, The Record,
+//     Krebs on Security (security news / advisories, RSS)
 //
-// Needs Node 20+ (built-in fetch). No dependencies.
+// Needs Node 20+ (built-in fetch). No dependencies. An optional GITHUB_TOKEN
+// in the environment raises the GitHub advisories rate limit.
 
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const OUT_DIR = join(dirname(fileURLToPath(import.meta.url)), "..", "data");
-const UA = "portfolio-feed-fetcher/1.0";
-const VULN_LIMIT = 40;
+const UA = "portfolio-feed-fetcher/1.1";
+const DISPLAY_LIMIT = 48;   // vulnerabilities shown on the dashboard
 const NEWS_LIMIT = 24;
+const NVD_RECENT_DAYS = 10; // window for "recently published" NVD CVEs
+const NVD_RECENT_CAP = 30;  // cap recent NVD items merged into the dashboard
 
 const KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json";
 const NVD_KEV_URL = "https://services.nvd.nist.gov/rest/json/cves/2.0?hasKev&resultsPerPage=2000";
+const NVD_RECENT_URL = (sev, start, end) =>
+  `https://services.nvd.nist.gov/rest/json/cves/2.0?cvssV3Severity=${sev}` +
+  `&pubStartDate=${encodeURIComponent(start)}&pubEndDate=${encodeURIComponent(end)}&resultsPerPage=500`;
+const GHSA_URL = "https://api.github.com/advisories?per_page=50&sort=published&direction=desc&type=reviewed";
+const EPSS_URL = (cves) => `https://api.first.org/data/v1/epss?cve=${cves.join(",")}`;
 
 // Regional CERT feeds: every item is kept and tagged with the feed's region.
 const REGIONAL_FEEDS = [
@@ -28,11 +39,15 @@ const REGIONAL_FEEDS = [
   { region: "JP", source: "JPCERT/CC", url: "https://www.jpcert.or.jp/english/rss/jpcert-en.rdf" },
   { region: "HK", source: "HKCERT", url: "https://www.hkcert.org/getrss/security-bulletin" },
 ];
-// General news feeds: used whole for the briefing, and filtered to APAC
-// stories (by the keywords below) for the regional news section.
+// General news / advisory feeds: used whole for the briefing, and filtered to
+// APAC stories (by the keywords below) for the regional news section.
 const NEWS_FEEDS = [
+  { source: "CISA", url: "https://www.cisa.gov/cybersecurity-advisories/all.xml" },
+  { source: "SANS ISC", url: "https://isc.sans.edu/rssfeed.xml" },
   { source: "The Hacker News", url: "https://feeds.feedburner.com/TheHackersNews" },
   { source: "BleepingComputer", url: "https://www.bleepingcomputer.com/feed/" },
+  { source: "The Record", url: "https://therecord.media/feed/" },
+  { source: "Krebs on Security", url: "https://krebsonsecurity.com/feed/" },
 ];
 const REGION_KEYWORDS = [
   ["SG", /\bsingapore(an)?\b/i],
@@ -54,9 +69,11 @@ const REGION_KEYWORDS = [
 
 /* ── helpers ─────────────────────────────────────────────────────────── */
 
-async function get(url, timeoutMs = 90_000) {
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+async function get(url, timeoutMs = 90_000, extraHeaders = {}) {
   const res = await fetch(url, {
-    headers: { "User-Agent": UA, Accept: "application/json, application/rss+xml, application/xml, text/xml, */*" },
+    headers: { "User-Agent": UA, Accept: "application/json, application/rss+xml, application/xml, text/xml, */*", ...extraHeaders },
     signal: AbortSignal.timeout(timeoutMs),
   });
   if (!res.ok) throw new Error(`HTTP ${res.status} from ${new URL(url).host}`);
@@ -143,8 +160,9 @@ async function fetchFeed(feed) {
 }
 
 const titleCase = (s) => (s ? s[0].toUpperCase() + s.slice(1).toLowerCase() : "");
+const sevRank = { CRITICAL: 4, HIGH: 3, MEDIUM: 2, LOW: 1, PENDING: 0, "": 0 };
 
-/* ── vulnerabilities: CISA KEV joined with NVD CVSS ──────────────────── */
+/* ── CVSS extraction from an NVD cve object ──────────────────────────── */
 
 function cvssOf(cve) {
   const m = cve.metrics || {};
@@ -169,17 +187,20 @@ function cvssOf(cve) {
   return null;
 }
 
-async function buildVulns() {
+const engDesc = (cve) => (cve.descriptions?.find((d) => d.lang === "en")?.value || "");
+
+/* ── source 1: CISA KEV joined with NVD CVSS ─────────────────────────── */
+
+async function buildKev() {
   console.log("CISA KEV…");
   const kev = await (await get(KEV_URL)).json();
   const sorted = [...kev.vulnerabilities]
     .sort((a, b) => (a.dateAdded < b.dateAdded ? 1 : a.dateAdded > b.dateAdded ? -1 : 0));
   console.log(`  ${kev.vulnerabilities.length} entries, catalogue ${kev.catalogVersion}`);
 
-  // One NVD request returns every KEV-listed CVE with its metrics.
   const nvd = new Map();
   try {
-    console.log("NVD…");
+    console.log("NVD (KEV scores)…");
     const data = await (await get(NVD_KEV_URL, 180_000)).json();
     for (const v of data.vulnerabilities || []) nvd.set(v.cve.id, v.cve);
     console.log(`  ${nvd.size} CVE records`);
@@ -192,6 +213,7 @@ async function buildVulns() {
     const score = cve ? cvssOf(cve) : null;
     return {
       id: k.cveID,
+      origin: "KEV",
       product: clip(`${k.vendorProject} ${k.product}`.trim(), 80),
       name: clip(String(k.vulnerabilityName || ""), 140),
       desc: clip(String(k.shortDescription || ""), 300),
@@ -209,41 +231,177 @@ async function buildVulns() {
   return {
     catalogVersion: kev.catalogVersion || "",
     catalogCount: kev.vulnerabilities.length,
-    items: sorted.slice(0, VULN_LIMIT).map(toItem),
-    // most recent entries CISA links to ransomware campaigns (briefing only)
+    items: sorted.map(toItem),
     ransomware: sorted.filter((k) => k.knownRansomwareCampaignUse === "Known").slice(0, 5).map(toItem),
   };
 }
 
+/* ── source 2: recent CRITICAL / HIGH CVEs from NVD ──────────────────── */
+
+async function buildNvdRecent() {
+  const end = new Date();
+  const start = new Date(Date.now() - NVD_RECENT_DAYS * 86_400_000);
+  const fmt = (d) => d.toISOString().slice(0, 23);           // 2026-11-12T07:30:12.587
+  const out = new Map();
+  for (const sev of ["CRITICAL", "HIGH"]) {
+    try {
+      console.log(`NVD recent ${sev}…`);
+      const data = await (await get(NVD_RECENT_URL(sev, fmt(start), fmt(end)), 180_000)).json();
+      for (const v of data.vulnerabilities || []) {
+        const cve = v.cve; if (!cve?.id || out.has(cve.id)) continue;
+        const score = cvssOf(cve);
+        out.set(cve.id, {
+          id: cve.id,
+          origin: "NVD",
+          product: "",
+          name: "",
+          desc: clip(engDesc(cve), 300),
+          published: cve.published ? cve.published.slice(0, 10) : "",
+          cvss: score ? score.cvss : null,
+          severity: score?.severity || "PENDING",
+          vector: score?.vector || "",
+          cvssVersion: score?.cvssVersion || "",
+          url: `https://nvd.nist.gov/vuln/detail/${encodeURIComponent(cve.id)}`,
+        });
+      }
+      console.log(`  ${data.vulnerabilities?.length || 0} ${sev} CVEs`);
+      await sleep(2000); // be gentle on the keyless NVD rate limit
+    } catch (e) {
+      console.warn(`  NVD recent ${sev} skipped (${e.message})`);
+    }
+  }
+  return [...out.values()]
+    .sort((a, b) => (b.cvss || 0) - (a.cvss || 0))
+    .slice(0, NVD_RECENT_CAP);
+}
+
+/* ── source 3: GitHub Security Advisories (GHSA) ─────────────────────── */
+
+async function buildGhsa() {
+  const headers = { Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28" };
+  if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+  try {
+    console.log("GitHub advisories…");
+    const list = await (await get(GHSA_URL, 60_000, headers)).json();
+    const items = (Array.isArray(list) ? list : []).map((a) => {
+      const sev = String(a.severity || "").toUpperCase();
+      const pkg = a.vulnerabilities?.[0]?.package;
+      const product = pkg ? clip(`${pkg.ecosystem || ""} ${pkg.name || ""}`.trim(), 80) : "";
+      return {
+        id: a.cve_id || a.ghsa_id,
+        origin: "GHSA",
+        product,
+        name: clip(String(a.summary || ""), 140),
+        desc: clip(String(a.summary || a.description || ""), 300),
+        published: a.published_at ? a.published_at.slice(0, 10) : "",
+        cvss: Number.isFinite(Number(a.cvss?.score)) && Number(a.cvss.score) > 0 ? Number(a.cvss.score) : null,
+        severity: ["CRITICAL", "HIGH", "MEDIUM", "LOW"].includes(sev) ? sev : "PENDING",
+        vector: "",
+        cvssVersion: "",
+        url: a.html_url || (a.cve_id ? `https://nvd.nist.gov/vuln/detail/${a.cve_id}` : ""),
+        ghsaId: a.ghsa_id || "",
+      };
+    }).filter((x) => x.id);
+    console.log(`  ${items.length} advisories`);
+    return items;
+  } catch (e) {
+    console.warn(`  GitHub advisories skipped (${e.message})`);
+    return [];
+  }
+}
+
+/* ── enrichment: FIRST.org EPSS exploit-probability ──────────────────── */
+
+async function enrichEpss(items) {
+  const cves = [...new Set(items.map((i) => i.id).filter((id) => /^CVE-/i.test(id)))];
+  if (!cves.length) return;
+  const epss = new Map();
+  for (let i = 0; i < cves.length; i += 100) {
+    const batch = cves.slice(i, i + 100);
+    try {
+      const data = await (await get(EPSS_URL(batch), 45_000)).json();
+      for (const r of data.data || []) {
+        const p = Number(r.epss);
+        if (Number.isFinite(p)) epss.set(r.cve, Math.round(p * 1000) / 1000);
+      }
+    } catch (e) {
+      console.warn(`  EPSS batch skipped (${e.message})`);
+    }
+  }
+  if (!epss.size) { console.warn("  EPSS: no scores"); return; }
+  for (const it of items) if (epss.has(it.id)) it.epss = epss.get(it.id);
+  console.log(`  EPSS scored ${epss.size} CVEs`);
+}
+
+/* ── merge all vulnerability sources into one dashboard list ─────────── */
+
+function mergeVulns(kevItems, nvdItems, ghsaItems) {
+  const byId = new Map();
+  // KEV first — actively exploited, highest authority. Keep its richer fields.
+  for (const it of kevItems) if (!byId.has(it.id)) byId.set(it.id, it);
+  // Then recent NVD and GHSA, only when the CVE is not already present.
+  for (const it of [...nvdItems, ...ghsaItems]) if (!byId.has(it.id)) byId.set(it.id, it);
+
+  const originRank = { KEV: 2, NVD: 1, GHSA: 1 };
+  return [...byId.values()].sort((a, b) => {
+    const o = (originRank[b.origin] || 0) - (originRank[a.origin] || 0);
+    if (o) return o;                                   // KEV (exploited) on top
+    const s = (sevRank[b.severity] || 0) - (sevRank[a.severity] || 0);
+    if (s) return s;
+    const e = (b.epss || 0) - (a.epss || 0);
+    if (e) return e;
+    return (b.cvss || 0) - (a.cvss || 0);
+  }).slice(0, DISPLAY_LIMIT);
+}
+
 /* ── CTI briefing pages ──────────────────────────────────────────────── */
 
-function kevToBrief(v) {
-  const tags = [v.product, `KEV added ${v.kevAdded}`];
+function vulnToBrief(v, cat = "KEV") {
+  const tags = [];
+  if (v.product) tags.push(v.product);
+  if (v.kevAdded) tags.push(`KEV added ${v.kevAdded}`);
+  else if (v.published) tags.push(`published ${v.published}`);
   if (v.due) tags.push(`remediate by ${v.due}`);
+  if (typeof v.epss === "number") tags.push(`EPSS ${(v.epss * 100).toFixed(1)}%`);
   if (v.ransomware) tags.push("ransomware use");
   return {
-    cat: "KEV",
+    cat,
     sev: v.severity,
-    title: `${v.id} — ${v.name || v.product}`,
+    title: `${v.id} — ${v.name || v.product || "advisory"}`,
     desc: v.desc,
     tags,
     link: v.url,
   };
 }
 
-function buildCti(vulns, headlines) {
+function buildCti(merged, kev, nvdItems, ghsaItems, headlines) {
   const briefings = [];
-  if (vulns.items.length) {
-    briefings.push({ label: "Newly exploited — latest CISA KEV additions", items: vulns.items.slice(0, 5).map(kevToBrief) });
-    const ransom = vulns.ransomware || [];
-    if (ransom.length) briefings.push({ label: "Ransomware-linked exploited vulnerabilities", items: ransom.map(kevToBrief) });
-  }
-  if (headlines.length) {
+  const kevItems = (kev?.items || []).filter((v) => v.origin === "KEV");
+
+  if (kevItems.length)
+    briefings.push({ label: "Newly exploited — latest CISA KEV additions", items: kevItems.slice(0, 5).map((v) => vulnToBrief(v, "KEV")) });
+
+  const ransom = kev?.ransomware || [];
+  if (ransom.length)
+    briefings.push({ label: "Ransomware-linked exploited vulnerabilities", items: ransom.map((v) => vulnToBrief(v, "Ransomware")) });
+
+  // Most likely to be exploited next — ranked by EPSS across all sources.
+  const topEpss = merged.filter((v) => typeof v.epss === "number").sort((a, b) => b.epss - a.epss).slice(0, 5);
+  if (topEpss.length)
+    briefings.push({ label: "Most likely to be exploited (top EPSS)", items: topEpss.map((v) => vulnToBrief(v, "EPSS")) });
+
+  if (nvdItems.length)
+    briefings.push({ label: "High-severity CVEs just published (NVD)", items: nvdItems.slice(0, 5).map((v) => vulnToBrief(v, "NVD")) });
+
+  if (ghsaItems.length)
+    briefings.push({ label: "Recently disclosed advisories (GitHub)", items: ghsaItems.slice(0, 5).map((v) => vulnToBrief(v, "GHSA")) });
+
+  if (headlines.length)
     briefings.push({
       label: "Threat headlines",
       items: headlines.slice(0, 6).map((n) => ({ cat: n.source, sev: "NEWS", title: n.title, desc: n.desc, tags: [n.date].filter(Boolean), link: n.link })),
     });
-  }
+
   return briefings;
 }
 
@@ -290,28 +448,47 @@ async function main() {
   const updated = new Date().toISOString();
   let failed = 0;
 
-  let vulns = null;
-  try { vulns = await buildVulns(); } catch (e) { failed++; console.error(`Vulnerability feed failed: ${e.message}`); }
+  let kev = null;
+  try { kev = await buildKev(); } catch (e) { failed++; console.error(`KEV feed failed: ${e.message}`); }
+  const nvdRecent = await buildNvdRecent();
+  const ghsa = await buildGhsa();
+
+  const kevItems = kev?.items || [];
+  const merged = mergeVulns(kevItems, nvdRecent, ghsa);
+  await enrichEpss(merged);
 
   console.log("News feeds…");
   const general = (await Promise.all(NEWS_FEEDS.map(fetchFeed))).flat()
     .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
   const regional = await Promise.all(REGIONAL_FEEDS.map(async (feed) => ({ feed, items: await fetchFeed(feed) })));
 
-  // A dataset that came back empty keeps its previous file rather than blanking the page.
-  if (vulns?.items.length) {
-    const { ransomware, ...dashboard } = vulns;
-    await save("vulns.json", { updated, source: "CISA KEV + NVD", ...dashboard });
-  }
-  const briefings = buildCti(vulns || { items: [] }, general);
-  if (briefings.length) await save("cti.json", { updated, source: "CISA KEV, NVD, security news feeds", briefings });
+  // The vulnerability dashboard: multi-source, deduped, prioritised.
+  if (merged.length) {
+    const sources = [...new Set(merged.map((v) => v.origin))];
+    await save("vulns.json", {
+      updated,
+      source: "CISA KEV · NVD · GitHub advisories · EPSS",
+      sources,
+      catalogVersion: kev?.catalogVersion || "",
+      catalogCount: kev?.catalogCount || 0,
+      counts: {
+        kev: merged.filter((v) => v.origin === "KEV").length,
+        nvd: merged.filter((v) => v.origin === "NVD").length,
+        ghsa: merged.filter((v) => v.origin === "GHSA").length,
+      },
+      items: merged,
+    });
+  } else { failed++; console.error("No vulnerability data — vulns.json left as is"); }
+
+  const briefings = buildCti(merged, kev, nvdRecent, ghsa, general);
+  if (briefings.length) await save("cti.json", { updated, source: "CISA KEV, NVD, GitHub advisories, EPSS, security news", briefings });
   else { failed++; console.error("No briefing data — cti.json left as is"); }
 
   const news = buildNews(regional, general);
-  if (news.length) await save("news.json", { updated, source: "SingCERT, JPCERT/CC, HKCERT, security news feeds", items: news });
+  if (news.length) await save("news.json", { updated, source: "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds", items: news });
   else { failed++; console.error("No regional news — news.json left as is"); }
 
-  if (failed === 3) process.exit(1); // every dataset failed: surface it as a failed run
+  if (failed >= 3) process.exit(1); // most datasets failed: surface it as a failed run
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });
