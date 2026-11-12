@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T15:01:06.353Z",
+ "updated": "2026-11-12T18:23:45.440Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -157,17 +157,6 @@
    "link": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html"
   },
   {
-   "date": "2026-11-09",
-   "region": "TW",
-   "cat": "News",
-   "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
-   "desc": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week. The agents also found a Taipei fire department platform exposing patient…",
-   "tags": [
-    "The Hacker News"
-   ],
-   "link": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html"
-  },
-  {
    "date": "2026-11-05",
    "region": "AU",
    "cat": "News",
@@ -265,6 +254,17 @@
     "JPCERT/CC"
    ],
    "link": "https://www.jpcert.or.jp/english/at/2026/at260031.html"
+  },
+  {
+   "date": "2026-09-09",
+   "region": "JP",
+   "cat": "Advisory",
+   "title": "Security Alert: Alert Regarding Vulnerabilities in Adobe Acrobat and Reader (APSB26-141)",
+   "desc": "",
+   "tags": [
+    "JPCERT/CC"
+   ],
+   "link": "https://www.jpcert.or.jp/english/at/2026/at260026.html"
   }
  ]
 }

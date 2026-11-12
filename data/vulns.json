@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T18:00:45.278Z",
+ "updated": "2026-11-12T18:23:45.440Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -563,20 +563,6 @@
    "epss": 0.006
   },
   {
-   "id": "CVE-2026-121904",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Adobe Connect is affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by a low-privileged attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim's browser when they browse to the page containing the vulnerable…",
-   "published": "2026-11-10",
-   "cvss": 9.6,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121904",
-   "epss": 0.007
-  },
-  {
    "id": "CVE-2026-100358",
    "origin": "NVD",
    "product": "",
@@ -644,6 +630,20 @@
    "vector": "Network / Low / None",
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124427",
+   "epss": 0.004
+  },
+  {
+   "id": "CVE-2026-124445",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "OpenEMR from 7.0.1 before 8.4.0 contains a flaw in src/Common/Auth/OneTimeAuth.php that ignores the enforce_onetime_use and max_access_count flags, never revokes consumed service_auth tokens, and checks login_pin without rate limiting or strict comparison. Attackers holding a captured token can…",
+   "published": "2026-11-08",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124445",
    "epss": 0.004
   },
   {

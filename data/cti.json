@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T18:00:45.278Z",
+ "updated": "2026-11-12T18:23:45.440Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -277,6 +277,28 @@
    "items": [
     {
      "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-84987 — code16/sharp: Server-side request forgery through an unanchored autocomplete endpoint check",
+     "desc": "code16/sharp: Server-side request forgery through an unanchored autocomplete endpoint check",
+     "tags": [
+      "composer code16/sharp",
+      "published 2026-11-12"
+     ],
+     "link": "https://github.com/advisories/GHSA-g6f8-c3x9-jv7f"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-84974 — code16/sharp: Arbitrary class instantiation through the embed_key API parameter",
+     "desc": "code16/sharp: Arbitrary class instantiation through the embed_key API parameter",
+     "tags": [
+      "composer code16/sharp",
+      "published 2026-11-12"
+     ],
+     "link": "https://github.com/advisories/GHSA-h24v-f482-8cwf"
+    },
+    {
+     "cat": "GHSA",
      "sev": "CRITICAL",
      "title": "CVE-2026-118740 — Microsoft Security Advisory CVE-2026-118740 - Aspire Security Feature Bypass Vulnerability",
      "desc": "Microsoft Security Advisory CVE-2026-118740 - Aspire Security Feature Bypass Vulnerability",
@@ -310,29 +332,6 @@
       "EPSS 0.9%"
      ],
      "link": "https://github.com/advisories/GHSA-xf35-v9jh-g65w"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "GHSA-6856-87hx-p5x7 — Microsoft Security Advisory CVE-2026-105544 - .NET Elevation of Privilege Vulnerability",
-     "desc": "Microsoft Security Advisory CVE-2026-105544 - .NET Elevation of Privilege Vulnerability",
-     "tags": [
-      "nuget Microsoft.TestPlatform.CLI",
-      "published 2026-11-11"
-     ],
-     "link": "https://github.com/advisories/GHSA-6856-87hx-p5x7"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-114151 — Microsoft Security Advisory CVE-2026-114151 - Visual Studio Remote Code Execution Vulnerability",
-     "desc": "Microsoft Security Advisory CVE-2026-114151 - Visual Studio Remote Code Execution Vulnerability",
-     "tags": [
-      "nuget Microsoft.NETCore.App.Runtime.win-x86",
-      "published 2026-11-11",
-      "EPSS 1.5%"
-     ],
-     "link": "https://github.com/advisories/GHSA-fpxj-5c99-g7vj"
     }
    ]
   },
