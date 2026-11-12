@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T07:30:12.587Z",
+ "updated": "2026-11-12T09:55:16.652Z",
  "source": "CISA KEV, NVD, security news feeds",
  "briefings": [
   {
@@ -143,6 +143,26 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+     "desc": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still…",
+     "tags": [
+      "2026-11-12"
+     ],
+     "link": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
+     "desc": "A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines. A second HTTP/2 flaw can cause a server to send a client pieces of its memory…",
+     "tags": [
+      "2026-11-12"
+     ],
+     "link": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
      "desc": "Starting Tuesday, an attacker used stolen credentials for 4,837 GitHub accounts to plant a secret stealer in repositories those accounts could write to, according to Aikido Security, a security software company. The stealer is built to…",
      "tags": [
@@ -171,34 +191,14 @@
      "link": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html"
     },
     {
-     "cat": "The Hacker News",
+     "cat": "BleepingComputer",
      "sev": "NEWS",
-     "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-     "desc": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are listed below…",
+     "title": "Hackers plant GSocket on Linux servers for persistent access",
+     "desc": "Multiple threat actors are abusing GSocket, a legitimate open-source remote access tool, to maintain access to Linux servers even after patching the vulnerabilities exploited to gain initial access.",
      "tags": [
-      "2026-11-11"
+      "2026-11-12"
      ],
-     "link": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
-     "desc": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised…",
-     "tags": [
-      "2026-11-11"
-     ],
-     "link": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
-     "desc": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they identified the suspicious…",
-     "tags": [
-      "2026-11-11"
-     ],
-     "link": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html"
+     "link": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/"
     }
    ]
   }
