@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T11:56:55.082Z",
+ "updated": "2026-11-12T11:58:32.881Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -25,7 +25,8 @@
      "tags": [
       "Openwave Messaging Limited Webtop Media Transcoder",
       "KEV added 2026-11-10",
-      "remediate by 2026-11-24"
+      "remediate by 2026-11-24",
+      "EPSS 0.3%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793"
     },
@@ -37,7 +38,8 @@
      "tags": [
       "Cisco BroadWorks",
       "KEV added 2026-11-10",
-      "remediate by 2026-11-24"
+      "remediate by 2026-11-24",
+      "EPSS 0.4%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320"
     },
@@ -49,7 +51,8 @@
      "tags": [
       "Barracuda Networks Multiple Products",
       "KEV added 2026-11-10",
-      "remediate by 2026-11-13"
+      "remediate by 2026-11-13",
+      "EPSS 1.1%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560"
     },
@@ -61,7 +64,8 @@
      "tags": [
       "Barracuda Networks Barracuda Email Security Gateway (ESG)",
       "KEV added 2026-11-10",
-      "remediate by 2026-11-13"
+      "remediate by 2026-11-13",
+      "EPSS 1.6%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
     }
@@ -143,69 +147,67 @@
     {
      "cat": "EPSS",
      "sev": "CRITICAL",
-     "title": "CVE-2024-3400 — Palo Alto Networks PAN-OS Command Injection Vulnerability",
-     "desc": "Palo Alto Networks PAN-OS GlobalProtect feature contains a command injection vulnerability that allows an unauthenticated attacker to execute commands with root privileges on the firewall.",
+     "title": "CVE-2026-109618 — PHP Memory Corruption Vulnerability",
+     "desc": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
      "tags": [
-      "Palo Alto Networks PAN-OS",
-      "KEV added 2024-04-12",
-      "remediate by 2024-04-19",
-      "EPSS 100.0%",
-      "ransomware use"
+      "PHP Group PHP",
+      "KEV added 2026-10-26",
+      "remediate by 2026-10-29",
+      "EPSS 100.0%"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-3400"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618"
     },
     {
      "cat": "EPSS",
      "sev": "CRITICAL",
-     "title": "CVE-2026-10520 — Ivanti Sentry OS Command Injection Vulnerability",
-     "desc": "Ivanti Sentry (formerly known as MobileIron Sentry) contains an OS command injection vulnerability which could allow a remote unauthenticated user to achieve root-level remote code execution. This vulnerability can be successfully exploited in cases where the Sentry appliance is in an unmanaged…",
+     "title": "CVE-2026-109619 — PHP Stale Internal Request-State Vulnerability",
+     "desc": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution.",
      "tags": [
-      "Ivanti Sentry",
-      "KEV added 2026-06-11",
-      "remediate by 2026-06-14",
-      "EPSS 99.9%"
+      "PHP Group PHP",
+      "KEV added 2026-10-26",
+      "remediate by 2026-10-29",
+      "EPSS 100.0%"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-10520"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619"
     },
     {
      "cat": "EPSS",
      "sev": "CRITICAL",
-     "title": "CVE-2022-24816 — OSGeo GeoServer JAI-EXT Code Injection Vulnerability",
-     "desc": "OSGeo GeoServer JAI-EXT contains a code injection vulnerability that, when programs use jt-jiffle and allow Jiffle script to be provided via network request, could allow remote code execution.",
+     "title": "CVE-2026-111497 — Google Brotli Unchecked Return Value Vulnerability",
+     "desc": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.",
      "tags": [
-      "OSGeo JAI-EXT",
-      "KEV added 2024-06-26",
-      "remediate by 2024-07-17",
-      "EPSS 99.9%"
+      "Google Brotli",
+      "KEV added 2026-10-27",
+      "remediate by 2026-11-10",
+      "EPSS 82.6%"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2022-24816"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497"
     },
     {
      "cat": "EPSS",
      "sev": "CRITICAL",
-     "title": "CVE-2025-32432 — Craft CMS Code Injection Vulnerability",
-     "desc": "Craft CMS contains a code injection vulnerability that allows a remote attacker to execute arbitrary code.",
+     "title": "CVE-2026-97229 — GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
+     "desc": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression…",
      "tags": [
-      "Craft CMS Craft CMS",
-      "KEV added 2026-03-20",
-      "remediate by 2026-04-03",
-      "EPSS 99.8%"
+      "GitLab Community Edition and Enterprise Edition",
+      "KEV added 2026-10-29",
+      "remediate by 2026-11-01",
+      "EPSS 65.2%"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-32432"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229"
     },
     {
      "cat": "EPSS",
      "sev": "CRITICAL",
-     "title": "CVE-2025-55182 — Meta React Server Components Remote Code Execution Vulnerability",
-     "desc": "Meta React Server Components contains a remote code execution vulnerability that could allow unauthenticated remote code execution by exploiting a flaw in how React decodes payloads sent to React Server Function endpoints. Please note CVE-2025-66478 has been rejected, but it is associated with…",
+     "title": "CVE-2026-48356 — Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
+     "desc": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.",
      "tags": [
-      "Meta React Server Components",
-      "KEV added 2025-12-05",
-      "remediate by 2025-12-12",
-      "EPSS 99.7%",
-      "ransomware use"
+      "Adobe Commerce and Magento",
+      "KEV added 2026-10-27",
+      "remediate by 2026-11-10",
+      "EPSS 47.5%"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-55182"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356"
     }
    ]
   },
@@ -218,7 +220,8 @@
      "title": "CVE-2026-123551 — advisory",
      "desc": "OpenAM from 14.0.0 before 16.1.4 contains an information disclosure vulnerability that allows unauthenticated attackers to read live session tokens from the notification WebSocket. Attackers can bypass the agent-only check through an unvalidated internal forward on legacy Liberty ID-FF endpoints…",
      "tags": [
-      "published 2026-11-08"
+      "published 2026-11-08",
+      "EPSS 0.4%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123551"
     },
@@ -228,7 +231,8 @@
      "title": "CVE-2026-17410 — advisory",
      "desc": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to access and modify other tenants' portal data due to improper neutralization of argument delimiters.",
      "tags": [
-      "published 2026-11-07"
+      "published 2026-11-07",
+      "EPSS 0.7%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-17410"
     },
@@ -238,7 +242,8 @@
      "title": "CVE-2026-107331 — advisory",
      "desc": "IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to obtain sensitive information due to an absolute-path traversal vulnerability.",
      "tags": [
-      "published 2026-11-08"
+      "published 2026-11-08",
+      "EPSS 0.5%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-107331"
     },
