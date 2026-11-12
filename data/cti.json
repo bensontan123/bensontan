@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T19:41:36.396Z",
+ "updated": "2026-11-12T07:30:12.587Z",
  "source": "CISA KEV, NVD, security news feeds",
  "briefings": [
   {
@@ -143,6 +143,36 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+     "desc": "Starting Tuesday, an attacker used stolen credentials for 4,837 GitHub accounts to plant a secret stealer in repositories those accounts could write to, according to Aikido Security, a security software company. The stealer is built to…",
+     "tags": [
+      "2026-11-12"
+     ],
+     "link": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+     "desc": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday…",
+     "tags": [
+      "2026-11-12"
+     ],
+     "link": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
+     "desc": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access. In an advisory posted on its site, the company said there is no evidence that the…",
+     "tags": [
+      "2026-11-12"
+     ],
+     "link": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
      "desc": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are listed below…",
      "tags": [
@@ -169,36 +199,6 @@
       "2026-11-11"
      ],
      "link": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
-     "desc": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built by staff at the social network X and at SpaceXSI, the…",
-     "tags": [
-      "2026-11-11"
-     ],
-     "link": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
-     "desc": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an…",
-     "tags": [
-      "2026-11-11"
-     ],
-     "link": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
-     "desc": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys. Each intermediate CA has its own private key…",
-     "tags": [
-      "2026-11-11"
-     ],
-     "link": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html"
     }
    ]
   }
