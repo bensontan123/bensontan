@@ -3,8 +3,14 @@ name: Update security feeds
 # Refreshes data/*.json (CISA KEV, NVD, regional CERT and news feeds) so the
 # portfolio's dashboard, briefing and news sections show current data.
 on:
+  # Reliable trigger: an external cron service (e.g. cron-job.org) POSTs a
+  # repository_dispatch of type "refresh-feeds" every 2 hours — GitHub honours
+  # these immediately, unlike `schedule` which it throttles heavily.
+  repository_dispatch:
+    types: [refresh-feeds]
+  # Backup only: GitHub's built-in cron is best-effort and often delayed.
   schedule:
-    - cron: "17 */2 * * *"   # every 2 hours
+    - cron: "17 */2 * * *"
   workflow_dispatch:
 
 permissions:
