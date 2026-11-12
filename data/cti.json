@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T09:55:16.652Z",
+ "updated": "2026-11-12T11:00:43.716Z",
  "source": "CISA KEV, NVD, security news feeds",
  "briefings": [
   {
@@ -193,12 +193,12 @@
     {
      "cat": "BleepingComputer",
      "sev": "NEWS",
-     "title": "Hackers plant GSocket on Linux servers for persistent access",
-     "desc": "Multiple threat actors are abusing GSocket, a legitimate open-source remote access tool, to maintain access to Linux servers even after patching the vulnerabilities exploited to gain initial access.",
+     "title": "Microsoft confirms Windows security updates installation issues",
+     "desc": "Microsoft has confirmed reports that the November 2026 security updates are failing to install on Windows 11 systems with the October preview update.",
      "tags": [
       "2026-11-12"
      ],
-     "link": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/"
+     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/"
     }
    ]
   }
