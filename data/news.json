@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T11:56:55.082Z",
+ "updated": "2026-11-12T13:00:47.016Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -122,17 +122,6 @@
     "The Hacker News"
    ],
    "link": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html"
-  },
-  {
-   "date": "2026-11-10",
-   "region": "JP",
-   "cat": "News",
-   "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
-   "desc": "Nitori, a major Japanese furniture and home accessories retailer, discovered that an attacker accessed a system on its network and may have stolen 37.62 million customer records.",
-   "tags": [
-    "BleepingComputer"
-   ],
-   "link": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/"
   },
   {
    "date": "2026-11-09",
@@ -265,6 +254,17 @@
     "JPCERT/CC"
    ],
    "link": "https://www.jpcert.or.jp/english/at/2026/at260026.html"
+  },
+  {
+   "date": "2026-09-09",
+   "region": "JP",
+   "cat": "Advisory",
+   "title": "Security Alert: Microsoft Releases September 2026 Security Updates",
+   "desc": "",
+   "tags": [
+    "JPCERT/CC"
+   ],
+   "link": "https://www.jpcert.or.jp/english/at/2026/at260025.html"
   }
  ]
 }
