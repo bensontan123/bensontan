@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T21:00:46.461Z",
+ "updated": "2026-11-12T22:00:45.553Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -240,17 +240,6 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-107331 — advisory",
-     "desc": "IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to obtain sensitive information due to an absolute-path traversal vulnerability.",
-     "tags": [
-      "published 2026-11-08",
-      "EPSS 0.5%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-107331"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
      "title": "CVE-2026-120002 — advisory",
      "desc": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
      "tags": [
@@ -269,6 +258,17 @@
       "EPSS 0.8%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16720"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-17301 — advisory",
+     "desc": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow an unauthenticated attacker to bypass authentication due to improper verification of a cryptographic signature.",
+     "tags": [
+      "published 2026-11-07",
+      "EPSS 0.4%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-17301"
     }
    ]
   },
@@ -277,60 +277,59 @@
    "items": [
     {
      "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-126205 — Loofah: Regular expression denial of service in the SVG local-reference check",
-     "desc": "Loofah: Regular expression denial of service in the SVG local-reference check",
+     "sev": "LOW",
+     "title": "CVE-2026-126188 — Active Storage: Possible local file disclosure in video previews and analysis",
+     "desc": "Active Storage: Possible local file disclosure in video previews and analysis",
      "tags": [
-      "rubygems loofah",
-      "published 2026-11-12"
-     ],
-     "link": "https://github.com/advisories/GHSA-mf2j-8f84-cc9q"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-126206 — Loofah allowed_uri? treats data:text&sol;html as safe text/plain",
-     "desc": "Loofah allowed_uri? treats data:text&sol;html as safe text/plain",
-     "tags": [
-      "rubygems loofah",
-      "published 2026-11-12"
-     ],
-     "link": "https://github.com/advisories/GHSA-jcff-cj73-4w4f"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-126203 — Loofah: Mutation XSS in the HTML5 scrubbers through unescaped attribute values",
-     "desc": "Loofah: Mutation XSS in the HTML5 scrubbers through unescaped attribute values",
-     "tags": [
-      "rubygems loofah",
-      "published 2026-11-12"
-     ],
-     "link": "https://github.com/advisories/GHSA-h6v6-rg66-fqj4"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-125323 — pgEdge Control Plane generates pg_hba.conf with trust authentication for local and loopback connections",
-     "desc": "pgEdge Control Plane generates pg_hba.conf with trust authentication for local and loopback connections",
-     "tags": [
-      "go github.com/pgEdge/control-plane",
+      "rubygems activestorage",
       "published 2026-11-12",
-      "EPSS 0.1%"
+      "EPSS 0.3%"
      ],
-     "link": "https://github.com/advisories/GHSA-vq9p-w6wv-cr25"
+     "link": "https://github.com/advisories/GHSA-3f4q-8x5m-76v8"
     },
     {
      "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-125327 — pgEdge RAG Server unbounded corpus read allows resource exhaustion from unauthenticated requests",
-     "desc": "pgEdge RAG Server unbounded corpus read allows resource exhaustion from unauthenticated requests",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-126345 — basic-ftp: Uncaught TypeError in MLSD directory-listing parser via __proto__ fact name causes DoS in Client.list()",
+     "desc": "basic-ftp: Uncaught TypeError in MLSD directory-listing parser via __proto__ fact name causes DoS in Client.list()",
      "tags": [
-      "go github.com/pgEdge/pgedge-rag-server",
-      "published 2026-11-12",
-      "EPSS 0.4%"
+      "npm basic-ftp",
+      "published 2026-11-12"
      ],
-     "link": "https://github.com/advisories/GHSA-5qg5-rgp6-j5m5"
+     "link": "https://github.com/advisories/GHSA-5pm8-86m8-9m6r"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-126343 — @hono/node-server: Unhandled `ECONNRESET` on the socket during an asynchronous WebSocket upgrade crashes the process",
+     "desc": "@hono/node-server: Unhandled `ECONNRESET` on the socket during an asynchronous WebSocket upgrade crashes the process",
+     "tags": [
+      "npm @hono/node-server",
+      "published 2026-11-12"
+     ],
+     "link": "https://github.com/advisories/GHSA-qv5m-9pm6-hqp3"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-126210 — @hono/node-server: Backslash in the request path is parsed as a path separator, bypassing path-based access control at a reverse proxy",
+     "desc": "@hono/node-server: Backslash in the request path is parsed as a path separator, bypassing path-based access control at a reverse proxy",
+     "tags": [
+      "npm @hono/node-server",
+      "published 2026-11-12"
+     ],
+     "link": "https://github.com/advisories/GHSA-jpvv-r467-5p4w"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-126208 — Loofah: SVG `<textPath>` and `<mpath>` bypass local-reference restriction",
+     "desc": "Loofah: SVG `<textPath>` and `<mpath>` bypass local-reference restriction",
+     "tags": [
+      "rubygems loofah",
+      "published 2026-11-12"
+     ],
+     "link": "https://github.com/advisories/GHSA-345x-3rq2-jfrm"
     }
    ]
   },

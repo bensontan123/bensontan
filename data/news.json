@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T19:00:50.901Z",
+ "updated": "2026-11-12T22:00:45.553Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -70,14 +70,14 @@
   },
   {
    "date": "2026-11-12",
-   "region": "TW",
+   "region": "KR",
    "cat": "News",
-   "title": "Hijacked email accounts complicate investigations into European bomb hoaxes",
-   "desc": "Bomb threats sent to thousands of schools across Europe this week came from a compromised email account at a Taiwanese university, the latest incident in a series of hoax threats that have targeted airports and newsrooms using messages…",
+   "title": "Feds announce seizure of $1.2 billion from Binance theft; also takedown of ‘FaceStealer’ tools",
+   "desc": "The Department of Justice and FBI announced two separate actions in response to North Korea-linked cryptocurrency theft operations.",
    "tags": [
     "The Record"
    ],
-   "link": "https://therecord.media/europe-hoax-email-threats"
+   "link": "https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted"
   },
   {
    "date": "2026-11-11",

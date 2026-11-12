@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T21:00:46.461Z",
+ "updated": "2026-11-12T22:00:45.553Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -451,20 +451,6 @@
    "epss": 0.007
   },
   {
-   "id": "CVE-2026-107331",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to obtain sensitive information due to an absolute-path traversal vulnerability.",
-   "published": "2026-11-08",
-   "cvss": 9.9,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107331",
-   "epss": 0.005
-  },
-  {
    "id": "CVE-2026-120002",
    "origin": "NVD",
    "product": "",
@@ -535,20 +521,6 @@
    "epss": 0.006
   },
   {
-   "id": "CVE-2026-17396",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to SQL injection.",
-   "published": "2026-11-07",
-   "cvss": 9.6,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17396",
-   "epss": 0.005
-  },
-  {
    "id": "CVE-2026-120779",
    "origin": "NVD",
    "product": "",
@@ -604,20 +576,6 @@
    "epss": 0.005
   },
   {
-   "id": "CVE-2026-16918",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to access internal network resources due to server-side request forgery.",
-   "published": "2026-11-07",
-   "cvss": 9.3,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16918",
-   "epss": 0.004
-  },
-  {
    "id": "CVE-2026-17131",
    "origin": "NVD",
    "product": "",
@@ -646,19 +604,46 @@
    "epss": 0.004
   },
   {
-   "id": "CVE-2026-118740",
-   "origin": "GHSA",
-   "product": "nuget Aspire.Dashboard.Sdk.linux-x64",
-   "name": "Microsoft Security Advisory CVE-2026-118740 - Aspire Security Feature Bypass Vulnerability",
-   "desc": "Microsoft Security Advisory CVE-2026-118740 - Aspire Security Feature Bypass Vulnerability",
-   "published": "2026-11-12",
-   "cvss": 9.1,
+   "id": "CVE-2026-124079",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "rConfig Core 8.0.0 before 8.2.19 and rConfig Pro before 8.4.1 contain a deserialization of untrusted data vulnerability that allows unauthenticated network attackers to execute arbitrary code by pushing a crafted serialized job onto the Redis-backed Laravel Horizon queue, which runs without…",
+   "published": "2026-11-09",
+   "cvss": 9.3,
    "severity": "CRITICAL",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-4g86-54fm-h9h8",
-   "ghsaId": "GHSA-4g86-54fm-h9h8",
-   "epss": 0.009
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124079",
+   "epss": 0.006
+  },
+  {
+   "id": "CVE-2026-125370",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Kubero 3.0.0 through 3.1.1 contains an authentication bypass vulnerability that allows unauthenticated remote attackers to forge administrative JWTs by using a hardcoded fallback signing secret when JWT_SECRET is unset. Attackers can sign tokens with arbitrary role, userGroups and permissions…",
+   "published": "2026-11-10",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125370",
+   "epss": 0.007
+  },
+  {
+   "id": "CVE-2026-125086",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "A vulnerability has been found in D-Link M60 1.12.B01. Impacted is the function system of the file /etc/emDaemon/mosquitto.conf of the component emDaemon MQTT Broker. Such manipulation leads to hard-coded credentials. The attack can be executed remotely. The exploit has been disclosed to the public…",
+   "published": "2026-11-10",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125086",
+   "epss": 0.006
   },
   {
    "id": "CVE-2026-125323",
@@ -705,63 +690,74 @@
    "ghsaId": "GHSA-h6v6-rg66-fqj4"
   },
   {
-   "id": "CVE-2026-125325",
+   "id": "CVE-2026-126345",
    "origin": "GHSA",
-   "product": "go github.com/pgEdge/pgedge-rag-server",
-   "name": "pgEdge RAG Server shared keyword index leaked results between concurrent unauthenticated requests",
-   "desc": "pgEdge RAG Server shared keyword index leaked results between concurrent unauthenticated requests",
+   "product": "npm basic-ftp",
+   "name": "basic-ftp: Uncaught TypeError in MLSD directory-listing parser via __proto__ fact name causes DoS in Client.list()",
+   "desc": "basic-ftp: Uncaught TypeError in MLSD directory-listing parser via __proto__ fact name causes DoS in Client.list()",
    "published": "2026-11-12",
-   "cvss": 5.9,
+   "cvss": 5.3,
    "severity": "MEDIUM",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-w437-9mwm-j6vq",
-   "ghsaId": "GHSA-w437-9mwm-j6vq",
-   "epss": 0.003
+   "url": "https://github.com/advisories/GHSA-5pm8-86m8-9m6r",
+   "ghsaId": "GHSA-5pm8-86m8-9m6r"
   },
   {
-   "id": "CVE-2026-125326",
+   "id": "CVE-2026-126343",
    "origin": "GHSA",
-   "product": "go github.com/pgEdge/pgedge-rag-server",
-   "name": "pgEdge RAG Server discloses part of the configured provider credential through API error messages",
-   "desc": "pgEdge RAG Server discloses part of the configured provider credential through API error messages",
+   "product": "npm @hono/node-server",
+   "name": "@hono/node-server: Unhandled `ECONNRESET` on the socket during an asynchronous WebSocket upgrade crashes the process",
+   "desc": "@hono/node-server: Unhandled `ECONNRESET` on the socket during an asynchronous WebSocket upgrade crashes the process",
    "published": "2026-11-12",
-   "cvss": 5.8,
+   "cvss": 5.3,
    "severity": "MEDIUM",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-68g8-gh8f-7rhg",
-   "ghsaId": "GHSA-68g8-gh8f-7rhg",
-   "epss": 0.004
+   "url": "https://github.com/advisories/GHSA-qv5m-9pm6-hqp3",
+   "ghsaId": "GHSA-qv5m-9pm6-hqp3"
   },
   {
-   "id": "CVE-2026-125328",
+   "id": "CVE-2026-126210",
    "origin": "GHSA",
-   "product": "go github.com/pgEdge/pgedge-go-llm-lib",
-   "name": "pgEdge Go LLM Library discloses provider API key fragments in error messages",
-   "desc": "pgEdge Go LLM Library discloses provider API key fragments in error messages",
+   "product": "npm @hono/node-server",
+   "name": "@hono/node-server: Backslash in the request path is parsed as a path separator, bypassing path-based access control at a reverse proxy",
+   "desc": "@hono/node-server: Backslash in the request path is parsed as a path separator, bypassing path-based access control at a reverse proxy",
    "published": "2026-11-12",
-   "cvss": 5.8,
+   "cvss": 5.3,
    "severity": "MEDIUM",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-8835-xmqj-354h",
-   "ghsaId": "GHSA-8835-xmqj-354h",
-   "epss": 0.003
+   "url": "https://github.com/advisories/GHSA-jpvv-r467-5p4w",
+   "ghsaId": "GHSA-jpvv-r467-5p4w"
   },
   {
-   "id": "CVE-2026-84987",
+   "id": "CVE-2026-126205",
    "origin": "GHSA",
-   "product": "composer code16/sharp",
-   "name": "code16/sharp: Server-side request forgery through an unanchored autocomplete endpoint check",
-   "desc": "code16/sharp: Server-side request forgery through an unanchored autocomplete endpoint check",
+   "product": "rubygems loofah",
+   "name": "Loofah: Regular expression denial of service in the SVG local-reference check",
+   "desc": "Loofah: Regular expression denial of service in the SVG local-reference check",
    "published": "2026-11-12",
-   "cvss": 5.4,
+   "cvss": 5.3,
    "severity": "MEDIUM",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-g6f8-c3x9-jv7f",
-   "ghsaId": "GHSA-g6f8-c3x9-jv7f"
+   "url": "https://github.com/advisories/GHSA-mf2j-8f84-cc9q",
+   "ghsaId": "GHSA-mf2j-8f84-cc9q"
+  },
+  {
+   "id": "CVE-2026-126208",
+   "origin": "GHSA",
+   "product": "rubygems loofah",
+   "name": "Loofah: SVG `<textPath>` and `<mpath>` bypass local-reference restriction",
+   "desc": "Loofah: SVG `<textPath>` and `<mpath>` bypass local-reference restriction",
+   "published": "2026-11-12",
+   "cvss": 4.7,
+   "severity": "MEDIUM",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-345x-3rq2-jfrm",
+   "ghsaId": "GHSA-345x-3rq2-jfrm"
   }
  ]
 }
