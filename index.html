@@ -181,6 +181,10 @@
   a.src:hover { color: var(--accent); text-decoration: none; }
   .cve .id a.src { color: var(--accent-2); }
   .cve .meta span.hot { color: var(--crit); border-color: rgba(255,92,108,.3); }
+  .cve .meta span.origin { font-weight: 600; letter-spacing: .03em; }
+  .cve .meta span.origin-KEV { color: var(--crit); border-color: rgba(255,92,108,.35); background: rgba(255,92,108,.08); }
+  .cve .meta span.origin-NVD { color: var(--accent-2); border-color: rgba(78,163,255,.35); background: rgba(78,163,255,.08); }
+  .cve .meta span.origin-GHSA { color: var(--accent); border-color: rgba(53,224,193,.35); background: rgba(53,224,193,.08); }
   .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 20px; }
   .inp, .sel { font-family: var(--mono); font-size: .85rem; background: var(--panel-2); border: 1px solid var(--line); color: var(--fg); border-radius: 8px; padding: 10px 12px; }
   .inp:focus, .sel:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }
@@ -721,6 +725,8 @@ function loadFeed(file, valid) {
       score.innerHTML = `<div class="sv" style="color:${sevColor[sev]}">${scored ? c.cvss.toFixed(1) : "—"}</div><div class="sb"><i style="width:${scored ? (c.cvss/10*100).toFixed(0) : 0}%;background:${sevColor[sev]}"></i></div>`;
       const url = safeUrl(c.url);
       const meta = [];
+      if (c.origin) meta.push(`<span class="origin origin-${esc(c.origin)}">${esc(c.origin)}</span>`);
+      if (typeof c.epss === "number") meta.push(`<span>EPSS ${(c.epss*100).toFixed(1)}%</span>`);
       if (c.kevAdded) meta.push(`<span>KEV added ${esc(c.kevAdded)}</span>`);
       if (c.published) meta.push(`<span>published ${esc(c.published)}</span>`);
       if (c.vector) meta.push(`<span>${esc(c.vector)}</span>`);
@@ -739,8 +745,11 @@ function loadFeed(file, valid) {
   setNote("vulnNote", false, "<b>Loading live data…</b> Showing a snapshot of landmark CVEs meanwhile.");
   loadFeed("vulns.json", d => Array.isArray(d.items) && d.items.length > 0)
     .then(d => {
-      setData(d.items, "latest KEV entries");
-      setNote("vulnNote", true, `<b>Live data.</b> Latest ${d.items.length} of ${esc(d.catalogCount)} entries in the CISA Known Exploited Vulnerabilities catalogue, newest first, with CVSS from NVD. Checked every 2 hours; last changed ${esc(fmtUpdated(d.updated))}.`);
+      setData(d.items, "tracked vulns");
+      const src = d.source || "CISA KEV · NVD · GitHub advisories · EPSS";
+      const c = d.counts || {};
+      const mix = [c.kev != null ? `${c.kev} actively-exploited (KEV)` : "", c.nvd ? `${c.nvd} recent NVD` : "", c.ghsa ? `${c.ghsa} GitHub advisories` : ""].filter(Boolean).join(", ");
+      setNote("vulnNote", true, `<b>Live data.</b> ${d.items.length} vulnerabilities from ${esc(src)}${mix ? ` — ${esc(mix)}` : ""}, exploited-first then by severity and EPSS. Checked every 2 hours; last changed ${esc(fmtUpdated(d.updated))}.`);
     })
     .catch(() => setNote("vulnNote", false, "<b>Snapshot data.</b> The live feed could not be loaded, so this is a curated set of landmark CVEs."));
 })();

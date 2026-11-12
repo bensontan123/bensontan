@@ -30,6 +30,8 @@ jobs:
         with:
           node-version: 22
       - name: Fetch feeds
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/fetch-feeds.mjs
       - name: Commit updated data
         run: |
