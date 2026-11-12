@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-12T11:00:43.716Z",
- "source": "CISA KEV, NVD, security news feeds",
+ "updated": "2026-11-12T11:56:55.082Z",
+ "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
    "label": "Newly exploited — latest CISA KEV additions",
@@ -71,7 +71,7 @@
    "label": "Ransomware-linked exploited vulnerabilities",
    "items": [
     {
-     "cat": "KEV",
+     "cat": "Ransomware",
      "sev": "CRITICAL",
      "title": "CVE-2026-59310 — Broadcom VMware vCenter Path Traversal Vulnerability",
      "desc": "Broadcom VMware vCenter contains a path traversal vulnerability which could allow a threat actor with network access to vCenter to execute arbitrary code.",
@@ -84,7 +84,7 @@
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-59310"
     },
     {
-     "cat": "KEV",
+     "cat": "Ransomware",
      "sev": "CRITICAL",
      "title": "CVE-2026-63077 — JetBrains TeamCity Deserialization of Untrusted Data Vulnerability",
      "desc": "JetBrains TeamCity contains a deserialization of untrusted data vulnerability that could allow unauthenticated remote code execution via the agent polling protocol.",
@@ -97,7 +97,7 @@
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-63077"
     },
     {
-     "cat": "KEV",
+     "cat": "Ransomware",
      "sev": "MEDIUM",
      "title": "CVE-2026-20316 — Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability",
      "desc": "Cisco Secure Firewall Management Center (FMC) formerly known as Firepower Management Center contains a use of hard-coded password vulnerability that could allow an unauthenticated, remote attacker to log in to an affected device using a low-privileged account to access sensitive data within the…",
@@ -110,7 +110,7 @@
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-20316"
     },
     {
-     "cat": "KEV",
+     "cat": "Ransomware",
      "sev": "CRITICAL",
      "title": "CVE-2026-15409 — SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
      "desc": "SonicWall SMA1000 Appliances contain a server-side request forgery vulnerability that could allow a remote unauthenticated attacker to potentially cause the appliance to make requests to unintended location.",
@@ -123,7 +123,7 @@
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15409"
     },
     {
-     "cat": "KEV",
+     "cat": "Ransomware",
      "sev": "HIGH",
      "title": "CVE-2026-15410 — SonicWall SMA1000 Appliances Code Injection Vulnerability",
      "desc": "SonicWall SMA1000 Appliances contain a code injection vulnerability which in specific conditions could potentially enable a remote authenticated attacker as administrator to execute arbitrary OS commands.",
@@ -138,8 +138,215 @@
    ]
   },
   {
+   "label": "Most likely to be exploited (top EPSS)",
+   "items": [
+    {
+     "cat": "EPSS",
+     "sev": "CRITICAL",
+     "title": "CVE-2024-3400 — Palo Alto Networks PAN-OS Command Injection Vulnerability",
+     "desc": "Palo Alto Networks PAN-OS GlobalProtect feature contains a command injection vulnerability that allows an unauthenticated attacker to execute commands with root privileges on the firewall.",
+     "tags": [
+      "Palo Alto Networks PAN-OS",
+      "KEV added 2024-04-12",
+      "remediate by 2024-04-19",
+      "EPSS 100.0%",
+      "ransomware use"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-3400"
+    },
+    {
+     "cat": "EPSS",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-10520 — Ivanti Sentry OS Command Injection Vulnerability",
+     "desc": "Ivanti Sentry (formerly known as MobileIron Sentry) contains an OS command injection vulnerability which could allow a remote unauthenticated user to achieve root-level remote code execution. This vulnerability can be successfully exploited in cases where the Sentry appliance is in an unmanaged…",
+     "tags": [
+      "Ivanti Sentry",
+      "KEV added 2026-06-11",
+      "remediate by 2026-06-14",
+      "EPSS 99.9%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-10520"
+    },
+    {
+     "cat": "EPSS",
+     "sev": "CRITICAL",
+     "title": "CVE-2022-24816 — OSGeo GeoServer JAI-EXT Code Injection Vulnerability",
+     "desc": "OSGeo GeoServer JAI-EXT contains a code injection vulnerability that, when programs use jt-jiffle and allow Jiffle script to be provided via network request, could allow remote code execution.",
+     "tags": [
+      "OSGeo JAI-EXT",
+      "KEV added 2024-06-26",
+      "remediate by 2024-07-17",
+      "EPSS 99.9%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2022-24816"
+    },
+    {
+     "cat": "EPSS",
+     "sev": "CRITICAL",
+     "title": "CVE-2025-32432 — Craft CMS Code Injection Vulnerability",
+     "desc": "Craft CMS contains a code injection vulnerability that allows a remote attacker to execute arbitrary code.",
+     "tags": [
+      "Craft CMS Craft CMS",
+      "KEV added 2026-03-20",
+      "remediate by 2026-04-03",
+      "EPSS 99.8%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-32432"
+    },
+    {
+     "cat": "EPSS",
+     "sev": "CRITICAL",
+     "title": "CVE-2025-55182 — Meta React Server Components Remote Code Execution Vulnerability",
+     "desc": "Meta React Server Components contains a remote code execution vulnerability that could allow unauthenticated remote code execution by exploiting a flaw in how React decodes payloads sent to React Server Function endpoints. Please note CVE-2025-66478 has been rejected, but it is associated with…",
+     "tags": [
+      "Meta React Server Components",
+      "KEV added 2025-12-05",
+      "remediate by 2025-12-12",
+      "EPSS 99.7%",
+      "ransomware use"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-55182"
+    }
+   ]
+  },
+  {
+   "label": "High-severity CVEs just published (NVD)",
+   "items": [
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-123551 — advisory",
+     "desc": "OpenAM from 14.0.0 before 16.1.4 contains an information disclosure vulnerability that allows unauthenticated attackers to read live session tokens from the notification WebSocket. Attackers can bypass the agent-only check through an unvalidated internal forward on legacy Liberty ID-FF endpoints…",
+     "tags": [
+      "published 2026-11-08"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123551"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-17410 — advisory",
+     "desc": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to access and modify other tenants' portal data due to improper neutralization of argument delimiters.",
+     "tags": [
+      "published 2026-11-07"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-17410"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-107331 — advisory",
+     "desc": "IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to obtain sensitive information due to an absolute-path traversal vulnerability.",
+     "tags": [
+      "published 2026-11-08"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-107331"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-120002 — advisory",
+     "desc": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
+     "tags": [
+      "published 2026-11-10"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120002"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-110697 — advisory",
+     "desc": "A flaw was found in Quay where the robot account listing function constructs a SQL LIKE pattern from user-controlled namespace names without escaping wildcard metacharacters. An attacker who creates a namespace containing an underscore character can match and retrieve robot accounts and their…",
+     "tags": [
+      "published 2026-11-11"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110697"
+    }
+   ]
+  },
+  {
+   "label": "Recently disclosed advisories (GitHub)",
+   "items": [
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-118745 — Microsoft Security Advisory CVE-2026-118745 - Visual Studio Remote Code Execution Vulnerability",
+     "desc": "Microsoft Security Advisory CVE-2026-118745 - Visual Studio Remote Code Execution Vulnerability",
+     "tags": [
+      "nuget Microsoft.NETCore.App.Runtime.win-x86",
+      "published 2026-11-11"
+     ],
+     "link": "https://github.com/advisories/GHSA-x8x8-p968-x646"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-114152 — Microsoft Security Advisory CVE-2026-114152 - Visual Studio Remote Code Execution Vulnerability",
+     "desc": "Microsoft Security Advisory CVE-2026-114152 - Visual Studio Remote Code Execution Vulnerability",
+     "tags": [
+      "nuget Microsoft.NETCore.App.Runtime.win-x86",
+      "published 2026-11-11"
+     ],
+     "link": "https://github.com/advisories/GHSA-xf35-v9jh-g65w"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "GHSA-6856-87hx-p5x7 — Microsoft Security Advisory CVE-2026-105544 - .NET Elevation of Privilege Vulnerability",
+     "desc": "Microsoft Security Advisory CVE-2026-105544 - .NET Elevation of Privilege Vulnerability",
+     "tags": [
+      "nuget Microsoft.TestPlatform.CLI",
+      "published 2026-11-11"
+     ],
+     "link": "https://github.com/advisories/GHSA-6856-87hx-p5x7"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-114151 — Microsoft Security Advisory CVE-2026-114151 - Visual Studio Remote Code Execution Vulnerability",
+     "desc": "Microsoft Security Advisory CVE-2026-114151 - Visual Studio Remote Code Execution Vulnerability",
+     "tags": [
+      "nuget Microsoft.NETCore.App.Runtime.win-x86",
+      "published 2026-11-11"
+     ],
+     "link": "https://github.com/advisories/GHSA-fpxj-5c99-g7vj"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-114158 — Microsoft Security Advisory CVE-2026-114158 - Visual Studio Remote Code Execution Vulnerability",
+     "desc": "Microsoft Security Advisory CVE-2026-114158 - Visual Studio Remote Code Execution Vulnerability",
+     "tags": [
+      "nuget Microsoft.NETCore.App.Runtime.win-x86",
+      "published 2026-11-11"
+     ],
+     "link": "https://github.com/advisories/GHSA-r8h3-p8p6-ggp7"
+    }
+   ]
+  },
+  {
    "label": "Threat headlines",
    "items": [
+    {
+     "cat": "SANS ISC",
+     "sev": "NEWS",
+     "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
+     "desc": "CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is also an attractive target. It is open-source software that manages clusters of GPUs, which are typically used to run AI workloads. All versions of GPUStack prior…",
+     "tags": [
+      "2026-11-12"
+     ],
+     "link": "https://isc.sans.edu/diary/rss/33514"
+    },
+    {
+     "cat": "SANS ISC",
+     "sev": "NEWS",
+     "title": "ISC Stormcast For Thursday, November 12th, 2026 https://isc.sans.edu/podcastdetail/10176, (Thu, Nov 12th)",
+     "desc": "",
+     "tags": [
+      "2026-11-12"
+     ],
+     "link": "https://isc.sans.edu/diary/rss/33512"
+    },
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
@@ -179,26 +386,6 @@
       "2026-11-12"
      ],
      "link": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
-     "desc": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access. In an advisory posted on its site, the company said there is no evidence that the…",
-     "tags": [
-      "2026-11-12"
-     ],
-     "link": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html"
-    },
-    {
-     "cat": "BleepingComputer",
-     "sev": "NEWS",
-     "title": "Microsoft confirms Windows security updates installation issues",
-     "desc": "Microsoft has confirmed reports that the November 2026 security updates are failing to install on Windows 11 systems with the October preview update.",
-     "tags": [
-      "2026-11-12"
-     ],
-     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/"
     }
    ]
   }
