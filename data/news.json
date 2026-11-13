@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T02:00:42.997Z",
+ "updated": "2026-11-13T03:00:46.023Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -12,6 +12,17 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/apache-http-server-multiple-vulnerabilities_20261113"
+  },
+  {
+   "date": "2026-11-13",
+   "region": "HK",
+   "cat": "Advisory",
+   "title": "Citrix Products Multiple Vulnerabilities",
+   "desc": "Multiple vulnerabilities were identified in Citrix Products. A remote attacker could exploit some of these vulnerabilities to trigger denial of service condition and sensitive information disclosure on the targeted system. Impact…",
+   "tags": [
+    "HKCERT"
+   ],
+   "link": "https://www.hkcert.org/security-bulletin/citrix-products-multiple-vulnerabilities_20261113"
   },
   {
    "date": "2026-11-12",
@@ -77,7 +88,7 @@
    "tags": [
     "HKCERT"
    ],
-   "link": "https://www.hkcert.org/security-bulletin/ubuntu-linux-kernel-multiple-vulnerabilities_20261111"
+   "link": "https://www.hkcert.org/security-bulletin/ubuntu-linux-kernel-multiple-vulnerabilities_20261112"
   },
   {
    "date": "2026-11-12",
@@ -100,17 +111,6 @@
     "JPCERT/CC"
    ],
    "link": "https://www.jpcert.or.jp/english/at/2026/at260035.html"
-  },
-  {
-   "date": "2026-11-11",
-   "region": "HK",
-   "cat": "Advisory",
-   "title": "Adobe Monthly Security Update (November 2026)",
-   "desc": "Adobe has released monthly security update for their products: Vulnerable Product Risk Level Impacts Notes Details (including CVE) Adobe After Effects Medium Risk Remote Code Execution Denial of Service Information Disclosure APSB26-100…",
-   "tags": [
-    "HKCERT"
-   ],
-   "link": "https://www.hkcert.org/security-bulletin/adobe-monthly-security-update-november-2026"
   },
   {
    "date": "2026-11-10",
