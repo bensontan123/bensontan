@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T07:00:42.811Z",
+ "updated": "2026-11-13T08:00:44.213Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -209,66 +209,6 @@
       "EPSS 47.5%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356"
-    }
-   ]
-  },
-  {
-   "label": "High-severity CVEs just published (NVD)",
-   "items": [
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-17410 — advisory",
-     "desc": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to access and modify other tenants' portal data due to improper neutralization of argument delimiters.",
-     "tags": [
-      "published 2026-11-07",
-      "EPSS 0.7%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-17410"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-120002 — advisory",
-     "desc": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
-     "tags": [
-      "published 2026-11-10",
-      "EPSS 0.9%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120002"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-16720 — advisory",
-     "desc": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to obtain valid access tokens for other users due to improper authentication. Authentication against a connected directory service is not sufficiently enforced, which could allow another user's…",
-     "tags": [
-      "published 2026-11-07",
-      "EPSS 0.8%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16720"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-17301 — advisory",
-     "desc": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow an unauthenticated attacker to bypass authentication due to improper verification of a cryptographic signature.",
-     "tags": [
-      "published 2026-11-07",
-      "EPSS 0.4%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-17301"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-89324 — advisory",
-     "desc": "The Basel Post Types plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 1.18. The vulnerability exists because a missing-quotes coding error in the defined() call for SECURE_AUTH_SALT inside BASEL_Auth::get_config() causes PHP to evaluate the…",
-     "tags": [
-      "published 2026-11-10",
-      "EPSS 0.7%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-89324"
     }
    ]
   },
