@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T23:00:41.029Z",
+ "updated": "2026-11-13T00:00:43.962Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -277,58 +277,63 @@
    "items": [
     {
      "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-128065 — @grpc/grpc-js: RBAC override configs in VirtualHost and Route resources are not applied",
-     "desc": "@grpc/grpc-js: RBAC override configs in VirtualHost and Route resources are not applied",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-122006 — Active Storage: Possible arbitrary file write and read in image analysis",
+     "desc": "Active Storage: Possible arbitrary file write and read in image analysis",
      "tags": [
-      "npm @grpc/grpc-js-xds",
-      "published 2026-11-12"
+      "rubygems activestorage",
+      "published 2026-11-12",
+      "EPSS 0.7%"
      ],
-     "link": "https://github.com/advisories/GHSA-gg5j-6742-v827"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-126366 — msgpack-ruby JRuby decoder makes uncapped header-count allocations; a 5-byte message forces multi-GiB OOM",
-     "desc": "msgpack-ruby JRuby decoder makes uncapped header-count allocations; a 5-byte message forces multi-GiB OOM",
-     "tags": [
-      "rubygems msgpack",
-      "published 2026-11-12"
-     ],
-     "link": "https://github.com/advisories/GHSA-73v3-wf97-vpgj"
+     "link": "https://github.com/advisories/GHSA-f3w6-w445-fwh9"
     },
     {
      "cat": "GHSA",
      "sev": "MEDIUM",
-     "title": "CVE-2026-126348 — Addressable display_uri can show misleading hosts with invalid Punycode A-labels",
-     "desc": "Addressable display_uri can show misleading hosts with invalid Punycode A-labels",
+     "title": "CVE-2026-126072 — Action Pack: Possible DoS vulnerability in Action Controller Live streaming",
+     "desc": "Action Pack: Possible DoS vulnerability in Action Controller Live streaming",
      "tags": [
-      "rubygems addressable",
-      "published 2026-11-12"
+      "rubygems actionpack",
+      "published 2026-11-12",
+      "EPSS 0.4%"
      ],
-     "link": "https://github.com/advisories/GHSA-9crm-g4mf-wc5j"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "LOW",
-     "title": "CVE-2026-126349 — Addressable display_uri can show misleading hosts containing bidi and invisible characters",
-     "desc": "Addressable display_uri can show misleading hosts containing bidi and invisible characters",
-     "tags": [
-      "rubygems addressable",
-      "published 2026-11-12"
-     ],
-     "link": "https://github.com/advisories/GHSA-539f-xcgw-2gjg"
+     "link": "https://github.com/advisories/GHSA-rwvh-fw6r-pwvp"
     },
     {
      "cat": "GHSA",
      "sev": "MEDIUM",
-     "title": "CVE-2026-126351 — Addressable: Denial of service in URI path normalization",
-     "desc": "Addressable: Denial of service in URI path normalization",
+     "title": "CVE-2026-126077 — Action Pack: Possible sensitive session information leak in Active Storage proxy mode",
+     "desc": "Action Pack: Possible sensitive session information leak in Active Storage proxy mode",
      "tags": [
-      "rubygems addressable",
-      "published 2026-11-12"
+      "rubygems actionpack",
+      "published 2026-11-12",
+      "EPSS 0.4%"
      ],
-     "link": "https://github.com/advisories/GHSA-qq38-m9mg-xjj5"
+     "link": "https://github.com/advisories/GHSA-x6mj-8jx9-qhqv"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-126078 — Action View: Possible XSS vulnerability in highlight helper",
+     "desc": "Action View: Possible XSS vulnerability in highlight helper",
+     "tags": [
+      "rubygems actionview",
+      "published 2026-11-12",
+      "EPSS 0.3%"
+     ],
+     "link": "https://github.com/advisories/GHSA-v6rj-xm57-3p59"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-126070 — Action View: Possible XSS vulnerability in strip_tags",
+     "desc": "Action View: Possible XSS vulnerability in strip_tags",
+     "tags": [
+      "rubygems actionview",
+      "published 2026-11-12",
+      "EPSS 0.3%"
+     ],
+     "link": "https://github.com/advisories/GHSA-rq8q-p985-fjq7"
     }
    ]
   },
