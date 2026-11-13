@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T21:00:44.521Z",
+ "updated": "2026-11-13T22:00:42.749Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -422,6 +422,21 @@
    "epss": 1
   },
   {
+   "id": "CVE-2026-126303",
+   "origin": "GHSA",
+   "product": "pip nltk",
+   "name": "NLTK: Unbounded CPU consumption in SteppingRecursiveDescentParser.parse() with ambiguous or self-embedding grammars",
+   "desc": "NLTK: Unbounded CPU consumption in SteppingRecursiveDescentParser.parse() with ambiguous or self-embedding grammars",
+   "published": "2026-11-13",
+   "cvss": 7.5,
+   "severity": "HIGH",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-8fx7-8jr8-84rv",
+   "ghsaId": "GHSA-8fx7-8jr8-84rv",
+   "epss": 0.005
+  },
+  {
    "id": "CVE-2026-126304",
    "origin": "GHSA",
    "product": "pip nltk",
@@ -449,20 +464,6 @@
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-vvf4-9x63-8xvv",
    "ghsaId": "GHSA-vvf4-9x63-8xvv"
-  },
-  {
-   "id": "CVE-2026-128082",
-   "origin": "GHSA",
-   "product": "nuget AutoMapper",
-   "name": "AutoMapper: Uncontrolled Recursion with Constructor Parameters",
-   "desc": "AutoMapper: Uncontrolled Recursion with Constructor Parameters",
-   "published": "2026-11-13",
-   "cvss": 7.5,
-   "severity": "HIGH",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-6vhm-j9h7-f9gh",
-   "ghsaId": "GHSA-6vhm-j9h7-f9gh"
   },
   {
    "id": "CVE-2026-128077",
@@ -549,18 +550,33 @@
    "ghsaId": "GHSA-3v2p-hm54-8qcq"
   },
   {
-   "id": "CVE-2026-128087",
+   "id": "GHSA-gpwc-27cw-rh9r",
    "origin": "GHSA",
-   "product": "rust russh",
-   "name": "russh kex_done: Shared-secret callback runs before server host-key verification",
-   "desc": "russh kex_done: Shared-secret callback runs before server host-key verification",
+   "product": "pip nltk",
+   "name": "NLTK: Quadratic CPU exhaustion in LegalitySyllableTokenizer.tokenize via unguarded onset reversal loop",
+   "desc": "NLTK: Quadratic CPU exhaustion in LegalitySyllableTokenizer.tokenize via unguarded onset reversal loop",
    "published": "2026-11-13",
-   "cvss": 3.7,
-   "severity": "LOW",
+   "cvss": 5.3,
+   "severity": "MEDIUM",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-9264-jvgf-6w2f",
-   "ghsaId": "GHSA-9264-jvgf-6w2f"
+   "url": "https://github.com/advisories/GHSA-gpwc-27cw-rh9r",
+   "ghsaId": "GHSA-gpwc-27cw-rh9r"
+  },
+  {
+   "id": "CVE-2026-126300",
+   "origin": "GHSA",
+   "product": "pip nltk",
+   "name": "NLTK: Quadratic CPU exhaustion in TreebankWordTokenizer.span_tokenize via list.pop(0) in quote-restore loop",
+   "desc": "NLTK: Quadratic CPU exhaustion in TreebankWordTokenizer.span_tokenize via list.pop(0) in quote-restore loop",
+   "published": "2026-11-13",
+   "cvss": 5.3,
+   "severity": "MEDIUM",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-ffr9-mgrr-wcvr",
+   "ghsaId": "GHSA-ffr9-mgrr-wcvr",
+   "epss": 0.005
   },
   {
    "id": "CVE-2026-126347",
@@ -576,20 +592,6 @@
    "url": "https://github.com/advisories/GHSA-5cjw-f85j-cv6r",
    "ghsaId": "GHSA-5cjw-f85j-cv6r",
    "epss": 0.002
-  },
-  {
-   "id": "CVE-2026-128088",
-   "origin": "GHSA",
-   "product": "rust russh",
-   "name": "russh try_sign: asynchronous confirmation can sign after agent lock",
-   "desc": "russh try_sign: asynchronous confirmation can sign after agent lock",
-   "published": "2026-11-13",
-   "cvss": 2.2,
-   "severity": "LOW",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-736f-c93q-9fwx",
-   "ghsaId": "GHSA-736f-c93q-9fwx"
   }
  ]
 }
