@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T17:00:47.903Z",
+ "updated": "2026-11-13T17:50:00.229Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -213,6 +213,66 @@
    ]
   },
   {
+   "label": "High-severity CVEs just published (NVD)",
+   "items": [
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-126806 — advisory",
+     "desc": "WWBN AVideo 14.3 through 29.7.1 contains a stored cross-site scripting vulnerability that allows uploaders to inject scripts via the videoDownloadedLink value stored unescaped through objects/aVideoEncoder.json.php. Attackers can embed event-handler payloads in the URL host rendered as a Source tag…",
+     "tags": [
+      "published 2026-11-11",
+      "EPSS 0.4%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-126806"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-126269 — advisory",
+     "desc": "NocoDB before 2026.09.0 contains a stored cross-site scripting vulnerability that allows authenticated Editor users to execute scripts by storing crafted attachment MIME types like text/html;image/png. Attackers can write the value through the records API so the /dltemp signed URL serves HTML…",
+     "tags": [
+      "published 2026-11-13",
+      "EPSS 0.4%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-126269"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-124001 — advisory",
+     "desc": "NASA JPL ION-DTN 2.2.1b through 4.2.0 contains an integer overflow vulnerability in the Datagram Retransmission (DGR) convergence layer that allows attackers to corrupt heap memory by sending a maliciously crafted 64-bit svcDataLength value that wraps a 32-bit allocation size calculation. Attackers…",
+     "tags": [
+      "published 2026-11-09",
+      "EPSS 0.5%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-124001"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-126273 — advisory",
+     "desc": "NocoDB before 2026.09.0 contains a privilege escalation vulnerability in initAdminFromEnv.ts that silently skips super-admin bootstrap when the admin password environment variable is empty. Unauthenticated attackers can call the public signup endpoint first on a fresh instance to receive Creator…",
+     "tags": [
+      "published 2026-11-13",
+      "EPSS 0.5%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-126273"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-126377 — advisory",
+     "desc": "Vvveb before 1.0.9.0 contains an authentication bypass vulnerability in generateCookie() in system/user/user.php that uses loose comparison to validate MD5 cookie hashes. Unauthenticated attackers can brute-force cookie values until the server's MD5 computation yields a 0e magic hash, then forge…",
+     "tags": [
+      "published 2026-11-13",
+      "EPSS 0.6%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-126377"
+    }
+   ]
+  },
+  {
    "label": "Recently disclosed advisories (GitHub)",
    "items": [
     {
@@ -302,6 +362,16 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+     "desc": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any…",
+     "tags": [
+      "2026-11-13"
+     ],
+     "link": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
      "desc": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior, can also modify a VM's memory and fake the…",
      "tags": [
@@ -328,16 +398,6 @@
       "2026-11-13"
      ],
      "link": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "When an AI Agent Goes Wrong, Can You Stop It?",
-     "desc": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has…",
-     "tags": [
-      "2026-11-13"
-     ],
-     "link": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html"
     }
    ]
   }
