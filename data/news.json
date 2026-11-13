@@ -1,7 +1,18 @@
 {
- "updated": "2026-11-12T22:00:45.553Z",
+ "updated": "2026-11-13T02:00:42.997Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
+  {
+   "date": "2026-11-13",
+   "region": "HK",
+   "cat": "Advisory",
+   "title": "Apache HTTP Server Multiple Vulnerabilities",
+   "desc": "Multiple vulnerabilities were identified in Apache HTTP Server. A remote attacker could exploit some of these vulnerabilities to trigger remote code execution and denial of service condition on the targeted system. Impact Denial of Service…",
+   "tags": [
+    "HKCERT"
+   ],
+   "link": "https://www.hkcert.org/security-bulletin/apache-http-server-multiple-vulnerabilities_20261113"
+  },
   {
    "date": "2026-11-12",
    "region": "HK",
@@ -100,17 +111,6 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/adobe-monthly-security-update-november-2026"
-  },
-  {
-   "date": "2026-11-11",
-   "region": "HK",
-   "cat": "Advisory",
-   "title": "Fortinet Products Multiple Vulnerabilities",
-   "desc": "Multiple vulnerabilities were identified in Fortinet Products. A remote attacker could exploit some of these vulnerabilities to trigger denial of service condition, elevation of privilege, security restriction bypass, sensitive information…",
-   "tags": [
-    "HKCERT"
-   ],
-   "link": "https://www.hkcert.org/security-bulletin/fortinet-products-multiple-vulnerabilities_20261111"
   },
   {
    "date": "2026-11-10",
