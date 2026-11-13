@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T04:00:41.066Z",
+ "updated": "2026-11-13T05:00:44.520Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -278,6 +278,26 @@
    "label": "Threat headlines",
    "items": [
     {
+     "cat": "SANS ISC",
+     "sev": "NEWS",
+     "title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
+     "desc": "Introduction",
+     "tags": [
+      "2026-11-13"
+     ],
+     "link": "https://isc.sans.edu/diary/rss/33518"
+    },
+    {
+     "cat": "SANS ISC",
+     "sev": "NEWS",
+     "title": "ISC Stormcast For Friday, November 13th, 2026 https://isc.sans.edu/podcastdetail/10178, (Fri, Nov 13th)",
+     "desc": "",
+     "tags": [
+      "2026-11-13"
+     ],
+     "link": "https://isc.sans.edu/diary/rss/33516"
+    },
+    {
      "cat": "CISA",
      "sev": "NEWS",
      "title": "Siemens Desigo, Gridscale",
@@ -316,26 +336,6 @@
       "2026-11-12"
      ],
      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01"
-    },
-    {
-     "cat": "CISA",
-     "sev": "NEWS",
-     "title": "Siemens Industrial Edge Management",
-     "desc": "View CSAF Summary Siemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup: - No Management Applications installed: No action is required…",
-     "tags": [
-      "2026-11-12"
-     ],
-     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
-     "desc": "Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what can they access? A suspicious login…",
-     "tags": [
-      "2026-11-12"
-     ],
-     "link": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html"
     }
    ]
   }
