@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T10:00:43.812Z",
+ "updated": "2026-11-13T11:00:44.636Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -320,22 +320,22 @@
     {
      "cat": "BleepingComputer",
      "sev": "NEWS",
+     "title": "Check Point warns of zero-day flaw exploited for root access",
+     "desc": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October.",
+     "tags": [
+      "2026-11-13"
+     ],
+     "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/"
+    },
+    {
+     "cat": "BleepingComputer",
+     "sev": "NEWS",
      "title": "Microsoft confirms Windows activation failures after November updates",
      "desc": "Microsoft has confirmed that this month's Patch Tuesday security updates are causing Windows activation and licensing failures with 0x80041008 error codes.",
      "tags": [
       "2026-11-13"
      ],
      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/"
-    },
-    {
-     "cat": "BleepingComputer",
-     "sev": "NEWS",
-     "title": "Police arrest 354 suspects in dark web cybercrime crackdown",
-     "desc": "Authorities arrested 354 suspects in a joint international operation targeting vendors and buyers on the Archetyp, Nemesis, Tor2Door, Bohemia, and Kingdom dark web marketplaces.",
-     "tags": [
-      "2026-11-13"
-     ],
-     "link": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/"
     }
    ]
   }
