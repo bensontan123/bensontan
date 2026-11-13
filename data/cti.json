@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T09:40:34.809Z",
+ "updated": "2026-11-13T10:00:43.812Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -7,7 +7,7 @@
    "items": [
     {
      "cat": "KEV",
-     "sev": "MEDIUM",
+     "sev": "PENDING",
      "title": "CVE-2026-124194 — Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
      "desc": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
      "tags": [
@@ -20,7 +20,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "MEDIUM",
+     "sev": "PENDING",
      "title": "CVE-2026-111793 — Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
      "desc": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience.",
      "tags": [
@@ -33,7 +33,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "HIGH",
+     "sev": "PENDING",
      "title": "CVE-2026-20320 — Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
      "desc": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.",
      "tags": [
@@ -46,7 +46,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "HIGH",
+     "sev": "PENDING",
      "title": "CVE-2026-111560 — Barracuda Networks Multiple Products OS Command Injection Vulnerability",
      "desc": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerability could allow an…",
      "tags": [
@@ -59,7 +59,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "CRITICAL",
+     "sev": "PENDING",
      "title": "CVE-2026-116606 — Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
      "desc": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification…",
      "tags": [
@@ -77,7 +77,7 @@
    "items": [
     {
      "cat": "Ransomware",
-     "sev": "CRITICAL",
+     "sev": "PENDING",
      "title": "CVE-2026-59310 — Broadcom VMware vCenter Path Traversal Vulnerability",
      "desc": "Broadcom VMware vCenter contains a path traversal vulnerability which could allow a threat actor with network access to vCenter to execute arbitrary code.",
      "tags": [
@@ -90,7 +90,7 @@
     },
     {
      "cat": "Ransomware",
-     "sev": "CRITICAL",
+     "sev": "PENDING",
      "title": "CVE-2026-63077 — JetBrains TeamCity Deserialization of Untrusted Data Vulnerability",
      "desc": "JetBrains TeamCity contains a deserialization of untrusted data vulnerability that could allow unauthenticated remote code execution via the agent polling protocol.",
      "tags": [
@@ -103,7 +103,7 @@
     },
     {
      "cat": "Ransomware",
-     "sev": "MEDIUM",
+     "sev": "PENDING",
      "title": "CVE-2026-20316 — Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability",
      "desc": "Cisco Secure Firewall Management Center (FMC) formerly known as Firepower Management Center contains a use of hard-coded password vulnerability that could allow an unauthenticated, remote attacker to log in to an affected device using a low-privileged account to access sensitive data within the…",
      "tags": [
@@ -116,7 +116,7 @@
     },
     {
      "cat": "Ransomware",
-     "sev": "CRITICAL",
+     "sev": "PENDING",
      "title": "CVE-2026-15409 — SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
      "desc": "SonicWall SMA1000 Appliances contain a server-side request forgery vulnerability that could allow a remote unauthenticated attacker to potentially cause the appliance to make requests to unintended location.",
      "tags": [
@@ -129,7 +129,7 @@
     },
     {
      "cat": "Ransomware",
-     "sev": "HIGH",
+     "sev": "PENDING",
      "title": "CVE-2026-15410 — SonicWall SMA1000 Appliances Code Injection Vulnerability",
      "desc": "SonicWall SMA1000 Appliances contain a code injection vulnerability which in specific conditions could potentially enable a remote authenticated attacker as administrator to execute arbitrary OS commands.",
      "tags": [
@@ -147,7 +147,7 @@
    "items": [
     {
      "cat": "EPSS",
-     "sev": "CRITICAL",
+     "sev": "PENDING",
      "title": "CVE-2026-109618 — PHP Memory Corruption Vulnerability",
      "desc": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
      "tags": [
@@ -160,7 +160,7 @@
     },
     {
      "cat": "EPSS",
-     "sev": "CRITICAL",
+     "sev": "PENDING",
      "title": "CVE-2026-109619 — PHP Stale Internal Request-State Vulnerability",
      "desc": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution.",
      "tags": [
@@ -173,7 +173,7 @@
     },
     {
      "cat": "EPSS",
-     "sev": "CRITICAL",
+     "sev": "PENDING",
      "title": "CVE-2026-111497 — Google Brotli Unchecked Return Value Vulnerability",
      "desc": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.",
      "tags": [
@@ -186,7 +186,7 @@
     },
     {
      "cat": "EPSS",
-     "sev": "CRITICAL",
+     "sev": "PENDING",
      "title": "CVE-2026-97229 — GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
      "desc": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression…",
      "tags": [
@@ -199,7 +199,7 @@
     },
     {
      "cat": "EPSS",
-     "sev": "CRITICAL",
+     "sev": "PENDING",
      "title": "CVE-2026-48356 — Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
      "desc": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.",
      "tags": [
@@ -209,66 +209,6 @@
       "EPSS 47.5%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356"
-    }
-   ]
-  },
-  {
-   "label": "High-severity CVEs just published (NVD)",
-   "items": [
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-17410 — advisory",
-     "desc": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to access and modify other tenants' portal data due to improper neutralization of argument delimiters.",
-     "tags": [
-      "published 2026-11-07",
-      "EPSS 0.7%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-17410"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-120002 — advisory",
-     "desc": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
-     "tags": [
-      "published 2026-11-10",
-      "EPSS 0.9%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120002"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-16720 — advisory",
-     "desc": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to obtain valid access tokens for other users due to improper authentication. Authentication against a connected directory service is not sufficiently enforced, which could allow another user's…",
-     "tags": [
-      "published 2026-11-07",
-      "EPSS 0.8%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16720"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-17301 — advisory",
-     "desc": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow an unauthenticated attacker to bypass authentication due to improper verification of a cryptographic signature.",
-     "tags": [
-      "published 2026-11-07",
-      "EPSS 0.4%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-17301"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-89324 — advisory",
-     "desc": "The Basel Post Types plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 1.18. The vulnerability exists because a missing-quotes coding error in the defined() call for SECURE_AUTH_SALT inside BASEL_Auth::get_config() causes PHP to evaluate the…",
-     "tags": [
-      "published 2026-11-10",
-      "EPSS 0.7%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-89324"
     }
    ]
   },
