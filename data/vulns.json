@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T16:00:46.667Z",
+ "updated": "2026-11-13T17:00:47.903Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -451,6 +451,21 @@
    "epss": 0.007
   },
   {
+   "id": "CVE-2026-126191",
+   "origin": "GHSA",
+   "product": "pip soupsieve",
+   "name": "Soup Sieve: Exponential ReDoS in selector compilation via \\9-run in CSS_ESCAPES/IDENTIFIER",
+   "desc": "Soup Sieve: Exponential ReDoS in selector compilation via \\9-run in CSS_ESCAPES/IDENTIFIER",
+   "published": "2026-11-13",
+   "cvss": 7.5,
+   "severity": "HIGH",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-6655-6qjp-jx7x",
+   "ghsaId": "GHSA-6655-6qjp-jx7x",
+   "epss": 0.004
+  },
+  {
    "id": "CVE-2026-126190",
    "origin": "GHSA",
    "product": "pip soupsieve",
@@ -464,21 +479,6 @@
    "url": "https://github.com/advisories/GHSA-mmhr-3c5m-f64f",
    "ghsaId": "GHSA-mmhr-3c5m-f64f",
    "epss": 0.005
-  },
-  {
-   "id": "CVE-2026-126081",
-   "origin": "GHSA",
-   "product": "rubygems actionpack",
-   "name": "Action Pack: Possible Strong Parameters Bypass in Parameters#each_key",
-   "desc": "Action Pack: Possible Strong Parameters Bypass in Parameters#each_key",
-   "published": "2026-11-12",
-   "cvss": 7.5,
-   "severity": "HIGH",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-wm3x-v3qw-4jh3",
-   "ghsaId": "GHSA-wm3x-v3qw-4jh3",
-   "epss": 0.006
   },
   {
    "id": "CVE-2026-126077",
@@ -556,19 +556,34 @@
    "epss": 0.004
   },
   {
-   "id": "CVE-2026-126084",
+   "id": "CVE-2026-126360",
    "origin": "GHSA",
-   "product": "rubygems activestorage",
-   "name": "Active Storage: Unsigned Content-Type in GCS direct uploads with cache_control",
-   "desc": "Active Storage: Unsigned Content-Type in GCS direct uploads with cache_control",
-   "published": "2026-11-12",
-   "cvss": 4.7,
+   "product": "pip opentelemetry-api",
+   "name": "OpenTelemetry Python API: Denial of service through quadratic-time traceparent parsing",
+   "desc": "OpenTelemetry Python API: Denial of service through quadratic-time traceparent parsing",
+   "published": "2026-11-13",
+   "cvss": 5.3,
    "severity": "MEDIUM",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-3w93-6hmw-whh4",
-   "ghsaId": "GHSA-3w93-6hmw-whh4",
-   "epss": 0.001
+   "url": "https://github.com/advisories/GHSA-mf5v-w3w3-f6cg",
+   "ghsaId": "GHSA-mf5v-w3w3-f6cg",
+   "epss": 0.005
+  },
+  {
+   "id": "CVE-2026-126193",
+   "origin": "GHSA",
+   "product": "pip soupsieve",
+   "name": "Soup Sieve: Uncontrolled recursion in CSS parser lets nested pseudo-class selectors exhaust the Python call stack",
+   "desc": "Soup Sieve: Uncontrolled recursion in CSS parser lets nested pseudo-class selectors exhaust the Python call stack",
+   "published": "2026-11-13",
+   "cvss": 5.3,
+   "severity": "MEDIUM",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-7g44-g9rc-x53w",
+   "ghsaId": "GHSA-7g44-g9rc-x53w",
+   "epss": 0.003
   },
   {
    "id": "CVE-2026-126192",
@@ -584,21 +599,6 @@
    "url": "https://github.com/advisories/GHSA-4j63-6c4x-wfg4",
    "ghsaId": "GHSA-4j63-6c4x-wfg4",
    "epss": 0.005
-  },
-  {
-   "id": "CVE-2026-128066",
-   "origin": "GHSA",
-   "product": "pip Pillow",
-   "name": "Pillow: Memory DoS in TIFF and EXIF IFD parsing via overlapping tag data",
-   "desc": "Pillow: Memory DoS in TIFF and EXIF IFD parsing via overlapping tag data",
-   "published": "2026-11-12",
-   "cvss": null,
-   "severity": "MEDIUM",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-wqgw-9xfh-qf2g",
-   "ghsaId": "GHSA-wqgw-9xfh-qf2g",
-   "epss": 0.004
   }
  ]
 }
