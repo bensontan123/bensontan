@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T14:00:44.016Z",
+ "updated": "2026-11-13T15:00:52.474Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -63,7 +63,7 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320",
-   "epss": 0.008
+   "epss": 0.01
   },
   {
    "id": "CVE-2026-111560",
@@ -80,7 +80,7 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560",
-   "epss": 0.062
+   "epss": 0.091
   },
   {
    "id": "CVE-2026-116606",
@@ -97,7 +97,7 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606",
-   "epss": 0.089
+   "epss": 0.109
   },
   {
    "id": "CVE-2026-125350",
@@ -517,7 +517,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119077"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119077",
+   "epss": 0.013
   },
   {
    "id": "CVE-2026-125055",
@@ -530,7 +531,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125055"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125055",
+   "epss": 0.011
   },
   {
    "id": "CVE-2026-100397",
@@ -600,7 +602,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126378"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126378",
+   "epss": 0.008
   },
   {
    "id": "CVE-2026-126380",
@@ -613,7 +616,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126380"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126380",
+   "epss": 0.006
   },
   {
    "id": "CVE-2026-127073",
@@ -626,7 +630,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-127073"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-127073",
+   "epss": 0.005
   },
   {
    "id": "CVE-2026-127080",
@@ -639,7 +644,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-127080"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-127080",
+   "epss": 0.005
   },
   {
    "id": "CVE-2026-128049",
@@ -652,7 +658,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / Passive",
    "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-128049"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-128049",
+   "epss": 0.002
   },
   {
    "id": "CVE-2026-119757",
@@ -680,7 +687,8 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-mmhr-3c5m-f64f",
-   "ghsaId": "GHSA-mmhr-3c5m-f64f"
+   "ghsaId": "GHSA-mmhr-3c5m-f64f",
+   "epss": 0.005
   },
   {
    "id": "CVE-2026-126081",
