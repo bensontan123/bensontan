@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T01:00:58.532Z",
+ "updated": "2026-11-13T01:10:37.070Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -277,6 +277,17 @@
    "items": [
     {
      "cat": "GHSA",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-100397 — Rucio: Unauthenticated administrator impersonation through SSH challenge tokens",
+     "desc": "Rucio: Unauthenticated administrator impersonation through SSH challenge tokens",
+     "tags": [
+      "pip rucio",
+      "published 2026-11-13"
+     ],
+     "link": "https://github.com/advisories/GHSA-x585-4vv8-2mh2"
+    },
+    {
+     "cat": "GHSA",
      "sev": "HIGH",
      "title": "CVE-2026-126190 — Soup Sieve: Polynomial-time denial of service in the descendant combinator",
      "desc": "Soup Sieve: Polynomial-time denial of service in the descendant combinator",
@@ -320,18 +331,6 @@
       "EPSS 0.4%"
      ],
      "link": "https://github.com/advisories/GHSA-rwvh-fw6r-pwvp"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-126077 — Action Pack: Possible sensitive session information leak in Active Storage proxy mode",
-     "desc": "Action Pack: Possible sensitive session information leak in Active Storage proxy mode",
-     "tags": [
-      "rubygems actionpack",
-      "published 2026-11-12",
-      "EPSS 0.4%"
-     ],
-     "link": "https://github.com/advisories/GHSA-x6mj-8jx9-qhqv"
     }
    ]
   },

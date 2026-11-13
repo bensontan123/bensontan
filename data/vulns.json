@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T01:00:58.532Z",
+ "updated": "2026-11-13T01:10:37.070Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -521,6 +521,20 @@
    "epss": 0.006
   },
   {
+   "id": "CVE-2026-100397",
+   "origin": "GHSA",
+   "product": "pip rucio",
+   "name": "Rucio: Unauthenticated administrator impersonation through SSH challenge tokens",
+   "desc": "Rucio: Unauthenticated administrator impersonation through SSH challenge tokens",
+   "published": "2026-11-13",
+   "cvss": 9.8,
+   "severity": "CRITICAL",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-x585-4vv8-2mh2",
+   "ghsaId": "GHSA-x585-4vv8-2mh2"
+  },
+  {
    "id": "CVE-2026-122006",
    "origin": "GHSA",
    "product": "rubygems activestorage",
@@ -689,20 +703,6 @@
    "url": "https://github.com/advisories/GHSA-wm3x-v3qw-4jh3",
    "ghsaId": "GHSA-wm3x-v3qw-4jh3",
    "epss": 0.006
-  },
-  {
-   "id": "CVE-2026-128067",
-   "origin": "GHSA",
-   "product": "pip Pillow",
-   "name": "Pillow: Heap buffer overflow saving TIFF with libtiff when tags override image size",
-   "desc": "Pillow: Heap buffer overflow saving TIFF with libtiff when tags override image size",
-   "published": "2026-11-12",
-   "cvss": null,
-   "severity": "HIGH",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-xcvg-w56q-r89m",
-   "ghsaId": "GHSA-xcvg-w56q-r89m"
   },
   {
    "id": "CVE-2026-126077",
