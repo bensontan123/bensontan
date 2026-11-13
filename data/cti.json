@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T22:00:42.749Z",
+ "updated": "2026-11-13T23:39:40.635Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -7,7 +7,7 @@
    "items": [
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "HIGH",
      "title": "CVE-2026-114713 — UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
      "desc": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority.",
      "tags": [
@@ -20,7 +20,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "HIGH",
      "title": "CVE-2026-123039 — Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
      "desc": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local…",
      "tags": [
@@ -33,7 +33,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "MEDIUM",
      "title": "CVE-2026-124194 — Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
      "desc": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
      "tags": [
@@ -46,7 +46,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "MEDIUM",
      "title": "CVE-2026-111793 — Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
      "desc": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience.",
      "tags": [
@@ -59,7 +59,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "HIGH",
      "title": "CVE-2026-20320 — Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
      "desc": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.",
      "tags": [
@@ -77,7 +77,7 @@
    "items": [
     {
      "cat": "Ransomware",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-59310 — Broadcom VMware vCenter Path Traversal Vulnerability",
      "desc": "Broadcom VMware vCenter contains a path traversal vulnerability which could allow a threat actor with network access to vCenter to execute arbitrary code.",
      "tags": [
@@ -90,7 +90,7 @@
     },
     {
      "cat": "Ransomware",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-63077 — JetBrains TeamCity Deserialization of Untrusted Data Vulnerability",
      "desc": "JetBrains TeamCity contains a deserialization of untrusted data vulnerability that could allow unauthenticated remote code execution via the agent polling protocol.",
      "tags": [
@@ -103,7 +103,7 @@
     },
     {
      "cat": "Ransomware",
-     "sev": "PENDING",
+     "sev": "MEDIUM",
      "title": "CVE-2026-20316 — Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability",
      "desc": "Cisco Secure Firewall Management Center (FMC) formerly known as Firepower Management Center contains a use of hard-coded password vulnerability that could allow an unauthenticated, remote attacker to log in to an affected device using a low-privileged account to access sensitive data within the…",
      "tags": [
@@ -116,7 +116,7 @@
     },
     {
      "cat": "Ransomware",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-15409 — SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
      "desc": "SonicWall SMA1000 Appliances contain a server-side request forgery vulnerability that could allow a remote unauthenticated attacker to potentially cause the appliance to make requests to unintended location.",
      "tags": [
@@ -129,7 +129,7 @@
     },
     {
      "cat": "Ransomware",
-     "sev": "PENDING",
+     "sev": "HIGH",
      "title": "CVE-2026-15410 — SonicWall SMA1000 Appliances Code Injection Vulnerability",
      "desc": "SonicWall SMA1000 Appliances contain a code injection vulnerability which in specific conditions could potentially enable a remote authenticated attacker as administrator to execute arbitrary OS commands.",
      "tags": [
@@ -147,7 +147,7 @@
    "items": [
     {
      "cat": "EPSS",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-109618 — PHP Memory Corruption Vulnerability",
      "desc": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
      "tags": [
@@ -160,7 +160,7 @@
     },
     {
      "cat": "EPSS",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-111497 — Google Brotli Unchecked Return Value Vulnerability",
      "desc": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.",
      "tags": [
@@ -173,7 +173,7 @@
     },
     {
      "cat": "EPSS",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-97229 — GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
      "desc": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression…",
      "tags": [
@@ -186,7 +186,7 @@
     },
     {
      "cat": "EPSS",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-48356 — Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
      "desc": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.",
      "tags": [
@@ -199,7 +199,7 @@
     },
     {
      "cat": "EPSS",
-     "sev": "PENDING",
+     "sev": "HIGH",
      "title": "CVE-2026-123158 — OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
      "desc": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
      "tags": [
@@ -213,8 +213,104 @@
    ]
   },
   {
+   "label": "High-severity CVEs just published (NVD)",
+   "items": [
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-120002 — advisory",
+     "desc": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
+     "tags": [
+      "published 2026-11-10",
+      "EPSS 0.9%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120002"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-123280 — advisory",
+     "desc": "In JetBrains Datalore before 2026.2.4 unauthenticated users could execute code via published interactive reports",
+     "tags": [
+      "published 2026-11-06",
+      "EPSS 0.4%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123280"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-76954 — advisory",
+     "desc": "An improper neutralization of special elements used in an SQL command vulnerability in the Auth API in Synology DiskStation Manager (DSM) before 7.2.1-69057-13, 7.2.2-72806-10, 7.3.2-86009-5, and 7.4.1-90080-1 allows remote attackers to read or write arbitrary files and conduct denial-of-service…",
+     "tags": [
+      "published 2026-11-12",
+      "EPSS 0.6%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76954"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-120779 — advisory",
+     "desc": "Improper control of generation of code ('code injection') in Visual Studio Code allows an unauthorized attacker to execute code over a network.",
+     "tags": [
+      "published 2026-11-10",
+      "EPSS 0.6%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120779"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-118383 — advisory",
+     "desc": "A use-after-free in the replication component of MongoDB Server can occur when a newly elected replica set primary completes catch-up. The condition can be caused by requests that do not require authentication, and may result in the server terminating unexpectedly or, under certain conditions…",
+     "tags": [
+      "published 2026-11-10",
+      "EPSS 0.7%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-118383"
+    }
+   ]
+  },
+  {
    "label": "Recently disclosed advisories (GitHub)",
    "items": [
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-126295 — NLTK: BllipParser passes caller-supplied model paths to the bllipparser C extension with no pathsec check, enabling arbitrary read",
+     "desc": "NLTK: BllipParser passes caller-supplied model paths to the bllipparser C extension with no pathsec check, enabling arbitrary read",
+     "tags": [
+      "pip nltk",
+      "published 2026-11-13",
+      "EPSS 0.2%"
+     ],
+     "link": "https://github.com/advisories/GHSA-fg9w-wfp5-j933"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-62297 — ag-psd can exhaust memory when parsing crafted PSD dimensions",
+     "desc": "ag-psd can exhaust memory when parsing crafted PSD dimensions",
+     "tags": [
+      "npm ag-psd",
+      "published 2026-11-13",
+      "EPSS 0.3%"
+     ],
+     "link": "https://github.com/advisories/GHSA-qfx6-q44v-9qqw"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "LOW",
+     "title": "CVE-2026-62683 — File Browser: Trailing-slash directory deletion leaves public shares active for recreated paths",
+     "desc": "File Browser: Trailing-slash directory deletion leaves public shares active for recreated paths",
+     "tags": [
+      "go github.com/filebrowser/filebrowser/v2",
+      "published 2026-11-13",
+      "EPSS 0.3%"
+     ],
+     "link": "https://github.com/advisories/GHSA-pp88-jhwj-5qh5"
+    },
     {
      "cat": "GHSA",
      "sev": "MEDIUM",
@@ -237,41 +333,6 @@
       "EPSS 0.5%"
      ],
      "link": "https://github.com/advisories/GHSA-ffr9-mgrr-wcvr"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-126303 — NLTK: Unbounded CPU consumption in SteppingRecursiveDescentParser.parse() with ambiguous or self-embedding grammars",
-     "desc": "NLTK: Unbounded CPU consumption in SteppingRecursiveDescentParser.parse() with ambiguous or self-embedding grammars",
-     "tags": [
-      "pip nltk",
-      "published 2026-11-13",
-      "EPSS 0.5%"
-     ],
-     "link": "https://github.com/advisories/GHSA-8fx7-8jr8-84rv"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-126304 — NLTK: Symlink escape in YCOECorpusReader lets a psd/pos directory symlink read files outside the corpus root within the data sandbox",
-     "desc": "NLTK: Symlink escape in YCOECorpusReader lets a psd/pos directory symlink read files outside the corpus root within the data sandbox",
-     "tags": [
-      "pip nltk",
-      "published 2026-11-13",
-      "EPSS 0.5%"
-     ],
-     "link": "https://github.com/advisories/GHSA-qg35-44qx-7vrr"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-128117 — SvelteKit: adapter-node crashes with an unhandled URIError when `reroute` rewrites malformed pathnames",
-     "desc": "SvelteKit: adapter-node crashes with an unhandled URIError when `reroute` rewrites malformed pathnames",
-     "tags": [
-      "npm @sveltejs/kit",
-      "published 2026-11-13"
-     ],
-     "link": "https://github.com/advisories/GHSA-mw6w-2fmv-pvw3"
     }
    ]
   },
