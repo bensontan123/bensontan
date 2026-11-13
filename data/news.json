@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T12:00:45.449Z",
+ "updated": "2026-11-13T16:00:46.667Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -23,6 +23,17 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/citrix-products-multiple-vulnerabilities_20261113"
+  },
+  {
+   "date": "2026-11-13",
+   "region": "KR",
+   "cat": "News",
+   "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+   "desc": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social…",
+   "tags": [
+    "The Hacker News"
+   ],
+   "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html"
   },
   {
    "date": "2026-11-13",
@@ -254,17 +265,6 @@
     "JPCERT/CC"
    ],
    "link": "https://www.jpcert.or.jp/english/at/2026/at260026.html"
-  },
-  {
-   "date": "2026-09-09",
-   "region": "JP",
-   "cat": "Advisory",
-   "title": "Security Alert: Microsoft Releases September 2026 Security Updates",
-   "desc": "",
-   "tags": [
-    "JPCERT/CC"
-   ],
-   "link": "https://www.jpcert.or.jp/english/at/2026/at260025.html"
   }
  ]
 }
