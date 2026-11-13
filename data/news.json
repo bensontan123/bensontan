@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T17:00:47.903Z",
+ "updated": "2026-11-13T20:00:46.445Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -45,6 +45,28 @@
     "The Hacker News"
    ],
    "link": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
+  },
+  {
+   "date": "2026-11-13",
+   "region": "APAC",
+   "cat": "News",
+   "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+   "desc": "Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery phrases and send them to attackers…",
+   "tags": [
+    "BleepingComputer"
+   ],
+   "link": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/"
+  },
+  {
+   "date": "2026-11-13",
+   "region": "JP",
+   "cat": "News",
+   "title": "City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents",
+   "desc": "Osaka, Japan's third-largest city, told its 2.8 million residents to be wary of suspicious emails purporting to come from the local government.",
+   "tags": [
+    "The Record"
+   ],
+   "link": "https://therecord.media/city-of-osaka-japan-email-data-breach"
   },
   {
    "date": "2026-11-12",
@@ -243,28 +265,6 @@
     "JPCERT/CC"
    ],
    "link": "https://www.jpcert.or.jp/english/at/2026/at260031.html"
-  },
-  {
-   "date": "2026-09-09",
-   "region": "JP",
-   "cat": "Advisory",
-   "title": "Security Alert: Alert Regarding Vulnerabilities in Adobe Acrobat and Reader (APSB26-141)",
-   "desc": "",
-   "tags": [
-    "JPCERT/CC"
-   ],
-   "link": "https://www.jpcert.or.jp/english/at/2026/at260026.html"
-  },
-  {
-   "date": "2026-09-09",
-   "region": "JP",
-   "cat": "Advisory",
-   "title": "Security Alert: Microsoft Releases September 2026 Security Updates",
-   "desc": "",
-   "tags": [
-    "JPCERT/CC"
-   ],
-   "link": "https://www.jpcert.or.jp/english/at/2026/at260025.html"
   }
  ]
 }
