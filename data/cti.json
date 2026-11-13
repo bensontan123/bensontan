@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T00:00:43.962Z",
+ "updated": "2026-11-13T01:00:58.532Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -277,6 +277,28 @@
    "items": [
     {
      "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-126190 — Soup Sieve: Polynomial-time denial of service in the descendant combinator",
+     "desc": "Soup Sieve: Polynomial-time denial of service in the descendant combinator",
+     "tags": [
+      "pip soupsieve",
+      "published 2026-11-13"
+     ],
+     "link": "https://github.com/advisories/GHSA-mmhr-3c5m-f64f"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-126192 — Soup Sieve: General sibling combinator inside :has() matches untrusted HTML in quadratic time",
+     "desc": "Soup Sieve: General sibling combinator inside :has() matches untrusted HTML in quadratic time",
+     "tags": [
+      "pip soupsieve",
+      "published 2026-11-13"
+     ],
+     "link": "https://github.com/advisories/GHSA-4j63-6c4x-wfg4"
+    },
+    {
+     "cat": "GHSA",
      "sev": "CRITICAL",
      "title": "CVE-2026-122006 — Active Storage: Possible arbitrary file write and read in image analysis",
      "desc": "Active Storage: Possible arbitrary file write and read in image analysis",
@@ -310,30 +332,6 @@
       "EPSS 0.4%"
      ],
      "link": "https://github.com/advisories/GHSA-x6mj-8jx9-qhqv"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-126078 — Action View: Possible XSS vulnerability in highlight helper",
-     "desc": "Action View: Possible XSS vulnerability in highlight helper",
-     "tags": [
-      "rubygems actionview",
-      "published 2026-11-12",
-      "EPSS 0.3%"
-     ],
-     "link": "https://github.com/advisories/GHSA-v6rj-xm57-3p59"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-126070 — Action View: Possible XSS vulnerability in strip_tags",
-     "desc": "Action View: Possible XSS vulnerability in strip_tags",
-     "tags": [
-      "rubygems actionview",
-      "published 2026-11-12",
-      "EPSS 0.3%"
-     ],
-     "link": "https://github.com/advisories/GHSA-rq8q-p985-fjq7"
     }
    ]
   },

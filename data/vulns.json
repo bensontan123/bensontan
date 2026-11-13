@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T00:00:43.962Z",
+ "updated": "2026-11-13T01:00:58.532Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -550,19 +550,6 @@
    "epss": 0.006
   },
   {
-   "id": "CVE-2026-107360",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "A flaw was found in rubygem-safemode. Compound assignment expressions in sandboxed code are evaluated without mediating method calls through the Jail allow-list. An authenticated attacker who can supply template content can invoke arbitrary no-argument methods on objects exposed to the template…",
-   "published": "2026-11-12",
-   "cvss": 9.6,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107360"
-  },
-  {
    "id": "CVE-2026-100358",
    "origin": "NVD",
    "product": "",
@@ -661,6 +648,34 @@
    "epss": 0.006
   },
   {
+   "id": "CVE-2026-126542",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "WWBN AVideo 6.5 through 29.7.1 contains an authentication bypass vulnerability that allows unauthenticated attackers to log in as any user via Hybridauth social login display names. Attackers can set their X, Facebook, Yahoo or LinkedIn display name to a victim's username and withhold email…",
+   "published": "2026-11-11",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126542",
+   "epss": 0.008
+  },
+  {
+   "id": "CVE-2026-126190",
+   "origin": "GHSA",
+   "product": "pip soupsieve",
+   "name": "Soup Sieve: Polynomial-time denial of service in the descendant combinator",
+   "desc": "Soup Sieve: Polynomial-time denial of service in the descendant combinator",
+   "published": "2026-11-13",
+   "cvss": 7.5,
+   "severity": "HIGH",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-mmhr-3c5m-f64f",
+   "ghsaId": "GHSA-mmhr-3c5m-f64f"
+  },
+  {
    "id": "CVE-2026-126081",
    "origin": "GHSA",
    "product": "rubygems actionpack",
@@ -748,21 +763,6 @@
    "url": "https://github.com/advisories/GHSA-2p2f-4rq4-gjwc",
    "ghsaId": "GHSA-2p2f-4rq4-gjwc",
    "epss": 0.003
-  },
-  {
-   "id": "CVE-2026-126072",
-   "origin": "GHSA",
-   "product": "rubygems actionpack",
-   "name": "Action Pack: Possible DoS vulnerability in Action Controller Live streaming",
-   "desc": "Action Pack: Possible DoS vulnerability in Action Controller Live streaming",
-   "published": "2026-11-12",
-   "cvss": 5.9,
-   "severity": "MEDIUM",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-rwvh-fw6r-pwvp",
-   "ghsaId": "GHSA-rwvh-fw6r-pwvp",
-   "epss": 0.004
   }
  ]
 }
