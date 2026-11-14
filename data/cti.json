@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T06:39:07.481Z",
+ "updated": "2026-11-14T07:00:46.754Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -209,65 +209,6 @@
       "EPSS 18.9%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158"
-    }
-   ]
-  },
-  {
-   "label": "High-severity CVEs just published (NVD)",
-   "items": [
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-120002 — advisory",
-     "desc": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
-     "tags": [
-      "published 2026-11-10",
-      "EPSS 0.9%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120002"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-123280 — advisory",
-     "desc": "In JetBrains Datalore before 2026.2.4 unauthenticated users could execute code via published interactive reports",
-     "tags": [
-      "published 2026-11-06",
-      "EPSS 0.4%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123280"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-76954 — advisory",
-     "desc": "An improper neutralization of special elements used in an SQL command vulnerability in the Auth API in Synology DiskStation Manager (DSM) before 7.2.1-69057-13, 7.2.2-72806-10, 7.3.2-86009-5, and 7.4.1-90080-1 allows remote attackers to read or write arbitrary files and conduct denial-of-service…",
-     "tags": [
-      "published 2026-11-12",
-      "EPSS 0.6%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76954"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-126173 — advisory",
-     "desc": "The AutomatorWP Pro plugin for WordPress' webhook addon is vulnerable to authorization bypass in all versions up to, and including, 1.4.4. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for unauthenticated attackers to reset…",
-     "tags": [
-      "published 2026-11-14"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-126173"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-120779 — advisory",
-     "desc": "Improper control of generation of code ('code injection') in Visual Studio Code allows an unauthorized attacker to execute code over a network.",
-     "tags": [
-      "published 2026-11-10",
-      "EPSS 0.6%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120779"
     }
    ]
   },
