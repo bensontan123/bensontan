@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T18:00:42.232Z",
+ "updated": "2026-11-14T19:00:44.593Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -321,24 +321,24 @@
      "link": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog"
     },
     {
-     "cat": "SANS ISC",
+     "cat": "The Hacker News",
      "sev": "NEWS",
-     "title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
-     "desc": "Introduction",
+     "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+     "desc": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any…",
      "tags": [
       "2026-11-13"
      ],
-     "link": "https://isc.sans.edu/diary/rss/33518"
+     "link": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html"
     },
     {
-     "cat": "SANS ISC",
+     "cat": "The Hacker News",
      "sev": "NEWS",
-     "title": "ISC Stormcast For Friday, November 13th, 2026 https://isc.sans.edu/podcastdetail/10178, (Fri, Nov 13th)",
-     "desc": "",
+     "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+     "desc": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior, can also modify a VM's memory and fake the…",
      "tags": [
       "2026-11-13"
      ],
-     "link": "https://isc.sans.edu/diary/rss/33516"
+     "link": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html"
     }
    ]
   }
