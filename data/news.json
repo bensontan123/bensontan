@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T20:00:46.445Z",
+ "updated": "2026-11-14T11:00:41.652Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -23,28 +23,6 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/citrix-products-multiple-vulnerabilities_20261113"
-  },
-  {
-   "date": "2026-11-13",
-   "region": "KR",
-   "cat": "News",
-   "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
-   "desc": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social…",
-   "tags": [
-    "The Hacker News"
-   ],
-   "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html"
-  },
-  {
-   "date": "2026-11-13",
-   "region": "TW",
-   "cat": "News",
-   "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
-   "desc": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and cybersecurity software company based in Stockholm, found the…",
-   "tags": [
-    "The Hacker News"
-   ],
-   "link": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
   },
   {
    "date": "2026-11-13",
@@ -157,17 +135,6 @@
    "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-160"
   },
   {
-   "date": "2026-11-10",
-   "region": "CN",
-   "cat": "News",
-   "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
-   "desc": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical…",
-   "tags": [
-    "The Hacker News"
-   ],
-   "link": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html"
-  },
-  {
    "date": "2026-11-05",
    "region": "AU",
    "cat": "News",
@@ -265,6 +232,39 @@
     "JPCERT/CC"
    ],
    "link": "https://www.jpcert.or.jp/english/at/2026/at260031.html"
+  },
+  {
+   "date": "2026-09-09",
+   "region": "JP",
+   "cat": "Advisory",
+   "title": "Security Alert: Alert Regarding Vulnerabilities in Adobe Acrobat and Reader (APSB26-141)",
+   "desc": "",
+   "tags": [
+    "JPCERT/CC"
+   ],
+   "link": "https://www.jpcert.or.jp/english/at/2026/at260026.html"
+  },
+  {
+   "date": "2026-09-09",
+   "region": "JP",
+   "cat": "Advisory",
+   "title": "Security Alert: Microsoft Releases September 2026 Security Updates",
+   "desc": "",
+   "tags": [
+    "JPCERT/CC"
+   ],
+   "link": "https://www.jpcert.or.jp/english/at/2026/at260025.html"
+  },
+  {
+   "date": "2026-08-12",
+   "region": "JP",
+   "cat": "Advisory",
+   "title": "Security Alert: Microsoft Releases August 2026 Security Updates",
+   "desc": "",
+   "tags": [
+    "JPCERT/CC"
+   ],
+   "link": "https://www.jpcert.or.jp/english/at/2026/at260022.html"
   }
  ]
 }

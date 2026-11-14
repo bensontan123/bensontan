@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T08:00:42.359Z",
+ "updated": "2026-11-14T11:00:41.652Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -311,34 +311,34 @@
      "link": "https://isc.sans.edu/diary/rss/33516"
     },
     {
-     "cat": "The Hacker News",
+     "cat": "BleepingComputer",
      "sev": "NEWS",
-     "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
-     "desc": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any…",
+     "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+     "desc": "Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery phrases and send them to attackers…",
      "tags": [
       "2026-11-13"
      ],
-     "link": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html"
+     "link": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/"
     },
     {
-     "cat": "The Hacker News",
+     "cat": "BleepingComputer",
      "sev": "NEWS",
-     "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
-     "desc": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior, can also modify a VM's memory and fake the…",
+     "title": "German military drone operations disrupted by cyberattack",
+     "desc": "German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by \"hostile actors.\"",
      "tags": [
       "2026-11-13"
      ],
-     "link": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html"
+     "link": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/"
     },
     {
-     "cat": "The Hacker News",
+     "cat": "BleepingComputer",
      "sev": "NEWS",
-     "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
-     "desc": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social…",
+     "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+     "desc": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts.",
      "tags": [
       "2026-11-13"
      ],
-     "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html"
+     "link": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/"
     }
    ]
   }
