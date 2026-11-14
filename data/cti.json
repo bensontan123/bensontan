@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T05:00:46.217Z",
+ "updated": "2026-11-14T06:00:42.609Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -291,6 +291,26 @@
      "link": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog"
     },
     {
+     "cat": "SANS ISC",
+     "sev": "NEWS",
+     "title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
+     "desc": "Introduction",
+     "tags": [
+      "2026-11-13"
+     ],
+     "link": "https://isc.sans.edu/diary/rss/33518"
+    },
+    {
+     "cat": "SANS ISC",
+     "sev": "NEWS",
+     "title": "ISC Stormcast For Friday, November 13th, 2026 https://isc.sans.edu/podcastdetail/10178, (Fri, Nov 13th)",
+     "desc": "",
+     "tags": [
+      "2026-11-13"
+     ],
+     "link": "https://isc.sans.edu/diary/rss/33516"
+    },
+    {
      "cat": "The Hacker News",
      "sev": "NEWS",
      "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
@@ -319,26 +339,6 @@
       "2026-11-13"
      ],
      "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
-     "desc": "Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday. The implant reads the phrase from the wallet's…",
-     "tags": [
-      "2026-11-13"
-     ],
-     "link": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "When an AI Agent Goes Wrong, Can You Stop It?",
-     "desc": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has…",
-     "tags": [
-      "2026-11-13"
-     ],
-     "link": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html"
     }
    ]
   }
