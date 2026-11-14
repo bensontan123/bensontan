@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T16:00:41.859Z",
+ "updated": "2026-11-14T18:00:42.232Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -293,6 +293,16 @@
     {
      "cat": "BleepingComputer",
      "sev": "NEWS",
+     "title": "Cursor confirms security breach led to malicious Claude Code extension",
+     "desc": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI.",
+     "tags": [
+      "2026-11-14"
+     ],
+     "link": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/"
+    },
+    {
+     "cat": "BleepingComputer",
+     "sev": "NEWS",
      "title": "US disrupts North Korean campaign behind $400 million crypto theft",
      "desc": "The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency.",
      "tags": [
@@ -329,16 +339,6 @@
       "2026-11-13"
      ],
      "link": "https://isc.sans.edu/diary/rss/33516"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
-     "desc": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any…",
-     "tags": [
-      "2026-11-13"
-     ],
-     "link": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html"
     }
    ]
   }
