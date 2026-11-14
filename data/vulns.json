@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T08:00:42.359Z",
+ "updated": "2026-11-14T15:00:43.330Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -28,7 +28,7 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713",
-   "epss": 0.003
+   "epss": 0.005
   },
   {
    "id": "CVE-2026-123039",
@@ -45,7 +45,7 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039",
-   "epss": 0.013
+   "epss": 0.022
   },
   {
    "id": "CVE-2026-124194",
@@ -494,7 +494,7 @@
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-8fx7-8jr8-84rv",
    "ghsaId": "GHSA-8fx7-8jr8-84rv",
-   "epss": 0.005
+   "epss": 0.006
   },
   {
    "id": "CVE-2026-126304",
@@ -509,7 +509,7 @@
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-qg35-44qx-7vrr",
    "ghsaId": "GHSA-qg35-44qx-7vrr",
-   "epss": 0.005
+   "epss": 0.006
   },
   {
    "id": "CVE-2026-126295",
@@ -524,7 +524,7 @@
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-fg9w-wfp5-j933",
    "ghsaId": "GHSA-fg9w-wfp5-j933",
-   "epss": 0.002
+   "epss": 0.003
   },
   {
    "id": "CVE-2026-128117",
@@ -538,7 +538,8 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-mw6w-2fmv-pvw3",
-   "ghsaId": "GHSA-mw6w-2fmv-pvw3"
+   "ghsaId": "GHSA-mw6w-2fmv-pvw3",
+   "epss": 0.005
   },
   {
    "id": "CVE-2026-128121",
@@ -552,7 +553,8 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-jf9x-2fg2-hx4w",
-   "ghsaId": "GHSA-jf9x-2fg2-hx4w"
+   "ghsaId": "GHSA-jf9x-2fg2-hx4w",
+   "epss": 0.004
   },
   {
    "id": "GHSA-gpwc-27cw-rh9r",
