@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T00:00:44.114Z",
+ "updated": "2026-11-14T01:00:43.088Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -217,6 +217,42 @@
    "items": [
     {
      "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-126299 — NLTK: Quadratic-time CPU denial of service in CCG lexicon parser (fromstring) on wide bracket bodies and operator chains",
+     "desc": "NLTK: Quadratic-time CPU denial of service in CCG lexicon parser (fromstring) on wide bracket bodies and operator chains",
+     "tags": [
+      "pip nltk",
+      "published 2026-11-14",
+      "EPSS 0.6%"
+     ],
+     "link": "https://github.com/advisories/GHSA-89p3-fcch-88ph"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-126298 — NLTK: Quadratic-time CPU denial of service in Tree.chomsky_normal_form right-factor binarization via list.pop(0)",
+     "desc": "NLTK: Quadratic-time CPU denial of service in Tree.chomsky_normal_form right-factor binarization via list.pop(0)",
+     "tags": [
+      "pip nltk",
+      "published 2026-11-14",
+      "EPSS 0.6%"
+     ],
+     "link": "https://github.com/advisories/GHSA-r53h-rw34-8h97"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-126297 — NLTK: Quadratic-time CPU denial of service in ConllCorpusReader SRL instance builder via nested span rescan",
+     "desc": "NLTK: Quadratic-time CPU denial of service in ConllCorpusReader SRL instance builder via nested span rescan",
+     "tags": [
+      "pip nltk",
+      "published 2026-11-14",
+      "EPSS 0.6%"
+     ],
+     "link": "https://github.com/advisories/GHSA-v8f3-6phw-6mh9"
+    },
+    {
+     "cat": "GHSA",
      "sev": "MEDIUM",
      "title": "CVE-2026-126295 — NLTK: BllipParser passes caller-supplied model paths to the bllipparser C extension with no pathsec check, enabling arbitrary read",
      "desc": "NLTK: BllipParser passes caller-supplied model paths to the bllipparser C extension with no pathsec check, enabling arbitrary read",
@@ -238,41 +274,6 @@
       "EPSS 0.3%"
      ],
      "link": "https://github.com/advisories/GHSA-qfx6-q44v-9qqw"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "LOW",
-     "title": "CVE-2026-62683 — File Browser: Trailing-slash directory deletion leaves public shares active for recreated paths",
-     "desc": "File Browser: Trailing-slash directory deletion leaves public shares active for recreated paths",
-     "tags": [
-      "go github.com/filebrowser/filebrowser/v2",
-      "published 2026-11-13",
-      "EPSS 0.3%"
-     ],
-     "link": "https://github.com/advisories/GHSA-pp88-jhwj-5qh5"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "GHSA-gpwc-27cw-rh9r — NLTK: Quadratic CPU exhaustion in LegalitySyllableTokenizer.tokenize via unguarded onset reversal loop",
-     "desc": "NLTK: Quadratic CPU exhaustion in LegalitySyllableTokenizer.tokenize via unguarded onset reversal loop",
-     "tags": [
-      "pip nltk",
-      "published 2026-11-13"
-     ],
-     "link": "https://github.com/advisories/GHSA-gpwc-27cw-rh9r"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-126300 — NLTK: Quadratic CPU exhaustion in TreebankWordTokenizer.span_tokenize via list.pop(0) in quote-restore loop",
-     "desc": "NLTK: Quadratic CPU exhaustion in TreebankWordTokenizer.span_tokenize via list.pop(0) in quote-restore loop",
-     "tags": [
-      "pip nltk",
-      "published 2026-11-13",
-      "EPSS 0.5%"
-     ],
-     "link": "https://github.com/advisories/GHSA-ffr9-mgrr-wcvr"
     }
    ]
   },
