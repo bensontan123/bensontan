@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T02:00:41.385Z",
+ "updated": "2026-11-15T03:00:43.775Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -281,6 +281,16 @@
    "label": "Threat headlines",
    "items": [
     {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+     "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog…",
+     "tags": [
+      "2026-11-14"
+     ],
+     "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html"
+    },
+    {
      "cat": "BleepingComputer",
      "sev": "NEWS",
      "title": "Cursor confirms security breach led to malicious Claude Code extension",
@@ -329,16 +339,6 @@
       "2026-11-13"
      ],
      "link": "https://isc.sans.edu/diary/rss/33516"
-    },
-    {
-     "cat": "BleepingComputer",
-     "sev": "NEWS",
-     "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
-     "desc": "Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery phrases and send them to attackers…",
-     "tags": [
-      "2026-11-13"
-     ],
-     "link": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/"
     }
    ]
   }
