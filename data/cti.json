@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T09:00:46.623Z",
+ "updated": "2026-11-15T09:34:14.479Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -342,6 +342,16 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "Stolen Fireworks AI Key Led to Cursor Data Breach and Trojanized Claude Code Extension",
+     "desc": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. \"An attacker obtained an access…",
+     "tags": [
+      "2026-11-15"
+     ],
+     "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog…",
      "tags": [
@@ -388,16 +398,6 @@
       "2026-11-13"
      ],
      "link": "https://isc.sans.edu/diary/rss/33518"
-    },
-    {
-     "cat": "SANS ISC",
-     "sev": "NEWS",
-     "title": "ISC Stormcast For Friday, November 13th, 2026 https://isc.sans.edu/podcastdetail/10178, (Fri, Nov 13th)",
-     "desc": "",
-     "tags": [
-      "2026-11-13"
-     ],
-     "link": "https://isc.sans.edu/diary/rss/33516"
     }
    ]
   }
