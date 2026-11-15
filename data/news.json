@@ -1,7 +1,18 @@
 {
- "updated": "2026-11-15T11:00:43.015Z",
+ "updated": "2026-11-15T16:00:47.924Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
+  {
+   "date": "2026-11-15",
+   "region": "TW",
+   "cat": "News",
+   "title": "TSMC employee data breach linked to cloud provider",
+   "desc": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction.",
+   "tags": [
+    "BleepingComputer"
+   ],
+   "link": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/"
+  },
   {
    "date": "2026-11-14",
    "region": "KR",
@@ -254,17 +265,6 @@
     "SingCERT"
    ],
    "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-155"
-  },
-  {
-   "date": "2026-10-21",
-   "region": "SG",
-   "cat": "Advisory",
-   "title": "Critical Vulnerability in Fortinet FortiSIEM",
-   "desc": "Attackers can exploit a critical vulnerability in Fortinet FortiSIEM to execute arbitrary code. Patch immediately.",
-   "tags": [
-    "SingCERT"
-   ],
-   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-153"
   }
  ]
 }

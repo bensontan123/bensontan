@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T14:00:41.421Z",
+ "updated": "2026-11-15T16:00:47.924Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -301,6 +301,16 @@
      "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html"
     },
     {
+     "cat": "BleepingComputer",
+     "sev": "NEWS",
+     "title": "TSMC employee data breach linked to cloud provider",
+     "desc": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction.",
+     "tags": [
+      "2026-11-15"
+     ],
+     "link": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/"
+    },
+    {
      "cat": "The Hacker News",
      "sev": "NEWS",
      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
@@ -329,16 +339,6 @@
       "2026-11-14"
      ],
      "link": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/"
-    },
-    {
-     "cat": "CISA",
-     "sev": "NEWS",
-     "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-     "desc": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-114713 UnrealIRCd Improper Neutralization of Delimiters Vulnerability CVE-2026-123039 Check…",
-     "tags": [
-      "2026-11-13"
-     ],
-     "link": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog"
     }
    ]
   }
