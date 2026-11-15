@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T11:00:43.015Z",
+ "updated": "2026-11-15T12:00:46.612Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -283,6 +283,16 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+     "desc": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante, Italy's data protection authority, found that the feature was…",
+     "tags": [
+      "2026-11-15"
+     ],
+     "link": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
      "desc": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. \"An attacker obtained an access…",
      "tags": [
@@ -329,16 +339,6 @@
       "2026-11-13"
      ],
      "link": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog"
-    },
-    {
-     "cat": "SANS ISC",
-     "sev": "NEWS",
-     "title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
-     "desc": "Introduction",
-     "tags": [
-      "2026-11-13"
-     ],
-     "link": "https://isc.sans.edu/diary/rss/33518"
     }
    ]
   }
