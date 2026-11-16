@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T00:00:45.112Z",
+ "updated": "2026-11-16T02:00:41.789Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -283,6 +283,16 @@
     {
      "cat": "SANS ISC",
      "sev": "NEWS",
+     "title": "ISC Stormcast For Monday, November 16th, 2026 https://isc.sans.edu/podcastdetail/10180, (Mon, Nov 16th)",
+     "desc": "",
+     "tags": [
+      "2026-11-16"
+     ],
+     "link": "https://isc.sans.edu/diary/rss/33520"
+    },
+    {
+     "cat": "SANS ISC",
+     "sev": "NEWS",
      "title": "YARA-X 1.23.0 Release, (Sun, Nov 15th)",
      "desc": "YARA-X&#x26;#39;s 1.23.0 release brings 4 improvements and 16 bugfixes.",
      "tags": [
@@ -329,16 +339,6 @@
       "2026-11-15"
      ],
      "link": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
-     "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog…",
-     "tags": [
-      "2026-11-14"
-     ],
-     "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html"
     }
    ]
   }

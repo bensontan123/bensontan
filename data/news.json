@@ -1,7 +1,40 @@
 {
- "updated": "2026-11-15T16:00:47.924Z",
+ "updated": "2026-11-16T02:00:41.789Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
+  {
+   "date": "2026-11-16",
+   "region": "HK",
+   "cat": "Advisory",
+   "title": "Microsoft Edge Multiple Vulnerabilities",
+   "desc": "Multiple vulnerabilities were identified in Microsoft Edge. A remote attacker could exploit some of these vulnerabilities to trigger denial of service condition, elevation of privilege, security restriction bypass, sensitive information…",
+   "tags": [
+    "HKCERT"
+   ],
+   "link": "https://www.hkcert.org/security-bulletin/microsoft-edge-multiple-vulnerabilities_20261116"
+  },
+  {
+   "date": "2026-11-15",
+   "region": "SG",
+   "cat": "Advisory",
+   "title": "Active Exploitation of Vulnerabilities in Barracuda Networks Products",
+   "desc": "Attackers are exploiting two vulnerabilities in Barracuda Networks products that could allow them to bypass authorisation controls and gain root access to affected devices. Patch immediately.",
+   "tags": [
+    "SingCERT"
+   ],
+   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-162"
+  },
+  {
+   "date": "2026-11-15",
+   "region": "SG",
+   "cat": "Advisory",
+   "title": "Multiple Vulnerabilities in SAP Products",
+   "desc": "Threat actors can exploit multiple critical vulnerabilities in SAP Products to execute arbitrary code, bypass authentication, run operating system commands or read sensitive files. Patch immediately.",
+   "tags": [
+    "SingCERT"
+   ],
+   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-161"
+  },
   {
    "date": "2026-11-15",
    "region": "TW",
@@ -146,17 +179,6 @@
    "link": "https://www.hkcert.org/security-bulletin/citrix-xenserver-multiple-vulnerabilities_20261112"
   },
   {
-   "date": "2026-11-12",
-   "region": "HK",
-   "cat": "Advisory",
-   "title": "Ubuntu Linux Kernel Multiple Vulnerabilities",
-   "desc": "Multiple vulnerabilities were identified in Ubuntu Linux Kernel. A remote attacker could exploit some of these vulnerabilities to trigger cross-site scripting, denial of service condition, elevation of privilege, security restriction…",
-   "tags": [
-    "HKCERT"
-   ],
-   "link": "https://www.hkcert.org/security-bulletin/ubuntu-linux-kernel-multiple-vulnerabilities_20261112"
-  },
-  {
    "date": "2026-11-11",
    "region": "JP",
    "cat": "Advisory",
@@ -243,28 +265,6 @@
     "SingCERT"
    ],
    "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-156"
-  },
-  {
-   "date": "2026-10-29",
-   "region": "SG",
-   "cat": "Advisory",
-   "title": "Active Exploitation of Critical Brotli Vulnerability Affecting Multiple Products",
-   "desc": "Attackers are actively exploiting a critical Brotli vulnerability affecting multiple products to execute arbitrary code remotely or disclose sensitive information on affected systems. Patch immediately.",
-   "tags": [
-    "SingCERT"
-   ],
-   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-154"
-  },
-  {
-   "date": "2026-10-22",
-   "region": "SG",
-   "cat": "Advisory",
-   "title": "WizLearn Technologies LMS – Authentication Bypass Vulnerability Could Allow Unauthorised Access and Administrative Control",
-   "desc": "A vulnerability has been discovered in WizLearn Technologies’ Learning Management System (LMS). WizLearn Technologies has since implemented the necessary measures to address the vulnerability. Special thanks to the researcher and WizLearn…",
-   "tags": [
-    "SingCERT"
-   ],
-   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-155"
   }
  ]
 }
