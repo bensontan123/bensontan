@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T10:00:58.007Z",
+ "updated": "2026-11-16T11:00:46.868Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -291,24 +291,14 @@
      "link": "https://isc.sans.edu/diary/rss/33520"
     },
     {
-     "cat": "The Hacker News",
+     "cat": "BleepingComputer",
      "sev": "NEWS",
-     "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
-     "desc": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records. The records, which Amazon's threat…",
+     "title": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
+     "desc": "Anthropic recently rolled out Claude Mythos 5.2 to selected partners and Fable 5.2 to regular users, with improvements to coding and reasoning. But we also noticed some interesting cybersecurity changes.",
      "tags": [
       "2026-11-16"
      ],
-     "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
-     "desc": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server. The activity, documented by Kaspersky's…",
-     "tags": [
-      "2026-11-16"
-     ],
-     "link": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html"
+     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/"
     },
     {
      "cat": "BleepingComputer",
@@ -339,6 +329,16 @@
       "2026-11-15"
      ],
      "link": "https://isc.sans.edu/diary/rss/33496"
+    },
+    {
+     "cat": "BleepingComputer",
+     "sev": "NEWS",
+     "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+     "desc": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365…",
+     "tags": [
+      "2026-11-15"
+     ],
+     "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/"
     }
    ]
   }
