@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T18:00:57.985Z",
+ "updated": "2026-11-16T19:00:47.562Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -277,6 +277,29 @@
    "items": [
     {
      "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-119790 — Next.js: Information disclosure across root params when a 'use cache' function is called through unstable_cache()",
+     "desc": "Next.js: Information disclosure across root params when a 'use cache' function is called through unstable_cache()",
+     "tags": [
+      "npm next",
+      "published 2026-11-16"
+     ],
+     "link": "https://github.com/advisories/GHSA-mfr8-8qww-v76h"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-128134 — NLTK dot2img runs Graphviz 'dot' without the trusted-exec chokepoint, enabling local code execution via a writable PATH element",
+     "desc": "NLTK dot2img runs Graphviz 'dot' without the trusted-exec chokepoint, enabling local code execution via a writable PATH element",
+     "tags": [
+      "pip nltk",
+      "published 2026-11-16",
+      "EPSS 0.2%"
+     ],
+     "link": "https://github.com/advisories/GHSA-7mxv-7h3q-9324"
+    },
+    {
+     "cat": "GHSA",
      "sev": "LOW",
      "title": "CVE-2026-128076 — Nuxt: Colliding island props can share one `/__nuxt_island` path (incomplete fix for CVE-2026-46342)",
      "desc": "Nuxt: Colliding island props can share one `/__nuxt_island` path (incomplete fix for CVE-2026-46342)",
@@ -310,30 +333,6 @@
       "EPSS 0.3%"
      ],
      "link": "https://github.com/advisories/GHSA-r9jc-w898-3fv6"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "LOW",
-     "title": "CVE-2026-128072 — @nuxt/webpack-builder and @nuxt/rspack-builder dev server serves built source to DNS rebinding pages",
-     "desc": "@nuxt/webpack-builder and @nuxt/rspack-builder dev server serves built source to DNS rebinding pages",
-     "tags": [
-      "npm @nuxt/webpack-builder",
-      "published 2026-11-16",
-      "EPSS 0.1%"
-     ],
-     "link": "https://github.com/advisories/GHSA-x2wv-5868-p7v2"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-128071 — Nuxt: Incomplete fix for GHSA-6gq8-jgmh-3ffp: an encoded slash (`%2F`) in the request path bypasses route rules on catch-all page routes",
-     "desc": "Nuxt: Incomplete fix for GHSA-6gq8-jgmh-3ffp: an encoded slash (`%2F`) in the request path bypasses route rules on catch-all page routes",
-     "tags": [
-      "npm nuxt",
-      "published 2026-11-16",
-      "EPSS 0.3%"
-     ],
-     "link": "https://github.com/advisories/GHSA-f3x9-2chm-73c8"
     }
    ]
   },

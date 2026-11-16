@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T17:00:51.697Z",
+ "updated": "2026-11-16T19:00:47.562Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -647,6 +647,21 @@
    "epss": 0.018
   },
   {
+   "id": "CVE-2026-128134",
+   "origin": "GHSA",
+   "product": "pip nltk",
+   "name": "NLTK dot2img runs Graphviz 'dot' without the trusted-exec chokepoint, enabling local code execution via a writable PATH element",
+   "desc": "NLTK dot2img runs Graphviz 'dot' without the trusted-exec chokepoint, enabling local code execution via a writable PATH element",
+   "published": "2026-11-16",
+   "cvss": 7.8,
+   "severity": "HIGH",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-7mxv-7h3q-9324",
+   "ghsaId": "GHSA-7mxv-7h3q-9324",
+   "epss": 0.002
+  },
+  {
    "id": "CVE-2026-128118",
    "origin": "GHSA",
    "product": "npm @sveltejs/kit",
@@ -675,36 +690,6 @@
    "url": "https://github.com/advisories/GHSA-3r8g-jcqq-3p5j",
    "ghsaId": "GHSA-3r8g-jcqq-3p5j",
    "epss": 0.003
-  },
-  {
-   "id": "CVE-2026-128127",
-   "origin": "GHSA",
-   "product": "pip aiohttp",
-   "name": "AIOHTTP: Base64 multipart parts bypass client_max_size",
-   "desc": "AIOHTTP: Base64 multipart parts bypass client_max_size",
-   "published": "2026-11-16",
-   "cvss": 7.5,
-   "severity": "HIGH",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-24c4-3p7v-29cm",
-   "ghsaId": "GHSA-24c4-3p7v-29cm",
-   "epss": 0.005
-  },
-  {
-   "id": "CVE-2026-128128",
-   "origin": "GHSA",
-   "product": "pip aiohttp",
-   "name": "AIOHTTP: WebSocket max_msg_size bypass via integer overflow",
-   "desc": "AIOHTTP: WebSocket max_msg_size bypass via integer overflow",
-   "published": "2026-11-16",
-   "cvss": 7.5,
-   "severity": "HIGH",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-3rp8-rxj8-mvjw",
-   "ghsaId": "GHSA-3rp8-rxj8-mvjw",
-   "epss": 0.005
   },
   {
    "id": "CVE-2026-128124",
@@ -765,6 +750,20 @@
    "url": "https://github.com/advisories/GHSA-96x6-fvhx-49hg",
    "ghsaId": "GHSA-96x6-fvhx-49hg",
    "epss": 0.003
+  },
+  {
+   "id": "CVE-2026-119790",
+   "origin": "GHSA",
+   "product": "npm next",
+   "name": "Next.js: Information disclosure across root params when a 'use cache' function is called through unstable_cache()",
+   "desc": "Next.js: Information disclosure across root params when a 'use cache' function is called through unstable_cache()",
+   "published": "2026-11-16",
+   "cvss": null,
+   "severity": "MEDIUM",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-mfr8-8qww-v76h",
+   "ghsaId": "GHSA-mfr8-8qww-v76h"
   }
  ]
 }
