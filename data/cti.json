@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T23:00:41.595Z",
+ "updated": "2026-11-16T00:00:45.112Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -281,6 +281,16 @@
    "label": "Threat headlines",
    "items": [
     {
+     "cat": "SANS ISC",
+     "sev": "NEWS",
+     "title": "YARA-X 1.23.0 Release, (Sun, Nov 15th)",
+     "desc": "YARA-X&#x26;#39;s 1.23.0 release brings 4 improvements and 16 bugfixes.",
+     "tags": [
+      "2026-11-15"
+     ],
+     "link": "https://isc.sans.edu/diary/rss/33496"
+    },
+    {
      "cat": "The Hacker News",
      "sev": "NEWS",
      "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
@@ -329,16 +339,6 @@
       "2026-11-14"
      ],
      "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html"
-    },
-    {
-     "cat": "BleepingComputer",
-     "sev": "NEWS",
-     "title": "Cursor confirms security breach led to malicious Claude Code extension",
-     "desc": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI.",
-     "tags": [
-      "2026-11-14"
-     ],
-     "link": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/"
     }
    ]
   }
