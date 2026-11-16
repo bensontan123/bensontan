@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T11:00:46.868Z",
+ "updated": "2026-11-16T12:00:47.240Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -291,6 +291,46 @@
      "link": "https://isc.sans.edu/diary/rss/33520"
     },
     {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+     "desc": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the intrusion is a…",
+     "tags": [
+      "2026-11-16"
+     ],
+     "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+     "desc": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records. The records, which Amazon's threat…",
+     "tags": [
+      "2026-11-16"
+     ],
+     "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+     "desc": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server. The activity, documented by Kaspersky's…",
+     "tags": [
+      "2026-11-16"
+     ],
+     "link": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html"
+    },
+    {
+     "cat": "BleepingComputer",
+     "sev": "NEWS",
+     "title": "Australian retail giant Coles investigates cybersecurity incident",
+     "desc": "Coles Group Limited, Australia's second-largest retailer, is investigating what it described as a \"cyber security incident\" that has not impacted the company's stores.",
+     "tags": [
+      "2026-11-16"
+     ],
+     "link": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/"
+    },
+    {
      "cat": "BleepingComputer",
      "sev": "NEWS",
      "title": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
@@ -299,46 +339,6 @@
       "2026-11-16"
      ],
      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/"
-    },
-    {
-     "cat": "BleepingComputer",
-     "sev": "NEWS",
-     "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
-     "desc": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations.",
-     "tags": [
-      "2026-11-16"
-     ],
-     "link": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/"
-    },
-    {
-     "cat": "BleepingComputer",
-     "sev": "NEWS",
-     "title": "Microsoft pushes Windows emergency updates to fix activation failures",
-     "desc": "Microsoft has released emergency out-of-band updates to fix Windows activation and licensing failures caused by this month's security updates.",
-     "tags": [
-      "2026-11-16"
-     ],
-     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/"
-    },
-    {
-     "cat": "SANS ISC",
-     "sev": "NEWS",
-     "title": "YARA-X 1.23.0 Release, (Sun, Nov 15th)",
-     "desc": "YARA-X&#x26;#39;s 1.23.0 release brings 4 improvements and 16 bugfixes.",
-     "tags": [
-      "2026-11-15"
-     ],
-     "link": "https://isc.sans.edu/diary/rss/33496"
-    },
-    {
-     "cat": "BleepingComputer",
-     "sev": "NEWS",
-     "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
-     "desc": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365…",
-     "tags": [
-      "2026-11-15"
-     ],
-     "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/"
     }
    ]
   }
