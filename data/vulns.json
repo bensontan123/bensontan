@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T19:00:47.562Z",
+ "updated": "2026-11-16T20:00:43.417Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -507,20 +507,6 @@
    "epss": 0.002
   },
   {
-   "id": "CVE-2026-129433",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Dokploy before 0.31.1 contains an OS command injection vulnerability in getComposeContainerCommand() that allows authenticated organization members to execute shell commands via the serviceName parameter. Attackers can store serviceName values with shell metacharacters through backup.create or…",
-   "published": "2026-11-14",
-   "cvss": 9.4,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129433",
-   "epss": 0.024
-  },
-  {
    "id": "CVE-2026-17131",
    "origin": "NVD",
    "product": "",
@@ -533,20 +519,6 @@
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17131",
    "epss": 0.004
-  },
-  {
-   "id": "CVE-2026-126797",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "NextScan 1.1.0 through 1.2.0 contains an authentication bypass vulnerability in ns-admin that allows unauthenticated attackers to forge administrator tokens using a hardcoded JWT signing key. Attackers can sign an HS256 X-Access-Token carrying the public super administrator role ID to gain full…",
-   "published": "2026-11-11",
-   "cvss": 9.3,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126797",
-   "epss": 0.006
   },
   {
    "id": "CVE-2026-127277",
@@ -633,18 +605,45 @@
    "epss": 0.009
   },
   {
-   "id": "CVE-2026-129353",
+   "id": "CVE-2026-129354",
    "origin": "NVD",
    "product": "",
    "name": "",
-   "desc": "A vulnerability was detected in D-Link DIR-600L 2.17/2.17b02. Affected by this vulnerability is the function authenticationcgi_main of the file authentication.cgi. Performing a manipulation of the argument id/password results in stack-based buffer overflow. Remote exploitation of the attack is…",
+   "desc": "A flaw has been found in D-Link DIR-600L 2.17b02. Affected by this issue is the function hnap_main of the file htdocs/cgibin of the component HNAP Handler. Executing a manipulation can lead to stack-based buffer overflow. The attack can be executed remotely. The exploit has been published and may…",
    "published": "2026-11-15",
    "cvss": 9.3,
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129353",
-   "epss": 0.018
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129354",
+   "epss": 0.009
+  },
+  {
+   "id": "CVE-2026-129483",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Cyrus SASL through 2.1.28 contains an authentication bypass vulnerability in the SRP server mechanism because srp_server_mech_step2 does not reject client public values A that are multiples of N. Unauthenticated network clients can send A equal to N to force a zero shared secret, authenticating as…",
+   "published": "2026-11-15",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129483",
+   "epss": 0.004
+  },
+  {
+   "id": "CVE-2026-129952",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "NodePress through 8.5.1 contains an authentication bypass vulnerability that allows unauthenticated remote attackers to gain administrator access by forging JWTs with the hardcoded 'nodepress-secret' fallback key. Attackers can sign HS256 bearer tokens with the default issuer, audience, and role…",
+   "published": "2026-11-16",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129952"
   },
   {
    "id": "CVE-2026-128134",
