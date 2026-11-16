@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T17:00:51.697Z",
+ "updated": "2026-11-16T18:00:57.985Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -363,6 +363,26 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+     "desc": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to…",
+     "tags": [
+      "2026-11-16"
+     ],
+     "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+     "desc": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job…",
+     "tags": [
+      "2026-11-16"
+     ],
+     "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
      "desc": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No patch is available, and the researchers say…",
      "tags": [
@@ -379,26 +399,6 @@
       "2026-11-16"
      ],
      "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
-     "desc": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the intrusion is a…",
-     "tags": [
-      "2026-11-16"
-     ],
-     "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
-     "desc": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records. The records, which Amazon's threat…",
-     "tags": [
-      "2026-11-16"
-     ],
-     "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html"
     }
    ]
   }
