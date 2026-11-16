@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T12:00:47.240Z",
+ "updated": "2026-11-16T13:00:46.265Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -291,34 +291,14 @@
      "link": "https://isc.sans.edu/diary/rss/33520"
     },
     {
-     "cat": "The Hacker News",
+     "cat": "BleepingComputer",
      "sev": "NEWS",
-     "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
-     "desc": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the intrusion is a…",
+     "title": "Microsoft: Windows Server 2016 reaches end of support in 60 days",
+     "desc": "Microsoft has reminded customers again that Windows Server 2016 will stop receiving security updates after it reaches the end of support in two months.",
      "tags": [
       "2026-11-16"
      ],
-     "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
-     "desc": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records. The records, which Amazon's threat…",
-     "tags": [
-      "2026-11-16"
-     ],
-     "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
-     "desc": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server. The activity, documented by Kaspersky's…",
-     "tags": [
-      "2026-11-16"
-     ],
-     "link": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html"
+     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/"
     },
     {
      "cat": "BleepingComputer",
@@ -339,6 +319,26 @@
       "2026-11-16"
      ],
      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/"
+    },
+    {
+     "cat": "BleepingComputer",
+     "sev": "NEWS",
+     "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
+     "desc": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations.",
+     "tags": [
+      "2026-11-16"
+     ],
+     "link": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/"
+    },
+    {
+     "cat": "BleepingComputer",
+     "sev": "NEWS",
+     "title": "Microsoft pushes Windows emergency updates to fix activation failures",
+     "desc": "Microsoft has released emergency out-of-band updates to fix Windows activation and licensing failures caused by this month's security updates.",
+     "tags": [
+      "2026-11-16"
+     ],
+     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/"
     }
    ]
   }
