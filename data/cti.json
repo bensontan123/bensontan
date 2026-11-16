@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T19:00:47.562Z",
+ "updated": "2026-11-16T21:01:03.928Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -229,17 +229,6 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-76954 — advisory",
-     "desc": "An improper neutralization of special elements used in an SQL command vulnerability in the Auth API in Synology DiskStation Manager (DSM) before 7.2.1-69057-13, 7.2.2-72806-10, 7.3.2-86009-5, and 7.4.1-90080-1 allows remote attackers to read or write arbitrary files and conduct denial-of-service…",
-     "tags": [
-      "published 2026-11-12",
-      "EPSS 0.6%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76954"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
      "title": "CVE-2026-120779 — advisory",
      "desc": "Improper control of generation of code ('code injection') in Visual Studio Code allows an unauthorized attacker to execute code over a network.",
      "tags": [
@@ -269,6 +258,17 @@
       "EPSS 0.6%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-126378"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-128049 — advisory",
+     "desc": "OpenMage Magento LTS before 20.18.2 and 21.0.0-beta1 before 21.0.0-beta3 contains a cross-site request forgery vulnerability in the admin and storefront OAuth confirm and confirmSimple actions, which accept GET requests without form-key validation. Attackers holding OAuth consumer credentials can…",
+     "tags": [
+      "published 2026-11-13",
+      "EPSS 0.2%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-128049"
     }
    ]
   },
