@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T02:00:41.789Z",
+ "updated": "2026-11-16T03:00:48.490Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -12,6 +12,28 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/microsoft-edge-multiple-vulnerabilities_20261116"
+  },
+  {
+   "date": "2026-11-16",
+   "region": "HK",
+   "cat": "Advisory",
+   "title": "Apple tvOS Multiple Vulnerabilities",
+   "desc": "Multiple vulnerabilities were identified in Apple tvOS. A remote attacker could exploit some of these vulnerabilities to trigger denial of service condition, security restriction bypass, sensitive information disclosure and remote code…",
+   "tags": [
+    "HKCERT"
+   ],
+   "link": "https://www.hkcert.org/security-bulletin/apple-tvos-multiple-vulnerabilities_20261116"
+  },
+  {
+   "date": "2026-11-16",
+   "region": "HK",
+   "cat": "Advisory",
+   "title": "PostgreSQL Multiple Vulnerabilities",
+   "desc": "Multiple vulnerabilities were identified in PostgreSQL. A remote attacker could exploit some of these vulnerabilities to trigger denial of service condition, elevation of privilege, security restriction bypass, sensitive information…",
+   "tags": [
+    "HKCERT"
+   ],
+   "link": "https://www.hkcert.org/security-bulletin/postgresql-multiple-vulnerabilities_20261116"
   },
   {
    "date": "2026-11-15",
@@ -155,28 +177,6 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/palo-alto-products-multiple-vulnerabilities_20261112"
-  },
-  {
-   "date": "2026-11-12",
-   "region": "HK",
-   "cat": "Advisory",
-   "title": "Node.js Multiple Vulnerabilities",
-   "desc": "Multiple vulnerabilities have been identified in Node.js. A remote attacker could exploit some of these vulnerabilities to trigger denial of service condition, security restriction bypass, sensitive information disclosure and data…",
-   "tags": [
-    "HKCERT"
-   ],
-   "link": "https://www.hkcert.org/security-bulletin/node-js-multiple-vulnerabilities_20261112"
-  },
-  {
-   "date": "2026-11-12",
-   "region": "HK",
-   "cat": "Advisory",
-   "title": "Citrix XenServer Multiple Vulnerabilities",
-   "desc": "Multiple vulnerabilities have been identified in Citrix XenServer. A remote attacker could exploit some of these vulnerabilities to trigger denial of service condition, elevation of privilege, security restriction bypass, sensitive…",
-   "tags": [
-    "HKCERT"
-   ],
-   "link": "https://www.hkcert.org/security-bulletin/citrix-xenserver-multiple-vulnerabilities_20261112"
   },
   {
    "date": "2026-11-11",
