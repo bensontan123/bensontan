@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T14:00:44.283Z",
+ "updated": "2026-11-16T15:00:48.000Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -277,63 +277,63 @@
    "items": [
     {
      "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-126299 — NLTK: Quadratic-time CPU denial of service in CCG lexicon parser (fromstring) on wide bracket bodies and operator chains",
-     "desc": "NLTK: Quadratic-time CPU denial of service in CCG lexicon parser (fromstring) on wide bracket bodies and operator chains",
+     "sev": "LOW",
+     "title": "CVE-2026-128076 — Nuxt: Colliding island props can share one `/__nuxt_island` path (incomplete fix for CVE-2026-46342)",
+     "desc": "Nuxt: Colliding island props can share one `/__nuxt_island` path (incomplete fix for CVE-2026-46342)",
      "tags": [
-      "pip nltk",
-      "published 2026-11-14",
-      "EPSS 0.6%"
+      "npm nuxt",
+      "published 2026-11-16",
+      "EPSS 0.1%"
      ],
-     "link": "https://github.com/advisories/GHSA-89p3-fcch-88ph"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-126298 — NLTK: Quadratic-time CPU denial of service in Tree.chomsky_normal_form right-factor binarization via list.pop(0)",
-     "desc": "NLTK: Quadratic-time CPU denial of service in Tree.chomsky_normal_form right-factor binarization via list.pop(0)",
-     "tags": [
-      "pip nltk",
-      "published 2026-11-14",
-      "EPSS 0.6%"
-     ],
-     "link": "https://github.com/advisories/GHSA-r53h-rw34-8h97"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-126297 — NLTK: Quadratic-time CPU denial of service in ConllCorpusReader SRL instance builder via nested span rescan",
-     "desc": "NLTK: Quadratic-time CPU denial of service in ConllCorpusReader SRL instance builder via nested span rescan",
-     "tags": [
-      "pip nltk",
-      "published 2026-11-14",
-      "EPSS 0.6%"
-     ],
-     "link": "https://github.com/advisories/GHSA-v8f3-6phw-6mh9"
+     "link": "https://github.com/advisories/GHSA-hf59-9xwc-2g4p"
     },
     {
      "cat": "GHSA",
      "sev": "MEDIUM",
-     "title": "CVE-2026-126295 — NLTK: BllipParser passes caller-supplied model paths to the bllipparser C extension with no pathsec check, enabling arbitrary read",
-     "desc": "NLTK: BllipParser passes caller-supplied model paths to the bllipparser C extension with no pathsec check, enabling arbitrary read",
+     "title": "CVE-2026-128075 — Nuxt exposes the message and data of unhandled errors thrown during server rendering",
+     "desc": "Nuxt exposes the message and data of unhandled errors thrown during server rendering",
      "tags": [
-      "pip nltk",
-      "published 2026-11-13",
+      "npm nuxt",
+      "published 2026-11-16",
       "EPSS 0.3%"
      ],
-     "link": "https://github.com/advisories/GHSA-fg9w-wfp5-j933"
+     "link": "https://github.com/advisories/GHSA-96x6-fvhx-49hg"
     },
     {
      "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-62297 — ag-psd can exhaust memory when parsing crafted PSD dimensions",
-     "desc": "ag-psd can exhaust memory when parsing crafted PSD dimensions",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-128074 — Nuxt payload URL generation has quadratic cost for repeated slashes in the request path",
+     "desc": "Nuxt payload URL generation has quadratic cost for repeated slashes in the request path",
      "tags": [
-      "npm ag-psd",
-      "published 2026-11-13",
+      "npm nuxt",
+      "published 2026-11-16",
       "EPSS 0.3%"
      ],
-     "link": "https://github.com/advisories/GHSA-qfx6-q44v-9qqw"
+     "link": "https://github.com/advisories/GHSA-r9jc-w898-3fv6"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "LOW",
+     "title": "CVE-2026-128072 — @nuxt/webpack-builder and @nuxt/rspack-builder dev server serves built source to DNS rebinding pages",
+     "desc": "@nuxt/webpack-builder and @nuxt/rspack-builder dev server serves built source to DNS rebinding pages",
+     "tags": [
+      "npm @nuxt/webpack-builder",
+      "published 2026-11-16",
+      "EPSS 0.1%"
+     ],
+     "link": "https://github.com/advisories/GHSA-x2wv-5868-p7v2"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-128071 — Nuxt: Incomplete fix for GHSA-6gq8-jgmh-3ffp: an encoded slash (`%2F`) in the request path bypasses route rules on catch-all page routes",
+     "desc": "Nuxt: Incomplete fix for GHSA-6gq8-jgmh-3ffp: an encoded slash (`%2F`) in the request path bypasses route rules on catch-all page routes",
+     "tags": [
+      "npm nuxt",
+      "published 2026-11-16",
+      "EPSS 0.3%"
+     ],
+     "link": "https://github.com/advisories/GHSA-f3x9-2chm-73c8"
     }
    ]
   },
