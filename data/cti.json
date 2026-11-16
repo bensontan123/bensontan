@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T21:01:03.928Z",
+ "updated": "2026-11-16T23:00:45.075Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -278,61 +278,57 @@
     {
      "cat": "GHSA",
      "sev": "MEDIUM",
-     "title": "CVE-2026-119790 — Next.js: Information disclosure across root params when a 'use cache' function is called through unstable_cache()",
-     "desc": "Next.js: Information disclosure across root params when a 'use cache' function is called through unstable_cache()",
+     "title": "CVE-2026-129237 — qbee-agent: Docker Compose build context Zip Slip writes outside context directory",
+     "desc": "qbee-agent: Docker Compose build context Zip Slip writes outside context directory",
      "tags": [
-      "npm next",
+      "go go.qbee.io/agent",
       "published 2026-11-16"
      ],
-     "link": "https://github.com/advisories/GHSA-mfr8-8qww-v76h"
+     "link": "https://github.com/advisories/GHSA-vx32-xf7g-9ghr"
     },
     {
      "cat": "GHSA",
      "sev": "HIGH",
-     "title": "CVE-2026-128134 — NLTK dot2img runs Graphviz 'dot' without the trusted-exec chokepoint, enabling local code execution via a writable PATH element",
-     "desc": "NLTK dot2img runs Graphviz 'dot' without the trusted-exec chokepoint, enabling local code execution via a writable PATH element",
+     "title": "CVE-2026-91115 — Silverstripe Framework: RCE via i18nTextCollectorTask writer parameter",
+     "desc": "Silverstripe Framework: RCE via i18nTextCollectorTask writer parameter",
      "tags": [
-      "pip nltk",
-      "published 2026-11-16",
-      "EPSS 0.2%"
+      "composer silverstripe/framework",
+      "published 2026-11-16"
      ],
-     "link": "https://github.com/advisories/GHSA-7mxv-7h3q-9324"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "LOW",
-     "title": "CVE-2026-128076 — Nuxt: Colliding island props can share one `/__nuxt_island` path (incomplete fix for CVE-2026-46342)",
-     "desc": "Nuxt: Colliding island props can share one `/__nuxt_island` path (incomplete fix for CVE-2026-46342)",
-     "tags": [
-      "npm nuxt",
-      "published 2026-11-16",
-      "EPSS 0.1%"
-     ],
-     "link": "https://github.com/advisories/GHSA-hf59-9xwc-2g4p"
+     "link": "https://github.com/advisories/GHSA-c94f-87xg-65wf"
     },
     {
      "cat": "GHSA",
      "sev": "MEDIUM",
-     "title": "CVE-2026-128075 — Nuxt exposes the message and data of unhandled errors thrown during server rendering",
-     "desc": "Nuxt exposes the message and data of unhandled errors thrown during server rendering",
+     "title": "CVE-2026-91113 — Silverstripe Framework: User-controlled ClassName allows unauthorized record type change",
+     "desc": "Silverstripe Framework: User-controlled ClassName allows unauthorized record type change",
      "tags": [
-      "npm nuxt",
-      "published 2026-11-16",
-      "EPSS 0.3%"
+      "composer silverstripe/framework",
+      "published 2026-11-16"
      ],
-     "link": "https://github.com/advisories/GHSA-96x6-fvhx-49hg"
+     "link": "https://github.com/advisories/GHSA-4qv2-g5vp-wjjw"
     },
     {
      "cat": "GHSA",
      "sev": "MEDIUM",
-     "title": "CVE-2026-128074 — Nuxt payload URL generation has quadratic cost for repeated slashes in the request path",
-     "desc": "Nuxt payload URL generation has quadratic cost for repeated slashes in the request path",
+     "title": "CVE-2026-91112 — Silverstripe Framework: CMS_ACCESS_SecurityAdmin privilege escalation",
+     "desc": "Silverstripe Framework: CMS_ACCESS_SecurityAdmin privilege escalation",
      "tags": [
-      "npm nuxt",
-      "published 2026-11-16",
-      "EPSS 0.3%"
+      "composer silverstripe/framework",
+      "published 2026-11-16"
      ],
-     "link": "https://github.com/advisories/GHSA-r9jc-w898-3fv6"
+     "link": "https://github.com/advisories/GHSA-rg72-5958-c65m"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-88989 — Silverstripe Framework: Auth bypass GridFieldDetailForm",
+     "desc": "Silverstripe Framework: Auth bypass GridFieldDetailForm",
+     "tags": [
+      "composer silverstripe/framework",
+      "published 2026-11-16"
+     ],
+     "link": "https://github.com/advisories/GHSA-3qh3-54qg-gpq3"
     }
    ]
   },
@@ -360,44 +356,44 @@
      "link": "https://isc.sans.edu/diary/rss/33520"
     },
     {
-     "cat": "The Hacker News",
+     "cat": "BleepingComputer",
      "sev": "NEWS",
-     "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
-     "desc": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to…",
+     "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
+     "desc": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation.",
      "tags": [
       "2026-11-16"
      ],
-     "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html"
+     "link": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/"
     },
     {
-     "cat": "The Hacker News",
+     "cat": "BleepingComputer",
      "sev": "NEWS",
-     "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
-     "desc": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job…",
+     "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
+     "desc": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated…",
      "tags": [
       "2026-11-16"
      ],
-     "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html"
+     "link": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/"
     },
     {
-     "cat": "The Hacker News",
+     "cat": "BleepingComputer",
      "sev": "NEWS",
-     "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
-     "desc": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No patch is available, and the researchers say…",
+     "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
+     "desc": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework.",
      "tags": [
       "2026-11-16"
      ],
-     "link": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html"
+     "link": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/"
     },
     {
-     "cat": "The Hacker News",
+     "cat": "BleepingComputer",
      "sev": "NEWS",
-     "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-     "desc": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a…",
+     "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
+     "desc": "Microsoft says a software bug introduced in July caused last week's worldwide Microsoft 365 outage, triggering a cascading failure that left more than 80% of its networking gateway servers unresponsive.",
      "tags": [
       "2026-11-16"
      ],
-     "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html"
+     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/"
     }
    ]
   }
