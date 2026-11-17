@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T02:58:29.450Z",
+ "updated": "2026-11-17T03:00:52.320Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -385,14 +385,14 @@
      "link": "https://isc.sans.edu/diary/rss/33520"
     },
     {
-     "cat": "The Hacker News",
+     "cat": "BleepingComputer",
      "sev": "NEWS",
-     "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
-     "desc": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to…",
+     "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
+     "desc": "Google's Gemini AI agents repeatedly attempted to hack a real organization's website during AI model safety testing, finding ways to circumvent increasingly restrictive security controls designed to prevent them from accessing live systems.",
      "tags": [
       "2026-11-16"
      ],
-     "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html"
+     "link": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/"
     }
    ]
   }
