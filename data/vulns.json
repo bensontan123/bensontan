@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-17T20:00:48.227Z",
+ "updated": "2026-11-17T21:00:44.535Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
-  "NVD",
-  "GHSA"
+  "GHSA",
+  "NVD"
  ],
  "catalogVersion": "2026.11.17",
  "catalogCount": 1782,
@@ -423,6 +423,21 @@
    "epss": 0.007
   },
   {
+   "id": "CVE-2026-53998",
+   "origin": "GHSA",
+   "product": "pip arize-phoenix",
+   "name": "Phoenix: Format String Injection in applyChatTemplate",
+   "desc": "Phoenix: Format String Injection in applyChatTemplate",
+   "published": "2026-11-17",
+   "cvss": 10,
+   "severity": "CRITICAL",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-gfv3-m769-5xm3",
+   "ghsaId": "GHSA-gfv3-m769-5xm3",
+   "epss": 0.004
+  },
+  {
    "id": "CVE-2026-120002",
    "origin": "NVD",
    "product": "",
@@ -463,20 +478,6 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118383",
    "epss": 0.007
-  },
-  {
-   "id": "CVE-2026-127277",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "A security flaw has been discovered in Linksys EA8100 1.0.3.216940. The affected element is an unknown function of the file etc/init.d/service_smbd.sh of the component SMB Service. Performing a manipulation of the argument ANON_ACCESS results in improper initialization. The attack can be initiated…",
-   "published": "2026-11-13",
-   "cvss": 9.3,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-127277",
-   "epss": 0.006
   },
   {
    "id": "CVE-2026-109445",
@@ -591,18 +592,43 @@
    "epss": 0.004
   },
   {
-   "id": "CVE-2026-126269",
+   "id": "CVE-2026-130840",
    "origin": "NVD",
    "product": "",
    "name": "",
-   "desc": "NocoDB before 2026.09.0 contains a stored cross-site scripting vulnerability that allows authenticated Editor users to execute scripts by storing crafted attachment MIME types like text/html;image/png. Attackers can write the value through the records API so the /dltemp signed URL serves HTML…",
-   "published": "2026-11-13",
+   "desc": "BISHENG before 3.0.0 contains an authentication bypass vulnerability that allows unauthenticated remote attackers to impersonate administrators by abusing a hard-coded default jwt_secret used by AuthJwt. Attackers can forge an HS256 token offline naming user_id 1 with the admin role, send it as…",
+   "published": "2026-11-17",
    "cvss": 9.3,
    "severity": "CRITICAL",
-   "vector": "Network / Low / Passive",
+   "vector": "Network / Low / None",
    "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126269",
-   "epss": 0.003
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130840"
+  },
+  {
+   "id": "CVE-2026-130849",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "BZFlag bzfs before 2.4.32 contains a heap out-of-bounds write vulnerability in NetHandler::tcpReceive() that allows remote unauthenticated attackers to corrupt heap memory by sending a TCP message with a body length of exactly 1024. Attackers can overwrite the tcplen receive offset with a negative…",
+   "published": "2026-11-17",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130849"
+  },
+  {
+   "id": "CVE-2026-130856",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "53AIHub before 0.5.5 contains a missing authentication vulnerability that allows remote unauthenticated attackers to reinitialize installed instances by calling the public POST /api/init endpoint. Attackers can reset an existing account's password, assign the top creator role, and obtain an access…",
+   "published": "2026-11-17",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130856"
   },
   {
    "id": "CVE-2026-129255",
@@ -633,19 +659,6 @@
    "epss": 0.001
   },
   {
-   "id": "CVE-2026-130583",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Rootways Authorize.net CIM Pro extension for Magento 2 before 4.1.5 contains an unauthenticated server-side request forgery vulnerability in the Apple Pay merchant validation controller. Attackers can supply file://, gopher://, or dict:// URLs in the validationUrl parameter to read app/etc/env.php…",
-   "published": "2026-11-17",
-   "cvss": 9.2,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130583"
-  },
-  {
    "id": "CVE-2026-91115",
    "origin": "GHSA",
    "product": "composer silverstripe/framework",
@@ -659,6 +672,36 @@
    "url": "https://github.com/advisories/GHSA-c94f-87xg-65wf",
    "ghsaId": "GHSA-c94f-87xg-65wf",
    "epss": 0.006
+  },
+  {
+   "id": "CVE-2026-14265",
+   "origin": "GHSA",
+   "product": "maven software.amazon.jdbc:aws-advanced-jdbc-wrapper",
+   "name": "AWS-advanced-jdbc-wrapper: Java Deserialization RCE via Cache Poisoning",
+   "desc": "AWS-advanced-jdbc-wrapper: Java Deserialization RCE via Cache Poisoning",
+   "published": "2026-11-17",
+   "cvss": 7.5,
+   "severity": "HIGH",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-c5q4-97jw-jggh",
+   "ghsaId": "GHSA-c5q4-97jw-jggh",
+   "epss": 0.007
+  },
+  {
+   "id": "CVE-2026-62336",
+   "origin": "GHSA",
+   "product": "go go.qbee.io/agent",
+   "name": "qbee-agent: Local Privilege Escalation and Arbitrary File Tampering via Symlink Following in createFile helper",
+   "desc": "qbee-agent: Local Privilege Escalation and Arbitrary File Tampering via Symlink Following in createFile helper",
+   "published": "2026-11-17",
+   "cvss": null,
+   "severity": "HIGH",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-xhv5-8fpq-g7hf",
+   "ghsaId": "GHSA-xhv5-8fpq-g7hf",
+   "epss": 0.001
   },
   {
    "id": "CVE-2026-91112",
@@ -676,34 +719,33 @@
    "epss": 0.003
   },
   {
-   "id": "CVE-2026-129239",
+   "id": "CVE-2026-63672",
    "origin": "GHSA",
-   "product": "npm directus",
-   "name": "Directus: Share update allows reassigning user_created and role",
-   "desc": "Directus: Share update allows reassigning user_created and role",
-   "published": "2026-11-16",
-   "cvss": 6.5,
+   "product": "composer egroupware/egroupware",
+   "name": "EGroupware: User-Controlled Identity Provider Selection in SAML Authentication",
+   "desc": "EGroupware: User-Controlled Identity Provider Selection in SAML Authentication",
+   "published": "2026-11-17",
+   "cvss": 6.1,
    "severity": "MEDIUM",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-7h45-q5jx-7r87",
-   "ghsaId": "GHSA-7h45-q5jx-7r87",
-   "epss": 0.004
+   "url": "https://github.com/advisories/GHSA-pr4x-6fj4-gm4h",
+   "ghsaId": "GHSA-pr4x-6fj4-gm4h",
+   "epss": 0.002
   },
   {
-   "id": "CVE-2026-129301",
+   "id": "CVE-2026-69241",
    "origin": "GHSA",
-   "product": "pip mail-parser",
-   "name": "mail-parser: One hostile attachment aborts `write_attachments()` and silently drops the rest of the batch",
-   "desc": "mail-parser: One hostile attachment aborts `write_attachments()` and silently drops the rest of the batch",
-   "published": "2026-11-16",
-   "cvss": 6.5,
+   "product": "composer awcodes/filament-curator",
+   "name": "Filament Curator: Stored XSS via unsanitized SVG upload served inline",
+   "desc": "Filament Curator: Stored XSS via unsanitized SVG upload served inline",
+   "published": "2026-11-17",
+   "cvss": 5.4,
    "severity": "MEDIUM",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-8cgq-x343-p74c",
-   "ghsaId": "GHSA-8cgq-x343-p74c",
-   "epss": 0.003
+   "url": "https://github.com/advisories/GHSA-8vm9-f75m-5h2m",
+   "ghsaId": "GHSA-8vm9-f75m-5h2m"
   },
   {
    "id": "CVE-2026-129237",
@@ -718,51 +760,6 @@
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-vx32-xf7g-9ghr",
    "ghsaId": "GHSA-vx32-xf7g-9ghr",
-   "epss": 0.004
-  },
-  {
-   "id": "CVE-2026-88988",
-   "origin": "GHSA",
-   "product": "composer silverstripe/framework",
-   "name": "Silverstripe Framework: XSS via SVG data URI",
-   "desc": "Silverstripe Framework: XSS via SVG data URI",
-   "published": "2026-11-16",
-   "cvss": 5.4,
-   "severity": "MEDIUM",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-xwg4-8hqh-79jq",
-   "ghsaId": "GHSA-xwg4-8hqh-79jq",
-   "epss": 0.002
-  },
-  {
-   "id": "CVE-2026-88987",
-   "origin": "GHSA",
-   "product": "composer silverstripe/framework",
-   "name": "Silverstripe Framework: XSS via XHTML data URI",
-   "desc": "Silverstripe Framework: XSS via XHTML data URI",
-   "published": "2026-11-16",
-   "cvss": 5.4,
-   "severity": "MEDIUM",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-qqrg-8jpm-8mph",
-   "ghsaId": "GHSA-qqrg-8jpm-8mph",
-   "epss": 0.002
-  },
-  {
-   "id": "CVE-2026-129300",
-   "origin": "GHSA",
-   "product": "pip mail-parser",
-   "name": "mail-parser: Uncaught `OverflowError` / `OSError` on an out-of-range `Received` date",
-   "desc": "mail-parser: Uncaught `OverflowError` / `OSError` on an out-of-range `Received` date",
-   "published": "2026-11-16",
-   "cvss": 5.3,
-   "severity": "MEDIUM",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-xhrq-2mqv-q8wx",
-   "ghsaId": "GHSA-xhrq-2mqv-q8wx",
    "epss": 0.004
   }
  ]

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T20:00:48.227Z",
+ "updated": "2026-11-17T21:00:44.535Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -251,17 +251,6 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-127277 — advisory",
-     "desc": "A security flaw has been discovered in Linksys EA8100 1.0.3.216940. The affected element is an unknown function of the file etc/init.d/service_smbd.sh of the component SMB Service. Performing a manipulation of the argument ANON_ACCESS results in improper initialization. The attack can be initiated…",
-     "tags": [
-      "published 2026-11-13",
-      "EPSS 0.6%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-127277"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
      "title": "CVE-2026-109445 — advisory",
      "desc": "PLANET GS-5220-8P2T2S (hardware version 3.0) firmware versions before 3.2412b261008 contains a stack-based buffer overflow vulnerability that allows unauthenticated attackers to corrupt stack memory by submitting an oversized webstax_auth HTTP Cookie value that is copied into a fixed-size stack…",
      "tags": [
@@ -269,6 +258,17 @@
       "EPSS 0.4%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-109445"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-129171 — advisory",
+     "desc": "NginxPulse 1.5.0 before 1.6.26 contains an unauthenticated sql injection vulnerability that allows remote attackers to append SQL via the id and locationType parameters of /api/stats/:type. Attackers can close the quoted table-name identifier and use error-based output to read database contents…",
+     "tags": [
+      "published 2026-11-13",
+      "EPSS 0.4%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-129171"
     }
    ]
   },
@@ -278,62 +278,60 @@
     {
      "cat": "GHSA",
      "sev": "MEDIUM",
-     "title": "CVE-2026-119351 — Next.js: Cache leak across root param values in nested 'use cache' functions via delayed inner stream metadata",
-     "desc": "Next.js: Cache leak across root param values in nested 'use cache' functions via delayed inner stream metadata",
+     "title": "CVE-2026-69241 — Filament Curator: Stored XSS via unsanitized SVG upload served inline",
+     "desc": "Filament Curator: Stored XSS via unsanitized SVG upload served inline",
      "tags": [
-      "npm next",
-      "published 2026-11-17",
-      "EPSS 0.2%"
+      "composer awcodes/filament-curator",
+      "published 2026-11-17"
      ],
-     "link": "https://github.com/advisories/GHSA-vc7v-qv4w-wrv8"
+     "link": "https://github.com/advisories/GHSA-8vm9-f75m-5h2m"
     },
     {
      "cat": "GHSA",
      "sev": "MEDIUM",
-     "title": "CVE-2026-129237 — qbee-agent: Docker Compose build context Zip Slip writes outside context directory",
-     "desc": "qbee-agent: Docker Compose build context Zip Slip writes outside context directory",
+     "title": "CVE-2026-63389 — Filament Curator: Cross-tenant media metadata disclosure via Curator picker search",
+     "desc": "Filament Curator: Cross-tenant media metadata disclosure via Curator picker search",
      "tags": [
-      "go go.qbee.io/agent",
-      "published 2026-11-16",
-      "EPSS 0.4%"
+      "composer awcodes/filament-curator",
+      "published 2026-11-17"
      ],
-     "link": "https://github.com/advisories/GHSA-vx32-xf7g-9ghr"
+     "link": "https://github.com/advisories/GHSA-828w-6qgx-3rcf"
     },
     {
      "cat": "GHSA",
      "sev": "HIGH",
-     "title": "CVE-2026-91115 — Silverstripe Framework: RCE via i18nTextCollectorTask writer parameter",
-     "desc": "Silverstripe Framework: RCE via i18nTextCollectorTask writer parameter",
+     "title": "CVE-2026-62336 — qbee-agent: Local Privilege Escalation and Arbitrary File Tampering via Symlink Following in createFile helper",
+     "desc": "qbee-agent: Local Privilege Escalation and Arbitrary File Tampering via Symlink Following in createFile helper",
      "tags": [
-      "composer silverstripe/framework",
-      "published 2026-11-16",
-      "EPSS 0.6%"
+      "go go.qbee.io/agent",
+      "published 2026-11-17",
+      "EPSS 0.1%"
      ],
-     "link": "https://github.com/advisories/GHSA-c94f-87xg-65wf"
+     "link": "https://github.com/advisories/GHSA-xhv5-8fpq-g7hf"
     },
     {
      "cat": "GHSA",
      "sev": "MEDIUM",
-     "title": "CVE-2026-91113 — Silverstripe Framework: User-controlled ClassName allows unauthorized record type change",
-     "desc": "Silverstripe Framework: User-controlled ClassName allows unauthorized record type change",
+     "title": "CVE-2026-63672 — EGroupware: User-Controlled Identity Provider Selection in SAML Authentication",
+     "desc": "EGroupware: User-Controlled Identity Provider Selection in SAML Authentication",
      "tags": [
-      "composer silverstripe/framework",
-      "published 2026-11-16",
-      "EPSS 0.3%"
+      "composer egroupware/egroupware",
+      "published 2026-11-17",
+      "EPSS 0.2%"
      ],
-     "link": "https://github.com/advisories/GHSA-4qv2-g5vp-wjjw"
+     "link": "https://github.com/advisories/GHSA-pr4x-6fj4-gm4h"
     },
     {
      "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-91112 — Silverstripe Framework: CMS_ACCESS_SecurityAdmin privilege escalation",
-     "desc": "Silverstripe Framework: CMS_ACCESS_SecurityAdmin privilege escalation",
+     "sev": "HIGH",
+     "title": "CVE-2026-14265 — AWS-advanced-jdbc-wrapper: Java Deserialization RCE via Cache Poisoning",
+     "desc": "AWS-advanced-jdbc-wrapper: Java Deserialization RCE via Cache Poisoning",
      "tags": [
-      "composer silverstripe/framework",
-      "published 2026-11-16",
-      "EPSS 0.3%"
+      "maven software.amazon.jdbc:aws-advanced-jdbc-wrapper",
+      "published 2026-11-17",
+      "EPSS 0.7%"
      ],
-     "link": "https://github.com/advisories/GHSA-rg72-5958-c65m"
+     "link": "https://github.com/advisories/GHSA-c5q4-97jw-jggh"
     }
    ]
   },
