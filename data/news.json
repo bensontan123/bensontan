@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T16:00:47.372Z",
+ "updated": "2026-11-17T19:00:47.365Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -23,6 +23,17 @@
     "The Hacker News"
    ],
    "link": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html"
+  },
+  {
+   "date": "2026-11-17",
+   "region": "CN",
+   "cat": "News",
+   "title": "Chinese state group developing automated attack tool for cyber espionage, Google says",
+   "desc": "Google released its latest AI Threat Tracker report on Monday, writing that threat actors are rapidly evolving their use of artificial intelligence in attacks — now leaning more heavily on autonomous multi-agent offensive frameworks like…",
+   "tags": [
+    "The Record"
+   ],
+   "link": "https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage"
   },
   {
    "date": "2026-11-16",
@@ -254,17 +265,6 @@
     "JPCERT/CC"
    ],
    "link": "https://www.jpcert.or.jp/english/at/2026/at260026.html"
-  },
-  {
-   "date": "2026-09-09",
-   "region": "JP",
-   "cat": "Advisory",
-   "title": "Security Alert: Microsoft Releases September 2026 Security Updates",
-   "desc": "",
-   "tags": [
-    "JPCERT/CC"
-   ],
-   "link": "https://www.jpcert.or.jp/english/at/2026/at260025.html"
   }
  ]
 }

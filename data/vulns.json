@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T18:00:46.410Z",
+ "updated": "2026-11-17T19:00:47.365Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -7,7 +7,7 @@
   "GHSA"
  ],
  "catalogVersion": "2026.11.17",
- "catalogCount": 1781,
+ "catalogCount": 1782,
  "counts": {
   "kev": 24,
   "nvd": 16,
@@ -132,23 +132,6 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
    "epss": 0.826
-  },
-  {
-   "id": "CVE-2026-109618",
-   "origin": "KEV",
-   "product": "PHP Group PHP",
-   "name": "PHP Memory Corruption Vulnerability",
-   "desc": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
-   "kevAdded": "2026-10-26",
-   "due": "2026-10-29",
-   "ransomware": false,
-   "published": "2026-10-21",
-   "cvss": 9.2,
-   "severity": "CRITICAL",
-   "vector": "Network / High / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
-   "epss": 1
   },
   {
    "id": "CVE-2026-125350",
@@ -421,6 +404,23 @@
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709",
    "epss": 0.007
+  },
+  {
+   "id": "CVE-2026-115731",
+   "origin": "KEV",
+   "product": "Perforce Puppet Enterprise",
+   "name": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+   "desc": "Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet’s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as the service user by submitting a report containing a crafted rich-data…",
+   "kevAdded": "2026-11-17",
+   "due": "2026-12-01",
+   "ransomware": false,
+   "published": "",
+   "cvss": null,
+   "severity": "PENDING",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731",
+   "epss": 0.004
   },
   {
    "id": "CVE-2026-120002",
