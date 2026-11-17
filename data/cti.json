@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T22:28:22.264Z",
+ "updated": "2026-11-17T23:00:50.875Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -333,6 +333,16 @@
     {
      "cat": "CISA",
      "sev": "NEWS",
+     "title": "Siemens ROS#",
+     "desc": "View CSAF Summary ROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the generated program…",
+     "tags": [
+      "2026-11-17"
+     ],
+     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06"
+    },
+    {
+     "cat": "CISA",
+     "sev": "NEWS",
      "title": "Dorsett Controls InfoScan",
      "desc": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, recover stored credentials, or intercept and manipulate…",
      "tags": [
@@ -353,42 +363,32 @@
     {
      "cat": "CISA",
      "sev": "NEWS",
-     "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-     "desc": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-115731 Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability This type of…",
+     "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
+     "desc": "View CSAF Summary .NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download directory. Siemens has…",
      "tags": [
       "2026-11-17"
      ],
-     "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog"
+     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02"
     },
     {
      "cat": "CISA",
      "sev": "NEWS",
-     "title": "Siemens meta-iot2050",
-     "desc": "View CSAF Summary meta-iot2050 (https://github.com/siemens/meta-iot2050) from V01.03.01 contains a Command Injection vulnerability in the firmware update tool that could allow an attacker which is able to manipulate a configuration file to…",
+     "title": "Critical Java Vulnerability Requires Immediate Patching",
+     "desc": "Purpose CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability CVE-2026-114938 . This critical memory-corruption vulnerability, known as “Java4Shell,” affects the Base64 decoder of the…",
      "tags": [
       "2026-11-17"
      ],
-     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11"
+     "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching"
     },
     {
      "cat": "CISA",
      "sev": "NEWS",
-     "title": "Siemens SIMATIC WinCC",
-     "desc": "View CSAF Summary Graphics Designer of SIMATIC WinCC before V8.2 contains an implicit active content execution vulnerability upon opening files, which could allow an attacker to cause arbitrary code execution on the device. Siemens is…",
+     "title": "Siemens Industrial Software Products",
+     "desc": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The…",
      "tags": [
       "2026-11-17"
      ],
-     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09"
-    },
-    {
-     "cat": "CISA",
-     "sev": "NEWS",
-     "title": "Siemens RUGGEDCOM APE1808",
-     "desc": "View CSAF Summary Fortinet has published information on a Double Free vulnerability in FortiOS. This advisory lists the related Siemens Industrial products. Siemens recommends to update Fortigate NGFW to V7.6.9 or later following the…",
-     "tags": [
-      "2026-11-17"
-     ],
-     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07"
+     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04"
     }
    ]
   }
