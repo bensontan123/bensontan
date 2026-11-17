@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T22:00:43.437Z",
+ "updated": "2026-11-17T22:28:22.264Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -218,57 +218,52 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-120002 — advisory",
-     "desc": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
+     "title": "CVE-2026-114784 — advisory",
+     "desc": "Vulnerability in the Oracle Business Intelligence Enterprise Edition product of Oracle Analytics (component: Platform Security).  Supported versions that are affected are 8.2.0.0.0 and  26.01.0.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to…",
      "tags": [
-      "published 2026-11-10",
-      "EPSS 0.9%"
+      "published 2026-11-17"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120002"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-114784"
     },
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-120779 — advisory",
-     "desc": "Improper control of generation of code ('code injection') in Visual Studio Code allows an unauthorized attacker to execute code over a network.",
+     "title": "CVE-2026-114824 — advisory",
+     "desc": "Vulnerability in the Oracle Platform Security for Java product of Oracle Fusion Middleware (component: Centralized Thirdparty Jars).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to…",
      "tags": [
-      "published 2026-11-10",
-      "EPSS 0.6%"
+      "published 2026-11-17"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120779"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-114824"
     },
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-118383 — advisory",
-     "desc": "A use-after-free in the replication component of MongoDB Server can occur when a newly elected replica set primary completes catch-up. The condition can be caused by requests that do not require authentication, and may result in the server terminating unexpectedly or, under certain conditions…",
+     "title": "CVE-2026-114835 — advisory",
+     "desc": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Admin Console).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Access…",
      "tags": [
-      "published 2026-11-10",
-      "EPSS 0.7%"
+      "published 2026-11-17"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-118383"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-114835"
     },
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-109445 — advisory",
-     "desc": "PLANET GS-5220-8P2T2S (hardware version 3.0) firmware versions before 3.2412b261008 contains a stack-based buffer overflow vulnerability that allows unauthenticated attackers to corrupt stack memory by submitting an oversized webstax_auth HTTP Cookie value that is copied into a fixed-size stack…",
+     "title": "CVE-2026-91500 — advisory",
+     "desc": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle…",
      "tags": [
-      "published 2026-11-13",
-      "EPSS 0.4%"
+      "published 2026-11-17"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-109445"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-91500"
     },
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-129171 — advisory",
-     "desc": "NginxPulse 1.5.0 before 1.6.26 contains an unauthenticated sql injection vulnerability that allows remote attackers to append SQL via the id and locationType parameters of /api/stats/:type. Attackers can close the quoted table-name identifier and use error-based output to read database contents…",
+     "title": "CVE-2026-91510 — advisory",
+     "desc": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle…",
      "tags": [
-      "published 2026-11-13",
-      "EPSS 0.4%"
+      "published 2026-11-17"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-129171"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-91510"
     }
    ]
   },
