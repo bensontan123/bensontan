@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T15:00:50.145Z",
+ "updated": "2026-11-17T17:00:48.762Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -479,20 +479,6 @@
    "epss": 0.007
   },
   {
-   "id": "CVE-2026-126378",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Vvveb through 1.0.8.6 contains a file upload vulnerability in the theme installer validFile() function that uses strpos() instead of strict path matching. Attackers with admin credentials can upload a ZIP containing a PHP file whose path includes /theme.php to achieve remote code execution on nginx…",
-   "published": "2026-11-13",
-   "cvss": 9.4,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126378",
-   "epss": 0.006
-  },
-  {
    "id": "CVE-2026-130587",
    "origin": "NVD",
    "product": "",
@@ -546,20 +532,6 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129171",
    "epss": 0.004
-  },
-  {
-   "id": "CVE-2026-82504",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "VITEC EZ TV Platform Server before 8.5.0 contains an unrestricted file upload vulnerability in the upload handler that allows unauthenticated remote attackers to upload arbitrary files by supplying a target filename in the X-FILENAME request header with no authentication or file type validation…",
-   "published": "2026-11-13",
-   "cvss": 9.3,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82504",
-   "epss": 0.008
   },
   {
    "id": "CVE-2026-129351",
@@ -646,6 +618,34 @@
    "epss": 0.004
   },
   {
+   "id": "CVE-2026-126269",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "NocoDB before 2026.09.0 contains a stored cross-site scripting vulnerability that allows authenticated Editor users to execute scripts by storing crafted attachment MIME types like text/html;image/png. Attackers can write the value through the records API so the /dltemp signed URL serves HTML…",
+   "published": "2026-11-13",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / Passive",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126269",
+   "epss": 0.003
+  },
+  {
+   "id": "CVE-2026-129255",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "A vulnerability was identified in CoolerMaster MASTERPLUS+ 1.9.6. This affects the function sub_11504 in the library WinRing0x64.sys of the component Device Driver. The manipulation of the argument PhysicalAddress leads to incorrect default permissions. The attack can only be performed from a local…",
+   "published": "2026-11-14",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Local / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129255",
+   "epss": 0.002
+  },
+  {
    "id": "CVE-2026-91115",
    "origin": "GHSA",
    "product": "composer silverstripe/framework",
@@ -659,21 +659,6 @@
    "url": "https://github.com/advisories/GHSA-c94f-87xg-65wf",
    "ghsaId": "GHSA-c94f-87xg-65wf",
    "epss": 0.006
-  },
-  {
-   "id": "CVE-2026-129236",
-   "origin": "GHSA",
-   "product": "go github.com/kubeshark/kubeshark",
-   "name": "Kubeshark: MCP `start_kubeshark` argument injection via `pod_regex` → image redirect → cluster takeover",
-   "desc": "Kubeshark: MCP `start_kubeshark` argument injection via `pod_regex` → image redirect → cluster takeover",
-   "published": "2026-11-16",
-   "cvss": 7.2,
-   "severity": "HIGH",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-8vf2-hxg5-crqh",
-   "ghsaId": "GHSA-8vf2-hxg5-crqh",
-   "epss": 0.002
   },
   {
    "id": "CVE-2026-91112",
@@ -764,6 +749,21 @@
    "url": "https://github.com/advisories/GHSA-qqrg-8jpm-8mph",
    "ghsaId": "GHSA-qqrg-8jpm-8mph",
    "epss": 0.002
+  },
+  {
+   "id": "CVE-2026-129300",
+   "origin": "GHSA",
+   "product": "pip mail-parser",
+   "name": "mail-parser: Uncaught `OverflowError` / `OSError` on an out-of-range `Received` date",
+   "desc": "mail-parser: Uncaught `OverflowError` / `OSError` on an out-of-range `Received` date",
+   "published": "2026-11-16",
+   "cvss": 5.3,
+   "severity": "MEDIUM",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-xhrq-2mqv-q8wx",
+   "ghsaId": "GHSA-xhrq-2mqv-q8wx",
+   "epss": 0.004
   }
  ]
 }
