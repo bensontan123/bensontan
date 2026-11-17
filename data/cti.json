@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T23:00:45.075Z",
+ "updated": "2026-11-17T00:00:47.921Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -356,44 +356,44 @@
      "link": "https://isc.sans.edu/diary/rss/33520"
     },
     {
-     "cat": "BleepingComputer",
+     "cat": "The Hacker News",
      "sev": "NEWS",
-     "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
-     "desc": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation.",
+     "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+     "desc": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to…",
      "tags": [
       "2026-11-16"
      ],
-     "link": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/"
+     "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html"
     },
     {
-     "cat": "BleepingComputer",
+     "cat": "The Hacker News",
      "sev": "NEWS",
-     "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
-     "desc": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated…",
+     "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+     "desc": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job…",
      "tags": [
       "2026-11-16"
      ],
-     "link": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/"
+     "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html"
     },
     {
-     "cat": "BleepingComputer",
+     "cat": "The Hacker News",
      "sev": "NEWS",
-     "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
-     "desc": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework.",
+     "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+     "desc": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No patch is available, and the researchers say…",
      "tags": [
       "2026-11-16"
      ],
-     "link": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/"
+     "link": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html"
     },
     {
-     "cat": "BleepingComputer",
+     "cat": "The Hacker News",
      "sev": "NEWS",
-     "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
-     "desc": "Microsoft says a software bug introduced in July caused last week's worldwide Microsoft 365 outage, triggering a cascading failure that left more than 80% of its networking gateway servers unresponsive.",
+     "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+     "desc": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a…",
      "tags": [
       "2026-11-16"
      ],
-     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/"
+     "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html"
     }
    ]
   }
