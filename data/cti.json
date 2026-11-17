@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T09:00:44.824Z",
+ "updated": "2026-11-17T10:00:44.898Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -387,12 +387,12 @@
     {
      "cat": "BleepingComputer",
      "sev": "NEWS",
-     "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
-     "desc": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October.",
+     "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
+     "desc": "US District Judge Jessica Clarke has acquitted two brothers accused of stealing $25 million in cryptocurrency in about 12 seconds through a scheme that exploited a bug in the Ethereum blockchain.",
      "tags": [
       "2026-11-17"
      ],
-     "link": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/"
+     "link": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/"
     }
    ]
   }
