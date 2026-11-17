@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T13:00:49.851Z",
+ "updated": "2026-11-17T16:00:47.372Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -67,17 +67,6 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/postgresql-multiple-vulnerabilities_20261116"
-  },
-  {
-   "date": "2026-11-16",
-   "region": "AU",
-   "cat": "News",
-   "title": "Australian retail giant Coles investigates cybersecurity incident",
-   "desc": "Coles Group Limited, Australia's second-largest retailer, is investigating what it described as a \"cyber security incident\" that has not impacted the company's stores.",
-   "tags": [
-    "BleepingComputer"
-   ],
-   "link": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/"
   },
   {
    "date": "2026-11-15",
@@ -265,6 +254,17 @@
     "JPCERT/CC"
    ],
    "link": "https://www.jpcert.or.jp/english/at/2026/at260026.html"
+  },
+  {
+   "date": "2026-09-09",
+   "region": "JP",
+   "cat": "Advisory",
+   "title": "Security Alert: Microsoft Releases September 2026 Security Updates",
+   "desc": "",
+   "tags": [
+    "JPCERT/CC"
+   ],
+   "link": "https://www.jpcert.or.jp/english/at/2026/at260025.html"
   }
  ]
 }
