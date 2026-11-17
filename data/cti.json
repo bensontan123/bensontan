@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T05:00:46.694Z",
+ "updated": "2026-11-17T06:00:55.544Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -355,6 +355,16 @@
      "link": "https://isc.sans.edu/diary/rss/33524"
     },
     {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
+     "desc": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and…",
+     "tags": [
+      "2026-11-17"
+     ],
+     "link": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html"
+    },
+    {
      "cat": "BleepingComputer",
      "sev": "NEWS",
      "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
@@ -383,16 +393,6 @@
       "2026-11-16"
      ],
      "link": "https://isc.sans.edu/diary/rss/33520"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
-     "desc": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to…",
-     "tags": [
-      "2026-11-16"
-     ],
-     "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html"
     }
    ]
   }

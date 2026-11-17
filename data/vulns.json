@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T05:00:46.694Z",
+ "updated": "2026-11-17T06:00:55.544Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -506,20 +506,6 @@
    "epss": 0.002
   },
   {
-   "id": "CVE-2026-17131",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to obtain sensitive information due to server-side request forgery. Restrictions on outbound requests can be bypassed, so the server could be made to contact unintended destinations and return the response.",
-   "published": "2026-11-07",
-   "cvss": 9.3,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17131",
-   "epss": 0.004
-  },
-  {
    "id": "CVE-2026-127277",
    "origin": "NVD",
    "product": "",
@@ -643,6 +629,19 @@
    "vector": "Network / Low / None",
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129952"
+  },
+  {
+   "id": "CVE-2026-129955",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "NodePress through 8.5.1 contains an authentication bypass vulnerability that allows unauthenticated attackers to gain administrator access by using the hardcoded default password 'root'. Attackers can send base64-encoded 'root' to POST /admin/login when NP_ADMIN_DEFAULT_PASSWORD is unset to obtain…",
+   "published": "2026-11-16",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129955"
   },
   {
    "id": "CVE-2026-91115",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T05:00:46.694Z",
+ "updated": "2026-11-17T06:00:55.544Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -62,7 +62,7 @@
    "region": "SG",
    "cat": "Advisory",
    "title": "Creative Labs – Multiple Vulnerabilities in Android Packages, Firmware installers, and Drivers",
-   "desc": "Multiple vulnerabilities have been discovered in Creative’s Android packages, firmware installers, and drivers associated with the Sound Blaster Command app, Sound Blaster X7 Control app, Creative Pebble speaker series, Sound Blaster…",
+   "desc": "Multiple vulnerabilities have been discovered in Creative Labs products. Creative Labs has released fixes to address these vulnerabilities. Special thanks to the researchers and Creative Labs for coordinating through CSA's Responsible…",
    "tags": [
     "SingCERT"
    ],
