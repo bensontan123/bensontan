@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T13:35:15.930Z",
+ "updated": "2026-11-17T15:00:50.145Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -27,7 +27,7 @@
       "Check Point Multiple Products",
       "KEV added 2026-11-13",
       "remediate by 2026-11-16",
-      "EPSS 2.2%"
+      "EPSS 1.9%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039"
     },
@@ -232,7 +232,8 @@
      "title": "CVE-2026-79614 — advisory",
      "desc": "An out-of-bounds write vulnerability in “libclinkc.so” in Zyxel DX3301-T0/EX3301-T0 firmware versions through 5.50(ABVY.8.3)C0 could allow an unauthenticated attacker to elevate privileges and potentially execute arbitrary commands by sending a crafted HTTP request. WAN access is disabled by…",
      "tags": [
-      "published 2026-11-17"
+      "published 2026-11-17",
+      "EPSS 0.4%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-79614"
     },
@@ -281,7 +282,8 @@
      "desc": "qbee-agent: Docker Compose build context Zip Slip writes outside context directory",
      "tags": [
       "go go.qbee.io/agent",
-      "published 2026-11-16"
+      "published 2026-11-16",
+      "EPSS 0.4%"
      ],
      "link": "https://github.com/advisories/GHSA-vx32-xf7g-9ghr"
     },
@@ -292,7 +294,8 @@
      "desc": "Silverstripe Framework: RCE via i18nTextCollectorTask writer parameter",
      "tags": [
       "composer silverstripe/framework",
-      "published 2026-11-16"
+      "published 2026-11-16",
+      "EPSS 0.6%"
      ],
      "link": "https://github.com/advisories/GHSA-c94f-87xg-65wf"
     },
@@ -303,7 +306,8 @@
      "desc": "Silverstripe Framework: User-controlled ClassName allows unauthorized record type change",
      "tags": [
       "composer silverstripe/framework",
-      "published 2026-11-16"
+      "published 2026-11-16",
+      "EPSS 0.3%"
      ],
      "link": "https://github.com/advisories/GHSA-4qv2-g5vp-wjjw"
     },
@@ -314,7 +318,8 @@
      "desc": "Silverstripe Framework: CMS_ACCESS_SecurityAdmin privilege escalation",
      "tags": [
       "composer silverstripe/framework",
-      "published 2026-11-16"
+      "published 2026-11-16",
+      "EPSS 0.3%"
      ],
      "link": "https://github.com/advisories/GHSA-rg72-5958-c65m"
     },
@@ -325,7 +330,8 @@
      "desc": "Silverstripe Framework: Auth bypass GridFieldDetailForm",
      "tags": [
       "composer silverstripe/framework",
-      "published 2026-11-16"
+      "published 2026-11-16",
+      "EPSS 0.2%"
      ],
      "link": "https://github.com/advisories/GHSA-3qh3-54qg-gpq3"
     }

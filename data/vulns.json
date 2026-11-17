@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T12:00:46.180Z",
+ "updated": "2026-11-17T15:00:50.145Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -233,7 +233,7 @@
    "vector": "Network / High / None",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977",
-   "epss": 0.012
+   "epss": 0.016
   },
   {
    "id": "CVE-2026-123039",
@@ -250,7 +250,7 @@
    "vector": "Local / Low / None",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039",
-   "epss": 0.022
+   "epss": 0.019
   },
   {
    "id": "CVE-2026-46300",
@@ -447,7 +447,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79614"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79614",
+   "epss": 0.004
   },
   {
    "id": "CVE-2026-120779",
@@ -492,18 +493,17 @@
    "epss": 0.006
   },
   {
-   "id": "CVE-2026-128049",
+   "id": "CVE-2026-130587",
    "origin": "NVD",
    "product": "",
    "name": "",
-   "desc": "OpenMage Magento LTS before 20.18.2 and 21.0.0-beta1 before 21.0.0-beta3 contains a cross-site request forgery vulnerability in the admin and storefront OAuth confirm and confirmSimple actions, which accept GET requests without form-key validation. Attackers holding OAuth consumer credentials can…",
-   "published": "2026-11-13",
+   "desc": "OpenFunction through 1.2.0 contains a privilege escalation vulnerability that allows namespace tenants to create privileged host-access pods by supplying unrestricted PodSpec templates in Function and Serving resources. Attackers with only Function or Serving create permissions can set privileged…",
+   "published": "2026-11-17",
    "cvss": 9.4,
    "severity": "CRITICAL",
-   "vector": "Network / Low / Passive",
+   "vector": "Network / Low / None",
    "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-128049",
-   "epss": 0.002
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130587"
   },
   {
    "id": "CVE-2026-127277",
@@ -518,20 +518,6 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-127277",
    "epss": 0.006
-  },
-  {
-   "id": "CVE-2026-128027",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "FrankenPHP Docker images before 1.1.11 were rebuilt only when new base image tags were created, so security fixes that Alpine, PHP, and Go applied under existing tags were not propagated. Remote attackers could exploit known flaws in the stale system libraries, such as CVE-2025-15467 in libcrypto3…",
-   "published": "2026-11-13",
-   "cvss": 9.3,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-128027",
-   "epss": 0.008
   },
   {
    "id": "CVE-2026-109445",
@@ -628,7 +614,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129952"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129952",
+   "epss": 0.005
   },
   {
    "id": "CVE-2026-129955",
@@ -641,7 +628,22 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129955"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129955",
+   "epss": 0.004
+  },
+  {
+   "id": "CVE-2026-130071",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "TridotsTech go1cms master branch through commit 7f68d05 and version-3 branch before commit ead8da3 contains a missing authentication vulnerability in the guest-whitelisted update_doc method that allows unauthenticated attackers to modify any document. Attackers can supply a doctype, name and…",
+   "published": "2026-11-16",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130071",
+   "epss": 0.004
   },
   {
    "id": "CVE-2026-91115",
@@ -655,7 +657,8 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-c94f-87xg-65wf",
-   "ghsaId": "GHSA-c94f-87xg-65wf"
+   "ghsaId": "GHSA-c94f-87xg-65wf",
+   "epss": 0.006
   },
   {
    "id": "CVE-2026-129236",
@@ -669,7 +672,8 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-8vf2-hxg5-crqh",
-   "ghsaId": "GHSA-8vf2-hxg5-crqh"
+   "ghsaId": "GHSA-8vf2-hxg5-crqh",
+   "epss": 0.002
   },
   {
    "id": "CVE-2026-91112",
@@ -683,7 +687,8 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-rg72-5958-c65m",
-   "ghsaId": "GHSA-rg72-5958-c65m"
+   "ghsaId": "GHSA-rg72-5958-c65m",
+   "epss": 0.003
   },
   {
    "id": "CVE-2026-129239",
@@ -697,7 +702,8 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-7h45-q5jx-7r87",
-   "ghsaId": "GHSA-7h45-q5jx-7r87"
+   "ghsaId": "GHSA-7h45-q5jx-7r87",
+   "epss": 0.004
   },
   {
    "id": "CVE-2026-129301",
@@ -711,7 +717,8 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-8cgq-x343-p74c",
-   "ghsaId": "GHSA-8cgq-x343-p74c"
+   "ghsaId": "GHSA-8cgq-x343-p74c",
+   "epss": 0.003
   },
   {
    "id": "CVE-2026-129237",
@@ -725,7 +732,8 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-vx32-xf7g-9ghr",
-   "ghsaId": "GHSA-vx32-xf7g-9ghr"
+   "ghsaId": "GHSA-vx32-xf7g-9ghr",
+   "epss": 0.004
   },
   {
    "id": "CVE-2026-88988",
@@ -739,7 +747,8 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-xwg4-8hqh-79jq",
-   "ghsaId": "GHSA-xwg4-8hqh-79jq"
+   "ghsaId": "GHSA-xwg4-8hqh-79jq",
+   "epss": 0.002
   },
   {
    "id": "CVE-2026-88987",
@@ -753,7 +762,8 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-qqrg-8jpm-8mph",
-   "ghsaId": "GHSA-qqrg-8jpm-8mph"
+   "ghsaId": "GHSA-qqrg-8jpm-8mph",
+   "epss": 0.002
   }
  ]
 }
