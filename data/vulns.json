@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-17T17:00:48.762Z",
+ "updated": "2026-11-17T18:00:46.410Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
   "NVD",
   "GHSA"
  ],
- "catalogVersion": "2026.11.13",
+ "catalogVersion": "2026.11.17",
  "catalogCount": 1781,
  "counts": {
   "kev": 24,
@@ -479,19 +479,6 @@
    "epss": 0.007
   },
   {
-   "id": "CVE-2026-130587",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "OpenFunction through 1.2.0 contains a privilege escalation vulnerability that allows namespace tenants to create privileged host-access pods by supplying unrestricted PodSpec templates in Function and Serving resources. Attackers with only Function or Serving create permissions can set privileged…",
-   "published": "2026-11-17",
-   "cvss": 9.4,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130587"
-  },
-  {
    "id": "CVE-2026-127277",
    "origin": "NVD",
    "product": "",
@@ -644,6 +631,20 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129255",
    "epss": 0.002
+  },
+  {
+   "id": "CVE-2026-129261",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "A vulnerability was found in Kingston FURY CTRL RGB Control Software up to 2.0.66.0. The impacted element is an unknown function in the library NTIOLib_X64.sys of the component IOCTL Handler. Performing a manipulation results in exposed ioctl with insufficient access control. The attack is only…",
+   "published": "2026-11-14",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Local / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129261",
+   "epss": 0.001
   },
   {
    "id": "CVE-2026-91115",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T17:00:48.762Z",
+ "updated": "2026-11-17T18:00:46.410Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -262,12 +262,13 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-130587 — advisory",
-     "desc": "OpenFunction through 1.2.0 contains a privilege escalation vulnerability that allows namespace tenants to create privileged host-access pods by supplying unrestricted PodSpec templates in Function and Serving resources. Attackers with only Function or Serving create permissions can set privileged…",
+     "title": "CVE-2026-127277 — advisory",
+     "desc": "A security flaw has been discovered in Linksys EA8100 1.0.3.216940. The affected element is an unknown function of the file etc/init.d/service_smbd.sh of the component SMB Service. Performing a manipulation of the argument ANON_ACCESS results in improper initialization. The attack can be initiated…",
      "tags": [
-      "published 2026-11-17"
+      "published 2026-11-13",
+      "EPSS 0.6%"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-130587"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-127277"
     }
    ]
   },
