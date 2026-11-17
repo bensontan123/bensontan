@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T19:00:47.365Z",
+ "updated": "2026-11-17T20:00:48.227Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -7,7 +7,7 @@
    "items": [
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-115731 — Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
      "desc": "Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet’s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as the service user by submitting a report containing a crafted rich-data…",
      "tags": [
@@ -229,17 +229,6 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-79614 — advisory",
-     "desc": "An out-of-bounds write vulnerability in “libclinkc.so” in Zyxel DX3301-T0/EX3301-T0 firmware versions through 5.50(ABVY.8.3)C0 could allow an unauthenticated attacker to elevate privileges and potentially execute arbitrary commands by sending a crafted HTTP request. WAN access is disabled by…",
-     "tags": [
-      "published 2026-11-17",
-      "EPSS 0.4%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-79614"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
      "title": "CVE-2026-120779 — advisory",
      "desc": "Improper control of generation of code ('code injection') in Visual Studio Code allows an unauthorized attacker to execute code over a network.",
      "tags": [
@@ -269,6 +258,17 @@
       "EPSS 0.6%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-127277"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-109445 — advisory",
+     "desc": "PLANET GS-5220-8P2T2S (hardware version 3.0) firmware versions before 3.2412b261008 contains a stack-based buffer overflow vulnerability that allows unauthenticated attackers to corrupt stack memory by submitting an oversized webstax_auth HTTP Cookie value that is copied into a fixed-size stack…",
+     "tags": [
+      "published 2026-11-13",
+      "EPSS 0.4%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-109445"
     }
    ]
   },
@@ -353,6 +353,16 @@
     {
      "cat": "CISA",
      "sev": "NEWS",
+     "title": "Dorsett Controls InfoScan",
+     "desc": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, recover stored credentials, or intercept and manipulate…",
+     "tags": [
+      "2026-11-17"
+     ],
+     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01"
+    },
+    {
+     "cat": "CISA",
+     "sev": "NEWS",
      "title": "Siemens Mendix Studio Pro",
      "desc": "View CSAF Summary Mendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remotely or trick a user's browser into sending unauthorized requests…",
      "tags": [
@@ -363,12 +373,12 @@
     {
      "cat": "CISA",
      "sev": "NEWS",
-     "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
-     "desc": "View CSAF Summary .NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download directory. Siemens has…",
+     "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+     "desc": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-115731 Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability This type of…",
      "tags": [
       "2026-11-17"
      ],
-     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02"
+     "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog"
     },
     {
      "cat": "CISA",
@@ -389,16 +399,6 @@
       "2026-11-17"
      ],
      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09"
-    },
-    {
-     "cat": "CISA",
-     "sev": "NEWS",
-     "title": "Siemens RUGGEDCOM APE1808",
-     "desc": "View CSAF Summary Fortinet has published information on a Double Free vulnerability in FortiOS. This advisory lists the related Siemens Industrial products. Siemens recommends to update Fortigate NGFW to V7.6.9 or later following the…",
-     "tags": [
-      "2026-11-17"
-     ],
-     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07"
     }
    ]
   }

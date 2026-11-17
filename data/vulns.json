@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T19:00:47.365Z",
+ "updated": "2026-11-17T20:00:48.227Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -81,6 +81,23 @@
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218",
    "epss": 0.005
+  },
+  {
+   "id": "CVE-2026-115731",
+   "origin": "KEV",
+   "product": "Perforce Puppet Enterprise",
+   "name": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+   "desc": "Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet’s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as the service user by submitting a report containing a crafted rich-data…",
+   "kevAdded": "2026-11-17",
+   "due": "2026-12-01",
+   "ransomware": false,
+   "published": "2026-11-03",
+   "cvss": 9.4,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731",
+   "epss": 0.004
   },
   {
    "id": "CVE-2026-116606",
@@ -406,23 +423,6 @@
    "epss": 0.007
   },
   {
-   "id": "CVE-2026-115731",
-   "origin": "KEV",
-   "product": "Perforce Puppet Enterprise",
-   "name": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
-   "desc": "Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet’s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as the service user by submitting a report containing a crafted rich-data…",
-   "kevAdded": "2026-11-17",
-   "due": "2026-12-01",
-   "ransomware": false,
-   "published": "",
-   "cvss": null,
-   "severity": "PENDING",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731",
-   "epss": 0.004
-  },
-  {
    "id": "CVE-2026-120002",
    "origin": "NVD",
    "product": "",
@@ -435,20 +435,6 @@
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120002",
    "epss": 0.009
-  },
-  {
-   "id": "CVE-2026-79614",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "An out-of-bounds write vulnerability in “libclinkc.so” in Zyxel DX3301-T0/EX3301-T0 firmware versions through 5.50(ABVY.8.3)C0 could allow an unauthenticated attacker to elevate privileges and potentially execute arbitrary commands by sending a crafted HTTP request. WAN access is disabled by…",
-   "published": "2026-11-17",
-   "cvss": 9.8,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79614",
-   "epss": 0.004
   },
   {
    "id": "CVE-2026-120779",
@@ -645,6 +631,19 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129261",
    "epss": 0.001
+  },
+  {
+   "id": "CVE-2026-130583",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Rootways Authorize.net CIM Pro extension for Magento 2 before 4.1.5 contains an unauthenticated server-side request forgery vulnerability in the Apple Pay merchant validation controller. Attackers can supply file://, gopher://, or dict:// URLs in the validationUrl parameter to read app/etc/env.php…",
+   "published": "2026-11-17",
+   "cvss": 9.2,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130583"
   },
   {
    "id": "CVE-2026-91115",
