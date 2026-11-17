@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T02:00:47.357Z",
+ "updated": "2026-11-17T02:58:29.450Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -89,17 +89,6 @@
     "SingCERT"
    ],
    "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-161"
-  },
-  {
-   "date": "2026-11-15",
-   "region": "TW",
-   "cat": "News",
-   "title": "TSMC employee data breach linked to cloud provider",
-   "desc": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction.",
-   "tags": [
-    "BleepingComputer"
-   ],
-   "link": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/"
   },
   {
    "date": "2026-11-13",
@@ -265,6 +254,17 @@
     "JPCERT/CC"
    ],
    "link": "https://www.jpcert.or.jp/english/at/2026/at260031.html"
+  },
+  {
+   "date": "2026-09-09",
+   "region": "JP",
+   "cat": "Advisory",
+   "title": "Security Alert: Alert Regarding Vulnerabilities in Adobe Acrobat and Reader (APSB26-141)",
+   "desc": "",
+   "tags": [
+    "JPCERT/CC"
+   ],
+   "link": "https://www.jpcert.or.jp/english/at/2026/at260026.html"
   }
  ]
 }

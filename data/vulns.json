@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T23:00:45.075Z",
+ "updated": "2026-11-17T02:58:29.450Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -437,6 +437,19 @@
    "epss": 0.009
   },
   {
+   "id": "CVE-2026-79614",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "An out-of-bounds write vulnerability in “libclinkc.so” in Zyxel DX3301-T0/EX3301-T0 firmware versions through 5.50(ABVY.8.3)C0 could allow an unauthenticated attacker to elevate privileges and potentially execute arbitrary commands by sending a crafted HTTP request. WAN access is disabled by…",
+   "published": "2026-11-17",
+   "cvss": 9.8,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79614"
+  },
+  {
    "id": "CVE-2026-120779",
    "origin": "NVD",
    "product": "",
@@ -630,19 +643,6 @@
    "vector": "Network / Low / None",
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129952"
-  },
-  {
-   "id": "CVE-2026-129955",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "NodePress through 8.5.1 contains an authentication bypass vulnerability that allows unauthenticated attackers to gain administrator access by using the hardcoded default password 'root'. Attackers can send base64-encoded 'root' to POST /admin/login when NP_ADMIN_DEFAULT_PASSWORD is unset to obtain…",
-   "published": "2026-11-16",
-   "cvss": 9.3,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129955"
   },
   {
    "id": "CVE-2026-91115",
