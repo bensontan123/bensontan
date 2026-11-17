@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T21:00:44.535Z",
+ "updated": "2026-11-17T22:00:43.437Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -659,19 +659,46 @@
    "epss": 0.001
   },
   {
-   "id": "CVE-2026-91115",
+   "id": "CVE-2026-110782",
    "origin": "GHSA",
-   "product": "composer silverstripe/framework",
-   "name": "Silverstripe Framework: RCE via i18nTextCollectorTask writer parameter",
-   "desc": "Silverstripe Framework: RCE via i18nTextCollectorTask writer parameter",
-   "published": "2026-11-16",
-   "cvss": 8.8,
+   "product": "composer simplesamlphp/saml2",
+   "name": "SAML2: Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artifact signature verification (no embedded-Issuer…",
+   "desc": "SAML2: Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artifact signature verification (no embedded-Issuer binding)",
+   "published": "2026-11-17",
+   "cvss": 8.7,
    "severity": "HIGH",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-c94f-87xg-65wf",
-   "ghsaId": "GHSA-c94f-87xg-65wf",
-   "epss": 0.006
+   "url": "https://github.com/advisories/GHSA-r7hw-jx6r-756g",
+   "ghsaId": "GHSA-r7hw-jx6r-756g"
+  },
+  {
+   "id": "CVE-2026-119793",
+   "origin": "GHSA",
+   "product": "npm @libp2p/gossipsub",
+   "name": "libp2p: gossipsub creates a permanent topics-map entry per distinct subscription with no cap in the default config",
+   "desc": "libp2p: gossipsub creates a permanent topics-map entry per distinct subscription with no cap in the default config",
+   "published": "2026-11-17",
+   "cvss": 7.5,
+   "severity": "HIGH",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-x2vm-cf3p-m2w8",
+   "ghsaId": "GHSA-x2vm-cf3p-m2w8"
+  },
+  {
+   "id": "CVE-2026-110789",
+   "origin": "GHSA",
+   "product": "npm @libp2p/crypto",
+   "name": "libp2p: ASN.1 DER decoder drives an unbounded synchronous loop on attacker-controlled length fields, stalling the Node event loop pre-auth",
+   "desc": "libp2p: ASN.1 DER decoder drives an unbounded synchronous loop on attacker-controlled length fields, stalling the Node event loop pre-auth",
+   "published": "2026-11-17",
+   "cvss": 7.5,
+   "severity": "HIGH",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-rvfr-cqwq-rc4j",
+   "ghsaId": "GHSA-rvfr-cqwq-rc4j"
   },
   {
    "id": "CVE-2026-14265",
@@ -704,21 +731,6 @@
    "epss": 0.001
   },
   {
-   "id": "CVE-2026-91112",
-   "origin": "GHSA",
-   "product": "composer silverstripe/framework",
-   "name": "Silverstripe Framework: CMS_ACCESS_SecurityAdmin privilege escalation",
-   "desc": "Silverstripe Framework: CMS_ACCESS_SecurityAdmin privilege escalation",
-   "published": "2026-11-16",
-   "cvss": 6.8,
-   "severity": "MEDIUM",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-rg72-5958-c65m",
-   "ghsaId": "GHSA-rg72-5958-c65m",
-   "epss": 0.003
-  },
-  {
    "id": "CVE-2026-63672",
    "origin": "GHSA",
    "product": "composer egroupware/egroupware",
@@ -746,21 +758,6 @@
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-8vm9-f75m-5h2m",
    "ghsaId": "GHSA-8vm9-f75m-5h2m"
-  },
-  {
-   "id": "CVE-2026-129237",
-   "origin": "GHSA",
-   "product": "go go.qbee.io/agent",
-   "name": "qbee-agent: Docker Compose build context Zip Slip writes outside context directory",
-   "desc": "qbee-agent: Docker Compose build context Zip Slip writes outside context directory",
-   "published": "2026-11-16",
-   "cvss": 5.4,
-   "severity": "MEDIUM",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-vx32-xf7g-9ghr",
-   "ghsaId": "GHSA-vx32-xf7g-9ghr",
-   "epss": 0.004
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T21:00:44.535Z",
+ "updated": "2026-11-17T22:00:43.437Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -277,6 +277,39 @@
    "items": [
     {
      "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-119793 — libp2p: gossipsub creates a permanent topics-map entry per distinct subscription with no cap in the default config",
+     "desc": "libp2p: gossipsub creates a permanent topics-map entry per distinct subscription with no cap in the default config",
+     "tags": [
+      "npm @libp2p/gossipsub",
+      "published 2026-11-17"
+     ],
+     "link": "https://github.com/advisories/GHSA-x2vm-cf3p-m2w8"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-110789 — libp2p: ASN.1 DER decoder drives an unbounded synchronous loop on attacker-controlled length fields, stalling the Node event loop pre-auth",
+     "desc": "libp2p: ASN.1 DER decoder drives an unbounded synchronous loop on attacker-controlled length fields, stalling the Node event loop pre-auth",
+     "tags": [
+      "npm @libp2p/crypto",
+      "published 2026-11-17"
+     ],
+     "link": "https://github.com/advisories/GHSA-rvfr-cqwq-rc4j"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-110782 — SAML2: Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artifact signature verification (no embedded-Issuer…",
+     "desc": "SAML2: Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artifact signature verification (no embedded-Issuer binding)",
+     "tags": [
+      "composer simplesamlphp/saml2",
+      "published 2026-11-17"
+     ],
+     "link": "https://github.com/advisories/GHSA-r7hw-jx6r-756g"
+    },
+    {
+     "cat": "GHSA",
      "sev": "MEDIUM",
      "title": "CVE-2026-69241 — Filament Curator: Stored XSS via unsanitized SVG upload served inline",
      "desc": "Filament Curator: Stored XSS via unsanitized SVG upload served inline",
@@ -296,58 +329,12 @@
       "published 2026-11-17"
      ],
      "link": "https://github.com/advisories/GHSA-828w-6qgx-3rcf"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-62336 — qbee-agent: Local Privilege Escalation and Arbitrary File Tampering via Symlink Following in createFile helper",
-     "desc": "qbee-agent: Local Privilege Escalation and Arbitrary File Tampering via Symlink Following in createFile helper",
-     "tags": [
-      "go go.qbee.io/agent",
-      "published 2026-11-17",
-      "EPSS 0.1%"
-     ],
-     "link": "https://github.com/advisories/GHSA-xhv5-8fpq-g7hf"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-63672 — EGroupware: User-Controlled Identity Provider Selection in SAML Authentication",
-     "desc": "EGroupware: User-Controlled Identity Provider Selection in SAML Authentication",
-     "tags": [
-      "composer egroupware/egroupware",
-      "published 2026-11-17",
-      "EPSS 0.2%"
-     ],
-     "link": "https://github.com/advisories/GHSA-pr4x-6fj4-gm4h"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-14265 — AWS-advanced-jdbc-wrapper: Java Deserialization RCE via Cache Poisoning",
-     "desc": "AWS-advanced-jdbc-wrapper: Java Deserialization RCE via Cache Poisoning",
-     "tags": [
-      "maven software.amazon.jdbc:aws-advanced-jdbc-wrapper",
-      "published 2026-11-17",
-      "EPSS 0.7%"
-     ],
-     "link": "https://github.com/advisories/GHSA-c5q4-97jw-jggh"
     }
    ]
   },
   {
    "label": "Threat headlines",
    "items": [
-    {
-     "cat": "The Record",
-     "sev": "NEWS",
-     "title": "Uber says nearly 150,000 impacted by third-party breach",
-     "desc": "In breach notification letters, the rideshare company said it was notified by a third party service provider on October 9 that internal credentials were stolen and used to access Uber’s account.",
-     "tags": [
-      "2026-11-18"
-     ],
-     "link": "https://therecord.media/uber-says-150000-impacted-third-party-breach"
-    },
     {
      "cat": "CISA",
      "sev": "NEWS",
@@ -397,6 +384,16 @@
       "2026-11-17"
      ],
      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09"
+    },
+    {
+     "cat": "CISA",
+     "sev": "NEWS",
+     "title": "Siemens RUGGEDCOM APE1808",
+     "desc": "View CSAF Summary Fortinet has published information on a Double Free vulnerability in FortiOS. This advisory lists the related Siemens Industrial products. Siemens recommends to update Fortigate NGFW to V7.6.9 or later following the…",
+     "tags": [
+      "2026-11-17"
+     ],
+     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07"
     }
    ]
   }
