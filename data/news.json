@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T06:00:55.544Z",
+ "updated": "2026-11-17T07:00:44.011Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -12,6 +12,17 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/check-point-products-multiple-vulnerabilities_20261117"
+  },
+  {
+   "date": "2026-11-16",
+   "region": "SG",
+   "cat": "Advisory",
+   "title": "Active Exploitation of Vulnerability in Apache HTTP Server's mod_http2",
+   "desc": "Attackers are exploiting a high-severity vulnerability in Apache HTTP Server’s mod_http2 module to achieve remote code execution. Patch immediately.",
+   "tags": [
+    "SingCERT"
+   ],
+   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-164"
   },
   {
    "date": "2026-11-16",
@@ -179,17 +190,6 @@
    "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-160"
   },
   {
-   "date": "2026-11-10",
-   "region": "CN",
-   "cat": "News",
-   "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
-   "desc": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical…",
-   "tags": [
-    "The Hacker News"
-   ],
-   "link": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html"
-  },
-  {
    "date": "2026-11-05",
    "region": "AU",
    "cat": "News",
@@ -234,17 +234,6 @@
    "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-157"
   },
   {
-   "date": "2026-11-01",
-   "region": "SG",
-   "cat": "Advisory",
-   "title": "Multiple Vulnerabilities in Oracle Application Object Library",
-   "desc": "Attackers are targeting a critical vulnerability in Oracle Application Object Library. The product is also affected by another high-severity vulnerability. Both could allow attackers to take over affected systems. Patch immediately.",
-   "tags": [
-    "SingCERT"
-   ],
-   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-156"
-  },
-  {
    "date": "2026-10-14",
    "region": "JP",
    "cat": "Advisory",
@@ -265,6 +254,17 @@
     "JPCERT/CC"
    ],
    "link": "https://www.jpcert.or.jp/english/at/2026/at260026.html"
+  },
+  {
+   "date": "2026-09-09",
+   "region": "JP",
+   "cat": "Advisory",
+   "title": "Security Alert: Microsoft Releases September 2026 Security Updates",
+   "desc": "",
+   "tags": [
+    "JPCERT/CC"
+   ],
+   "link": "https://www.jpcert.or.jp/english/at/2026/at260025.html"
   }
  ]
 }

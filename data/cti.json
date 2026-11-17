@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T06:00:55.544Z",
+ "updated": "2026-11-17T07:00:44.011Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -345,14 +345,14 @@
      "link": "https://therecord.media/uber-says-150000-impacted-third-party-breach"
     },
     {
-     "cat": "SANS ISC",
+     "cat": "The Hacker News",
      "sev": "NEWS",
-     "title": "ISC Stormcast For Tuesday, November 17th, 2026 https://isc.sans.edu/podcastdetail/10182, (Tue, Nov 17th)",
-     "desc": "",
+     "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
+     "desc": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later. The company…",
      "tags": [
       "2026-11-17"
      ],
-     "link": "https://isc.sans.edu/diary/rss/33524"
+     "link": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html"
     },
     {
      "cat": "The Hacker News",
@@ -375,24 +375,24 @@
      "link": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/"
     },
     {
-     "cat": "SANS ISC",
+     "cat": "The Hacker News",
      "sev": "NEWS",
-     "title": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)",
-     "desc": "This weekend, we started seeing requests for /mcp-rest/test/tools/list hitting our honeypots. These requests appear to attempt to exploit CVE-2026-42271 and CVE-2026-48710. Horizon3.ai published a short write-up about how these…",
+     "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+     "desc": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to…",
      "tags": [
       "2026-11-16"
      ],
-     "link": "https://isc.sans.edu/diary/rss/33522"
+     "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html"
     },
     {
-     "cat": "SANS ISC",
+     "cat": "The Hacker News",
      "sev": "NEWS",
-     "title": "ISC Stormcast For Monday, November 16th, 2026 https://isc.sans.edu/podcastdetail/10180, (Mon, Nov 16th)",
-     "desc": "",
+     "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+     "desc": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job…",
      "tags": [
       "2026-11-16"
      ],
-     "link": "https://isc.sans.edu/diary/rss/33520"
+     "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html"
     }
    ]
   }
