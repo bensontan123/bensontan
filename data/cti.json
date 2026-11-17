@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T00:00:47.921Z",
+ "updated": "2026-11-17T02:00:47.357Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -336,6 +336,16 @@
    "label": "Threat headlines",
    "items": [
     {
+     "cat": "The Record",
+     "sev": "NEWS",
+     "title": "Uber says nearly 150,000 impacted by third-party breach",
+     "desc": "In breach notification letters, the rideshare company said it was notified by a third party service provider on October 9 that internal credentials were stolen and used to access Uber’s account.",
+     "tags": [
+      "2026-11-18"
+     ],
+     "link": "https://therecord.media/uber-says-150000-impacted-third-party-breach"
+    },
+    {
      "cat": "SANS ISC",
      "sev": "NEWS",
      "title": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)",
@@ -384,16 +394,6 @@
       "2026-11-16"
      ],
      "link": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-     "desc": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a…",
-     "tags": [
-      "2026-11-16"
-     ],
-     "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html"
     }
    ]
   }
