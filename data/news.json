@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T12:00:46.180Z",
+ "updated": "2026-11-17T13:00:49.851Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -12,6 +12,17 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/check-point-products-multiple-vulnerabilities_20261117"
+  },
+  {
+   "date": "2026-11-17",
+   "region": "APAC",
+   "cat": "News",
+   "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
+   "desc": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for…",
+   "tags": [
+    "The Hacker News"
+   ],
+   "link": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html"
   },
   {
    "date": "2026-11-16",
@@ -124,6 +135,28 @@
    "link": "https://www.hkcert.org/security-bulletin/citrix-products-multiple-vulnerabilities_20261113"
   },
   {
+   "date": "2026-11-13",
+   "region": "KR",
+   "cat": "News",
+   "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+   "desc": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social…",
+   "tags": [
+    "The Hacker News"
+   ],
+   "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html"
+  },
+  {
+   "date": "2026-11-13",
+   "region": "TW",
+   "cat": "News",
+   "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+   "desc": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and cybersecurity software company based in Stockholm, found the…",
+   "tags": [
+    "The Hacker News"
+   ],
+   "link": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
+  },
+  {
    "date": "2026-11-12",
    "region": "HK",
    "cat": "Advisory",
@@ -232,39 +265,6 @@
     "JPCERT/CC"
    ],
    "link": "https://www.jpcert.or.jp/english/at/2026/at260026.html"
-  },
-  {
-   "date": "2026-09-09",
-   "region": "JP",
-   "cat": "Advisory",
-   "title": "Security Alert: Microsoft Releases September 2026 Security Updates",
-   "desc": "",
-   "tags": [
-    "JPCERT/CC"
-   ],
-   "link": "https://www.jpcert.or.jp/english/at/2026/at260025.html"
-  },
-  {
-   "date": "2026-08-12",
-   "region": "JP",
-   "cat": "Advisory",
-   "title": "Security Alert: Microsoft Releases August 2026 Security Updates",
-   "desc": "",
-   "tags": [
-    "JPCERT/CC"
-   ],
-   "link": "https://www.jpcert.or.jp/english/at/2026/at260022.html"
-  },
-  {
-   "date": "2026-07-31",
-   "region": "JP",
-   "cat": "Advisory",
-   "title": "Security Alert: [Updated] Microsoft Releases July 2026 Security Updates",
-   "desc": "",
-   "tags": [
-    "JPCERT/CC"
-   ],
-   "link": "https://www.jpcert.or.jp/english/at/2026/at260020.html"
   }
  ]
 }
