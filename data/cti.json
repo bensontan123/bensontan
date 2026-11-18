@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T07:00:45.108Z",
+ "updated": "2026-11-18T07:39:46.397Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -343,6 +343,16 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+     "desc": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz. The malicious versions, 1.26.1…",
+     "tags": [
+      "2026-11-18"
+     ],
+     "link": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
      "desc": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise…",
      "tags": [
@@ -353,7 +363,7 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
-     "title": "Java4Shell (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak on Java 17+ AVX-512 VBMI Servers",
+     "title": "Critical Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
      "desc": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week. The flaw is…",
      "tags": [
       "2026-11-18"
@@ -379,16 +389,6 @@
       "2026-11-17"
      ],
      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06"
-    },
-    {
-     "cat": "CISA",
-     "sev": "NEWS",
-     "title": "Dorsett Controls InfoScan",
-     "desc": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, recover stored credentials, or intercept and manipulate…",
-     "tags": [
-      "2026-11-17"
-     ],
-     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01"
     }
    ]
   }

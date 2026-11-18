@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T03:00:46.682Z",
+ "updated": "2026-11-18T07:39:46.397Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -34,6 +34,17 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/oracle-products-multiple-vulnerabilities_20261118"
+  },
+  {
+   "date": "2026-11-17",
+   "region": "SG",
+   "cat": "Advisory",
+   "title": "Advantech ECU-1251D – Multiple Vulnerabilities including Denial-of-Service and Default Credentials",
+   "desc": "Advantech has released a security update to address vulnerabilities discovered in their ECU-1251D industrial communication gateway product. Special thanks to Advantech for coordinating the disclosure of these vulnerabilities with CSA.",
+   "tags": [
+    "SingCERT"
+   ],
+   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-165"
   },
   {
    "date": "2026-11-17",
@@ -243,17 +254,6 @@
     "SingCERT"
    ],
    "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-158"
-  },
-  {
-   "date": "2026-11-02",
-   "region": "SG",
-   "cat": "Advisory",
-   "title": "Active Exploitation of PHP2Shell Vulnerabilities Affecting Network and Security Products",
-   "desc": "Active exploitation of PHP2Shell has been reported against Palo Alto Networks firewalls running affected PAN-OS versions. Attackers have also reportedly chained these vulnerabilities with a separate Linux kernel flaw to gain root…",
-   "tags": [
-    "SingCERT"
-   ],
-   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-157"
   },
   {
    "date": "2026-10-14",
