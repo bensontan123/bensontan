@@ -1,10 +1,62 @@
 {
- "updated": "2026-11-18T19:00:46.438Z",
+ "updated": "2026-11-18T20:00:57.712Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
    "label": "Newly exploited — latest CISA KEV additions",
    "items": [
+    {
+     "cat": "KEV",
+     "sev": "PENDING",
+     "title": "CVE-2024-10441 — Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
+     "desc": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.",
+     "tags": [
+      "Synology DiskStation Manager (DSM)",
+      "KEV added 2026-11-18",
+      "remediate by 2026-11-21",
+      "EPSS 1.3%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
+    },
+    {
+     "cat": "KEV",
+     "sev": "PENDING",
+     "title": "CVE-2026-40217 — BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
+     "desc": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
+     "tags": [
+      "BerriAI LiteLLM",
+      "KEV added 2026-11-18",
+      "remediate by 2026-12-02",
+      "EPSS 17.0%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217"
+    },
+    {
+     "cat": "KEV",
+     "sev": "PENDING",
+     "title": "CVE-2026-90817 — Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
+     "desc": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access an unintended controller route from a…",
+     "tags": [
+      "Vanderbilt University Research Electronic Data Capture (REDCap)",
+      "KEV added 2026-11-18",
+      "remediate by 2026-11-21",
+      "EPSS 3.7%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817"
+    },
+    {
+     "cat": "KEV",
+     "sev": "PENDING",
+     "title": "CVE-2026-90436 — Apache Axis Unsafe Reflection Vulnerability",
+     "desc": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified class when a suitable class is available on the application…",
+     "tags": [
+      "Apache Axis",
+      "KEV added 2026-11-18",
+      "remediate by 2026-11-21",
+      "EPSS 1.1%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436"
+    },
     {
      "cat": "KEV",
      "sev": "CRITICAL",
@@ -17,58 +69,6 @@
       "EPSS 0.7%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731"
-    },
-    {
-     "cat": "KEV",
-     "sev": "HIGH",
-     "title": "CVE-2026-114713 — UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
-     "desc": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority.",
-     "tags": [
-      "UnrealIRCd UnrealIRCd",
-      "KEV added 2026-11-13",
-      "remediate by 2026-11-16",
-      "EPSS 0.5%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713"
-    },
-    {
-     "cat": "KEV",
-     "sev": "HIGH",
-     "title": "CVE-2026-123039 — Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
-     "desc": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local…",
-     "tags": [
-      "Check Point Multiple Products",
-      "KEV added 2026-11-13",
-      "remediate by 2026-11-16",
-      "EPSS 1.9%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039"
-    },
-    {
-     "cat": "KEV",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-124194 — Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
-     "desc": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
-     "tags": [
-      "Microsoft Office",
-      "KEV added 2026-11-10",
-      "remediate by 2026-11-24",
-      "EPSS 1.6%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194"
-    },
-    {
-     "cat": "KEV",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-111793 — Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
-     "desc": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience.",
-     "tags": [
-      "Openwave Messaging Limited Webtop Media Transcoder",
-      "KEV added 2026-11-10",
-      "remediate by 2026-11-24",
-      "EPSS 0.6%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793"
     }
    ]
   },
@@ -148,19 +148,6 @@
     {
      "cat": "EPSS",
      "sev": "CRITICAL",
-     "title": "CVE-2026-111497 — Google Brotli Unchecked Return Value Vulnerability",
-     "desc": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.",
-     "tags": [
-      "Google Brotli",
-      "KEV added 2026-10-27",
-      "remediate by 2026-11-10",
-      "EPSS 82.6%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497"
-    },
-    {
-     "cat": "EPSS",
-     "sev": "CRITICAL",
      "title": "CVE-2026-97229 — GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
      "desc": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression…",
      "tags": [
@@ -170,19 +157,6 @@
       "EPSS 69.3%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229"
-    },
-    {
-     "cat": "EPSS",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-48356 — Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
-     "desc": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.",
-     "tags": [
-      "Adobe Commerce and Magento",
-      "KEV added 2026-10-27",
-      "remediate by 2026-11-10",
-      "EPSS 66.4%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356"
     },
     {
      "cat": "EPSS",
@@ -209,6 +183,32 @@
       "EPSS 18.9%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158"
+    },
+    {
+     "cat": "EPSS",
+     "sev": "PENDING",
+     "title": "CVE-2026-40217 — BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
+     "desc": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
+     "tags": [
+      "BerriAI LiteLLM",
+      "KEV added 2026-11-18",
+      "remediate by 2026-12-02",
+      "EPSS 17.0%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217"
+    },
+    {
+     "cat": "EPSS",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-116606 — Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+     "desc": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification…",
+     "tags": [
+      "Barracuda Networks Barracuda Email Security Gateway (ESG)",
+      "KEV added 2026-11-10",
+      "remediate by 2026-11-13",
+      "EPSS 10.9%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
     }
    ]
   },
@@ -225,6 +225,16 @@
       "EPSS 0.5%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-91510"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-130778 — advisory",
+     "desc": "Incus before 7.6.0 contains an authentication bypass vulnerability that allows remote attackers to authenticate as any trusted certificate by appending its public certificate to their presented TLS client chain. Attackers can append the server's or a cluster member's certificate to gain…",
+     "tags": [
+      "published 2026-11-18"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-130778"
     },
     {
      "cat": "NVD",
@@ -257,17 +267,6 @@
       "published 2026-11-18"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110009"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-120779 — advisory",
-     "desc": "Improper control of generation of code ('code injection') in Visual Studio Code allows an unauthorized attacker to execute code over a network.",
-     "tags": [
-      "published 2026-11-10",
-      "EPSS 0.6%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120779"
     }
    ]
   },
@@ -341,6 +340,16 @@
     {
      "cat": "SANS ISC",
      "sev": "NEWS",
+     "title": "Java4Shell, NGINX2Shell and more: Why we are not at \"Yellow\", (Wed, Nov 18th)",
+     "desc": "About a month ago, we went to Infocon Yellow for the first time in a few years. We decided to address the php2shell vulnerability and alert our readers to its significant impact. Following php2shell, we had a number of vulnerabilities and…",
+     "tags": [
+      "2026-11-18"
+     ],
+     "link": "https://isc.sans.edu/diary/rss/33532"
+    },
+    {
+     "cat": "SANS ISC",
+     "sev": "NEWS",
      "title": "ISC Stormcast For Wednesday, November 18th, 2026 https://isc.sans.edu/podcastdetail/10184, (Wed, Nov 18th)",
      "desc": "",
      "tags": [
@@ -351,52 +360,42 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+     "desc": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in. The decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since…",
+     "tags": [
+      "2026-11-18"
+     ],
+     "link": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
+     "desc": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts. Each flaw needs a specific setup on a virtual server: an iRule…",
+     "tags": [
+      "2026-11-18"
+     ],
+     "link": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+     "desc": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF) The vulnerability, tracked as CVE-2026-129448 (CVSS…",
+     "tags": [
+      "2026-11-18"
+     ],
+     "link": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
      "desc": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines. \"When attackers are exposed, the cheap…",
      "tags": [
       "2026-11-18"
      ],
      "link": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
-     "desc": "On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, researchers at Technische Universität Berlin say. That leaves short PINs open to guessing. In lab…",
-     "tags": [
-      "2026-11-18"
-     ],
-     "link": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
-     "desc": "TL;DR Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure day. AI pentesting…",
-     "tags": [
-      "2026-11-18"
-     ],
-     "link": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
-     "desc": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week. The flaw is…",
-     "tags": [
-      "2026-11-18"
-     ],
-     "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
-     "desc": "AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and exploit them too, with time-to-exploit now down to a single…",
-     "tags": [
-      "2026-11-18"
-     ],
-     "link": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html"
     }
    ]
   }
