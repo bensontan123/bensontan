@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T22:00:47.599Z",
+ "updated": "2026-11-18T23:00:47.167Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -7,7 +7,7 @@
    "items": [
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2024-10441 — Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
      "desc": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.",
      "tags": [
@@ -20,7 +20,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "HIGH",
      "title": "CVE-2026-40217 — BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
      "desc": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
      "tags": [
@@ -33,7 +33,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-90817 — Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
      "desc": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access an unintended controller route from a…",
      "tags": [
@@ -46,7 +46,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-90436 — Apache Axis Unsafe Reflection Vulnerability",
      "desc": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified class when a suitable class is available on the application…",
      "tags": [
@@ -186,7 +186,7 @@
     },
     {
      "cat": "EPSS",
-     "sev": "PENDING",
+     "sev": "HIGH",
      "title": "CVE-2026-40217 — BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
      "desc": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
      "tags": [
