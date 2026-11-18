@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T21:00:45.909Z",
+ "updated": "2026-11-18T22:00:47.599Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -506,20 +506,6 @@
    "epss": 0.005
   },
   {
-   "id": "CVE-2026-130001",
-   "origin": "GHSA",
-   "product": "rubygems mustache",
-   "name": "Mustache for Ruby: RCE using built-in method access",
-   "desc": "Mustache for Ruby: RCE using built-in method access",
-   "published": "2026-11-18",
-   "cvss": 9.8,
-   "severity": "CRITICAL",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-5hrj-7fc3-cmx9",
-   "ghsaId": "GHSA-5hrj-7fc3-cmx9"
-  },
-  {
    "id": "CVE-2026-120779",
    "origin": "NVD",
    "product": "",
@@ -602,19 +588,6 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130759"
   },
   {
-   "id": "CVE-2026-130773",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Incus before 7.6.0 contains an authorization bypass that allows restricted project users to create resources in the unrestricted default project by targeting projects lacking features.* flags. Attackers can create bridge networks with raw.dnsmasq dhcp-script injection to run scripts as root, or…",
-   "published": "2026-11-18",
-   "cvss": 9.4,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130773"
-  },
-  {
    "id": "CVE-2026-130780",
    "origin": "NVD",
    "product": "",
@@ -668,6 +641,20 @@
    "epss": 0.008
   },
   {
+   "id": "CVE-2026-101691",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Admin UI).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Mobile Field…",
+   "published": "2026-11-17",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101691",
+   "epss": 0.004
+  },
+  {
    "id": "CVE-2026-69155",
    "origin": "GHSA",
    "product": "rust atomic-server",
@@ -681,21 +668,6 @@
    "url": "https://github.com/advisories/GHSA-x277-3wcg-g9r2",
    "ghsaId": "GHSA-x277-3wcg-g9r2",
    "epss": 0.004
-  },
-  {
-   "id": "CVE-2026-110782",
-   "origin": "GHSA",
-   "product": "composer simplesamlphp/saml2",
-   "name": "SAML2: Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artifact signature verification (no embedded-Issuer…",
-   "desc": "SAML2: Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artifact signature verification (no embedded-Issuer binding)",
-   "published": "2026-11-17",
-   "cvss": 8.7,
-   "severity": "HIGH",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-r7hw-jx6r-756g",
-   "ghsaId": "GHSA-r7hw-jx6r-756g",
-   "epss": 0.003
   },
   {
    "id": "CVE-2026-69158",
@@ -728,19 +700,32 @@
    "epss": 0.005
   },
   {
-   "id": "CVE-2026-63496",
+   "id": "CVE-2026-68903",
    "origin": "GHSA",
-   "product": "npm @augment-vir/node",
-   "name": "augment-virShell allows Command Injection in `grep()` via Unsanitized `searchPattern`",
-   "desc": "augment-virShell allows Command Injection in `grep()` via Unsanitized `searchPattern`",
+   "product": "go github.com/defilantech/llmkube",
+   "name": "LLMKube: Arbitrary Host File Read via Model.spec.source hostPath Injection",
+   "desc": "LLMKube: Arbitrary Host File Read via Model.spec.source hostPath Injection",
    "published": "2026-11-18",
-   "cvss": 7.8,
+   "cvss": 7.7,
    "severity": "HIGH",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-xvcc-vqjv-phqh",
-   "ghsaId": "GHSA-xvcc-vqjv-phqh",
-   "epss": 0.002
+   "url": "https://github.com/advisories/GHSA-jw3m-8q7m-f35r",
+   "ghsaId": "GHSA-jw3m-8q7m-f35r"
+  },
+  {
+   "id": "CVE-2026-73864",
+   "origin": "GHSA",
+   "product": "npm install-artifact-from-github",
+   "name": "install-artifact-from-github loads downloaded native artifacts without integrity verification",
+   "desc": "install-artifact-from-github loads downloaded native artifacts without integrity verification",
+   "published": "2026-11-18",
+   "cvss": 7.5,
+   "severity": "HIGH",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-88q3-gch3-5396",
+   "ghsaId": "GHSA-88q3-gch3-5396"
   },
   {
    "id": "CVE-2026-71481",
@@ -755,6 +740,20 @@
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-82w8-65qw-gch6",
    "ghsaId": "GHSA-82w8-65qw-gch6"
+  },
+  {
+   "id": "CVE-2026-71861",
+   "origin": "GHSA",
+   "product": "go chainguard.dev/sdk",
+   "name": "Chainguard SDK: AWS SigV4 token replay in auth/aws.VerifyToken — Chainguard-Audience/Chainguard-Identity binding headers not required in…",
+   "desc": "Chainguard SDK: AWS SigV4 token replay in auth/aws.VerifyToken — Chainguard-Audience/Chainguard-Identity binding headers not required in SignedHeaders",
+   "published": "2026-11-18",
+   "cvss": 7.4,
+   "severity": "HIGH",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-wq26-3j2m-4hvv",
+   "ghsaId": "GHSA-wq26-3j2m-4hvv"
   }
  ]
 }

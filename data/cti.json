@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T21:00:45.909Z",
+ "updated": "2026-11-18T22:00:47.599Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -275,61 +275,58 @@
    "items": [
     {
      "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-71481 — ALTCHA PHP: verifySolution bypasses HMAC signature check when challenge signature is absent",
-     "desc": "ALTCHA PHP: verifySolution bypasses HMAC signature check when challenge signature is absent",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-75506 — OliveTin: Second-Order OS Command Injection via shellAfterCompleted",
+     "desc": "OliveTin: Second-Order OS Command Injection via shellAfterCompleted",
      "tags": [
-      "composer altcha-org/altcha",
+      "go github.com/OliveTin/OliveTin",
       "published 2026-11-18"
      ],
-     "link": "https://github.com/advisories/GHSA-82w8-65qw-gch6"
+     "link": "https://github.com/advisories/GHSA-vc6p-m6vx-6cwq"
     },
     {
      "cat": "GHSA",
      "sev": "MEDIUM",
-     "title": "CVE-2026-71425 — Outstatic: Authenticated GitHub REST proxy can send OAuth token to non-GitHub origins",
-     "desc": "Outstatic: Authenticated GitHub REST proxy can send OAuth token to non-GitHub origins",
+     "title": "CVE-2026-69131 — django-filer: Missing per-object authorization on `discard` and `edit_redirect` version transitions",
+     "desc": "django-filer: Missing per-object authorization on `discard` and `edit_redirect` version transitions",
      "tags": [
-      "npm outstatic",
+      "pip django-filer",
       "published 2026-11-18"
      ],
-     "link": "https://github.com/advisories/GHSA-7jvc-9xq8-frff"
+     "link": "https://github.com/advisories/GHSA-vf85-8ff2-3r9w"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-69138 — djangocms-versioning: Authorization Bypass Through User-Controlled Key and Missing Authorization",
+     "desc": "djangocms-versioning: Authorization Bypass Through User-Controlled Key and Missing Authorization",
+     "tags": [
+      "pip djangocms-versioning",
+      "published 2026-11-18"
+     ],
+     "link": "https://github.com/advisories/GHSA-5g9x-qwh5-33x4"
     },
     {
      "cat": "GHSA",
      "sev": "HIGH",
-     "title": "CVE-2026-69158 — Atomic Server: Unauthenticated full-response SSRF in Atomic-Server /bookmark endpoint",
-     "desc": "Atomic Server: Unauthenticated full-response SSRF in Atomic-Server /bookmark endpoint",
+     "title": "CVE-2026-68903 — LLMKube: Arbitrary Host File Read via Model.spec.source hostPath Injection",
+     "desc": "LLMKube: Arbitrary Host File Read via Model.spec.source hostPath Injection",
      "tags": [
-      "rust atomic-server",
-      "published 2026-11-18",
-      "EPSS 0.5%"
+      "go github.com/defilantech/llmkube",
+      "published 2026-11-18"
      ],
-     "link": "https://github.com/advisories/GHSA-ff87-73jp-f3v4"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-69157 — Atomic Server: Unauthenticated `/setup` invite grants write access to the entire Drive",
-     "desc": "Atomic Server: Unauthenticated `/setup` invite grants write access to the entire Drive",
-     "tags": [
-      "rust atomic-server",
-      "published 2026-11-18",
-      "EPSS 0.5%"
-     ],
-     "link": "https://github.com/advisories/GHSA-pfwx-xjp4-qxcj"
+     "link": "https://github.com/advisories/GHSA-jw3m-8q7m-f35r"
     },
     {
      "cat": "GHSA",
      "sev": "HIGH",
-     "title": "CVE-2026-69156 — Atomic Server: Arbitrary file read via user-controlled `internalId` in the `/download` handler (leaks root agent private key)",
-     "desc": "Atomic Server: Arbitrary file read via user-controlled `internalId` in the `/download` handler (leaks root agent private key)",
+     "title": "CVE-2026-73864 — install-artifact-from-github loads downloaded native artifacts without integrity verification",
+     "desc": "install-artifact-from-github loads downloaded native artifacts without integrity verification",
      "tags": [
-      "rust atomic-server",
-      "published 2026-11-18",
-      "EPSS 0.5%"
+      "npm install-artifact-from-github",
+      "published 2026-11-18"
      ],
-     "link": "https://github.com/advisories/GHSA-8vc4-8hjq-988p"
+     "link": "https://github.com/advisories/GHSA-88q3-gch3-5396"
     }
    ]
   },
