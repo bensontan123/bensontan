@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T20:00:57.712Z",
+ "updated": "2026-11-18T21:00:45.909Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -491,6 +491,21 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110009"
   },
   {
+   "id": "CVE-2026-69157",
+   "origin": "GHSA",
+   "product": "rust atomic-server",
+   "name": "Atomic Server: Unauthenticated `/setup` invite grants write access to the entire Drive",
+   "desc": "Atomic Server: Unauthenticated `/setup` invite grants write access to the entire Drive",
+   "published": "2026-11-18",
+   "cvss": 9.8,
+   "severity": "CRITICAL",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-pfwx-xjp4-qxcj",
+   "ghsaId": "GHSA-pfwx-xjp4-qxcj",
+   "epss": 0.005
+  },
+  {
    "id": "CVE-2026-130001",
    "origin": "GHSA",
    "product": "rubygems mustache",
@@ -574,19 +589,6 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130679"
   },
   {
-   "id": "CVE-2026-130706",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "NocoDB before 2026.09.0 contains an sql injection vulnerability that allows authenticated Creator or Owner users to inject raw SQL by persisting a crafted formula parsed_tree reused without revalidation. Attackers can bypass the SQLite metadata path guard with an alias to plant the tree, escalating…",
-   "published": "2026-11-18",
-   "cvss": 9.4,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130706"
-  },
-  {
    "id": "CVE-2026-130759",
    "origin": "NVD",
    "product": "",
@@ -652,6 +654,35 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130786"
   },
   {
+   "id": "CVE-2026-130849",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "BZFlag bzfs before 2.4.32 contains a heap out-of-bounds write vulnerability in NetHandler::tcpReceive() that allows remote unauthenticated attackers to corrupt heap memory by sending a TCP message with a body length of exactly 1024. Attackers can overwrite the tcplen receive offset with a negative…",
+   "published": "2026-11-17",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130849",
+   "epss": 0.008
+  },
+  {
+   "id": "CVE-2026-69155",
+   "origin": "GHSA",
+   "product": "rust atomic-server",
+   "name": "Atomic Server: Stored XSS via uploaded files served inline (same-origin) on `/download` → account takeover",
+   "desc": "Atomic Server: Stored XSS via uploaded files served inline (same-origin) on `/download` → account takeover",
+   "published": "2026-11-18",
+   "cvss": 8.7,
+   "severity": "HIGH",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-x277-3wcg-g9r2",
+   "ghsaId": "GHSA-x277-3wcg-g9r2",
+   "epss": 0.004
+  },
+  {
    "id": "CVE-2026-110782",
    "origin": "GHSA",
    "product": "composer simplesamlphp/saml2",
@@ -665,6 +696,36 @@
    "url": "https://github.com/advisories/GHSA-r7hw-jx6r-756g",
    "ghsaId": "GHSA-r7hw-jx6r-756g",
    "epss": 0.003
+  },
+  {
+   "id": "CVE-2026-69158",
+   "origin": "GHSA",
+   "product": "rust atomic-server",
+   "name": "Atomic Server: Unauthenticated full-response SSRF in Atomic-Server /bookmark endpoint",
+   "desc": "Atomic Server: Unauthenticated full-response SSRF in Atomic-Server /bookmark endpoint",
+   "published": "2026-11-18",
+   "cvss": 8.6,
+   "severity": "HIGH",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-ff87-73jp-f3v4",
+   "ghsaId": "GHSA-ff87-73jp-f3v4",
+   "epss": 0.005
+  },
+  {
+   "id": "CVE-2026-69156",
+   "origin": "GHSA",
+   "product": "rust atomic-server",
+   "name": "Atomic Server: Arbitrary file read via user-controlled `internalId` in the `/download` handler (leaks root agent private key)",
+   "desc": "Atomic Server: Arbitrary file read via user-controlled `internalId` in the `/download` handler (leaks root agent private key)",
+   "published": "2026-11-18",
+   "cvss": 8.1,
+   "severity": "HIGH",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-8vc4-8hjq-988p",
+   "ghsaId": "GHSA-8vc4-8hjq-988p",
+   "epss": 0.005
   },
   {
    "id": "CVE-2026-63496",
@@ -682,79 +743,18 @@
    "epss": 0.002
   },
   {
-   "id": "CVE-2026-119793",
+   "id": "CVE-2026-71481",
    "origin": "GHSA",
-   "product": "npm @libp2p/gossipsub",
-   "name": "libp2p: gossipsub creates a permanent topics-map entry per distinct subscription with no cap in the default config",
-   "desc": "libp2p: gossipsub creates a permanent topics-map entry per distinct subscription with no cap in the default config",
-   "published": "2026-11-17",
+   "product": "composer altcha-org/altcha",
+   "name": "ALTCHA PHP: verifySolution bypasses HMAC signature check when challenge signature is absent",
+   "desc": "ALTCHA PHP: verifySolution bypasses HMAC signature check when challenge signature is absent",
+   "published": "2026-11-18",
    "cvss": 7.5,
    "severity": "HIGH",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-x2vm-cf3p-m2w8",
-   "ghsaId": "GHSA-x2vm-cf3p-m2w8",
-   "epss": 0.006
-  },
-  {
-   "id": "CVE-2026-110789",
-   "origin": "GHSA",
-   "product": "npm @libp2p/crypto",
-   "name": "libp2p: ASN.1 DER decoder drives an unbounded synchronous loop on attacker-controlled length fields, stalling the Node event loop pre-auth",
-   "desc": "libp2p: ASN.1 DER decoder drives an unbounded synchronous loop on attacker-controlled length fields, stalling the Node event loop pre-auth",
-   "published": "2026-11-17",
-   "cvss": 7.5,
-   "severity": "HIGH",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-rvfr-cqwq-rc4j",
-   "ghsaId": "GHSA-rvfr-cqwq-rc4j",
-   "epss": 0.006
-  },
-  {
-   "id": "CVE-2026-14265",
-   "origin": "GHSA",
-   "product": "maven software.amazon.jdbc:aws-advanced-jdbc-wrapper",
-   "name": "AWS-advanced-jdbc-wrapper: Java Deserialization RCE via Cache Poisoning",
-   "desc": "AWS-advanced-jdbc-wrapper: Java Deserialization RCE via Cache Poisoning",
-   "published": "2026-11-17",
-   "cvss": 7.5,
-   "severity": "HIGH",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-c5q4-97jw-jggh",
-   "ghsaId": "GHSA-c5q4-97jw-jggh",
-   "epss": 0.007
-  },
-  {
-   "id": "CVE-2026-62336",
-   "origin": "GHSA",
-   "product": "go go.qbee.io/agent",
-   "name": "qbee-agent: Local Privilege Escalation and Arbitrary File Tampering via Symlink Following in createFile helper",
-   "desc": "qbee-agent: Local Privilege Escalation and Arbitrary File Tampering via Symlink Following in createFile helper",
-   "published": "2026-11-17",
-   "cvss": null,
-   "severity": "HIGH",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-xhv5-8fpq-g7hf",
-   "ghsaId": "GHSA-xhv5-8fpq-g7hf",
-   "epss": 0.001
-  },
-  {
-   "id": "CVE-2026-63672",
-   "origin": "GHSA",
-   "product": "composer egroupware/egroupware",
-   "name": "EGroupware: User-Controlled Identity Provider Selection in SAML Authentication",
-   "desc": "EGroupware: User-Controlled Identity Provider Selection in SAML Authentication",
-   "published": "2026-11-17",
-   "cvss": 6.1,
-   "severity": "MEDIUM",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-pr4x-6fj4-gm4h",
-   "ghsaId": "GHSA-pr4x-6fj4-gm4h",
-   "epss": 0.002
+   "url": "https://github.com/advisories/GHSA-82w8-65qw-gch6",
+   "ghsaId": "GHSA-82w8-65qw-gch6"
   }
  ]
 }

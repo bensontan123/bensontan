@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T20:00:57.712Z",
+ "updated": "2026-11-18T21:00:45.909Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -275,68 +275,77 @@
    "items": [
     {
      "cat": "GHSA",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-130001 — Mustache for Ruby: RCE using built-in method access",
-     "desc": "Mustache for Ruby: RCE using built-in method access",
+     "sev": "HIGH",
+     "title": "CVE-2026-71481 — ALTCHA PHP: verifySolution bypasses HMAC signature check when challenge signature is absent",
+     "desc": "ALTCHA PHP: verifySolution bypasses HMAC signature check when challenge signature is absent",
      "tags": [
-      "rubygems mustache",
+      "composer altcha-org/altcha",
       "published 2026-11-18"
      ],
-     "link": "https://github.com/advisories/GHSA-5hrj-7fc3-cmx9"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-63496 — augment-virShell allows Command Injection in `grep()` via Unsanitized `searchPattern`",
-     "desc": "augment-virShell allows Command Injection in `grep()` via Unsanitized `searchPattern`",
-     "tags": [
-      "npm @augment-vir/node",
-      "published 2026-11-18",
-      "EPSS 0.2%"
-     ],
-     "link": "https://github.com/advisories/GHSA-xvcc-vqjv-phqh"
+     "link": "https://github.com/advisories/GHSA-82w8-65qw-gch6"
     },
     {
      "cat": "GHSA",
      "sev": "MEDIUM",
-     "title": "CVE-2026-61618 — snark-verifier accepts non-canonical KZG accumulator limb encodings",
-     "desc": "snark-verifier accepts non-canonical KZG accumulator limb encodings",
+     "title": "CVE-2026-71425 — Outstatic: Authenticated GitHub REST proxy can send OAuth token to non-GitHub origins",
+     "desc": "Outstatic: Authenticated GitHub REST proxy can send OAuth token to non-GitHub origins",
      "tags": [
-      "rust snark-verifier",
+      "npm outstatic",
+      "published 2026-11-18"
+     ],
+     "link": "https://github.com/advisories/GHSA-7jvc-9xq8-frff"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-69158 — Atomic Server: Unauthenticated full-response SSRF in Atomic-Server /bookmark endpoint",
+     "desc": "Atomic Server: Unauthenticated full-response SSRF in Atomic-Server /bookmark endpoint",
+     "tags": [
+      "rust atomic-server",
       "published 2026-11-18",
-      "EPSS 0.4%"
+      "EPSS 0.5%"
      ],
-     "link": "https://github.com/advisories/GHSA-265x-v3qf-ff6p"
+     "link": "https://github.com/advisories/GHSA-ff87-73jp-f3v4"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-69157 — Atomic Server: Unauthenticated `/setup` invite grants write access to the entire Drive",
+     "desc": "Atomic Server: Unauthenticated `/setup` invite grants write access to the entire Drive",
+     "tags": [
+      "rust atomic-server",
+      "published 2026-11-18",
+      "EPSS 0.5%"
+     ],
+     "link": "https://github.com/advisories/GHSA-pfwx-xjp4-qxcj"
     },
     {
      "cat": "GHSA",
      "sev": "HIGH",
-     "title": "CVE-2026-119793 — libp2p: gossipsub creates a permanent topics-map entry per distinct subscription with no cap in the default config",
-     "desc": "libp2p: gossipsub creates a permanent topics-map entry per distinct subscription with no cap in the default config",
+     "title": "CVE-2026-69156 — Atomic Server: Arbitrary file read via user-controlled `internalId` in the `/download` handler (leaks root agent private key)",
+     "desc": "Atomic Server: Arbitrary file read via user-controlled `internalId` in the `/download` handler (leaks root agent private key)",
      "tags": [
-      "npm @libp2p/gossipsub",
-      "published 2026-11-17",
-      "EPSS 0.6%"
+      "rust atomic-server",
+      "published 2026-11-18",
+      "EPSS 0.5%"
      ],
-     "link": "https://github.com/advisories/GHSA-x2vm-cf3p-m2w8"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-110789 — libp2p: ASN.1 DER decoder drives an unbounded synchronous loop on attacker-controlled length fields, stalling the Node event loop pre-auth",
-     "desc": "libp2p: ASN.1 DER decoder drives an unbounded synchronous loop on attacker-controlled length fields, stalling the Node event loop pre-auth",
-     "tags": [
-      "npm @libp2p/crypto",
-      "published 2026-11-17",
-      "EPSS 0.6%"
-     ],
-     "link": "https://github.com/advisories/GHSA-rvfr-cqwq-rc4j"
+     "link": "https://github.com/advisories/GHSA-8vc4-8hjq-988p"
     }
    ]
   },
   {
    "label": "Threat headlines",
    "items": [
+    {
+     "cat": "CISA",
+     "sev": "NEWS",
+     "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+     "desc": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2024-10441 Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output…",
+     "tags": [
+      "2026-11-18"
+     ],
+     "link": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+    },
     {
      "cat": "SANS ISC",
      "sev": "NEWS",
@@ -386,16 +395,6 @@
       "2026-11-18"
      ],
      "link": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
-     "desc": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines. \"When attackers are exposed, the cheap…",
-     "tags": [
-      "2026-11-18"
-     ],
-     "link": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html"
     }
    ]
   }
