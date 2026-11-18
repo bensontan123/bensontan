@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T09:00:46.272Z",
+ "updated": "2026-11-18T10:00:50.960Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -56,6 +56,17 @@
     "SingCERT"
    ],
    "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-165"
+  },
+  {
+   "date": "2026-11-17",
+   "region": "HK",
+   "cat": "Advisory",
+   "title": "[Security Blog] Series of Cybersecurity Incidents Affecting Hong Kong Organisations: HKCERT Urges Organisations to Strengthen Data Risk Management",
+   "desc": "Guard against third-party and cloud systems becoming points of entry and reduce the risk of large-scale <p style=\"text-align: center;\"><img alt=\"\" class=\"respon-img\" src=\"/preview/f/blog/915059/920252/0p0/18112026blog.png\" /></p> <p…",
+   "tags": [
+    "HKCERT"
+   ],
+   "link": "https://www.hkcert.org/blog/series-of-cybersecurity-incidents-affecting-hong-kong-organisations-hkcert-urges-organisations-to-strengthen-data-risk-management"
   },
   {
    "date": "2026-11-17",
@@ -177,17 +188,6 @@
     "SingCERT"
    ],
    "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-161"
-  },
-  {
-   "date": "2026-11-13",
-   "region": "HK",
-   "cat": "Advisory",
-   "title": "Apache HTTP Server Multiple Vulnerabilities",
-   "desc": "Multiple vulnerabilities were identified in Apache HTTP Server. A remote attacker could exploit some of these vulnerabilities to trigger remote code execution and denial of service condition on the targeted system. Impact Denial of Service…",
-   "tags": [
-    "HKCERT"
-   ],
-   "link": "https://www.hkcert.org/security-bulletin/apache-http-server-multiple-vulnerabilities_20261113"
   },
   {
    "date": "2026-11-13",
