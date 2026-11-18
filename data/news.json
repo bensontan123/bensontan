@@ -1,7 +1,29 @@
 {
- "updated": "2026-11-17T21:00:44.535Z",
+ "updated": "2026-11-18T02:00:43.063Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
+  {
+   "date": "2026-11-18",
+   "region": "HK",
+   "cat": "Advisory",
+   "title": "Google Chrome Multiple Vulnerabilities",
+   "desc": "Multiple vulnerabilities were identified in Google Chrome. A remote attacker could exploit some of these vulnerabilities to trigger denial of service condition, spoofing, security restriction bypass, sensitive information disclosure and…",
+   "tags": [
+    "HKCERT"
+   ],
+   "link": "https://www.hkcert.org/security-bulletin/google-chrome-multiple-vulnerabilities_20261118"
+  },
+  {
+   "date": "2026-11-18",
+   "region": "HK",
+   "cat": "Advisory",
+   "title": "GitLab Multiple Vulnerabilities",
+   "desc": "Multiple vulnerabilities were identified in GitLab. A remote attacker could exploit some of these vulnerabilities to trigger sensitive information disclosure, spoofing, denial of service condition, cross-site scripting, data manipulation…",
+   "tags": [
+    "HKCERT"
+   ],
+   "link": "https://www.hkcert.org/security-bulletin/gitlab-multiple-vulnerabilities_20261118"
+  },
   {
    "date": "2026-11-17",
    "region": "HK",
@@ -166,28 +188,6 @@
     "The Hacker News"
    ],
    "link": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
-  },
-  {
-   "date": "2026-11-12",
-   "region": "HK",
-   "cat": "Advisory",
-   "title": "Google Chrome Multiple Vulnerabilities",
-   "desc": "Multiple vulnerabilities were identified in Google Chrome. A remote attacker could exploit some of these vulnerabilities to trigger denial of service condition, elevation of privilege, security restriction bypass, sensitive information…",
-   "tags": [
-    "HKCERT"
-   ],
-   "link": "https://www.hkcert.org/security-bulletin/google-chrome-multiple-vulnerabilities_20261112"
-  },
-  {
-   "date": "2026-11-12",
-   "region": "HK",
-   "cat": "Advisory",
-   "title": "Mozilla Products Multiple Vulnerabilities",
-   "desc": "Multiple vulnerabilities were identified in Mozilla Products. A remote attacker could exploit some of these vulnerabilities to trigger elevation of privilege, security restriction bypass, sensitive information disclosure, data manipulation…",
-   "tags": [
-    "HKCERT"
-   ],
-   "link": "https://www.hkcert.org/security-bulletin/mozilla-products-multiple-vulnerabilities_20261112"
   },
   {
    "date": "2026-11-11",
