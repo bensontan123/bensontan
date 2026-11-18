@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T07:39:46.397Z",
+ "updated": "2026-11-18T09:00:46.272Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -34,6 +34,17 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/oracle-products-multiple-vulnerabilities_20261118"
+  },
+  {
+   "date": "2026-11-17",
+   "region": "SG",
+   "cat": "Advisory",
+   "title": "High-Severity Vulnerability in Java Products",
+   "desc": "Attackers can exploit a high-severity vulnerability in Oracle Java SE, Oracle GraalVM for JDK and Oracle GraalVM Enterprise Edition to execute arbitrary code and compromise affected products. Patch promptly.",
+   "tags": [
+    "SingCERT"
+   ],
+   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-166"
   },
   {
    "date": "2026-11-17",
@@ -243,17 +254,6 @@
     "SingCERT"
    ],
    "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-159"
-  },
-  {
-   "date": "2026-11-03",
-   "region": "SG",
-   "cat": "Advisory",
-   "title": "Active Exploitation of Metabase Vulnerability",
-   "desc": "Attackers have been exploiting a critical vulnerability in Metabase to inject arbitrary SQL and gain administrator access. Patch immediately.",
-   "tags": [
-    "SingCERT"
-   ],
-   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-158"
   },
   {
    "date": "2026-10-14",
