@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T17:19:48.573Z",
+ "updated": "2026-11-18T18:01:00.774Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -549,6 +549,20 @@
    "epss": 0.005
   },
   {
+   "id": "CVE-2026-115338",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Insufficient protection of communications in Progress WS_FTP Server versions prior to 2025.0.5 could allow a network attacker to intercept sensitive information or modify requests when unencrypted connections are used.",
+   "published": "2026-11-09",
+   "cvss": 9.8,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115338",
+   "epss": 0.002
+  },
+  {
    "id": "CVE-2026-110009",
    "origin": "NVD",
    "product": "",
@@ -643,19 +657,6 @@
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91469",
    "epss": 0.004
-  },
-  {
-   "id": "CVE-2026-130679",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "SiYuan before 3.8.10 contains a stored cross-site scripting vulnerability in genAVValueHTML() that allows attackers who can store Attribute View asset values to inject script through an unescaped image src attribute. Attackers can store an image URL containing a double quote and onerror handler…",
-   "published": "2026-11-18",
-   "cvss": 9.4,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / Passive",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130679"
   },
   {
    "id": "CVE-2026-110782",
