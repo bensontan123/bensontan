@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T05:00:43.501Z",
+ "updated": "2026-11-18T06:00:45.097Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -341,6 +341,16 @@
      "link": "https://isc.sans.edu/diary/rss/33528"
     },
     {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Java4Shell (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak on Java 17+ AVX-512 VBMI Servers",
+     "desc": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week. The flaw is…",
+     "tags": [
+      "2026-11-18"
+     ],
+     "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html"
+    },
+    {
      "cat": "Krebs on Security",
      "sev": "NEWS",
      "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
@@ -379,16 +389,6 @@
       "2026-11-17"
      ],
      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05"
-    },
-    {
-     "cat": "CISA",
-     "sev": "NEWS",
-     "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
-     "desc": "View CSAF Summary .NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download directory. Siemens has…",
-     "tags": [
-      "2026-11-17"
-     ],
-     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02"
     }
    ]
   }
