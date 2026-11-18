@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T11:00:58.597Z",
+ "updated": "2026-11-18T12:00:55.072Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -218,57 +218,52 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-129255 — advisory",
-     "desc": "A vulnerability was identified in CoolerMaster MASTERPLUS+ 1.9.6. This affects the function sub_11504 in the library WinRing0x64.sys of the component Device Driver. The manipulation of the argument PhysicalAddress leads to incorrect default permissions. The attack can only be performed from a local…",
+     "title": "CVE-2026-114784 — advisory",
+     "desc": "Vulnerability in the Oracle Business Intelligence Enterprise Edition product of Oracle Analytics (component: Platform Security).  Supported versions that are affected are 8.2.0.0.0 and  26.01.0.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to…",
      "tags": [
-      "published 2026-11-14",
-      "EPSS 0.2%"
+      "published 2026-11-17"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-129255"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-114784"
     },
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-129261 — advisory",
-     "desc": "A vulnerability was found in Kingston FURY CTRL RGB Control Software up to 2.0.66.0. The impacted element is an unknown function in the library NTIOLib_X64.sys of the component IOCTL Handler. Performing a manipulation results in exposed ioctl with insufficient access control. The attack is only…",
+     "title": "CVE-2026-114824 — advisory",
+     "desc": "Vulnerability in the Oracle Platform Security for Java product of Oracle Fusion Middleware (component: Centralized Thirdparty Jars).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to…",
      "tags": [
-      "published 2026-11-14",
-      "EPSS 0.1%"
+      "published 2026-11-17"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-129261"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-114824"
     },
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-126377 — advisory",
-     "desc": "Vvveb before 1.0.9.0 contains an authentication bypass vulnerability in generateCookie() in system/user/user.php that uses loose comparison to validate MD5 cookie hashes. Unauthenticated attackers can brute-force cookie values until the server's MD5 computation yields a 0e magic hash, then forge…",
+     "title": "CVE-2026-114835 — advisory",
+     "desc": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Admin Console).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Access…",
      "tags": [
-      "published 2026-11-13",
-      "EPSS 0.4%"
+      "published 2026-11-17"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-126377"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-114835"
     },
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-129124 — advisory",
-     "desc": "C-Kermit before 11.1.515 contains an OS command injection vulnerability that allows remote clients to execute shell commands by supplying unquoted arguments to REMOTE WHO or REMOTE SPACE. Attackers can append shell metacharacters to arguments passed through WHOCMD or SPACM2 to syscmd(), executing…",
+     "title": "CVE-2026-91500 — advisory",
+     "desc": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle…",
      "tags": [
-      "published 2026-11-13",
-      "EPSS 1.3%"
+      "published 2026-11-17"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-129124"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-91500"
     },
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-129125 — advisory",
-     "desc": "C-Kermit 6.0.192 before 11.1.515 contains a remote code execution vulnerability that allows Kermit clients to run shell commands on servers with host commands disabled by abusing REMOTE QUERY evaluation. Attackers can send a REMOTE QUERY invoking the command function, or define a macro via REMOTE…",
+     "title": "CVE-2026-91510 — advisory",
+     "desc": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle…",
      "tags": [
-      "published 2026-11-13",
-      "EPSS 0.7%"
+      "published 2026-11-17"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-129125"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-91510"
     }
    ]
   },
