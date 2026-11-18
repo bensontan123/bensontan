@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T15:00:50.204Z",
+ "updated": "2026-11-18T16:00:47.734Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -423,34 +423,6 @@
    "epss": 0.007
   },
   {
-   "id": "CVE-2026-114784",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Vulnerability in the Oracle Business Intelligence Enterprise Edition product of Oracle Analytics (component: Platform Security).  Supported versions that are affected are 8.2.0.0.0 and  26.01.0.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to…",
-   "published": "2026-11-17",
-   "cvss": 10,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114784",
-   "epss": 0.005
-  },
-  {
-   "id": "CVE-2026-114824",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Vulnerability in the Oracle Platform Security for Java product of Oracle Fusion Middleware (component: Centralized Thirdparty Jars).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to…",
-   "published": "2026-11-17",
-   "cvss": 10,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114824",
-   "epss": 0.005
-  },
-  {
    "id": "CVE-2026-114835",
    "origin": "NVD",
    "product": "",
@@ -657,6 +629,34 @@
    "vector": "Network / Low / Required",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114785",
+   "epss": 0.004
+  },
+  {
+   "id": "CVE-2026-114856",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Vulnerability in Oracle REST Data Services (component: General).  Supported versions that are affected are 24.2.0-26.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTPS to compromise Oracle REST Data Services.  Successful attacks require human…",
+   "published": "2026-11-17",
+   "cvss": 9.6,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / Required",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114856",
+   "epss": 0.004
+  },
+  {
+   "id": "CVE-2026-91561",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Vulnerability in the Oracle Service Bus product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via RMI to compromise Oracle Service Bus.  While…",
+   "published": "2026-11-17",
+   "cvss": 9.6,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91561",
    "epss": 0.004
   },
   {

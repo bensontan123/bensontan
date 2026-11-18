@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T15:00:50.204Z",
+ "updated": "2026-11-18T16:00:47.734Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -218,28 +218,6 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-114784 — advisory",
-     "desc": "Vulnerability in the Oracle Business Intelligence Enterprise Edition product of Oracle Analytics (component: Platform Security).  Supported versions that are affected are 8.2.0.0.0 and  26.01.0.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to…",
-     "tags": [
-      "published 2026-11-17",
-      "EPSS 0.5%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-114784"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-114824 — advisory",
-     "desc": "Vulnerability in the Oracle Platform Security for Java product of Oracle Fusion Middleware (component: Centralized Thirdparty Jars).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to…",
-     "tags": [
-      "published 2026-11-17",
-      "EPSS 0.5%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-114824"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
      "title": "CVE-2026-114835 — advisory",
      "desc": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Admin Console).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Access…",
      "tags": [
@@ -269,6 +247,28 @@
       "EPSS 0.5%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-91510"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-91569 — advisory",
+     "desc": "Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: TopLink Integration).  Supported versions that are affected are 12.2.1.4.0, 14.1.1.0.0, 14.1.2.0.0 and  15.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via…",
+     "tags": [
+      "published 2026-11-17",
+      "EPSS 0.5%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-91569"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-120002 — advisory",
+     "desc": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
+     "tags": [
+      "published 2026-11-10",
+      "EPSS 0.9%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120002"
     }
    ]
   },
