@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T14:00:48.296Z",
+ "updated": "2026-11-18T15:00:50.204Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -34,6 +34,17 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/oracle-products-multiple-vulnerabilities_20261118"
+  },
+  {
+   "date": "2026-11-18",
+   "region": "CN",
+   "cat": "News",
+   "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
+   "desc": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines. \"When attackers are exposed, the cheap…",
+   "tags": [
+    "The Hacker News"
+   ],
+   "link": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html"
   },
   {
    "date": "2026-11-17",
@@ -254,17 +265,6 @@
     "JPCERT/CC"
    ],
    "link": "https://www.jpcert.or.jp/english/at/2026/at260031.html"
-  },
-  {
-   "date": "2026-09-09",
-   "region": "JP",
-   "cat": "Advisory",
-   "title": "Security Alert: Alert Regarding Vulnerabilities in Adobe Acrobat and Reader (APSB26-141)",
-   "desc": "",
-   "tags": [
-    "JPCERT/CC"
-   ],
-   "link": "https://www.jpcert.or.jp/english/at/2026/at260026.html"
   }
  ]
 }

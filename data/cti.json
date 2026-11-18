@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T14:00:48.296Z",
+ "updated": "2026-11-18T15:00:50.204Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -14,7 +14,7 @@
       "Perforce Puppet Enterprise",
       "KEV added 2026-11-17",
       "remediate by 2026-12-01",
-      "EPSS 0.4%"
+      "EPSS 0.7%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731"
     },
@@ -180,9 +180,22 @@
       "Adobe Commerce and Magento",
       "KEV added 2026-10-27",
       "remediate by 2026-11-10",
-      "EPSS 47.5%"
+      "EPSS 66.4%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356"
+    },
+    {
+     "cat": "EPSS",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-116779 — SignalWire FreeSwitch Code Injection Vulnerability",
+     "desc": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.",
+     "tags": [
+      "SignalWire FreeSwitch",
+      "KEV added 2026-11-09",
+      "remediate by 2026-11-12",
+      "EPSS 22.1%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779"
     },
     {
      "cat": "EPSS",
@@ -196,19 +209,6 @@
       "EPSS 18.9%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158"
-    },
-    {
-     "cat": "EPSS",
-     "sev": "HIGH",
-     "title": "CVE-2026-46300 — Linux Kernel Missing Initialization of a Variable Vulnerability",
-     "desc": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place…",
-     "tags": [
-      "Linux Kernel",
-      "KEV added 2026-10-28",
-      "remediate by 2026-10-31",
-      "EPSS 16.1%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300"
     }
    ]
   },
@@ -221,7 +221,8 @@
      "title": "CVE-2026-114784 — advisory",
      "desc": "Vulnerability in the Oracle Business Intelligence Enterprise Edition product of Oracle Analytics (component: Platform Security).  Supported versions that are affected are 8.2.0.0.0 and  26.01.0.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to…",
      "tags": [
-      "published 2026-11-17"
+      "published 2026-11-17",
+      "EPSS 0.5%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-114784"
     },
@@ -231,7 +232,8 @@
      "title": "CVE-2026-114824 — advisory",
      "desc": "Vulnerability in the Oracle Platform Security for Java product of Oracle Fusion Middleware (component: Centralized Thirdparty Jars).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to…",
      "tags": [
-      "published 2026-11-17"
+      "published 2026-11-17",
+      "EPSS 0.5%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-114824"
     },
@@ -241,7 +243,8 @@
      "title": "CVE-2026-114835 — advisory",
      "desc": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Admin Console).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Access…",
      "tags": [
-      "published 2026-11-17"
+      "published 2026-11-17",
+      "EPSS 0.5%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-114835"
     },
@@ -251,7 +254,8 @@
      "title": "CVE-2026-91500 — advisory",
      "desc": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle…",
      "tags": [
-      "published 2026-11-17"
+      "published 2026-11-17",
+      "EPSS 0.5%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-91500"
     },
@@ -261,7 +265,8 @@
      "title": "CVE-2026-91510 — advisory",
      "desc": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle…",
      "tags": [
-      "published 2026-11-17"
+      "published 2026-11-17",
+      "EPSS 0.5%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-91510"
     }
@@ -277,7 +282,8 @@
      "desc": "libp2p: gossipsub creates a permanent topics-map entry per distinct subscription with no cap in the default config",
      "tags": [
       "npm @libp2p/gossipsub",
-      "published 2026-11-17"
+      "published 2026-11-17",
+      "EPSS 0.6%"
      ],
      "link": "https://github.com/advisories/GHSA-x2vm-cf3p-m2w8"
     },
@@ -288,7 +294,8 @@
      "desc": "libp2p: ASN.1 DER decoder drives an unbounded synchronous loop on attacker-controlled length fields, stalling the Node event loop pre-auth",
      "tags": [
       "npm @libp2p/crypto",
-      "published 2026-11-17"
+      "published 2026-11-17",
+      "EPSS 0.6%"
      ],
      "link": "https://github.com/advisories/GHSA-rvfr-cqwq-rc4j"
     },
@@ -299,7 +306,8 @@
      "desc": "SAML2: Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artifact signature verification (no embedded-Issuer binding)",
      "tags": [
       "composer simplesamlphp/saml2",
-      "published 2026-11-17"
+      "published 2026-11-17",
+      "EPSS 0.3%"
      ],
      "link": "https://github.com/advisories/GHSA-r7hw-jx6r-756g"
     },
@@ -310,7 +318,8 @@
      "desc": "Filament Curator: Stored XSS via unsanitized SVG upload served inline",
      "tags": [
       "composer awcodes/filament-curator",
-      "published 2026-11-17"
+      "published 2026-11-17",
+      "EPSS 0.3%"
      ],
      "link": "https://github.com/advisories/GHSA-8vm9-f75m-5h2m"
     },
@@ -339,6 +348,16 @@
       "2026-11-18"
      ],
      "link": "https://isc.sans.edu/diary/rss/33528"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
+     "desc": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines. \"When attackers are exposed, the cheap…",
+     "tags": [
+      "2026-11-18"
+     ],
+     "link": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html"
     },
     {
      "cat": "The Hacker News",
@@ -379,16 +398,6 @@
       "2026-11-18"
      ],
      "link": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
-     "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited…",
-     "tags": [
-      "2026-11-18"
-     ],
-     "link": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html"
     }
    ]
   }
