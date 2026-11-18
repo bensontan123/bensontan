@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T16:00:47.734Z",
+ "updated": "2026-11-18T17:00:58.730Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -437,20 +437,6 @@
    "epss": 0.005
   },
   {
-   "id": "CVE-2026-91500",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle…",
-   "published": "2026-11-17",
-   "cvss": 10,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91500",
-   "epss": 0.005
-  },
-  {
    "id": "CVE-2026-91510",
    "origin": "NVD",
    "product": "",
@@ -477,21 +463,6 @@
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91569",
    "epss": 0.005
-  },
-  {
-   "id": "CVE-2026-53998",
-   "origin": "GHSA",
-   "product": "pip arize-phoenix",
-   "name": "Phoenix: Format String Injection in applyChatTemplate",
-   "desc": "Phoenix: Format String Injection in applyChatTemplate",
-   "published": "2026-11-17",
-   "cvss": 10,
-   "severity": "CRITICAL",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-gfv3-m769-5xm3",
-   "ghsaId": "GHSA-gfv3-m769-5xm3",
-   "epss": 0.004
   },
   {
    "id": "CVE-2026-120002",
@@ -591,17 +562,31 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110009"
   },
   {
-   "id": "CVE-2026-110811",
+   "id": "CVE-2026-124990",
    "origin": "NVD",
    "product": "",
    "name": "",
-   "desc": "The Trust Payments Gateway for WooCommerce (JavaScript Library) plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 1.3.8. The vulnerability exists because the `new_customer_account()` function stores the raw return value of `wp_create_user()`…",
+   "desc": "The Masteriyo LMS – LMS Course Builder, Quizzes & Certificates plugin for WordPress is vulnerable to PHP Object Injection in versions up to, and including, 3.5.1 via deserialization of untrusted input in the course importer. The set_post_metas() method  calls maybe_unserialize() on…",
    "published": "2026-11-18",
    "cvss": 9.8,
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110811"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124990"
+  },
+  {
+   "id": "CVE-2026-130001",
+   "origin": "GHSA",
+   "product": "rubygems mustache",
+   "name": "Mustache for Ruby: RCE using built-in method access",
+   "desc": "Mustache for Ruby: RCE using built-in method access",
+   "published": "2026-11-18",
+   "cvss": 9.8,
+   "severity": "CRITICAL",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-5hrj-7fc3-cmx9",
+   "ghsaId": "GHSA-5hrj-7fc3-cmx9"
   },
   {
    "id": "CVE-2026-120779",
@@ -660,6 +645,20 @@
    "epss": 0.004
   },
   {
+   "id": "CVE-2026-118383",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "A use-after-free in the replication component of MongoDB Server can occur when a newly elected replica set primary completes catch-up. The condition can be caused by requests that do not require authentication, and may result in the server terminating unexpectedly or, under certain conditions…",
+   "published": "2026-11-10",
+   "cvss": 9.5,
+   "severity": "CRITICAL",
+   "vector": "Network / High / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118383",
+   "epss": 0.007
+  },
+  {
    "id": "CVE-2026-110782",
    "origin": "GHSA",
    "product": "composer simplesamlphp/saml2",
@@ -673,6 +672,21 @@
    "url": "https://github.com/advisories/GHSA-r7hw-jx6r-756g",
    "ghsaId": "GHSA-r7hw-jx6r-756g",
    "epss": 0.003
+  },
+  {
+   "id": "CVE-2026-63496",
+   "origin": "GHSA",
+   "product": "npm @augment-vir/node",
+   "name": "augment-virShell allows Command Injection in `grep()` via Unsanitized `searchPattern`",
+   "desc": "augment-virShell allows Command Injection in `grep()` via Unsanitized `searchPattern`",
+   "published": "2026-11-18",
+   "cvss": 7.8,
+   "severity": "HIGH",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-xvcc-vqjv-phqh",
+   "ghsaId": "GHSA-xvcc-vqjv-phqh",
+   "epss": 0.002
   },
   {
    "id": "CVE-2026-119793",
@@ -748,21 +762,6 @@
    "url": "https://github.com/advisories/GHSA-pr4x-6fj4-gm4h",
    "ghsaId": "GHSA-pr4x-6fj4-gm4h",
    "epss": 0.002
-  },
-  {
-   "id": "CVE-2026-69241",
-   "origin": "GHSA",
-   "product": "composer awcodes/filament-curator",
-   "name": "Filament Curator: Stored XSS via unsanitized SVG upload served inline",
-   "desc": "Filament Curator: Stored XSS via unsanitized SVG upload served inline",
-   "published": "2026-11-17",
-   "cvss": 5.4,
-   "severity": "MEDIUM",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-8vm9-f75m-5h2m",
-   "ghsaId": "GHSA-8vm9-f75m-5h2m",
-   "epss": 0.003
   }
  ]
 }

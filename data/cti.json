@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T16:00:47.734Z",
+ "updated": "2026-11-18T17:00:58.730Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -229,17 +229,6 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-91500 — advisory",
-     "desc": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle…",
-     "tags": [
-      "published 2026-11-17",
-      "EPSS 0.5%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-91500"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
      "title": "CVE-2026-91510 — advisory",
      "desc": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle…",
      "tags": [
@@ -269,12 +258,58 @@
       "EPSS 0.9%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120002"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-114819 — advisory",
+     "desc": "Vulnerability in the Oracle Text component of Oracle Database Server.  Supported versions that are affected are 19.3-19.32, 21.3-21.24 and  23.4.0-23.26.3. Easily exploitable vulnerability allows low privileged attacker having Create Session privilege with network access via Oracle Net to…",
+     "tags": [
+      "published 2026-11-17",
+      "EPSS 0.5%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-114819"
     }
    ]
   },
   {
    "label": "Recently disclosed advisories (GitHub)",
    "items": [
+    {
+     "cat": "GHSA",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-130001 — Mustache for Ruby: RCE using built-in method access",
+     "desc": "Mustache for Ruby: RCE using built-in method access",
+     "tags": [
+      "rubygems mustache",
+      "published 2026-11-18"
+     ],
+     "link": "https://github.com/advisories/GHSA-5hrj-7fc3-cmx9"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-63496 — augment-virShell allows Command Injection in `grep()` via Unsanitized `searchPattern`",
+     "desc": "augment-virShell allows Command Injection in `grep()` via Unsanitized `searchPattern`",
+     "tags": [
+      "npm @augment-vir/node",
+      "published 2026-11-18",
+      "EPSS 0.2%"
+     ],
+     "link": "https://github.com/advisories/GHSA-xvcc-vqjv-phqh"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-61618 — snark-verifier accepts non-canonical KZG accumulator limb encodings",
+     "desc": "snark-verifier accepts non-canonical KZG accumulator limb encodings",
+     "tags": [
+      "rust snark-verifier",
+      "published 2026-11-18",
+      "EPSS 0.4%"
+     ],
+     "link": "https://github.com/advisories/GHSA-265x-v3qf-ff6p"
+    },
     {
      "cat": "GHSA",
      "sev": "HIGH",
@@ -298,41 +333,6 @@
       "EPSS 0.6%"
      ],
      "link": "https://github.com/advisories/GHSA-rvfr-cqwq-rc4j"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-110782 — SAML2: Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artifact signature verification (no embedded-Issuer…",
-     "desc": "SAML2: Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artifact signature verification (no embedded-Issuer binding)",
-     "tags": [
-      "composer simplesamlphp/saml2",
-      "published 2026-11-17",
-      "EPSS 0.3%"
-     ],
-     "link": "https://github.com/advisories/GHSA-r7hw-jx6r-756g"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-69241 — Filament Curator: Stored XSS via unsanitized SVG upload served inline",
-     "desc": "Filament Curator: Stored XSS via unsanitized SVG upload served inline",
-     "tags": [
-      "composer awcodes/filament-curator",
-      "published 2026-11-17",
-      "EPSS 0.3%"
-     ],
-     "link": "https://github.com/advisories/GHSA-8vm9-f75m-5h2m"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-63389 — Filament Curator: Cross-tenant media metadata disclosure via Curator picker search",
-     "desc": "Filament Curator: Cross-tenant media metadata disclosure via Curator picker search",
-     "tags": [
-      "composer awcodes/filament-curator",
-      "published 2026-11-17"
-     ],
-     "link": "https://github.com/advisories/GHSA-828w-6qgx-3rcf"
     }
    ]
   },
