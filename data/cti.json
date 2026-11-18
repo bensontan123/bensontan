@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T13:00:46.630Z",
+ "updated": "2026-11-18T14:00:48.296Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -331,6 +331,26 @@
    "label": "Threat headlines",
    "items": [
     {
+     "cat": "SANS ISC",
+     "sev": "NEWS",
+     "title": "ISC Stormcast For Wednesday, November 18th, 2026 https://isc.sans.edu/podcastdetail/10184, (Wed, Nov 18th)",
+     "desc": "",
+     "tags": [
+      "2026-11-18"
+     ],
+     "link": "https://isc.sans.edu/diary/rss/33528"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
+     "desc": "On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, researchers at Technische Universität Berlin say. That leaves short PINs open to guessing. In lab…",
+     "tags": [
+      "2026-11-18"
+     ],
+     "link": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html"
+    },
+    {
      "cat": "The Hacker News",
      "sev": "NEWS",
      "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
@@ -369,26 +389,6 @@
       "2026-11-18"
      ],
      "link": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
-     "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java. The flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to…",
-     "tags": [
-      "2026-11-18"
-     ],
-     "link": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
-     "desc": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz. The malicious…",
-     "tags": [
-      "2026-11-18"
-     ],
-     "link": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html"
     }
    ]
   }

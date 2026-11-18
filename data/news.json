@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T10:00:50.960Z",
+ "updated": "2026-11-18T14:00:48.296Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -100,17 +100,6 @@
     "BleepingComputer"
    ],
    "link": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/"
-  },
-  {
-   "date": "2026-11-17",
-   "region": "CN",
-   "cat": "News",
-   "title": "Chinese state group developing automated attack tool for cyber espionage, Google says",
-   "desc": "Google released its latest AI Threat Tracker report on Monday, writing that threat actors are rapidly evolving their use of artificial intelligence in attacks — now leaning more heavily on autonomous multi-agent offensive frameworks like…",
-   "tags": [
-    "The Record"
-   ],
-   "link": "https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage"
   },
   {
    "date": "2026-11-16",
@@ -265,6 +254,17 @@
     "JPCERT/CC"
    ],
    "link": "https://www.jpcert.or.jp/english/at/2026/at260031.html"
+  },
+  {
+   "date": "2026-09-09",
+   "region": "JP",
+   "cat": "Advisory",
+   "title": "Security Alert: Alert Regarding Vulnerabilities in Adobe Acrobat and Reader (APSB26-141)",
+   "desc": "",
+   "tags": [
+    "JPCERT/CC"
+   ],
+   "link": "https://www.jpcert.or.jp/english/at/2026/at260026.html"
   }
  ]
 }
