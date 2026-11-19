@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T04:00:44.982Z",
+ "updated": "2026-11-19T14:00:53.754Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -135,17 +135,6 @@
    "link": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html"
   },
   {
-   "date": "2026-11-17",
-   "region": "JP",
-   "cat": "News",
-   "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
-   "desc": "The Fugaku supercomputer operated by Japan's RIKEN Center for Computational Science has been taken offline following a security breach.",
-   "tags": [
-    "BleepingComputer"
-   ],
-   "link": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/"
-  },
-  {
    "date": "2026-11-16",
    "region": "SG",
    "cat": "Advisory",
@@ -265,6 +254,17 @@
     "JPCERT/CC"
    ],
    "link": "https://www.jpcert.or.jp/english/at/2026/at260031.html"
+  },
+  {
+   "date": "2026-09-09",
+   "region": "JP",
+   "cat": "Advisory",
+   "title": "Security Alert: Alert Regarding Vulnerabilities in Adobe Acrobat and Reader (APSB26-141)",
+   "desc": "",
+   "tags": [
+    "JPCERT/CC"
+   ],
+   "link": "https://www.jpcert.or.jp/english/at/2026/at260026.html"
   }
  ]
 }
