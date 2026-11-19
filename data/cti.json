@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T06:00:43.218Z",
+ "updated": "2026-11-19T09:00:46.632Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -357,6 +357,26 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+     "desc": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the…",
+     "tags": [
+      "2026-11-19"
+     ],
+     "link": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
+     "desc": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code behind ordinary SQL. The…",
+     "tags": [
+      "2026-11-19"
+     ],
+     "link": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
      "desc": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws. The release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC. \"These…",
      "tags": [
@@ -373,26 +393,6 @@
       "2026-11-18"
      ],
      "link": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog"
-    },
-    {
-     "cat": "SANS ISC",
-     "sev": "NEWS",
-     "title": "Java4Shell, NGINX2Shell and more: Why we are not at \"Yellow\", (Wed, Nov 18th)",
-     "desc": "About a month ago, we went to Infocon Yellow for the first time in a few years. We decided to address the php2shell vulnerability and alert our readers to its significant impact. Following php2shell, we had a number of vulnerabilities and…",
-     "tags": [
-      "2026-11-18"
-     ],
-     "link": "https://isc.sans.edu/diary/rss/33532"
-    },
-    {
-     "cat": "SANS ISC",
-     "sev": "NEWS",
-     "title": "ISC Stormcast For Wednesday, November 18th, 2026 https://isc.sans.edu/podcastdetail/10184, (Wed, Nov 18th)",
-     "desc": "",
-     "tags": [
-      "2026-11-18"
-     ],
-     "link": "https://isc.sans.edu/diary/rss/33528"
     }
    ]
   }
