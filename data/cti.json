@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T18:00:43.945Z",
+ "updated": "2026-11-19T19:00:49.030Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -262,12 +262,13 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-133189 — advisory",
-     "desc": "A command injection vulnerability was found in OpenStack Cinder's SSH-based storage-driver support. Incomplete validation of shell metacharacters allows an authenticated user who owns a volume on an affected backend to supply crafted connection information and inject additional commands into the…",
+     "title": "CVE-2026-118383 — advisory",
+     "desc": "A use-after-free in the replication component of MongoDB Server can occur when a newly elected replica set primary completes catch-up. The condition can be caused by requests that do not require authentication, and may result in the server terminating unexpectedly or, under certain conditions…",
      "tags": [
-      "published 2026-11-19"
+      "published 2026-11-10",
+      "EPSS 0.7%"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133189"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-118383"
     }
    ]
   },

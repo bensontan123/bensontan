@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T18:00:43.945Z",
+ "updated": "2026-11-19T19:00:49.030Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -479,19 +479,6 @@
    "epss": 0.006
   },
   {
-   "id": "CVE-2026-133189",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "A command injection vulnerability was found in OpenStack Cinder's SSH-based storage-driver support. Incomplete validation of shell metacharacters allows an authenticated user who owns a volume on an affected backend to supply crafted connection information and inject additional commands into the…",
-   "published": "2026-11-19",
-   "cvss": 9.6,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133189"
-  },
-  {
    "id": "CVE-2026-118383",
    "origin": "NVD",
    "product": "",
@@ -504,20 +491,6 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118383",
    "epss": 0.007
-  },
-  {
-   "id": "CVE-2026-91469",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.4.0, 14.1.1.0.0, 14.1.2.0.0 and  15.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to…",
-   "published": "2026-11-17",
-   "cvss": 9.4,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91469",
-   "epss": 0.004
   },
   {
    "id": "CVE-2026-130679",
@@ -548,34 +521,6 @@
    "epss": 0.005
   },
   {
-   "id": "CVE-2026-101691",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Admin UI).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Mobile Field…",
-   "published": "2026-11-17",
-   "cvss": 9.3,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101691",
-   "epss": 0.004
-  },
-  {
-   "id": "CVE-2026-114934",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Integration Broker).  Supported versions that are affected are 8.61-8.63. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise PeopleSoft Enterprise…",
-   "published": "2026-11-17",
-   "cvss": 9.3,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114934",
-   "epss": 0.003
-  },
-  {
    "id": "CVE-2026-114956",
    "origin": "NVD",
    "product": "",
@@ -604,20 +549,6 @@
    "epss": 0.004
   },
   {
-   "id": "CVE-2026-91507",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle…",
-   "published": "2026-11-17",
-   "cvss": 9.3,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91507",
-   "epss": 0.002
-  },
-  {
    "id": "CVE-2026-130675",
    "origin": "NVD",
    "product": "",
@@ -644,6 +575,76 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130733",
    "epss": 0.003
+  },
+  {
+   "id": "CVE-2012-20007",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "ThinkPHP 2.0 through 2.2 and 3.0 Lite mode contains an eval injection vulnerability in the Dispatcher PATH_INFO parsing, which uses preg_replace with the /e modifier and a double-quoted replacement. Unauthenticated attackers can send crafted requests to index.php with a malicious 's' parameter…",
+   "published": "2026-11-18",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-20007",
+   "epss": 0.005
+  },
+  {
+   "id": "CVE-2018-25443",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Baidu UEditor 1.4.0 through 1.4.3.3 contains an unrestricted file upload vulnerability in the catchimage action of /ueditor/net/controller.ashx that only validates the Content-Type header. Unauthenticated attackers can supply a source[] URL like x.jpg?.aspx to retain a malicious extension and write…",
+   "published": "2026-11-18",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-25443",
+   "epss": 0.006
+  },
+  {
+   "id": "CVE-2026-130754",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "All versions of LaraDashboard contain an authentication bypass in SocialAuthService::findOrCreateUser(), which links a social login to an existing account by email without checking that the OAuth provider verified that email. Unauthenticated attackers using an OAuth/OIDC provider that asserts a…",
+   "published": "2026-11-18",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130754",
+   "epss": 0.004
+  },
+  {
+   "id": "CVE-2026-130683",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "SiYuan before 3.8.10 uses an incomplete deny-list in IsSensitivePath that omits shell-initialization files such as .zshenv and .bash_profile, as well as ~/.local. Authenticated administrators can call /api/file/copyFile with an absolute destination outside the workspace to write payloads there…",
+   "published": "2026-11-18",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Local / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130683",
+   "epss": 0.003
+  },
+  {
+   "id": "CVE-2026-130774",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Incus before 7.6.0 contains a privilege escalation vulnerability: rebuilding a never-started unprivileged container makes it boot without a user namespace. Root processes inside the container run as host uid 0, keeping capabilities like sys_module, with no device cgroup restriction, letting them…",
+   "published": "2026-11-18",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Local / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130774",
+   "epss": 0.001
   },
   {
    "id": "CVE-2026-63412",
