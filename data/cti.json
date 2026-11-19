@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T19:00:49.030Z",
+ "updated": "2026-11-19T20:45:26.354Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -240,6 +240,16 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
+     "title": "CVE-2026-131253 — advisory",
+     "desc": "In Splunk SOAR versions below 8.8.0, an authenticated user that holds a role with the Apps edit, Containers edit, and Playbooks execute permissions could use the App Wizard to execute arbitrary code as the user account that runs Splunk SOAR. This could compromise the confidentiality, integrity, and…",
+     "tags": [
+      "published 2026-11-19"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-131253"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
      "title": "CVE-2026-14492 — advisory",
      "desc": "The WP Duplicate – WordPress Migration Plugin plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.1.11 via the save_single_batch_file function. This is due to a PHP type-juggling authentication bypass via loose != comparison with no is_string() guard…",
      "tags": [
@@ -258,17 +268,6 @@
       "EPSS 0.6%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120779"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-118383 — advisory",
-     "desc": "A use-after-free in the replication component of MongoDB Server can occur when a newly elected replica set primary completes catch-up. The condition can be caused by requests that do not require authentication, and may result in the server terminating unexpectedly or, under certain conditions…",
-     "tags": [
-      "published 2026-11-10",
-      "EPSS 0.7%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-118383"
     }
    ]
   },
@@ -277,63 +276,63 @@
    "items": [
     {
      "cat": "GHSA",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-63412 — Jane: Instantiation RCE via query parameter name -> raw PHPDoc */ breakout (jane-php/open-api-3)",
-     "desc": "Jane: Instantiation RCE via query parameter name -> raw PHPDoc */ breakout (jane-php/open-api-3)",
+     "sev": "HIGH",
+     "title": "CVE-2026-61713 — Servo Sandbox bypass: declarative refresh can auto-navigate a sandboxed iframe",
+     "desc": "Servo Sandbox bypass: declarative refresh can auto-navigate a sandboxed iframe",
      "tags": [
-      "composer jane-php/open-api-3",
+      "rust servo",
+      "published 2026-11-19",
+      "EPSS 0.5%"
+     ],
+     "link": "https://github.com/advisories/GHSA-pxh3-4qqv-58mg"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-61689 — XWiki Platform: HQL injection in search allows unauthenticated database extraction including password hashes",
+     "desc": "XWiki Platform: HQL injection in search allows unauthenticated database extraction including password hashes",
+     "tags": [
+      "maven org.xwiki.platform:xwiki-platform-rest-server",
+      "published 2026-11-19",
+      "EPSS 0.5%"
+     ],
+     "link": "https://github.com/advisories/GHSA-jmmc-wjpc-pg34"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-59975 — SharpIppNext: Unbounded IPP Document Stream Buffering Leads to Denial of Service",
+     "desc": "SharpIppNext: Unbounded IPP Document Stream Buffering Leads to Denial of Service",
+     "tags": [
+      "nuget SharpIppNext",
+      "published 2026-11-19",
+      "EPSS 0.6%"
+     ],
+     "link": "https://github.com/advisories/GHSA-3h63-w8jq-rrf2"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-77283 — obsidian-sync-mcp: Missing Host/Origin validation lets a public website drive a victim's Obsidian vault via DNS rebinding (no-auth mode)",
+     "desc": "obsidian-sync-mcp: Missing Host/Origin validation lets a public website drive a victim's Obsidian vault via DNS rebinding (no-auth mode)",
+     "tags": [
+      "npm obsidian-sync-mcp",
       "published 2026-11-19",
       "EPSS 0.4%"
      ],
-     "link": "https://github.com/advisories/GHSA-q8v2-3j4h-xg2p"
+     "link": "https://github.com/advisories/GHSA-mx6p-3fg7-v6pj"
     },
     {
      "cat": "GHSA",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-63413 — Jane: Instantiation RCE via header parameter name -> raw PHPDoc */ breakout (jane-php/open-api-3)",
-     "desc": "Jane: Instantiation RCE via header parameter name -> raw PHPDoc */ breakout (jane-php/open-api-3)",
+     "sev": "HIGH",
+     "title": "CVE-2026-76090 — Tapir: Construction/decode RCE via property name -> raw case-class field (tapir-openapi-codegen)",
+     "desc": "Tapir: Construction/decode RCE via property name -> raw case-class field (tapir-openapi-codegen)",
      "tags": [
-      "composer jane-php/open-api-3",
-      "published 2026-11-19",
-      "EPSS 0.3%"
-     ],
-     "link": "https://github.com/advisories/GHSA-x9xr-53qx-9qcf"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-63411 — Jane: Instantiation RCE via parameter description -> raw PHPDoc */ breakout (jane-php/open-api-3)",
-     "desc": "Jane: Instantiation RCE via parameter description -> raw PHPDoc */ breakout (jane-php/open-api-3)",
-     "tags": [
-      "composer jane-php/open-api-3",
-      "published 2026-11-19",
-      "EPSS 0.3%"
-     ],
-     "link": "https://github.com/advisories/GHSA-xwcw-j52r-34x4"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-75518 — DOMShell: domshell_eval classified as read-tier can execute side-effecting JavaScript without --allow-write",
-     "desc": "DOMShell: domshell_eval classified as read-tier can execute side-effecting JavaScript without --allow-write",
-     "tags": [
-      "npm @apireno/domshell",
+      "maven com.softwaremill.sttp.tapir:tapir-openapi-codegen-core",
       "published 2026-11-19",
       "EPSS 0.1%"
      ],
-     "link": "https://github.com/advisories/GHSA-vg83-hcp4-5qcc"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-69139 — djangocms-moderation: Moderation comments disclosed to non-participant staff via the admin changelist",
-     "desc": "djangocms-moderation: Moderation comments disclosed to non-participant staff via the admin changelist",
-     "tags": [
-      "pip djangocms-moderation",
-      "published 2026-11-19",
-      "EPSS 0.2%"
-     ],
-     "link": "https://github.com/advisories/GHSA-pj7p-238h-76pv"
+     "link": "https://github.com/advisories/GHSA-gpcc-36pq-8qxr"
     }
    ]
   },
@@ -393,12 +392,12 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
-     "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
-     "desc": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects…",
+     "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+     "desc": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary…",
      "tags": [
       "2026-11-19"
      ],
-     "link": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html"
+     "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html"
     }
    ]
   }
