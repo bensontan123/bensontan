@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T05:00:43.166Z",
+ "updated": "2026-11-19T06:00:43.218Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -423,20 +423,6 @@
    "epss": 0.008
   },
   {
-   "id": "CVE-2026-91510",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle…",
-   "published": "2026-11-17",
-   "cvss": 10,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91510",
-   "epss": 0.005
-  },
-  {
    "id": "CVE-2026-130778",
    "origin": "NVD",
    "product": "",
@@ -637,6 +623,20 @@
    "vector": "Network / Low / Required",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114956",
+   "epss": 0.004
+  },
+  {
+   "id": "CVE-2026-115139",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Vulnerability in the Oracle Hyperion Infrastructure Technology product of Oracle Hyperion (component: Installation and Configuration).   The supported version that is affected is 11.2.26.0.000. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to…",
+   "published": "2026-11-17",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / Required",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115139",
    "epss": 0.004
   },
   {
