@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T00:00:46.455Z",
+ "updated": "2026-11-19T01:00:42.505Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -276,6 +276,50 @@
    "items": [
     {
      "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-76088 — PGPainless: Unbounded Compressed Packet Descent in inline-detach and MessageInspector leads to Denial of Service (DoS)",
+     "desc": "PGPainless: Unbounded Compressed Packet Descent in inline-detach and MessageInspector leads to Denial of Service (DoS)",
+     "tags": [
+      "maven org.pgpainless:pgpainless-core",
+      "published 2026-11-19"
+     ],
+     "link": "https://github.com/advisories/GHSA-cvx8-9ff6-54xq"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-73504 — cassandra-jdbc-wrapper: Authentication Token Exposed in Logs",
+     "desc": "cassandra-jdbc-wrapper: Authentication Token Exposed in Logs",
+     "tags": [
+      "maven com.ing.data:cassandra-jdbc-wrapper",
+      "published 2026-11-19"
+     ],
+     "link": "https://github.com/advisories/GHSA-jc42-994r-vvwp"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-63129 — mssql-mcp-core: SQL injection in mssql-mcp write tools via unparameterized table names and WHERE clauses",
+     "desc": "mssql-mcp-core: SQL injection in mssql-mcp write tools via unparameterized table names and WHERE clauses",
+     "tags": [
+      "npm @connorbritain/mssql-mcp-core",
+      "published 2026-11-19"
+     ],
+     "link": "https://github.com/advisories/GHSA-2m9m-6cr5-9x25"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-75521 — Miren Runtime: Authentication bypass in RPC layer: unverified TLS client certificates grant cluster superuser access",
+     "desc": "Miren Runtime: Authentication bypass in RPC layer: unverified TLS client certificates grant cluster superuser access",
+     "tags": [
+      "go miren.dev/runtime",
+      "published 2026-11-19"
+     ],
+     "link": "https://github.com/advisories/GHSA-8fh7-7q4q-cq52"
+    },
+    {
+     "cat": "GHSA",
      "sev": "MEDIUM",
      "title": "CVE-2026-75506 — OliveTin: Second-Order OS Command Injection via shellAfterCompleted",
      "desc": "OliveTin: Second-Order OS Command Injection via shellAfterCompleted",
@@ -284,50 +328,6 @@
       "published 2026-11-18"
      ],
      "link": "https://github.com/advisories/GHSA-vc6p-m6vx-6cwq"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-69131 — django-filer: Missing per-object authorization on `discard` and `edit_redirect` version transitions",
-     "desc": "django-filer: Missing per-object authorization on `discard` and `edit_redirect` version transitions",
-     "tags": [
-      "pip django-filer",
-      "published 2026-11-18"
-     ],
-     "link": "https://github.com/advisories/GHSA-vf85-8ff2-3r9w"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-69138 — djangocms-versioning: Authorization Bypass Through User-Controlled Key and Missing Authorization",
-     "desc": "djangocms-versioning: Authorization Bypass Through User-Controlled Key and Missing Authorization",
-     "tags": [
-      "pip djangocms-versioning",
-      "published 2026-11-18"
-     ],
-     "link": "https://github.com/advisories/GHSA-5g9x-qwh5-33x4"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-68903 — LLMKube: Arbitrary Host File Read via Model.spec.source hostPath Injection",
-     "desc": "LLMKube: Arbitrary Host File Read via Model.spec.source hostPath Injection",
-     "tags": [
-      "go github.com/defilantech/llmkube",
-      "published 2026-11-18"
-     ],
-     "link": "https://github.com/advisories/GHSA-jw3m-8q7m-f35r"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-73864 — install-artifact-from-github loads downloaded native artifacts without integrity verification",
-     "desc": "install-artifact-from-github loads downloaded native artifacts without integrity verification",
-     "tags": [
-      "npm install-artifact-from-github",
-      "published 2026-11-18"
-     ],
-     "link": "https://github.com/advisories/GHSA-88q3-gch3-5396"
     }
    ]
   },

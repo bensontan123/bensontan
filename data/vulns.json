@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T00:00:46.455Z",
+ "updated": "2026-11-19T01:00:42.505Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -478,21 +478,6 @@
    "epss": 0.002
   },
   {
-   "id": "CVE-2026-69157",
-   "origin": "GHSA",
-   "product": "rust atomic-server",
-   "name": "Atomic Server: Unauthenticated `/setup` invite grants write access to the entire Drive",
-   "desc": "Atomic Server: Unauthenticated `/setup` invite grants write access to the entire Drive",
-   "published": "2026-11-18",
-   "cvss": 9.8,
-   "severity": "CRITICAL",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-pfwx-xjp4-qxcj",
-   "ghsaId": "GHSA-pfwx-xjp4-qxcj",
-   "epss": 0.005
-  },
-  {
    "id": "CVE-2026-120779",
    "origin": "NVD",
    "product": "",
@@ -656,49 +641,32 @@
    "epss": 0.004
   },
   {
-   "id": "CVE-2026-69155",
+   "id": "CVE-2026-75521",
    "origin": "GHSA",
-   "product": "rust atomic-server",
-   "name": "Atomic Server: Stored XSS via uploaded files served inline (same-origin) on `/download` → account takeover",
-   "desc": "Atomic Server: Stored XSS via uploaded files served inline (same-origin) on `/download` → account takeover",
-   "published": "2026-11-18",
-   "cvss": 8.7,
-   "severity": "HIGH",
+   "product": "go miren.dev/runtime",
+   "name": "Miren Runtime: Authentication bypass in RPC layer: unverified TLS client certificates grant cluster superuser access",
+   "desc": "Miren Runtime: Authentication bypass in RPC layer: unverified TLS client certificates grant cluster superuser access",
+   "published": "2026-11-19",
+   "cvss": null,
+   "severity": "CRITICAL",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-x277-3wcg-g9r2",
-   "ghsaId": "GHSA-x277-3wcg-g9r2",
-   "epss": 0.004
+   "url": "https://github.com/advisories/GHSA-8fh7-7q4q-cq52",
+   "ghsaId": "GHSA-8fh7-7q4q-cq52"
   },
   {
-   "id": "CVE-2026-69158",
+   "id": "CVE-2026-63129",
    "origin": "GHSA",
-   "product": "rust atomic-server",
-   "name": "Atomic Server: Unauthenticated full-response SSRF in Atomic-Server /bookmark endpoint",
-   "desc": "Atomic Server: Unauthenticated full-response SSRF in Atomic-Server /bookmark endpoint",
-   "published": "2026-11-18",
-   "cvss": 8.6,
+   "product": "npm @connorbritain/mssql-mcp-core",
+   "name": "mssql-mcp-core: SQL injection in mssql-mcp write tools via unparameterized table names and WHERE clauses",
+   "desc": "mssql-mcp-core: SQL injection in mssql-mcp write tools via unparameterized table names and WHERE clauses",
+   "published": "2026-11-19",
+   "cvss": 8.8,
    "severity": "HIGH",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-ff87-73jp-f3v4",
-   "ghsaId": "GHSA-ff87-73jp-f3v4",
-   "epss": 0.005
-  },
-  {
-   "id": "CVE-2026-69156",
-   "origin": "GHSA",
-   "product": "rust atomic-server",
-   "name": "Atomic Server: Arbitrary file read via user-controlled `internalId` in the `/download` handler (leaks root agent private key)",
-   "desc": "Atomic Server: Arbitrary file read via user-controlled `internalId` in the `/download` handler (leaks root agent private key)",
-   "published": "2026-11-18",
-   "cvss": 8.1,
-   "severity": "HIGH",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-8vc4-8hjq-988p",
-   "ghsaId": "GHSA-8vc4-8hjq-988p",
-   "epss": 0.005
+   "url": "https://github.com/advisories/GHSA-2m9m-6cr5-9x25",
+   "ghsaId": "GHSA-2m9m-6cr5-9x25"
   },
   {
    "id": "CVE-2026-68903",
@@ -713,6 +681,20 @@
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-jw3m-8q7m-f35r",
    "ghsaId": "GHSA-jw3m-8q7m-f35r"
+  },
+  {
+   "id": "CVE-2026-76088",
+   "origin": "GHSA",
+   "product": "maven org.pgpainless:pgpainless-core",
+   "name": "PGPainless: Unbounded Compressed Packet Descent in inline-detach and MessageInspector leads to Denial of Service (DoS)",
+   "desc": "PGPainless: Unbounded Compressed Packet Descent in inline-detach and MessageInspector leads to Denial of Service (DoS)",
+   "published": "2026-11-19",
+   "cvss": 7.5,
+   "severity": "HIGH",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-cvx8-9ff6-54xq",
+   "ghsaId": "GHSA-cvx8-9ff6-54xq"
   },
   {
    "id": "CVE-2026-73864",
@@ -755,6 +737,20 @@
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-wq26-3j2m-4hvv",
    "ghsaId": "GHSA-wq26-3j2m-4hvv"
+  },
+  {
+   "id": "CVE-2026-75506",
+   "origin": "GHSA",
+   "product": "go github.com/OliveTin/OliveTin",
+   "name": "OliveTin: Second-Order OS Command Injection via shellAfterCompleted",
+   "desc": "OliveTin: Second-Order OS Command Injection via shellAfterCompleted",
+   "published": "2026-11-18",
+   "cvss": 6.6,
+   "severity": "MEDIUM",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-vc6p-m6vx-6cwq",
+   "ghsaId": "GHSA-vc6p-m6vx-6cwq"
   }
  ]
 }
