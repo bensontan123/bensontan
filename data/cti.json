@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T10:28:06.620Z",
+ "updated": "2026-11-19T13:00:43.540Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -356,6 +356,16 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "Everything Is a Web Application, Including Your Firewall",
+     "desc": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management…",
+     "tags": [
+      "2026-11-19"
+     ],
+     "link": "https://thehackernews.com/2026/11/everything-is-web-application-including.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
      "desc": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs. \"We have taken steps to…",
      "tags": [
@@ -382,16 +392,6 @@
       "2026-11-19"
      ],
      "link": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-     "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture…",
-     "tags": [
-      "2026-11-19"
-     ],
-     "link": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html"
     }
    ]
   }
