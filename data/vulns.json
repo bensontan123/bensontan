@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T23:00:47.167Z",
+ "updated": "2026-11-19T00:00:46.455Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -478,19 +478,6 @@
    "epss": 0.002
   },
   {
-   "id": "CVE-2026-110009",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "The Unzer Payments plugin for WordPress is vulnerable to Authentication Bypass leading to Account Takeover in all versions up to, and including, 2.2.1. The vulnerability exists because the Google Pay Express Checkout endpoint (`/?wc-api=google_pay_express`), handled by…",
-   "published": "2026-11-18",
-   "cvss": 9.8,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110009"
-  },
-  {
    "id": "CVE-2026-69157",
    "origin": "GHSA",
    "product": "rust atomic-server",
@@ -652,6 +639,20 @@
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101691",
+   "epss": 0.004
+  },
+  {
+   "id": "CVE-2026-114934",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Integration Broker).  Supported versions that are affected are 8.61-8.63. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise PeopleSoft Enterprise…",
+   "published": "2026-11-17",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114934",
    "epss": 0.004
   },
   {

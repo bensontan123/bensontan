@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T23:00:47.167Z",
+ "updated": "2026-11-19T00:00:46.455Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -261,12 +261,13 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-110009 — advisory",
-     "desc": "The Unzer Payments plugin for WordPress is vulnerable to Authentication Bypass leading to Account Takeover in all versions up to, and including, 2.2.1. The vulnerability exists because the Google Pay Express Checkout endpoint (`/?wc-api=google_pay_express`), handled by…",
+     "title": "CVE-2026-120779 — advisory",
+     "desc": "Improper control of generation of code ('code injection') in Visual Studio Code allows an unauthorized attacker to execute code over a network.",
      "tags": [
-      "published 2026-11-18"
+      "published 2026-11-10",
+      "EPSS 0.6%"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110009"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120779"
     }
    ]
   },
