@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T03:00:44.029Z",
+ "updated": "2026-11-19T04:00:44.982Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -492,20 +492,6 @@
    "epss": 0.006
   },
   {
-   "id": "CVE-2026-91561",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Vulnerability in the Oracle Service Bus product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via RMI to compromise Oracle Service Bus.  While…",
-   "published": "2026-11-17",
-   "cvss": 9.6,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91561",
-   "epss": 0.004
-  },
-  {
    "id": "CVE-2026-118383",
    "origin": "NVD",
    "product": "",
@@ -638,6 +624,20 @@
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114934",
+   "epss": 0.004
+  },
+  {
+   "id": "CVE-2026-114956",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Vulnerability in the Oracle Hyperion Planning product of Oracle Hyperion (component: Security).   The supported version that is affected is 11.2.26.0.000. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Hyperion Planning…",
+   "published": "2026-11-17",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / Required",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114956",
    "epss": 0.004
   },
   {
