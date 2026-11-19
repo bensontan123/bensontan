@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T03:00:44.029Z",
+ "updated": "2026-11-19T05:00:43.166Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -355,6 +355,16 @@
      "link": "https://isc.sans.edu/diary/rss/33534"
     },
     {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
+     "desc": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws. The release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC. \"These…",
+     "tags": [
+      "2026-11-19"
+     ],
+     "link": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html"
+    },
+    {
      "cat": "CISA",
      "sev": "NEWS",
      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
@@ -383,16 +393,6 @@
       "2026-11-18"
      ],
      "link": "https://isc.sans.edu/diary/rss/33528"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
-     "desc": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in. The decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since…",
-     "tags": [
-      "2026-11-18"
-     ],
-     "link": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html"
     }
    ]
   }
