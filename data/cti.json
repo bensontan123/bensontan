@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T09:00:46.632Z",
+ "updated": "2026-11-19T10:00:56.120Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -385,14 +385,14 @@
      "link": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html"
     },
     {
-     "cat": "CISA",
+     "cat": "BleepingComputer",
      "sev": "NEWS",
-     "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-     "desc": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2024-10441 Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output…",
+     "title": "NVIDIA investigating Gentlemen ransomware breach claims",
+     "desc": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site.",
      "tags": [
-      "2026-11-18"
+      "2026-11-19"
      ],
-     "link": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+     "link": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/"
     }
    ]
   }
