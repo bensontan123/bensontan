@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T22:00:57.005Z",
+ "updated": "2026-11-19T23:00:55.124Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -240,16 +240,6 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-131253 — advisory",
-     "desc": "In Splunk SOAR versions below 8.8.0, an authenticated user that holds a role with the Apps edit, Containers edit, and Playbooks execute permissions could use the App Wizard to execute arbitrary code as the user account that runs Splunk SOAR. This could compromise the confidentiality, integrity, and…",
-     "tags": [
-      "published 2026-11-19"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-131253"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
      "title": "CVE-2026-14492 — advisory",
      "desc": "The WP Duplicate – WordPress Migration Plugin plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.1.11 via the save_single_batch_file function. This is due to a PHP type-juggling authentication bypass via loose != comparison with no is_string() guard…",
      "tags": [
@@ -267,6 +257,17 @@
       "published 2026-11-19"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-84236"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-120779 — advisory",
+     "desc": "Improper control of generation of code ('code injection') in Visual Studio Code allows an unauthorized attacker to execute code over a network.",
+     "tags": [
+      "published 2026-11-10",
+      "EPSS 0.6%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120779"
     }
    ]
   },
@@ -275,63 +276,63 @@
    "items": [
     {
      "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-121707 — Effect: ReDoS in Schema.TemplateLiteral compiled regex",
-     "desc": "Effect: ReDoS in Schema.TemplateLiteral compiled regex",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-129304 — Guard Core: Unvalidated X-Forwarded-For-derived string used as a Redis key component and interpolated into a KEYS glob pattern",
+     "desc": "Guard Core: Unvalidated X-Forwarded-For-derived string used as a Redis key component and interpolated into a KEYS glob pattern",
      "tags": [
-      "npm effect",
+      "pip guard-core",
       "published 2026-11-19",
-      "EPSS 0.3%"
+      "EPSS 0.2%"
      ],
-     "link": "https://github.com/advisories/GHSA-7589-6fvf-x4pw"
+     "link": "https://github.com/advisories/GHSA-gm9r-hvc9-96gv"
     },
     {
      "cat": "GHSA",
      "sev": "LOW",
-     "title": "CVE-2026-77597 — iSponsorBlockTV: SSRF via Malicious SSDP Response Spoofing in Local Device Discovery",
-     "desc": "iSponsorBlockTV: SSRF via Malicious SSDP Response Spoofing in Local Device Discovery",
+     "title": "CVE-2026-129303 — Guard Core: Whitespace-collapse preprocessing permanently disables the CRLF-anchored http-splitting and command-injection detectors in the…",
+     "desc": "Guard Core: Whitespace-collapse preprocessing permanently disables the CRLF-anchored http-splitting and command-injection detectors in the default detection mode",
      "tags": [
-      "pip iSponsorBlockTV",
-      "published 2026-11-19",
-      "EPSS 0.2%"
-     ],
-     "link": "https://github.com/advisories/GHSA-56v3-jrq2-4q9m"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-128073 — gosaml2: Unauthenticated panic decrypting an EncryptedAssertion with a short or empty CipherValue",
-     "desc": "gosaml2: Unauthenticated panic decrypting an EncryptedAssertion with a short or empty CipherValue",
-     "tags": [
-      "go github.com/russellhaering/gosaml2",
-      "published 2026-11-19",
-      "EPSS 0.2%"
-     ],
-     "link": "https://github.com/advisories/GHSA-5hj8-q7fv-qrj6"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-102529 — HtmlSanitizer: CSS Removal DoS",
-     "desc": "HtmlSanitizer: CSS Removal DoS",
-     "tags": [
-      "nuget HtmlSanitizer",
+      "pip guard-core",
       "published 2026-11-19",
       "EPSS 0.3%"
      ],
-     "link": "https://github.com/advisories/GHSA-464h-4j8h-q5mf"
+     "link": "https://github.com/advisories/GHSA-w7wg-6q7v-44f2"
     },
     {
      "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-115472 — Doorkeeper: When using public clients, any client can revoke any access token",
-     "desc": "Doorkeeper: When using public clients, any client can revoke any access token",
+     "sev": "HIGH",
+     "title": "CVE-2026-129302 — Guard Core: Quadratic ReDoS in built-in detection pattern freezes the event loop with a single request",
+     "desc": "Guard Core: Quadratic ReDoS in built-in detection pattern freezes the event loop with a single request",
      "tags": [
-      "rubygems doorkeeper",
+      "pip guard-core",
       "published 2026-11-19",
       "EPSS 0.4%"
      ],
-     "link": "https://github.com/advisories/GHSA-h5m9-42h9-vcq6"
+     "link": "https://github.com/advisories/GHSA-r7hm-rjvg-xx7j"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-130007 — k8s-mcp-server: Missing authentication on default SSE/HTTP transport allows unauthenticated Kubernetes tool execution",
+     "desc": "k8s-mcp-server: Missing authentication on default SSE/HTTP transport allows unauthenticated Kubernetes tool execution",
+     "tags": [
+      "go github.com/reza-gholizade/k8s-mcp-server",
+      "published 2026-11-19",
+      "EPSS 0.4%"
+     ],
+     "link": "https://github.com/advisories/GHSA-m932-63jc-4jqq"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-83816 — CodeWhale: exec_shell parallel-readonly classifier auto-approves fd/rg/git grep exec flags enabling silent RCE",
+     "desc": "CodeWhale: exec_shell parallel-readonly classifier auto-approves fd/rg/git grep exec flags enabling silent RCE",
+     "tags": [
+      "rust codewhale-tui",
+      "published 2026-11-19",
+      "EPSS 0.7%"
+     ],
+     "link": "https://github.com/advisories/GHSA-3mgh-93r5-r7jf"
     }
    ]
   },
@@ -369,26 +370,6 @@
      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01"
     },
     {
-     "cat": "SANS ISC",
-     "sev": "NEWS",
-     "title": "ISC Stormcast For Thursday, November 19th, 2026 https://isc.sans.edu/podcastdetail/10186, (Thu, Nov 19th)",
-     "desc": "",
-     "tags": [
-      "2026-11-19"
-     ],
-     "link": "https://isc.sans.edu/diary/rss/33536"
-    },
-    {
-     "cat": "SANS ISC",
-     "sev": "NEWS",
-     "title": "Treat Your Honeypot Analysis Like Code: Git, Pull Requests and a Human Gate for AI [Guest Diary], (Wed, Nov 18th)",
-     "desc": "[This is a Guest Diary by Kevin Truong, an ISC intern as part of the SANS.edu BACS program]",
-     "tags": [
-      "2026-11-19"
-     ],
-     "link": "https://isc.sans.edu/diary/rss/33534"
-    },
-    {
      "cat": "The Hacker News",
      "sev": "NEWS",
      "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
@@ -397,6 +378,26 @@
       "2026-11-19"
      ],
      "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+     "desc": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects…",
+     "tags": [
+      "2026-11-19"
+     ],
+     "link": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+     "desc": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The release of the patch follows an…",
+     "tags": [
+      "2026-11-19"
+     ],
+     "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html"
     }
    ]
   }
