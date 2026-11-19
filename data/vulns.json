@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T19:00:49.030Z",
+ "updated": "2026-11-19T20:00:58.979Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -591,20 +591,6 @@
    "epss": 0.005
   },
   {
-   "id": "CVE-2018-25443",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Baidu UEditor 1.4.0 through 1.4.3.3 contains an unrestricted file upload vulnerability in the catchimage action of /ueditor/net/controller.ashx that only validates the Content-Type header. Unauthenticated attackers can supply a source[] URL like x.jpg?.aspx to retain a malicious extension and write…",
-   "published": "2026-11-18",
-   "cvss": 9.3,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-25443",
-   "epss": 0.006
-  },
-  {
    "id": "CVE-2026-130754",
    "origin": "NVD",
    "product": "",
@@ -644,6 +630,20 @@
    "vector": "Local / Low / None",
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130774",
+   "epss": 0.001
+  },
+  {
+   "id": "CVE-2026-130770",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Incus before 7.6.0 creates the NBD servers used for virtual machine migration and disk export on abstract unix sockets, which have no permission checks and whose names are visible in /proc/net/unix. A local unprivileged user can connect while an operation runs to read or modify the VM disk, gaining…",
+   "published": "2026-11-18",
+   "cvss": 9.2,
+   "severity": "CRITICAL",
+   "vector": "Local / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130770",
    "epss": 0.001
   },
   {
