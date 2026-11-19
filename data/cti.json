@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T16:00:45.067Z",
+ "updated": "2026-11-19T17:00:50.708Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -277,63 +277,63 @@
    "items": [
     {
      "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-71533 — Mareforma: search_claims skips verify-on-read, serving forged rows",
-     "desc": "Mareforma: search_claims skips verify-on-read, serving forged rows",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-63412 — Jane: Instantiation RCE via query parameter name -> raw PHPDoc */ breakout (jane-php/open-api-3)",
+     "desc": "Jane: Instantiation RCE via query parameter name -> raw PHPDoc */ breakout (jane-php/open-api-3)",
      "tags": [
-      "pip mareforma",
-      "published 2026-11-19",
-      "EPSS 0.1%"
-     ],
-     "link": "https://github.com/advisories/GHSA-m29v-3g7g-9c63"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-58214 — NATS Server MQTT subscribe permission bypass exposes internal QoS 2 metadata",
-     "desc": "NATS Server MQTT subscribe permission bypass exposes internal QoS 2 metadata",
-     "tags": [
-      "go github.com/nats-io/nats-server/v2",
-      "published 2026-11-19",
-      "EPSS 0.3%"
-     ],
-     "link": "https://github.com/advisories/GHSA-4g68-3pwx-5vfj"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-58213 — NATS Server: MQTT SUBSCRIBE Protocol Injection via Leaf Node/Route Forwarding allows arbitrary NATS command injection",
-     "desc": "NATS Server: MQTT SUBSCRIBE Protocol Injection via Leaf Node/Route Forwarding allows arbitrary NATS command injection",
-     "tags": [
-      "go github.com/nats-io/nats-server/v2",
+      "composer jane-php/open-api-3",
       "published 2026-11-19",
       "EPSS 0.4%"
      ],
-     "link": "https://github.com/advisories/GHSA-qrcv-3558-gj4f"
+     "link": "https://github.com/advisories/GHSA-q8v2-3j4h-xg2p"
     },
     {
      "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-76088 — PGPainless: Unbounded Compressed Packet Descent in inline-detach and MessageInspector leads to Denial of Service (DoS)",
-     "desc": "PGPainless: Unbounded Compressed Packet Descent in inline-detach and MessageInspector leads to Denial of Service (DoS)",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-63413 — Jane: Instantiation RCE via header parameter name -> raw PHPDoc */ breakout (jane-php/open-api-3)",
+     "desc": "Jane: Instantiation RCE via header parameter name -> raw PHPDoc */ breakout (jane-php/open-api-3)",
      "tags": [
-      "maven org.pgpainless:pgpainless-core",
+      "composer jane-php/open-api-3",
       "published 2026-11-19",
-      "EPSS 0.7%"
+      "EPSS 0.3%"
      ],
-     "link": "https://github.com/advisories/GHSA-cvx8-9ff6-54xq"
+     "link": "https://github.com/advisories/GHSA-x9xr-53qx-9qcf"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-63411 — Jane: Instantiation RCE via parameter description -> raw PHPDoc */ breakout (jane-php/open-api-3)",
+     "desc": "Jane: Instantiation RCE via parameter description -> raw PHPDoc */ breakout (jane-php/open-api-3)",
+     "tags": [
+      "composer jane-php/open-api-3",
+      "published 2026-11-19",
+      "EPSS 0.3%"
+     ],
+     "link": "https://github.com/advisories/GHSA-xwcw-j52r-34x4"
     },
     {
      "cat": "GHSA",
      "sev": "MEDIUM",
-     "title": "CVE-2026-73504 — cassandra-jdbc-wrapper: Authentication Token Exposed in Logs",
-     "desc": "cassandra-jdbc-wrapper: Authentication Token Exposed in Logs",
+     "title": "CVE-2026-75518 — DOMShell: domshell_eval classified as read-tier can execute side-effecting JavaScript without --allow-write",
+     "desc": "DOMShell: domshell_eval classified as read-tier can execute side-effecting JavaScript without --allow-write",
      "tags": [
-      "maven com.ing.data:cassandra-jdbc-wrapper",
+      "npm @apireno/domshell",
+      "published 2026-11-19",
+      "EPSS 0.1%"
+     ],
+     "link": "https://github.com/advisories/GHSA-vg83-hcp4-5qcc"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-69139 — djangocms-moderation: Moderation comments disclosed to non-participant staff via the admin changelist",
+     "desc": "djangocms-moderation: Moderation comments disclosed to non-participant staff via the admin changelist",
+     "tags": [
+      "pip djangocms-moderation",
       "published 2026-11-19",
       "EPSS 0.2%"
      ],
-     "link": "https://github.com/advisories/GHSA-jc42-994r-vvwp"
+     "link": "https://github.com/advisories/GHSA-pj7p-238h-76pv"
     }
    ]
   },
@@ -371,34 +371,34 @@
      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01"
     },
     {
-     "cat": "SANS ISC",
-     "sev": "NEWS",
-     "title": "ISC Stormcast For Thursday, November 19th, 2026 https://isc.sans.edu/podcastdetail/10186, (Thu, Nov 19th)",
-     "desc": "",
-     "tags": [
-      "2026-11-19"
-     ],
-     "link": "https://isc.sans.edu/diary/rss/33536"
-    },
-    {
-     "cat": "SANS ISC",
-     "sev": "NEWS",
-     "title": "Treat Your Honeypot Analysis Like Code: Git, Pull Requests and a Human Gate for AI [Guest Diary], (Wed, Nov 18th)",
-     "desc": "[This is a Guest Diary by Kevin Truong, an ISC intern as part of the SANS.edu BACS program]",
-     "tags": [
-      "2026-11-19"
-     ],
-     "link": "https://isc.sans.edu/diary/rss/33534"
-    },
-    {
      "cat": "The Hacker News",
      "sev": "NEWS",
      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-     "desc": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The list of vulnerabilities is as…",
+     "desc": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The release of the patch follows an…",
      "tags": [
       "2026-11-19"
      ],
      "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+     "desc": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today. Fixed versions are out for all…",
+     "tags": [
+      "2026-11-19"
+     ],
+     "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+     "desc": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site. That can lead to a site takeover or remote code execution, and…",
+     "tags": [
+      "2026-11-19"
+     ],
+     "link": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html"
     }
    ]
   }
