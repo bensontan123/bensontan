@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T17:00:50.708Z",
+ "updated": "2026-11-19T18:00:43.945Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -451,20 +451,6 @@
    "epss": 0.009
   },
   {
-   "id": "CVE-2026-115338",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Insufficient protection of communications in Progress WS_FTP Server versions prior to 2025.0.5 could allow a network attacker to intercept sensitive information or modify requests when unencrypted connections are used.",
-   "published": "2026-11-09",
-   "cvss": 9.8,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115338",
-   "epss": 0.002
-  },
-  {
    "id": "CVE-2026-14492",
    "origin": "NVD",
    "product": "",
@@ -491,6 +477,19 @@
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120779",
    "epss": 0.006
+  },
+  {
+   "id": "CVE-2026-133189",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "A command injection vulnerability was found in OpenStack Cinder's SSH-based storage-driver support. Incomplete validation of shell metacharacters allows an authenticated user who owns a volume on an affected backend to supply crafted connection information and inject additional commands into the…",
+   "published": "2026-11-19",
+   "cvss": 9.6,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133189"
   },
   {
    "id": "CVE-2026-118383",
