@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T03:00:46.295Z",
+ "updated": "2026-11-20T05:00:42.180Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -84,7 +84,7 @@
    "region": "HK",
    "cat": "Advisory",
    "title": "Drupal Multiple Vulnerabilities",
-   "desc": "Multiple vulnerabilities were identified in Drupal Core. A remote attacker could exploit some of these vulnerabilities to trigger elevation of privilege and remote code execution on the targeted system. Impact Remote Code Execution…",
+   "desc": "Multiple vulnerabilities were identified in Drupal Core. A remote attacker could exploit some of these vulnerabilities to trigger elevation of privilege and remote code execution on the targeted system. Note: Proof of Concept exploit code…",
    "tags": [
     "HKCERT"
    ],
