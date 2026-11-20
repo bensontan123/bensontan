@@ -1,10 +1,62 @@
 {
- "updated": "2026-11-20T18:00:45.960Z",
+ "updated": "2026-11-20T19:00:57.546Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
    "label": "Newly exploited — latest CISA KEV additions",
    "items": [
+    {
+     "cat": "KEV",
+     "sev": "PENDING",
+     "title": "CVE-2026-129448 — Apache Roller Deserialization of Untrusted Data Vulnerability",
+     "desc": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability…",
+     "tags": [
+      "Apache Roller",
+      "KEV added 2026-11-20",
+      "remediate by 2026-11-23",
+      "EPSS 1.2%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448"
+    },
+    {
+     "cat": "KEV",
+     "sev": "PENDING",
+     "title": "CVE-2026-123890 — VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+     "desc": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
+     "tags": [
+      "Broadcom VMware vCenter",
+      "KEV added 2026-11-20",
+      "remediate by 2026-11-23",
+      "EPSS 0.8%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890"
+    },
+    {
+     "cat": "KEV",
+     "sev": "PENDING",
+     "title": "CVE-2025-42884 — SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+     "desc": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations.",
+     "tags": [
+      "SAP NetWeaver",
+      "KEV added 2026-11-20",
+      "remediate by 2026-11-23",
+      "EPSS 0.3%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884"
+    },
+    {
+     "cat": "KEV",
+     "sev": "PENDING",
+     "title": "CVE-2026-76466 — Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+     "desc": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
+     "tags": [
+      "Cisco Expressway Series",
+      "KEV added 2026-11-20",
+      "remediate by 2026-11-23",
+      "EPSS 0.4%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466"
+    },
     {
      "cat": "KEV",
      "sev": "CRITICAL",
@@ -17,58 +69,6 @@
       "EPSS 2.4%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
-    },
-    {
-     "cat": "KEV",
-     "sev": "HIGH",
-     "title": "CVE-2026-40217 — BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
-     "desc": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
-     "tags": [
-      "BerriAI LiteLLM",
-      "KEV added 2026-11-18",
-      "remediate by 2026-12-02",
-      "EPSS 68.9%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217"
-    },
-    {
-     "cat": "KEV",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-90817 — Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
-     "desc": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access an unintended controller route from a…",
-     "tags": [
-      "Vanderbilt University Research Electronic Data Capture (REDCap)",
-      "KEV added 2026-11-18",
-      "remediate by 2026-11-21",
-      "EPSS 25.7%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817"
-    },
-    {
-     "cat": "KEV",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-90436 — Apache Axis Unsafe Reflection Vulnerability",
-     "desc": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified class when a suitable class is available on the application…",
-     "tags": [
-      "Apache Axis",
-      "KEV added 2026-11-18",
-      "remediate by 2026-11-21",
-      "EPSS 1.8%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436"
-    },
-    {
-     "cat": "KEV",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-115731 — Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
-     "desc": "Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet’s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as the service user by submitting a report containing a crafted rich-data…",
-     "tags": [
-      "Perforce Puppet Enterprise",
-      "KEV added 2026-11-17",
-      "remediate by 2026-12-01",
-      "EPSS 0.7%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731"
     }
    ]
   },
@@ -147,19 +147,6 @@
    "items": [
     {
      "cat": "EPSS",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-97229 — GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
-     "desc": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression…",
-     "tags": [
-      "GitLab Community Edition and Enterprise Edition",
-      "KEV added 2026-10-29",
-      "remediate by 2026-11-01",
-      "EPSS 69.3%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229"
-    },
-    {
-     "cat": "EPSS",
      "sev": "HIGH",
      "title": "CVE-2026-40217 — BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
      "desc": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
@@ -209,6 +196,19 @@
       "EPSS 18.9%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158"
+    },
+    {
+     "cat": "EPSS",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-116606 — Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+     "desc": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification…",
+     "tags": [
+      "Barracuda Networks Barracuda Email Security Gateway (ESG)",
+      "KEV added 2026-11-10",
+      "remediate by 2026-11-13",
+      "EPSS 10.9%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
     }
    ]
   },
@@ -251,16 +251,6 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-80188 — advisory",
-     "desc": "The BuddyBoss Addons plugin for WordPress is vulnerable to Authentication Bypass leading to Account Takeover in versions up to, and including, 1.2.1. This is due to the Social Login REST endpoint trusting unverified Apple and Facebook identity-token claims and linking an attacker-controlled…",
-     "tags": [
-      "published 2026-11-20"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-80188"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
      "title": "CVE-2026-120779 — advisory",
      "desc": "Improper control of generation of code ('code injection') in Visual Studio Code allows an unauthorized attacker to execute code over a network.",
      "tags": [
@@ -268,6 +258,17 @@
       "EPSS 0.6%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120779"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-118383 — advisory",
+     "desc": "A use-after-free in the replication component of MongoDB Server can occur when a newly elected replica set primary completes catch-up. The condition can be caused by requests that do not require authentication, and may result in the server terminating unexpectedly or, under certain conditions…",
+     "tags": [
+      "published 2026-11-10",
+      "EPSS 0.7%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-118383"
     }
    ]
   },
