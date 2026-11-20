@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T01:00:44.281Z",
+ "updated": "2026-11-20T06:00:42.313Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -465,19 +465,6 @@
    "epss": 0.024
   },
   {
-   "id": "CVE-2026-84236",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "IBM Guardium Data Protection 12.2 is vulnerable to insecure deserialization in the SharePoint Tap MulticastTransceiver component. An unauthenticated remote attacker could exploit this vulnerability to execute arbitrary code on the affected system.",
-   "published": "2026-11-19",
-   "cvss": 9.8,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84236"
-  },
-  {
    "id": "CVE-2026-114516",
    "origin": "GHSA",
    "product": "npm ep_etherpad-lite",
@@ -657,6 +644,19 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130774",
    "epss": 0.001
+  },
+  {
+   "id": "CVE-2026-133528",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "BeamNG.drive before 0.40.6 contains an out-of-bounds write vulnerability because JIT-compiled LuaJIT traces omit FFI array bounds checks, letting untrusted Lua escape the sandbox. Attackers supplying a malicious mod can JIT-compile an FFI store loop, write out of range using a tostring() address…",
+   "published": "2026-11-20",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Local / Low / Passive",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133528"
   },
   {
    "id": "CVE-2026-62955",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T05:00:42.180Z",
+ "updated": "2026-11-20T06:00:42.313Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -78,6 +78,17 @@
     "BleepingComputer"
    ],
    "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/"
+  },
+  {
+   "date": "2026-11-19",
+   "region": "SG",
+   "cat": "Advisory",
+   "title": "Critical Vulnerabilities in PHP",
+   "desc": "Attackers can exploit multiple critical vulnerabilities in PHP to execute arbitrary code, corrupt memory and cause denial of service. Patch immediately.",
+   "tags": [
+    "SingCERT"
+   ],
+   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-167"
   },
   {
    "date": "2026-11-19",
@@ -243,17 +254,6 @@
     "CISA"
    ],
    "link": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors"
-  },
-  {
-   "date": "2026-11-03",
-   "region": "SG",
-   "cat": "Advisory",
-   "title": "Active Exploitation of Vulnerability in Cisco Adaptive Security Appliance Software and Cisco Secure Firewall Threat Defense",
-   "desc": "Attackers are exploiting a high-severity vulnerability in Cisco Adaptive Security Appliance Software and Cisco Secure Firewall Threat Defense to trigger denial of service. Patch immediately.",
-   "tags": [
-    "SingCERT"
-   ],
-   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-159"
   },
   {
    "date": "2026-10-14",
