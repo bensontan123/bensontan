@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T06:00:42.313Z",
+ "updated": "2026-11-20T07:00:43.228Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -67,6 +67,17 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/splunk-products-multiple-vulnerabilities_20261120"
+  },
+  {
+   "date": "2026-11-20",
+   "region": "CN",
+   "cat": "News",
+   "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+   "desc": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability…",
+   "tags": [
+    "The Hacker News"
+   ],
+   "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html"
   },
   {
    "date": "2026-11-20",
@@ -210,17 +221,6 @@
     "The Hacker News"
    ],
    "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html"
-  },
-  {
-   "date": "2026-11-13",
-   "region": "TW",
-   "cat": "News",
-   "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
-   "desc": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and cybersecurity software company based in Stockholm, found the…",
-   "tags": [
-    "The Hacker News"
-   ],
-   "link": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
   },
   {
    "date": "2026-11-11",

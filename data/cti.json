@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T06:00:42.313Z",
+ "updated": "2026-11-20T07:00:43.228Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -348,6 +348,16 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+     "desc": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability…",
+     "tags": [
+      "2026-11-20"
+     ],
+     "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
      "desc": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of…",
      "tags": [
@@ -384,16 +394,6 @@
       "2026-11-19"
      ],
      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03"
-    },
-    {
-     "cat": "CISA",
-     "sev": "NEWS",
-     "title": "Autonomy Logic OpenPLC Runtime",
-     "desc": "View CSAF Summary Successful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created. The following versions of Autonomy Logic OpenPLC Runtime are affected: OpenPLC Runtime <=4.2.4…",
-     "tags": [
-      "2026-11-19"
-     ],
-     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01"
     }
    ]
   }
