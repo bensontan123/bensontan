@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T18:00:45.960Z",
+ "updated": "2026-11-20T21:00:46.483Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -89,6 +89,17 @@
     "BleepingComputer"
    ],
    "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/"
+  },
+  {
+   "date": "2026-11-20",
+   "region": "CN",
+   "cat": "News",
+   "title": "US companies’ use of Chinese open weight AI draws rebuke from House chairmen",
+   "desc": "An investigation led by the House Homeland Security Committee focused on the dangers of U.S. companies using lower-cost open weight AI models for certain projects.",
+   "tags": [
+    "The Record"
+   ],
+   "link": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation"
   },
   {
    "date": "2026-11-20",
@@ -254,17 +265,6 @@
     "CISA"
    ],
    "link": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors"
-  },
-  {
-   "date": "2026-10-14",
-   "region": "JP",
-   "cat": "Advisory",
-   "title": "Security Alert: Microsoft Releases October 2026 Security Updates",
-   "desc": "",
-   "tags": [
-    "JPCERT/CC"
-   ],
-   "link": "https://www.jpcert.or.jp/english/at/2026/at260031.html"
   }
  ]
 }

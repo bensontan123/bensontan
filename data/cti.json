@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T20:00:46.519Z",
+ "updated": "2026-11-20T21:00:46.483Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -229,17 +229,6 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-14492 — advisory",
-     "desc": "The WP Duplicate – WordPress Migration Plugin plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.1.11 via the save_single_batch_file function. This is due to a PHP type-juggling authentication bypass via loose != comparison with no is_string() guard…",
-     "tags": [
-      "published 2026-11-19",
-      "EPSS 1.2%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-14492"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
      "title": "CVE-2026-118383 — advisory",
      "desc": "A use-after-free in the replication component of MongoDB Server can occur when a newly elected replica set primary completes catch-up. The condition can be caused by requests that do not require authentication, and may result in the server terminating unexpectedly or, under certain conditions…",
      "tags": [
@@ -269,6 +258,17 @@
       "EPSS 0.5%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-130786"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-130675 — advisory",
+     "desc": "Craft CMS from 5.0.0 before 5.11.4 contains a remote code execution vulnerability in ImageTransforms::normalizeTransform() that allows attackers to instantiate arbitrary classes by supplying class:null with a __class key. Attackers can reach the method through Craft Commerce's payments/pay redirect…",
+     "tags": [
+      "published 2026-11-18",
+      "EPSS 0.5%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-130675"
     }
    ]
   },
@@ -351,6 +351,16 @@
      "link": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog"
     },
     {
+     "cat": "SANS ISC",
+     "sev": "NEWS",
+     "title": "ISC Stormcast For Friday, November 20th, 2026 https://isc.sans.edu/podcastdetail/10188, (Fri, Nov 20th)",
+     "desc": "",
+     "tags": [
+      "2026-11-20"
+     ],
+     "link": "https://isc.sans.edu/diary/rss/33538"
+    },
+    {
      "cat": "The Hacker News",
      "sev": "NEWS",
      "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
@@ -389,16 +399,6 @@
       "2026-11-20"
      ],
      "link": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
-     "desc": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks. \"Attackers now use…",
-     "tags": [
-      "2026-11-20"
-     ],
-     "link": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html"
     }
    ]
   }
