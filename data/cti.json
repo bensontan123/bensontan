@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T19:00:57.546Z",
+ "updated": "2026-11-20T20:00:46.519Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -7,7 +7,7 @@
    "items": [
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-129448 — Apache Roller Deserialization of Untrusted Data Vulnerability",
      "desc": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability…",
      "tags": [
@@ -20,7 +20,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-123890 — VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
      "desc": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
      "tags": [
@@ -33,7 +33,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "MEDIUM",
      "title": "CVE-2025-42884 — SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
      "desc": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations.",
      "tags": [
@@ -46,7 +46,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-76466 — Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
      "desc": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
      "tags": [
@@ -229,17 +229,6 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-120002 — advisory",
-     "desc": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
-     "tags": [
-      "published 2026-11-10",
-      "EPSS 0.9%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120002"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
      "title": "CVE-2026-14492 — advisory",
      "desc": "The WP Duplicate – WordPress Migration Plugin plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.1.11 via the save_single_batch_file function. This is due to a PHP type-juggling authentication bypass via loose != comparison with no is_string() guard…",
      "tags": [
@@ -251,17 +240,6 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-120779 — advisory",
-     "desc": "Improper control of generation of code ('code injection') in Visual Studio Code allows an unauthorized attacker to execute code over a network.",
-     "tags": [
-      "published 2026-11-10",
-      "EPSS 0.6%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120779"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
      "title": "CVE-2026-118383 — advisory",
      "desc": "A use-after-free in the replication component of MongoDB Server can occur when a newly elected replica set primary completes catch-up. The condition can be caused by requests that do not require authentication, and may result in the server terminating unexpectedly or, under certain conditions…",
      "tags": [
@@ -269,6 +247,28 @@
       "EPSS 0.7%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-118383"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-130679 — advisory",
+     "desc": "SiYuan before 3.8.10 contains a stored cross-site scripting vulnerability in genAVValueHTML() that allows attackers who can store Attribute View asset values to inject script through an unescaped image src attribute. Attackers can store an image URL containing a double quote and onerror handler…",
+     "tags": [
+      "published 2026-11-18",
+      "EPSS 0.4%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-130679"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-130786 — advisory",
+     "desc": "Incus before 7.6.0 contains a configuration injection vulnerability that allows users who can launch instances from controlled images to inject LXC directives by embedding line breaks in OCI config.json values or oci.entrypoint and oci.cwd keys. Attackers can add liblxc hooks or crafted tmpfs…",
+     "tags": [
+      "published 2026-11-18",
+      "EPSS 0.5%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-130786"
     }
    ]
   },
@@ -341,14 +341,24 @@
    "label": "Threat headlines",
    "items": [
     {
-     "cat": "SANS ISC",
+     "cat": "CISA",
      "sev": "NEWS",
-     "title": "ISC Stormcast For Friday, November 20th, 2026 https://isc.sans.edu/podcastdetail/10188, (Fri, Nov 20th)",
-     "desc": "",
+     "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+     "desc": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-42884 SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic…",
      "tags": [
       "2026-11-20"
      ],
-     "link": "https://isc.sans.edu/diary/rss/33538"
+     "link": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+     "desc": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871, has been described…",
+     "tags": [
+      "2026-11-20"
+     ],
+     "link": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html"
     },
     {
      "cat": "The Hacker News",
@@ -389,16 +399,6 @@
       "2026-11-20"
      ],
      "link": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
-     "desc": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the…",
-     "tags": [
-      "2026-11-20"
-     ],
-     "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
     }
    ]
   }
