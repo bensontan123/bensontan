@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T00:00:44.959Z",
+ "updated": "2026-11-20T01:00:44.281Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -276,64 +276,74 @@
    "items": [
     {
      "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-128135 — NLTK: ZIP package extraction follows in-root hardlinks and overwrites files outside the NLTK data root",
-     "desc": "NLTK: ZIP package extraction follows in-root hardlinks and overwrites files outside the NLTK data root",
-     "tags": [
-      "pip nltk",
-      "published 2026-11-19"
-     ],
-     "link": "https://github.com/advisories/GHSA-wr3g-j6qj-xpgh"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-128136 — NLTK: AllowlistUnpickler does not deny numpy submodule-local file-I/O sinks",
-     "desc": "NLTK: AllowlistUnpickler does not deny numpy submodule-local file-I/O sinks",
-     "tags": [
-      "pip nltk",
-      "published 2026-11-19"
-     ],
-     "link": "https://github.com/advisories/GHSA-c59x-vh6j-3w8v"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-128137 — NLTK corpus-reader view methods bypass the scoped root sandbox via intermediate-directory symlinks",
-     "desc": "NLTK corpus-reader view methods bypass the scoped root sandbox via intermediate-directory symlinks",
-     "tags": [
-      "pip nltk",
-      "published 2026-11-19"
-     ],
-     "link": "https://github.com/advisories/GHSA-g58v-j9g9-5gfg"
-    },
-    {
-     "cat": "GHSA",
      "sev": "CRITICAL",
-     "title": "CVE-2026-128138 — NLTK incomplete fix: additional JVM/JAR sandbox bypass through unvalidated launcher tokens in java() command arguments",
-     "desc": "NLTK incomplete fix: additional JVM/JAR sandbox bypass through unvalidated launcher tokens in java() command arguments",
+     "title": "CVE-2026-114516 — Etherpad: Pre-auth arbitrary file read",
+     "desc": "Etherpad: Pre-auth arbitrary file read",
      "tags": [
-      "pip nltk",
-      "published 2026-11-19"
+      "npm ep_etherpad-lite",
+      "published 2026-11-20"
      ],
-     "link": "https://github.com/advisories/GHSA-x8q7-6c7m-52gw"
+     "link": "https://github.com/advisories/GHSA-mc8w-wjhw-45x5"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-103033 — ALTCHA: Nil-map panic (pre-verification DoS) in v1 parseServerSignature on malformed VerificationData",
+     "desc": "ALTCHA: Nil-map panic (pre-verification DoS) in v1 parseServerSignature on malformed VerificationData",
+     "tags": [
+      "go github.com/altcha-org/altcha-lib-go/v2",
+      "published 2026-11-20"
+     ],
+     "link": "https://github.com/advisories/GHSA-gfwj-45pc-w6r5"
     },
     {
      "cat": "GHSA",
      "sev": "HIGH",
-     "title": "CVE-2026-128139 — NLTK: XMLCorpusView comment and CDATA parsing permits quadratic CPU denial of service",
-     "desc": "NLTK: XMLCorpusView comment and CDATA parsing permits quadratic CPU denial of service",
+     "title": "CVE-2026-103025 — bep/imagemeta: Unbounded memory allocation decoding PNG `zTXt` \"Raw profile type iptc\" chunks",
+     "desc": "bep/imagemeta: Unbounded memory allocation decoding PNG `zTXt` \"Raw profile type iptc\" chunks",
      "tags": [
-      "pip nltk",
-      "published 2026-11-19"
+      "go github.com/bep/imagemeta",
+      "published 2026-11-20"
      ],
-     "link": "https://github.com/advisories/GHSA-j8g8-j4j7-8j54"
+     "link": "https://github.com/advisories/GHSA-7hvw-3c2q-45qg"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-102945 — Aether Project amf: panic on an unrecovered NGAP goroutine",
+     "desc": "Aether Project amf: panic on an unrecovered NGAP goroutine",
+     "tags": [
+      "go github.com/omec-project/amf",
+      "published 2026-11-20"
+     ],
+     "link": "https://github.com/advisories/GHSA-v6w5-38cf-pcv8"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-63012 — baserCMS administrative API authorization bypass through session fallback",
+     "desc": "baserCMS administrative API authorization bypass through session fallback",
+     "tags": [
+      "composer baserproject/baser-core",
+      "published 2026-11-20"
+     ],
+     "link": "https://github.com/advisories/GHSA-wgvx-x5g3-9v29"
     }
    ]
   },
   {
    "label": "Threat headlines",
    "items": [
+    {
+     "cat": "BleepingComputer",
+     "sev": "NEWS",
+     "title": "VMware patches vCenter zero-day exploited in attacks since September",
+     "desc": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026.",
+     "tags": [
+      "2026-11-20"
+     ],
+     "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/"
+    },
     {
      "cat": "CISA",
      "sev": "NEWS",
@@ -383,16 +393,6 @@
       "2026-11-19"
      ],
      "link": "https://isc.sans.edu/diary/rss/33534"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
-     "desc": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary…",
-     "tags": [
-      "2026-11-19"
-     ],
-     "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html"
     }
    ]
   }
