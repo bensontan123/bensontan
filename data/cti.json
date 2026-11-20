@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T10:00:44.160Z",
+ "updated": "2026-11-20T11:00:44.176Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -348,22 +348,22 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
-     "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
-     "desc": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. \"ROMULUS likely operates as a delivery…",
-     "tags": [
-      "2026-11-20"
-     ],
-     "link": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
      "desc": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability…",
      "tags": [
       "2026-11-20"
      ],
      "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
+     "desc": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. \"ROMULUS likely operates as a delivery…",
+     "tags": [
+      "2026-11-20"
+     ],
+     "link": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html"
     },
     {
      "cat": "The Hacker News",
@@ -378,22 +378,22 @@
     {
      "cat": "BleepingComputer",
      "sev": "NEWS",
+     "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
+     "desc": "US cybersecurity company F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to trigger denial-of-service (DoS) or gain remote code execution.",
+     "tags": [
+      "2026-11-20"
+     ],
+     "link": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/"
+    },
+    {
+     "cat": "BleepingComputer",
+     "sev": "NEWS",
      "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
      "desc": "Microsoft released the KB5132057 November Windows 11 preview update, which comes with 28 changes, including improvements to Windows Search, Windows Hello, and the Run dialog.",
      "tags": [
       "2026-11-20"
      ],
      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/"
-    },
-    {
-     "cat": "BleepingComputer",
-     "sev": "NEWS",
-     "title": "VMware patches vCenter zero-day exploited in attacks since September",
-     "desc": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026.",
-     "tags": [
-      "2026-11-20"
-     ],
-     "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/"
     }
    ]
   }
