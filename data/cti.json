@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T15:00:48.873Z",
+ "updated": "2026-11-20T17:00:47.306Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -275,63 +275,63 @@
    "items": [
     {
      "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-105803 — Git LFS may execute arbitrary commands via crafted Git LFS configurations",
-     "desc": "Git LFS may execute arbitrary commands via crafted Git LFS configurations",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-35376 — chcon: recursive relabel not anchored to traversal dirfd (TOCTOU)",
+     "desc": "chcon: recursive relabel not anchored to traversal dirfd (TOCTOU)",
      "tags": [
-      "go github.com/git-lfs/git-lfs",
+      "rust uu_chcon",
       "published 2026-11-20",
-      "EPSS 0.5%"
+      "EPSS 0.1%"
      ],
-     "link": "https://github.com/advisories/GHSA-x72p-hmqp-46hw"
+     "link": "https://github.com/advisories/GHSA-9rv8-9hvg-92mq"
     },
     {
      "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-105802 — Git LFS may execute arbitrary commands via crafted Git configurations",
-     "desc": "Git LFS may execute arbitrary commands via crafted Git configurations",
+     "sev": "LOW",
+     "title": "CVE-2026-35377 —  uu_env incorrectly rejects backslashes within single-quoted strings accepted by GNU env",
+     "desc": " uu_env incorrectly rejects backslashes within single-quoted strings accepted by GNU env",
      "tags": [
-      "go github.com/git-lfs/git-lfs",
+      "rust uu_env",
       "published 2026-11-20",
-      "EPSS 0.5%"
+      "EPSS 0.1%"
      ],
-     "link": "https://github.com/advisories/GHSA-xrgv-7vx6-5vx6"
+     "link": "https://github.com/advisories/GHSA-xhrc-7f76-vh96"
     },
     {
      "cat": "GHSA",
      "sev": "MEDIUM",
-     "title": "CVE-2026-104885 — OpenRemote: Cross-realm MQTT session disconnect without authorization",
-     "desc": "OpenRemote: Cross-realm MQTT session disconnect without authorization",
+     "title": "CVE-2026-35374 — split: TOCTOU output-open allows truncating a swapped file",
+     "desc": "split: TOCTOU output-open allows truncating a swapped file",
      "tags": [
-      "maven io.openremote:openremote-manager",
+      "rust uu_split",
+      "published 2026-11-20",
+      "EPSS 0.1%"
+     ],
+     "link": "https://github.com/advisories/GHSA-fjjq-8hw5-cf9f"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-104773 — CKAN: Session Fixation in Registration View",
+     "desc": "CKAN: Session Fixation in Registration View",
+     "tags": [
+      "pip ckan",
       "published 2026-11-20",
       "EPSS 0.3%"
      ],
-     "link": "https://github.com/advisories/GHSA-3h6w-xcw3-9xjj"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-103026 — Paymenter: Unauthenticated arbitrary method invocation in Livewire components",
-     "desc": "Paymenter: Unauthenticated arbitrary method invocation in Livewire components",
-     "tags": [
-      "composer paymenter/paymenter",
-      "published 2026-11-20",
-      "EPSS 0.4%"
-     ],
-     "link": "https://github.com/advisories/GHSA-prhx-9q2h-ph2x"
+     "link": "https://github.com/advisories/GHSA-6499-jgj4-2wpf"
     },
     {
      "cat": "GHSA",
      "sev": "MEDIUM",
-     "title": "CVE-2026-115565 — storyblok-backup: Stored path traversal via unsanitized Storyblok component names in backup output",
-     "desc": "storyblok-backup: Stored path traversal via unsanitized Storyblok component names in backup output",
+     "title": "CVE-2026-69133 — netty-incubator-codec-ohttp: OHTTP codecs retain consumed outer cumulation buffers after completed exchanges",
+     "desc": "netty-incubator-codec-ohttp: OHTTP codecs retain consumed outer cumulation buffers after completed exchanges",
      "tags": [
-      "npm storyblok-backup",
+      "maven io.netty.incubator:netty-incubator-codec-ohttp",
       "published 2026-11-20",
-      "EPSS 0.4%"
+      "EPSS 0.3%"
      ],
-     "link": "https://github.com/advisories/GHSA-vcx7-pfrh-mcfg"
+     "link": "https://github.com/advisories/GHSA-cg26-4c6j-2x8h"
     }
    ]
   },

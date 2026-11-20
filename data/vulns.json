@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T15:00:48.873Z",
+ "updated": "2026-11-20T17:00:47.306Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -645,36 +645,6 @@
    "epss": 0.025
   },
   {
-   "id": "CVE-2026-104099",
-   "origin": "GHSA",
-   "product": "go github.com/fabiolb/fabio",
-   "name": "Fabio: Access-control bypass through unnormalized request paths",
-   "desc": "Fabio: Access-control bypass through unnormalized request paths",
-   "published": "2026-11-20",
-   "cvss": 9.1,
-   "severity": "CRITICAL",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-4hrh-34w3-5ww8",
-   "ghsaId": "GHSA-4hrh-34w3-5ww8",
-   "epss": 0.005
-  },
-  {
-   "id": "CVE-2026-103035",
-   "origin": "GHSA",
-   "product": "composer nilsteampassnet/TeamPass",
-   "name": "TeamPass folder re-parenting authorization bypass",
-   "desc": "TeamPass folder re-parenting authorization bypass",
-   "published": "2026-11-20",
-   "cvss": 8.3,
-   "severity": "HIGH",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-66q9-mxf2-xqw6",
-   "ghsaId": "GHSA-66q9-mxf2-xqw6",
-   "epss": 0.002
-  },
-  {
    "id": "CVE-2026-103026",
    "origin": "GHSA",
    "product": "composer paymenter/paymenter",
@@ -750,18 +720,48 @@
    "epss": 0.005
   },
   {
-   "id": "CVE-2026-69261",
+   "id": "CVE-2026-104773",
    "origin": "GHSA",
-   "product": "go github.com/git-lfs/git-lfs",
-   "name": "Git LFS may leak HTTP headers after redirections",
-   "desc": "Git LFS may leak HTTP headers after redirections",
+   "product": "pip ckan",
+   "name": "CKAN: Session Fixation in Registration View",
+   "desc": "CKAN: Session Fixation in Registration View",
    "published": "2026-11-20",
-   "cvss": null,
-   "severity": "HIGH",
+   "cvss": 6.8,
+   "severity": "MEDIUM",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-x7xj-4j4f-88xr",
-   "ghsaId": "GHSA-x7xj-4j4f-88xr",
+   "url": "https://github.com/advisories/GHSA-6499-jgj4-2wpf",
+   "ghsaId": "GHSA-6499-jgj4-2wpf",
+   "epss": 0.003
+  },
+  {
+   "id": "CVE-2026-35374",
+   "origin": "GHSA",
+   "product": "rust uu_split",
+   "name": "split: TOCTOU output-open allows truncating a swapped file",
+   "desc": "split: TOCTOU output-open allows truncating a swapped file",
+   "published": "2026-11-20",
+   "cvss": 6.3,
+   "severity": "MEDIUM",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-fjjq-8hw5-cf9f",
+   "ghsaId": "GHSA-fjjq-8hw5-cf9f",
+   "epss": 0.001
+  },
+  {
+   "id": "CVE-2026-115565",
+   "origin": "GHSA",
+   "product": "npm storyblok-backup",
+   "name": "storyblok-backup: Stored path traversal via unsanitized Storyblok component names in backup output",
+   "desc": "storyblok-backup: Stored path traversal via unsanitized Storyblok component names in backup output",
+   "published": "2026-11-20",
+   "cvss": 5.7,
+   "severity": "MEDIUM",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-vcx7-pfrh-mcfg",
+   "ghsaId": "GHSA-vcx7-pfrh-mcfg",
    "epss": 0.004
   }
  ]
