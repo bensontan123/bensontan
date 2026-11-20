@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T21:00:46.483Z",
+ "updated": "2026-11-20T21:52:19.272Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -437,20 +437,6 @@
    "epss": 0.003
   },
   {
-   "id": "CVE-2026-118383",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "A use-after-free in the replication component of MongoDB Server can occur when a newly elected replica set primary completes catch-up. The condition can be caused by requests that do not require authentication, and may result in the server terminating unexpectedly or, under certain conditions…",
-   "published": "2026-11-10",
-   "cvss": 9.5,
-   "severity": "CRITICAL",
-   "vector": "Network / High / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118383",
-   "epss": 0.007
-  },
-  {
    "id": "CVE-2026-130679",
    "origin": "NVD",
    "product": "",
@@ -591,20 +577,6 @@
    "epss": 0.001
   },
   {
-   "id": "CVE-2026-113551",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Audition is affected by a Violation of Secure Design Principles vulnerability that could result in privilege escalation. A low-privileged attacker could leverage this vulnerability to gain elevated access. Exploitation of this issue does not require user interaction. Scope is changed.",
-   "published": "2026-11-10",
-   "cvss": 8.8,
-   "severity": "HIGH",
-   "vector": "Local / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113551",
-   "epss": 0.003
-  },
-  {
    "id": "CVE-2019-25784",
    "origin": "NVD",
    "product": "",
@@ -644,6 +616,34 @@
    "vector": "Network / Low / None",
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-51028",
+   "epss": 0.002
+  },
+  {
+   "id": "CVE-2024-58402",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Azon Dominator releases through 2024-06-03 contain an SQL injection vulnerability that allows unauthenticated attackers to manipulate database queries through the cid parameter in /fetch_products.php. Attackers can send crafted POST requests with boolean-based or time-based blind payloads to…",
+   "published": "2026-11-18",
+   "cvss": 8.8,
+   "severity": "HIGH",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58402",
+   "epss": 0.003
+  },
+  {
+   "id": "CVE-2026-130766",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Obot from 0.26.0 before 0.27.0 fails to validate the resource identifier in remote MCP server protected resource metadata, allowing malicious MCP servers to steal access tokens. Attackers can name a different service and authorization server with chosen scopes, causing Obot to obtain the victim's…",
+   "published": "2026-11-18",
+   "cvss": 8.8,
+   "severity": "HIGH",
+   "vector": "Network / High / Passive",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130766",
    "epss": 0.002
   },
   {

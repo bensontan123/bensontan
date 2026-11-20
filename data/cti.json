@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T21:00:46.483Z",
+ "updated": "2026-11-20T21:52:19.272Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -229,17 +229,6 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-118383 — advisory",
-     "desc": "A use-after-free in the replication component of MongoDB Server can occur when a newly elected replica set primary completes catch-up. The condition can be caused by requests that do not require authentication, and may result in the server terminating unexpectedly or, under certain conditions…",
-     "tags": [
-      "published 2026-11-10",
-      "EPSS 0.7%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-118383"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
      "title": "CVE-2026-130679 — advisory",
      "desc": "SiYuan before 3.8.10 contains a stored cross-site scripting vulnerability in genAVValueHTML() that allows attackers who can store Attribute View asset values to inject script through an unescaped image src attribute. Attackers can store an image URL containing a double quote and onerror handler…",
      "tags": [
@@ -269,6 +258,17 @@
       "EPSS 0.5%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-130675"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-130733 — advisory",
+     "desc": "Grav from 2.0.0 before 2.2.18 contains an authorization bypass vulnerability that allows publishers to overwrite pages their per-page permissions deny by abusing FolderStorage key delimiter collisions and PageStorage folder reconstruction. Attackers can rename a folder like locked*** or save from a…",
+     "tags": [
+      "published 2026-11-18",
+      "EPSS 0.3%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-130733"
     }
    ]
   },
