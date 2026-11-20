@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T17:00:47.306Z",
+ "updated": "2026-11-20T18:00:45.960Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -437,19 +437,6 @@
    "epss": 0.003
   },
   {
-   "id": "CVE-2026-14914",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Unrestricted upload of file with dangerous type vulnerability in Tegsoft Yönetim ve Bilişim Hizmetleri Tic. Ltd. Şti. Tegsoft Contact Center allows Upload a Web Shell to a Web Server.\n\nThis issue affects Tegsoft Contact Center: before latest-202611161510.",
-   "published": "2026-11-20",
-   "cvss": 10,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14914"
-  },
-  {
    "id": "CVE-2026-120002",
    "origin": "NVD",
    "product": "",
@@ -643,6 +630,20 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133493",
    "epss": 0.025
+  },
+  {
+   "id": "CVE-2026-130683",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "SiYuan before 3.8.10 uses an incomplete deny-list in IsSensitivePath that omits shell-initialization files such as .zshenv and .bash_profile, as well as ~/.local. Authenticated administrators can call /api/file/copyFile with an absolute destination outside the workspace to write payloads there…",
+   "published": "2026-11-18",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Local / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130683",
+   "epss": 0.003
   },
   {
    "id": "CVE-2026-103026",

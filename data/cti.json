@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T17:00:47.306Z",
+ "updated": "2026-11-20T18:00:45.960Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -229,16 +229,6 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-14914 — advisory",
-     "desc": "Unrestricted upload of file with dangerous type vulnerability in Tegsoft Yönetim ve Bilişim Hizmetleri Tic. Ltd. Şti. Tegsoft Contact Center allows Upload a Web Shell to a Web Server.\n\nThis issue affects Tegsoft Contact Center: before latest-202611161510.",
-     "tags": [
-      "published 2026-11-20"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-14914"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
      "title": "CVE-2026-120002 — advisory",
      "desc": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
      "tags": [
@@ -267,6 +257,17 @@
       "published 2026-11-20"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-80188"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-120779 — advisory",
+     "desc": "Improper control of generation of code ('code injection') in Visual Studio Code allows an unauthorized attacker to execute code over a network.",
+     "tags": [
+      "published 2026-11-10",
+      "EPSS 0.6%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120779"
     }
    ]
   },
@@ -351,6 +352,16 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+     "desc": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company…",
+     "tags": [
+      "2026-11-20"
+     ],
+     "link": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
      "desc": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other…",
      "tags": [
@@ -387,16 +398,6 @@
       "2026-11-20"
      ],
      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-     "desc": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability…",
-     "tags": [
-      "2026-11-20"
-     ],
-     "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html"
     }
    ]
   }

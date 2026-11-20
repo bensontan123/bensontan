@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T12:00:50.983Z",
+ "updated": "2026-11-20T18:00:45.960Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -89,6 +89,17 @@
     "BleepingComputer"
    ],
    "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/"
+  },
+  {
+   "date": "2026-11-20",
+   "region": "CN",
+   "cat": "News",
+   "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
+   "desc": "A China-linked threat actor used the open source AI penetration testing tool Cairn to persistently attack two universities, and in one case, possibly discover a zero-day bug, researchers said.",
+   "tags": [
+    "The Record"
+   ],
+   "link": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day"
   },
   {
    "date": "2026-11-19",
@@ -254,17 +265,6 @@
     "JPCERT/CC"
    ],
    "link": "https://www.jpcert.or.jp/english/at/2026/at260031.html"
-  },
-  {
-   "date": "2026-09-09",
-   "region": "JP",
-   "cat": "Advisory",
-   "title": "Security Alert: Alert Regarding Vulnerabilities in Adobe Acrobat and Reader (APSB26-141)",
-   "desc": "",
-   "tags": [
-    "JPCERT/CC"
-   ],
-   "link": "https://www.jpcert.or.jp/english/at/2026/at260026.html"
   }
  ]
 }
