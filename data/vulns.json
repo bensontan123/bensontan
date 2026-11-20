@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T06:00:42.313Z",
+ "updated": "2026-11-20T08:00:43.373Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -618,6 +618,19 @@
    "epss": 0.004
   },
   {
+   "id": "CVE-2026-133493",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "A vulnerability was identified in D-Link DIR-600L 2.17b02. Affected is the function genacgi_main of the file gena.cgi of the component GENA Handler. Such manipulation leads to os command injection. The attack can be launched remotely. The exploit is publicly available and might be used.",
+   "published": "2026-11-20",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133493"
+  },
+  {
    "id": "CVE-2026-130683",
    "origin": "NVD",
    "product": "",
@@ -644,19 +657,6 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130774",
    "epss": 0.001
-  },
-  {
-   "id": "CVE-2026-133528",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "BeamNG.drive before 0.40.6 contains an out-of-bounds write vulnerability because JIT-compiled LuaJIT traces omit FFI array bounds checks, letting untrusted Lua escape the sandbox. Attackers supplying a malicious mod can JIT-compile an FFI store loop, write out of range using a tostring() address…",
-   "published": "2026-11-20",
-   "cvss": 9.3,
-   "severity": "CRITICAL",
-   "vector": "Local / Low / Passive",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133528"
   },
   {
    "id": "CVE-2026-62955",

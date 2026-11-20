@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T07:00:43.228Z",
+ "updated": "2026-11-20T08:00:43.373Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -348,6 +348,16 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
+     "desc": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. \"ROMULUS likely operates as a delivery…",
+     "tags": [
+      "2026-11-20"
+     ],
+     "link": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
      "desc": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability…",
      "tags": [
@@ -384,16 +394,6 @@
       "2026-11-19"
      ],
      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02"
-    },
-    {
-     "cat": "CISA",
-     "sev": "NEWS",
-     "title": "libumqtt",
-     "desc": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure. The following versions of libumqtt are affected: libumqtt <=1.1.1…",
-     "tags": [
-      "2026-11-19"
-     ],
-     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03"
     }
    ]
   }
