@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T08:00:43.373Z",
+ "updated": "2026-11-20T10:00:44.160Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -378,22 +378,22 @@
     {
      "cat": "BleepingComputer",
      "sev": "NEWS",
+     "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
+     "desc": "Microsoft released the KB5132057 November Windows 11 preview update, which comes with 28 changes, including improvements to Windows Search, Windows Hello, and the Run dialog.",
+     "tags": [
+      "2026-11-20"
+     ],
+     "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/"
+    },
+    {
+     "cat": "BleepingComputer",
+     "sev": "NEWS",
      "title": "VMware patches vCenter zero-day exploited in attacks since September",
      "desc": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026.",
      "tags": [
       "2026-11-20"
      ],
      "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/"
-    },
-    {
-     "cat": "CISA",
-     "sev": "NEWS",
-     "title": "Elecbrakes EB2, VM1, ELBC2000",
-     "desc": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain control of the brakes of a trailer, modify the firmware, disable the brake lights, modify the brake conditions or disable other critical…",
-     "tags": [
-      "2026-11-19"
-     ],
-     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02"
     }
    ]
   }
