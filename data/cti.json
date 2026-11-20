@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T13:00:45.817Z",
+ "updated": "2026-11-20T15:00:48.873Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -14,7 +14,7 @@
       "Synology DiskStation Manager (DSM)",
       "KEV added 2026-11-18",
       "remediate by 2026-11-21",
-      "EPSS 2.2%"
+      "EPSS 2.4%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
     },
@@ -27,7 +27,7 @@
       "BerriAI LiteLLM",
       "KEV added 2026-11-18",
       "remediate by 2026-12-02",
-      "EPSS 61.9%"
+      "EPSS 68.9%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217"
     },
@@ -40,7 +40,7 @@
       "Vanderbilt University Research Electronic Data Capture (REDCap)",
       "KEV added 2026-11-18",
       "remediate by 2026-11-21",
-      "EPSS 25.2%"
+      "EPSS 25.7%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817"
     },
@@ -167,7 +167,7 @@
       "BerriAI LiteLLM",
       "KEV added 2026-11-18",
       "remediate by 2026-12-02",
-      "EPSS 61.9%"
+      "EPSS 68.9%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217"
     },
@@ -180,7 +180,7 @@
       "Vanderbilt University Research Electronic Data Capture (REDCap)",
       "KEV added 2026-11-18",
       "remediate by 2026-11-21",
-      "EPSS 25.2%"
+      "EPSS 25.7%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817"
     },
@@ -229,6 +229,16 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
+     "title": "CVE-2026-14914 — advisory",
+     "desc": "Unrestricted upload of file with dangerous type vulnerability in Tegsoft Yönetim ve Bilişim Hizmetleri Tic. Ltd. Şti. Tegsoft Contact Center allows Upload a Web Shell to a Web Server.\n\nThis issue affects Tegsoft Contact Center: before latest-202611161510.",
+     "tags": [
+      "published 2026-11-20"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-14914"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
      "title": "CVE-2026-120002 — advisory",
      "desc": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
      "tags": [
@@ -244,31 +254,19 @@
      "desc": "The WP Duplicate – WordPress Migration Plugin plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.1.11 via the save_single_batch_file function. This is due to a PHP type-juggling authentication bypass via loose != comparison with no is_string() guard…",
      "tags": [
       "published 2026-11-19",
-      "EPSS 2.4%"
+      "EPSS 1.2%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-14492"
     },
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-120779 — advisory",
-     "desc": "Improper control of generation of code ('code injection') in Visual Studio Code allows an unauthorized attacker to execute code over a network.",
+     "title": "CVE-2026-80188 — advisory",
+     "desc": "The BuddyBoss Addons plugin for WordPress is vulnerable to Authentication Bypass leading to Account Takeover in versions up to, and including, 1.2.1. This is due to the Social Login REST endpoint trusting unverified Apple and Facebook identity-token claims and linking an attacker-controlled…",
      "tags": [
-      "published 2026-11-10",
-      "EPSS 0.6%"
+      "published 2026-11-20"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120779"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-118383 — advisory",
-     "desc": "A use-after-free in the replication component of MongoDB Server can occur when a newly elected replica set primary completes catch-up. The condition can be caused by requests that do not require authentication, and may result in the server terminating unexpectedly or, under certain conditions…",
-     "tags": [
-      "published 2026-11-10",
-      "EPSS 0.7%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-118383"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-80188"
     }
    ]
   },
@@ -277,58 +275,63 @@
    "items": [
     {
      "cat": "GHSA",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-114516 — Etherpad: Pre-auth arbitrary file read",
-     "desc": "Etherpad: Pre-auth arbitrary file read",
+     "sev": "HIGH",
+     "title": "CVE-2026-105803 — Git LFS may execute arbitrary commands via crafted Git LFS configurations",
+     "desc": "Git LFS may execute arbitrary commands via crafted Git LFS configurations",
      "tags": [
-      "npm ep_etherpad-lite",
-      "published 2026-11-20"
+      "go github.com/git-lfs/git-lfs",
+      "published 2026-11-20",
+      "EPSS 0.5%"
      ],
-     "link": "https://github.com/advisories/GHSA-mc8w-wjhw-45x5"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-103033 — ALTCHA: Nil-map panic (pre-verification DoS) in v1 parseServerSignature on malformed VerificationData",
-     "desc": "ALTCHA: Nil-map panic (pre-verification DoS) in v1 parseServerSignature on malformed VerificationData",
-     "tags": [
-      "go github.com/altcha-org/altcha-lib-go/v2",
-      "published 2026-11-20"
-     ],
-     "link": "https://github.com/advisories/GHSA-gfwj-45pc-w6r5"
+     "link": "https://github.com/advisories/GHSA-x72p-hmqp-46hw"
     },
     {
      "cat": "GHSA",
      "sev": "HIGH",
-     "title": "CVE-2026-103025 — bep/imagemeta: Unbounded memory allocation decoding PNG `zTXt` \"Raw profile type iptc\" chunks",
-     "desc": "bep/imagemeta: Unbounded memory allocation decoding PNG `zTXt` \"Raw profile type iptc\" chunks",
+     "title": "CVE-2026-105802 — Git LFS may execute arbitrary commands via crafted Git configurations",
+     "desc": "Git LFS may execute arbitrary commands via crafted Git configurations",
      "tags": [
-      "go github.com/bep/imagemeta",
-      "published 2026-11-20"
+      "go github.com/git-lfs/git-lfs",
+      "published 2026-11-20",
+      "EPSS 0.5%"
      ],
-     "link": "https://github.com/advisories/GHSA-7hvw-3c2q-45qg"
+     "link": "https://github.com/advisories/GHSA-xrgv-7vx6-5vx6"
     },
     {
      "cat": "GHSA",
      "sev": "MEDIUM",
-     "title": "CVE-2026-102945 — Aether Project amf: panic on an unrecovered NGAP goroutine",
-     "desc": "Aether Project amf: panic on an unrecovered NGAP goroutine",
+     "title": "CVE-2026-104885 — OpenRemote: Cross-realm MQTT session disconnect without authorization",
+     "desc": "OpenRemote: Cross-realm MQTT session disconnect without authorization",
      "tags": [
-      "go github.com/omec-project/amf",
-      "published 2026-11-20"
+      "maven io.openremote:openremote-manager",
+      "published 2026-11-20",
+      "EPSS 0.3%"
      ],
-     "link": "https://github.com/advisories/GHSA-v6w5-38cf-pcv8"
+     "link": "https://github.com/advisories/GHSA-3h6w-xcw3-9xjj"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-103026 — Paymenter: Unauthenticated arbitrary method invocation in Livewire components",
+     "desc": "Paymenter: Unauthenticated arbitrary method invocation in Livewire components",
+     "tags": [
+      "composer paymenter/paymenter",
+      "published 2026-11-20",
+      "EPSS 0.4%"
+     ],
+     "link": "https://github.com/advisories/GHSA-prhx-9q2h-ph2x"
     },
     {
      "cat": "GHSA",
      "sev": "MEDIUM",
-     "title": "CVE-2026-63012 — baserCMS administrative API authorization bypass through session fallback",
-     "desc": "baserCMS administrative API authorization bypass through session fallback",
+     "title": "CVE-2026-115565 — storyblok-backup: Stored path traversal via unsanitized Storyblok component names in backup output",
+     "desc": "storyblok-backup: Stored path traversal via unsanitized Storyblok component names in backup output",
      "tags": [
-      "composer baserproject/baser-core",
-      "published 2026-11-20"
+      "npm storyblok-backup",
+      "published 2026-11-20",
+      "EPSS 0.4%"
      ],
-     "link": "https://github.com/advisories/GHSA-wgvx-x5g3-9v29"
+     "link": "https://github.com/advisories/GHSA-vcx7-pfrh-mcfg"
     }
    ]
   },

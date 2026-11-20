@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T08:00:43.373Z",
+ "updated": "2026-11-20T15:00:48.873Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -46,7 +46,7 @@
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441",
-   "epss": 0.022
+   "epss": 0.024
   },
   {
    "id": "CVE-2026-90817",
@@ -63,7 +63,7 @@
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817",
-   "epss": 0.252
+   "epss": 0.257
   },
   {
    "id": "CVE-2026-90436",
@@ -182,7 +182,7 @@
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217",
-   "epss": 0.619
+   "epss": 0.689
   },
   {
    "id": "CVE-2026-125350",
@@ -437,6 +437,19 @@
    "epss": 0.003
   },
   {
+   "id": "CVE-2026-14914",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Unrestricted upload of file with dangerous type vulnerability in Tegsoft Yönetim ve Bilişim Hizmetleri Tic. Ltd. Şti. Tegsoft Contact Center allows Upload a Web Shell to a Web Server.\n\nThis issue affects Tegsoft Contact Center: before latest-202611161510.",
+   "published": "2026-11-20",
+   "cvss": 10,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14914"
+  },
+  {
    "id": "CVE-2026-120002",
    "origin": "NVD",
    "product": "",
@@ -462,21 +475,20 @@
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14492",
-   "epss": 0.024
+   "epss": 0.012
   },
   {
-   "id": "CVE-2026-114516",
-   "origin": "GHSA",
-   "product": "npm ep_etherpad-lite",
-   "name": "Etherpad: Pre-auth arbitrary file read",
-   "desc": "Etherpad: Pre-auth arbitrary file read",
+   "id": "CVE-2026-80188",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "The BuddyBoss Addons plugin for WordPress is vulnerable to Authentication Bypass leading to Account Takeover in versions up to, and including, 1.2.1. This is due to the Social Login REST endpoint trusting unverified Apple and Facebook identity-token claims and linking an attacker-controlled…",
    "published": "2026-11-20",
    "cvss": 9.8,
    "severity": "CRITICAL",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-mc8w-wjhw-45x5",
-   "ghsaId": "GHSA-mc8w-wjhw-45x5"
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80188"
   },
   {
    "id": "CVE-2026-120779",
@@ -545,7 +557,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76536"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76536",
+   "epss": 0.003
   },
   {
    "id": "CVE-2026-115139",
@@ -628,133 +641,128 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133493"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133493",
+   "epss": 0.025
   },
   {
-   "id": "CVE-2026-130683",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "SiYuan before 3.8.10 uses an incomplete deny-list in IsSensitivePath that omits shell-initialization files such as .zshenv and .bash_profile, as well as ~/.local. Authenticated administrators can call /api/file/copyFile with an absolute destination outside the workspace to write payloads there…",
-   "published": "2026-11-18",
-   "cvss": 9.3,
-   "severity": "CRITICAL",
-   "vector": "Local / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130683",
-   "epss": 0.003
-  },
-  {
-   "id": "CVE-2026-130774",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Incus before 7.6.0 contains a privilege escalation vulnerability: rebuilding a never-started unprivileged container makes it boot without a user namespace. Root processes inside the container run as host uid 0, keeping capabilities like sys_module, with no device cgroup restriction, letting them…",
-   "published": "2026-11-18",
-   "cvss": 9.3,
-   "severity": "CRITICAL",
-   "vector": "Local / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130774",
-   "epss": 0.001
-  },
-  {
-   "id": "CVE-2026-62955",
+   "id": "CVE-2026-104099",
    "origin": "GHSA",
-   "product": "composer baserproject/baser-core",
-   "name": "baserCMS: Path Traversal Bypass via realpath() in BcThemeFileService (CVE-2026-30940 Patch Bypass)",
-   "desc": "baserCMS: Path Traversal Bypass via realpath() in BcThemeFileService (CVE-2026-30940 Patch Bypass)",
+   "product": "go github.com/fabiolb/fabio",
+   "name": "Fabio: Access-control bypass through unnormalized request paths",
+   "desc": "Fabio: Access-control bypass through unnormalized request paths",
    "published": "2026-11-20",
-   "cvss": 7.2,
+   "cvss": 9.1,
+   "severity": "CRITICAL",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-4hrh-34w3-5ww8",
+   "ghsaId": "GHSA-4hrh-34w3-5ww8",
+   "epss": 0.005
+  },
+  {
+   "id": "CVE-2026-103035",
+   "origin": "GHSA",
+   "product": "composer nilsteampassnet/TeamPass",
+   "name": "TeamPass folder re-parenting authorization bypass",
+   "desc": "TeamPass folder re-parenting authorization bypass",
+   "published": "2026-11-20",
+   "cvss": 8.3,
    "severity": "HIGH",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-2pj4-v76f-wjvx",
-   "ghsaId": "GHSA-2pj4-v76f-wjvx"
+   "url": "https://github.com/advisories/GHSA-66q9-mxf2-xqw6",
+   "ghsaId": "GHSA-66q9-mxf2-xqw6",
+   "epss": 0.002
   },
   {
-   "id": "CVE-2026-103025",
+   "id": "CVE-2026-103026",
    "origin": "GHSA",
-   "product": "go github.com/bep/imagemeta",
-   "name": "bep/imagemeta: Unbounded memory allocation decoding PNG `zTXt` \"Raw profile type iptc\" chunks",
-   "desc": "bep/imagemeta: Unbounded memory allocation decoding PNG `zTXt` \"Raw profile type iptc\" chunks",
+   "product": "composer paymenter/paymenter",
+   "name": "Paymenter: Unauthenticated arbitrary method invocation in Livewire components",
+   "desc": "Paymenter: Unauthenticated arbitrary method invocation in Livewire components",
+   "published": "2026-11-20",
+   "cvss": 8.1,
+   "severity": "HIGH",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-prhx-9q2h-ph2x",
+   "ghsaId": "GHSA-prhx-9q2h-ph2x",
+   "epss": 0.004
+  },
+  {
+   "id": "CVE-2026-130176",
+   "origin": "GHSA",
+   "product": "pip amqtt",
+   "name": "aMQTT: Denial of Service (DoS) via Memory Leak in Unmanaged QoS 2 Session Handshakes",
+   "desc": "aMQTT: Denial of Service (DoS) via Memory Leak in Unmanaged QoS 2 Session Handshakes",
+   "published": "2026-11-20",
+   "cvss": 7.5,
+   "severity": "HIGH",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-wcqj-wx85-c75p",
+   "ghsaId": "GHSA-wcqj-wx85-c75p",
+   "epss": 0.004
+  },
+  {
+   "id": "CVE-2026-115463",
+   "origin": "GHSA",
+   "product": "composer poweradmin/poweradmin",
+   "name": "Poweradmin: The email second factor is an mt_rand() six-digit code verified with no attempt limit or lockout, so an attacker holding the…",
+   "desc": "Poweradmin: The email second factor is an mt_rand() six-digit code verified with no attempt limit or lockout, so an attacker holding the password can brute-force it within the validity window",
+   "published": "2026-11-20",
+   "cvss": 7.4,
+   "severity": "HIGH",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-9657-8vc2-7g2p",
+   "ghsaId": "GHSA-9657-8vc2-7g2p",
+   "epss": 0.006
+  },
+  {
+   "id": "CVE-2026-105803",
+   "origin": "GHSA",
+   "product": "go github.com/git-lfs/git-lfs",
+   "name": "Git LFS may execute arbitrary commands via crafted Git LFS configurations",
+   "desc": "Git LFS may execute arbitrary commands via crafted Git LFS configurations",
    "published": "2026-11-20",
    "cvss": null,
    "severity": "HIGH",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-7hvw-3c2q-45qg",
-   "ghsaId": "GHSA-7hvw-3c2q-45qg"
+   "url": "https://github.com/advisories/GHSA-x72p-hmqp-46hw",
+   "ghsaId": "GHSA-x72p-hmqp-46hw",
+   "epss": 0.005
   },
   {
-   "id": "CVE-2026-63012",
+   "id": "CVE-2026-105802",
    "origin": "GHSA",
-   "product": "composer baserproject/baser-core",
-   "name": "baserCMS administrative API authorization bypass through session fallback",
-   "desc": "baserCMS administrative API authorization bypass through session fallback",
+   "product": "go github.com/git-lfs/git-lfs",
+   "name": "Git LFS may execute arbitrary commands via crafted Git configurations",
+   "desc": "Git LFS may execute arbitrary commands via crafted Git configurations",
    "published": "2026-11-20",
-   "cvss": 6.5,
-   "severity": "MEDIUM",
+   "cvss": null,
+   "severity": "HIGH",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-wgvx-x5g3-9v29",
-   "ghsaId": "GHSA-wgvx-x5g3-9v29"
+   "url": "https://github.com/advisories/GHSA-xrgv-7vx6-5vx6",
+   "ghsaId": "GHSA-xrgv-7vx6-5vx6",
+   "epss": 0.005
   },
   {
-   "id": "CVE-2026-77378",
+   "id": "CVE-2026-69261",
    "origin": "GHSA",
-   "product": "composer bolt/core",
-   "name": "Bolt ListFormatHelper SQL injection",
-   "desc": "Bolt ListFormatHelper SQL injection",
+   "product": "go github.com/git-lfs/git-lfs",
+   "name": "Git LFS may leak HTTP headers after redirections",
+   "desc": "Git LFS may leak HTTP headers after redirections",
    "published": "2026-11-20",
-   "cvss": 6.5,
-   "severity": "MEDIUM",
+   "cvss": null,
+   "severity": "HIGH",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-r7h9-qx4h-77j5",
-   "ghsaId": "GHSA-r7h9-qx4h-77j5"
-  },
-  {
-   "id": "CVE-2026-77376",
-   "origin": "GHSA",
-   "product": "composer bolt/core",
-   "name": "Bolt: Open redirect enables post-authentication redirection to arbitrary domains",
-   "desc": "Bolt: Open redirect enables post-authentication redirection to arbitrary domains",
-   "published": "2026-11-20",
-   "cvss": 6.1,
-   "severity": "MEDIUM",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-xr6g-7g83-j865",
-   "ghsaId": "GHSA-xr6g-7g83-j865"
-  },
-  {
-   "id": "CVE-2026-77382",
-   "origin": "GHSA",
-   "product": "rust falcon-rust",
-   "name": "falcon-rust: Discrete-Gaussian sampler runs at 2^-33 precision, far below Falcon's requirement (reference KAT vectors no longer pass)",
-   "desc": "falcon-rust: Discrete-Gaussian sampler runs at 2^-33 precision, far below Falcon's requirement (reference KAT vectors no longer pass)",
-   "published": "2026-11-20",
-   "cvss": 5.9,
-   "severity": "MEDIUM",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-25rm-9wvm-m38v",
-   "ghsaId": "GHSA-25rm-9wvm-m38v"
-  },
-  {
-   "id": "CVE-2026-103033",
-   "origin": "GHSA",
-   "product": "go github.com/altcha-org/altcha-lib-go/v2",
-   "name": "ALTCHA: Nil-map panic (pre-verification DoS) in v1 parseServerSignature on malformed VerificationData",
-   "desc": "ALTCHA: Nil-map panic (pre-verification DoS) in v1 parseServerSignature on malformed VerificationData",
-   "published": "2026-11-20",
-   "cvss": 5.3,
-   "severity": "MEDIUM",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-gfwj-45pc-w6r5",
-   "ghsaId": "GHSA-gfwj-45pc-w6r5"
+   "url": "https://github.com/advisories/GHSA-x7xj-4j4f-88xr",
+   "ghsaId": "GHSA-x7xj-4j4f-88xr",
+   "epss": 0.004
   }
  ]
 }
