@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T20:00:39.636Z",
+ "updated": "2026-11-21T23:00:51.074Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -391,12 +391,12 @@
     {
      "cat": "BleepingComputer",
      "sev": "NEWS",
-     "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
-     "desc": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration…",
+     "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+     "desc": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters.",
      "tags": [
       "2026-11-21"
      ],
-     "link": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
+     "link": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/"
     }
    ]
   }
