@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T12:00:45.612Z",
+ "updated": "2026-11-21T12:46:15.143Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -337,6 +337,16 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+     "desc": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials…",
+     "tags": [
+      "2026-11-21"
+     ],
+     "link": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
      "desc": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from…",
      "tags": [
@@ -383,16 +393,6 @@
       "2026-11-21"
      ],
      "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/"
-    },
-    {
-     "cat": "CISA",
-     "sev": "NEWS",
-     "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-     "desc": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-42884 SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic…",
-     "tags": [
-      "2026-11-20"
-     ],
-     "link": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog"
     }
    ]
   }
