@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T21:52:19.272Z",
+ "updated": "2026-11-21T00:00:45.258Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -277,63 +277,58 @@
    "items": [
     {
      "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-35376 — chcon: recursive relabel not anchored to traversal dirfd (TOCTOU)",
-     "desc": "chcon: recursive relabel not anchored to traversal dirfd (TOCTOU)",
+     "sev": "HIGH",
+     "title": "CVE-2026-122247 — Budibase: Unauthenticated global-admin & database creation via tenant-confusion bypass of the one-time init guard (`POST…",
+     "desc": "Budibase: Unauthenticated global-admin & database creation via tenant-confusion bypass of the one-time init guard (`POST /api/global/users/init`)",
      "tags": [
-      "rust uu_chcon",
-      "published 2026-11-20",
-      "EPSS 0.1%"
+      "npm @budibase/server",
+      "published 2026-11-20"
      ],
-     "link": "https://github.com/advisories/GHSA-9rv8-9hvg-92mq"
+     "link": "https://github.com/advisories/GHSA-25qc-m4pw-2w8r"
     },
     {
      "cat": "GHSA",
-     "sev": "LOW",
-     "title": "CVE-2026-35377 —  uu_env incorrectly rejects backslashes within single-quoted strings accepted by GNU env",
-     "desc": " uu_env incorrectly rejects backslashes within single-quoted strings accepted by GNU env",
+     "sev": "HIGH",
+     "title": "CVE-2026-122244 — Budibase: Cross-privilege Stored XSS in the Budibase Builder via broken HTML-escaping in `jsonFormatter.format()` rendered through…",
+     "desc": "Budibase: Cross-privilege Stored XSS in the Budibase Builder via broken HTML-escaping in `jsonFormatter.format()` rendered through `{@html}` in the CSP-less Builder origin",
      "tags": [
-      "rust uu_env",
-      "published 2026-11-20",
-      "EPSS 0.1%"
+      "npm @budibase/server",
+      "published 2026-11-20"
      ],
-     "link": "https://github.com/advisories/GHSA-xhrc-7f76-vh96"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-35374 — split: TOCTOU output-open allows truncating a swapped file",
-     "desc": "split: TOCTOU output-open allows truncating a swapped file",
-     "tags": [
-      "rust uu_split",
-      "published 2026-11-20",
-      "EPSS 0.1%"
-     ],
-     "link": "https://github.com/advisories/GHSA-fjjq-8hw5-cf9f"
+     "link": "https://github.com/advisories/GHSA-r2q3-7m4h-63qg"
     },
     {
      "cat": "GHSA",
      "sev": "MEDIUM",
-     "title": "CVE-2026-104773 — CKAN: Session Fixation in Registration View",
-     "desc": "CKAN: Session Fixation in Registration View",
+     "title": "CVE-2026-132276 — wcmatch: Polynomial-time ReDoS when matching untrusted names against multi-star patterns (default flags)",
+     "desc": "wcmatch: Polynomial-time ReDoS when matching untrusted names against multi-star patterns (default flags)",
      "tags": [
-      "pip ckan",
-      "published 2026-11-20",
-      "EPSS 0.3%"
+      "pip wcmatch",
+      "published 2026-11-20"
      ],
-     "link": "https://github.com/advisories/GHSA-6499-jgj4-2wpf"
+     "link": "https://github.com/advisories/GHSA-53pm-wgxf-c6qf"
     },
     {
      "cat": "GHSA",
      "sev": "MEDIUM",
-     "title": "CVE-2026-69133 — netty-incubator-codec-ohttp: OHTTP codecs retain consumed outer cumulation buffers after completed exchanges",
-     "desc": "netty-incubator-codec-ohttp: OHTTP codecs retain consumed outer cumulation buffers after completed exchanges",
+     "title": "CVE-2026-132277 — Inscriptis: Quadratic memory growth from sibling <table> elements in get_text()",
+     "desc": "Inscriptis: Quadratic memory growth from sibling <table> elements in get_text()",
      "tags": [
-      "maven io.netty.incubator:netty-incubator-codec-ohttp",
-      "published 2026-11-20",
-      "EPSS 0.3%"
+      "pip inscriptis",
+      "published 2026-11-20"
      ],
-     "link": "https://github.com/advisories/GHSA-cg26-4c6j-2x8h"
+     "link": "https://github.com/advisories/GHSA-q87h-c5m7-659j"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-132275 — svglib: Exponential resource consumption via nested <use> references in svg2rlg",
+     "desc": "svglib: Exponential resource consumption via nested <use> references in svg2rlg",
+     "tags": [
+      "pip svglib",
+      "published 2026-11-20"
+     ],
+     "link": "https://github.com/advisories/GHSA-555j-qj3j-c8jv"
     }
    ]
   },
