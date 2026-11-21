@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T15:00:45.856Z",
+ "updated": "2026-11-21T18:00:40.940Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -465,6 +465,19 @@
    "epss": 0.005
   },
   {
+   "id": "CVE-2026-134292",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "SurrealDB 1.0.0 before 4.0.0 contains a capability check bypass in its embedded JavaScript scripting engine, where the surrealdb.functions bridge calls the internal fnc::synchronous() and fnc::asynchronous() dispatchers without enforcing function capability checks. Authenticated users denied access…",
+   "published": "2026-11-21",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134292"
+  },
+  {
    "id": "CVE-2026-130774",
    "origin": "NVD",
    "product": "",
@@ -493,6 +506,19 @@
    "epss": 0.001
   },
   {
+   "id": "CVE-2026-134258",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Admidio 5.0.0 before 5.0.18 contains a path traversal vulnerability in the Documents & Files renameFile() action that allows authenticated users with folder upload rights to move files outside adm_my_files by supplying ../ sequences in adm_new_name. Attackers can relocate an uploaded SVG containing…",
+   "published": "2026-11-21",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / Passive",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134258"
+  },
+  {
    "id": "CVE-2026-130770",
    "origin": "NVD",
    "product": "",
@@ -505,6 +531,45 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130770",
    "epss": 0.001
+  },
+  {
+   "id": "CVE-2026-134262",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Admidio 5.0.0 before 5.0.18 contains a stored cross-site scripting vulnerability that allows role administrators to inject JavaScript by placing quote-breaking payloads in role names rendered unencoded in the data-message attribute in modules/profile/roles_functions.php. Attackers can execute…",
+   "published": "2026-11-21",
+   "cvss": 9.2,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / Passive",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134262"
+  },
+  {
+   "id": "CVE-2026-134287",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "OpenRemote core before 1.34.0 contains an authentication bypass vulnerability in UserAssetProvisioningMQTTHandler that allows unauthenticated attackers to impersonate provisioned devices without proof of private key possession. Attackers can publish a known device's public certificate to the…",
+   "published": "2026-11-21",
+   "cvss": 9.2,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134287"
+  },
+  {
+   "id": "CVE-2026-134352",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Rclone from 1.51.0 before 1.76.0 contains an authentication bypass vulnerability in serve sftp --auth-proxy because the generateCacheKey cache key omits the authentication method. Attackers knowing a victim's base64 public key can submit it as a password from the same client IP to reuse the cached…",
+   "published": "2026-11-21",
+   "cvss": 9.2,
+   "severity": "CRITICAL",
+   "vector": "Network / High / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134352"
   },
   {
    "id": "CVE-2026-130766",
@@ -549,6 +614,32 @@
    "epss": 0.006
   },
   {
+   "id": "CVE-2026-134250",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Grav Form plugin 1.1.0 before 9.1.40 contains a stored cross-site scripting vulnerability in Form::uploadFiles(), which sanitizes SVG only when a file's last extension is .svg and accepts markup under unrecognized extensions. Anonymous attackers can upload files like drawing.svg.foo through public…",
+   "published": "2026-11-21",
+   "cvss": 8.8,
+   "severity": "HIGH",
+   "vector": "Network / High / Passive",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134250"
+  },
+  {
+   "id": "CVE-2026-134293",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "SurrealDB 3.1.0 before 4.0.0 contains an SQL injection vulnerability in its Model Context Protocol (MCP) server because the identifier validator (consume_backtick_ident and validate_identifier) treats the first backtick as the closing delimiter, ignoring escape characters that the SurrealQL parser…",
+   "published": "2026-11-21",
+   "cvss": 8.8,
+   "severity": "HIGH",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134293"
+  },
+  {
    "id": "CVE-2026-77309",
    "origin": "GHSA",
    "product": "pip ait-gui",
@@ -562,104 +653,6 @@
    "url": "https://github.com/advisories/GHSA-jrjx-9jjw-747m",
    "ghsaId": "GHSA-jrjx-9jjw-747m",
    "epss": 0.011
-  },
-  {
-   "id": "CVE-2026-128126",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "AIOHTTP is an asynchronous HTTP client/server framework for asyncio and Python. Prior to 3.14.4, Request.post() does not limit the number of fields in a URL-encoded form body, and inserting many repeated keys into MultiDict takes quadratic time on the event loop. A remote attacker can send a form…",
-   "published": "2026-11-13",
-   "cvss": 8.7,
-   "severity": "HIGH",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-128126",
-   "epss": 0.007
-  },
-  {
-   "id": "CVE-2026-128127",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "AIOHTTP is an asynchronous HTTP client/server framework for asyncio and Python. Prior to 3.14.4, BodyPartReader.read_chunk() processing a multipart part with Content-Transfer-Encoding set to base64 keeps reading until the chunk length is a multiple of four without enforcing a byte limit. A short…",
-   "published": "2026-11-13",
-   "cvss": 8.7,
-   "severity": "HIGH",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-128127",
-   "epss": 0.008
-  },
-  {
-   "id": "CVE-2026-133172",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Cozy Cloud cozy-stack 1.6.62 before 1.6.69 contains an authorization bypass vulnerability in the shared-drive move handler that allows authenticated users to access other instances' files. Attackers owning a shared drive can name another instance's domain and any directory ID as the move source to…",
-   "published": "2026-11-19",
-   "cvss": 8.7,
-   "severity": "HIGH",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133172",
-   "epss": 0.005
-  },
-  {
-   "id": "CVE-2026-134164",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "probe-image-size before 7.5.0 contains an algorithmic-complexity denial of service vulnerability in lib/exif_utils.js that allows remote unauthenticated attackers to exhaust CPU by supplying self-referencing EXIF IFDs. Attackers can submit a crafted 9.6 KB JPEG with repeated ExifIFD and InteropIFD…",
-   "published": "2026-11-20",
-   "cvss": 8.7,
-   "severity": "HIGH",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134164",
-   "epss": 0.01
-  },
-  {
-   "id": "CVE-2026-134167",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "devpi-web before 5.2.0 contains an unauthenticated path traversal vulnerability in the +doc documentation route because docs_file_exists and docs_file_path in doczip.py never confine relpath to the documentation directory. Attackers can request a relpath with a leading // or percent-encoded…",
-   "published": "2026-11-20",
-   "cvss": 8.7,
-   "severity": "HIGH",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134167",
-   "epss": 0.008
-  },
-  {
-   "id": "CVE-2026-134169",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Qwik City before 1.20.3 (@builder.io/qwik-city) and @qwik.dev/router before 2.0.0-rc.4 contain an improperly controlled object modification vulnerability in formToObj that allows unauthenticated attackers to overwrite built-in function properties. Attackers can send a form POST with nested field…",
-   "published": "2026-11-20",
-   "cvss": 8.7,
-   "severity": "HIGH",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134169",
-   "epss": 0.008
-  },
-  {
-   "id": "CVE-2026-133680",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "A vulnerability was found in D-Link DCS-935L 1.10.01. This affects the function loginRouter of the file web/cgi-bin/localrecording/setconf.cgi of the component Local Recording CGI. Performing a manipulation of the argument account/password results in os command injection. Remote exploitation of the…",
-   "published": "2026-11-20",
-   "cvss": 8.6,
-   "severity": "HIGH",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133680",
-   "epss": 0.022
   },
   {
    "id": "CVE-2026-122247",
