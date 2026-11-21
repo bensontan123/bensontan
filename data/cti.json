@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T16:00:46.748Z",
+ "updated": "2026-11-21T17:00:43.066Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -393,7 +393,7 @@
     {
      "cat": "BleepingComputer",
      "sev": "NEWS",
-     "title": "BADBOX 3.0 botnet returns with record-breaking 40 billion daily ad requests",
+     "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
      "desc": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions.",
      "tags": [
       "2026-11-21"
