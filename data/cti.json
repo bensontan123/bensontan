@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T12:46:15.143Z",
+ "updated": "2026-11-21T15:00:45.856Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -14,7 +14,7 @@
       "Apache Roller",
       "KEV added 2026-11-20",
       "remediate by 2026-11-23",
-      "EPSS 1.2%"
+      "EPSS 5.5%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448"
     },
@@ -27,7 +27,7 @@
       "Broadcom VMware vCenter",
       "KEV added 2026-11-20",
       "remediate by 2026-11-23",
-      "EPSS 0.8%"
+      "EPSS 3.0%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890"
     },
@@ -40,7 +40,7 @@
       "SAP NetWeaver",
       "KEV added 2026-11-20",
       "remediate by 2026-11-23",
-      "EPSS 0.3%"
+      "EPSS 0.7%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884"
     },
@@ -53,7 +53,7 @@
       "Cisco Expressway Series",
       "KEV added 2026-11-20",
       "remediate by 2026-11-23",
-      "EPSS 0.4%"
+      "EPSS 2.2%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466"
     },
@@ -66,7 +66,7 @@
       "Synology DiskStation Manager (DSM)",
       "KEV added 2026-11-18",
       "remediate by 2026-11-21",
-      "EPSS 2.4%"
+      "EPSS 3.1%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
     }
@@ -148,54 +148,28 @@
     {
      "cat": "EPSS",
      "sev": "HIGH",
-     "title": "CVE-2026-40217 — BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
-     "desc": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
-     "tags": [
-      "BerriAI LiteLLM",
-      "KEV added 2026-11-18",
-      "remediate by 2026-12-02",
-      "EPSS 68.9%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217"
-    },
-    {
-     "cat": "EPSS",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-90817 — Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
-     "desc": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access an unintended controller route from a…",
-     "tags": [
-      "Vanderbilt University Research Electronic Data Capture (REDCap)",
-      "KEV added 2026-11-18",
-      "remediate by 2026-11-21",
-      "EPSS 25.7%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817"
-    },
-    {
-     "cat": "EPSS",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-116779 — SignalWire FreeSwitch Code Injection Vulnerability",
-     "desc": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.",
-     "tags": [
-      "SignalWire FreeSwitch",
-      "KEV added 2026-11-09",
-      "remediate by 2026-11-12",
-      "EPSS 22.1%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779"
-    },
-    {
-     "cat": "EPSS",
-     "sev": "HIGH",
      "title": "CVE-2026-123158 — OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
      "desc": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
      "tags": [
       "OpenBSD OpenSSH",
       "KEV added 2026-11-09",
       "remediate by 2026-11-12",
-      "EPSS 18.9%"
+      "EPSS 87.7%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158"
+    },
+    {
+     "cat": "EPSS",
+     "sev": "HIGH",
+     "title": "CVE-2026-40217 — BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
+     "desc": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
+     "tags": [
+      "BerriAI LiteLLM",
+      "KEV added 2026-11-18",
+      "remediate by 2026-12-02",
+      "EPSS 78.0%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217"
     },
     {
      "cat": "EPSS",
@@ -206,9 +180,35 @@
       "Barracuda Networks Barracuda Email Security Gateway (ESG)",
       "KEV added 2026-11-10",
       "remediate by 2026-11-13",
-      "EPSS 10.9%"
+      "EPSS 74.5%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
+    },
+    {
+     "cat": "EPSS",
+     "sev": "HIGH",
+     "title": "CVE-2026-111560 — Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+     "desc": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerability could allow an…",
+     "tags": [
+      "Barracuda Networks Multiple Products",
+      "KEV added 2026-11-10",
+      "remediate by 2026-11-13",
+      "EPSS 63.8%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560"
+    },
+    {
+     "cat": "EPSS",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-116779 — SignalWire FreeSwitch Code Injection Vulnerability",
+     "desc": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.",
+     "tags": [
+      "SignalWire FreeSwitch",
+      "KEV added 2026-11-09",
+      "remediate by 2026-11-12",
+      "EPSS 44.1%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779"
     }
    ]
   },
@@ -232,7 +232,8 @@
      "title": "CVE-2026-120539 — advisory",
      "desc": "The Restrictions for BuddyPress plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.5.4 This is due to the plugin splicing the attacker-controlled request URI into a PHP expression inside a double-quoted string and evaluating it with eval(). Because…",
      "tags": [
-      "published 2026-11-21"
+      "published 2026-11-21",
+      "EPSS 2.2%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120539"
     },
@@ -281,7 +282,8 @@
      "desc": "Budibase: Unauthenticated global-admin & database creation via tenant-confusion bypass of the one-time init guard (`POST /api/global/users/init`)",
      "tags": [
       "npm @budibase/server",
-      "published 2026-11-20"
+      "published 2026-11-20",
+      "EPSS 0.8%"
      ],
      "link": "https://github.com/advisories/GHSA-25qc-m4pw-2w8r"
     },
@@ -292,7 +294,8 @@
      "desc": "Budibase: Cross-privilege Stored XSS in the Budibase Builder via broken HTML-escaping in `jsonFormatter.format()` rendered through `{@html}` in the CSP-less Builder origin",
      "tags": [
       "npm @budibase/server",
-      "published 2026-11-20"
+      "published 2026-11-20",
+      "EPSS 0.7%"
      ],
      "link": "https://github.com/advisories/GHSA-r2q3-7m4h-63qg"
     },
@@ -303,7 +306,8 @@
      "desc": "wcmatch: Polynomial-time ReDoS when matching untrusted names against multi-star patterns (default flags)",
      "tags": [
       "pip wcmatch",
-      "published 2026-11-20"
+      "published 2026-11-20",
+      "EPSS 0.9%"
      ],
      "link": "https://github.com/advisories/GHSA-53pm-wgxf-c6qf"
     },
@@ -314,7 +318,8 @@
      "desc": "Inscriptis: Quadratic memory growth from sibling <table> elements in get_text()",
      "tags": [
       "pip inscriptis",
-      "published 2026-11-20"
+      "published 2026-11-20",
+      "EPSS 0.9%"
      ],
      "link": "https://github.com/advisories/GHSA-q87h-c5m7-659j"
     },
@@ -325,7 +330,8 @@
      "desc": "svglib: Exponential resource consumption via nested <use> references in svg2rlg",
      "tags": [
       "pip svglib",
-      "published 2026-11-20"
+      "published 2026-11-20",
+      "EPSS 1.1%"
      ],
      "link": "https://github.com/advisories/GHSA-555j-qj3j-c8jv"
     }
@@ -385,14 +391,14 @@
      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html"
     },
     {
-     "cat": "Krebs on Security",
+     "cat": "BleepingComputer",
      "sev": "NEWS",
-     "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
-     "desc": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by ransomware, has been charged with wire fraud after an FBI sting…",
+     "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+     "desc": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement…",
      "tags": [
       "2026-11-21"
      ],
-     "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/"
+     "link": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/"
     }
    ]
   }
