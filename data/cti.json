@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T07:00:42.861Z",
+ "updated": "2026-11-21T10:00:46.243Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -335,6 +335,26 @@
    "label": "Threat headlines",
    "items": [
     {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+     "desc": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The feature applies to…",
+     "tags": [
+      "2026-11-21"
+     ],
+     "link": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+     "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence…",
+     "tags": [
+      "2026-11-21"
+     ],
+     "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html"
+    },
+    {
      "cat": "Krebs on Security",
      "sev": "NEWS",
      "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
@@ -368,31 +388,11 @@
      "cat": "The Hacker News",
      "sev": "NEWS",
      "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
-     "desc": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871, has been described…",
+     "desc": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871 (CVSS score: 3.5)…",
      "tags": [
       "2026-11-20"
      ],
      "link": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
-     "desc": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company…",
-     "tags": [
-      "2026-11-20"
-     ],
-     "link": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
-     "desc": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other…",
-     "tags": [
-      "2026-11-20"
-     ],
-     "link": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html"
     }
    ]
   }
