@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T18:00:40.940Z",
+ "updated": "2026-11-21T19:00:45.153Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -261,13 +261,12 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-130774 — advisory",
-     "desc": "Incus before 7.6.0 contains a privilege escalation vulnerability: rebuilding a never-started unprivileged container makes it boot without a user namespace. Root processes inside the container run as host uid 0, keeping capabilities like sys_module, with no device cgroup restriction, letting them…",
+     "title": "CVE-2026-133993 — advisory",
+     "desc": "A security flaw has been discovered in D-Link DIR-600L 2.17b02. This affects the function FUN_0040efb0 of the file gena.cgi of the component GENA Subscription Handler. Performing a manipulation of the argument service results in stack-based buffer overflow. The attack is possible to be carried out…",
      "tags": [
-      "published 2026-11-18",
-      "EPSS 0.1%"
+      "published 2026-11-21"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-130774"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133993"
     }
    ]
   },
@@ -392,12 +391,12 @@
     {
      "cat": "BleepingComputer",
      "sev": "NEWS",
-     "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
-     "desc": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions.",
+     "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+     "desc": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration…",
      "tags": [
       "2026-11-21"
      ],
-     "link": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/"
+     "link": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
     }
    ]
   }

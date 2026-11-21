@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T18:00:40.940Z",
+ "updated": "2026-11-21T19:00:45.153Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -478,6 +478,19 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134292"
   },
   {
+   "id": "CVE-2026-133993",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "A security flaw has been discovered in D-Link DIR-600L 2.17b02. This affects the function FUN_0040efb0 of the file gena.cgi of the component GENA Subscription Handler. Performing a manipulation of the argument service results in stack-based buffer overflow. The attack is possible to be carried out…",
+   "published": "2026-11-21",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133993"
+  },
+  {
    "id": "CVE-2026-130774",
    "origin": "NVD",
    "product": "",
@@ -625,19 +638,6 @@
    "vector": "Network / High / Passive",
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134250"
-  },
-  {
-   "id": "CVE-2026-134293",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "SurrealDB 3.1.0 before 4.0.0 contains an SQL injection vulnerability in its Model Context Protocol (MCP) server because the identifier validator (consume_backtick_ident and validate_identifier) treats the first backtick as the closing delimiter, ignoring escape characters that the SurrealQL parser…",
-   "published": "2026-11-21",
-   "cvss": 8.8,
-   "severity": "HIGH",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134293"
   },
   {
    "id": "CVE-2026-77309",
