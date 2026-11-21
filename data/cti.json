@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T19:00:45.153Z",
+ "updated": "2026-11-21T20:00:39.636Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -240,6 +240,16 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
+     "title": "CVE-2026-125294 — advisory",
+     "desc": "The Nexter Blocks Pro plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 5.0.10 via the `tpgb_ajax_register_user()` function. This is due to a byte-level denylist on the `tpgb_acf_key[]` and `tpgb_acf[]` parameters that fails to block Unicode look-alike…",
+     "tags": [
+      "published 2026-11-21"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-125294"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
      "title": "CVE-2026-130786 — advisory",
      "desc": "Incus before 7.6.0 contains a configuration injection vulnerability that allows users who can launch instances from controlled images to inject LXC directives by embedding line breaks in OCI config.json values or oci.entrypoint and oci.cwd keys. Attackers can add liblxc hooks or crafted tmpfs…",
      "tags": [
@@ -257,16 +267,6 @@
       "published 2026-11-21"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-134292"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-133993 — advisory",
-     "desc": "A security flaw has been discovered in D-Link DIR-600L 2.17b02. This affects the function FUN_0040efb0 of the file gena.cgi of the component GENA Subscription Handler. Performing a manipulation of the argument service results in stack-based buffer overflow. The attack is possible to be carried out…",
-     "tags": [
-      "published 2026-11-21"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133993"
     }
    ]
   },

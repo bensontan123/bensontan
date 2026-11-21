@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T19:00:45.153Z",
+ "updated": "2026-11-21T20:00:39.636Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -451,6 +451,19 @@
    "epss": 0.022
   },
   {
+   "id": "CVE-2026-125294",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "The Nexter Blocks Pro plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 5.0.10 via the `tpgb_ajax_register_user()` function. This is due to a byte-level denylist on the `tpgb_acf_key[]` and `tpgb_acf[]` parameters that fails to block Unicode look-alike…",
+   "published": "2026-11-21",
+   "cvss": 9.8,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125294"
+  },
+  {
    "id": "CVE-2026-130786",
    "origin": "NVD",
    "product": "",
@@ -625,19 +638,6 @@
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129220",
    "epss": 0.006
-  },
-  {
-   "id": "CVE-2026-134250",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Grav Form plugin 1.1.0 before 9.1.40 contains a stored cross-site scripting vulnerability in Form::uploadFiles(), which sanitizes SVG only when a file's last extension is .svg and accepts markup under unrecognized extensions. Anonymous attackers can upload files like drawing.svg.foo through public…",
-   "published": "2026-11-21",
-   "cvss": 8.8,
-   "severity": "HIGH",
-   "vector": "Network / High / Passive",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134250"
   },
   {
    "id": "CVE-2026-77309",
