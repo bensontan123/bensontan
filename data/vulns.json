@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T06:00:42.907Z",
+ "updated": "2026-11-21T07:00:42.861Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -437,6 +437,19 @@
    "epss": 0.003
   },
   {
+   "id": "CVE-2026-120539",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "The Restrictions for BuddyPress plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.5.4 This is due to the plugin splicing the attacker-controlled request URI into a PHP expression inside a double-quoted string and evaluating it with eval(). Because…",
+   "published": "2026-11-21",
+   "cvss": 9.8,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120539"
+  },
+  {
    "id": "CVE-2026-130786",
    "origin": "NVD",
    "product": "",
@@ -639,20 +652,6 @@
    "vector": "Network / Low / None",
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133874"
-  },
-  {
-   "id": "CVE-2026-132142",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "A flaw has been found in DrayTek Vigor2960 up to 1.5.1.6. This affects the function dataflowstatus of the file /cgi-bin/mainfunction.cgi of the component CGI Process. This manipulation of the argument option causes stack-based buffer overflow. The attack can be initiated remotely. The exploit has…",
-   "published": "2026-11-18",
-   "cvss": 8.5,
-   "severity": "HIGH",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132142",
-   "epss": 0.005
   },
   {
    "id": "CVE-2026-122247",

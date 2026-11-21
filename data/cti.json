@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T06:00:42.907Z",
+ "updated": "2026-11-21T07:00:42.861Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -229,6 +229,16 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
+     "title": "CVE-2026-120539 — advisory",
+     "desc": "The Restrictions for BuddyPress plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.5.4 This is due to the plugin splicing the attacker-controlled request URI into a PHP expression inside a double-quoted string and evaluating it with eval(). Because…",
+     "tags": [
+      "published 2026-11-21"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120539"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
      "title": "CVE-2026-130786 — advisory",
      "desc": "Incus before 7.6.0 contains a configuration injection vulnerability that allows users who can launch instances from controlled images to inject LXC directives by embedding line breaks in OCI config.json values or oci.entrypoint and oci.cwd keys. Attackers can add liblxc hooks or crafted tmpfs…",
      "tags": [
@@ -258,17 +268,6 @@
       "EPSS 0.1%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133528"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-130770 — advisory",
-     "desc": "Incus before 7.6.0 creates the NBD servers used for virtual machine migration and disk export on abstract unix sockets, which have no permission checks and whose names are visible in /proc/net/unix. A local unprivileged user can connect while an operation runs to read or modify the VM disk, gaining…",
-     "tags": [
-      "published 2026-11-18",
-      "EPSS 0.1%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-130770"
     }
    ]
   },
