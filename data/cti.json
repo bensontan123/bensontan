@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T10:00:46.243Z",
+ "updated": "2026-11-21T12:00:45.612Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -337,6 +337,26 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+     "desc": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from…",
+     "tags": [
+      "2026-11-21"
+     ],
+     "link": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+     "desc": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The…",
+     "tags": [
+      "2026-11-21"
+     ],
+     "link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
      "desc": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The feature applies to…",
      "tags": [
@@ -373,26 +393,6 @@
       "2026-11-20"
      ],
      "link": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog"
-    },
-    {
-     "cat": "SANS ISC",
-     "sev": "NEWS",
-     "title": "ISC Stormcast For Friday, November 20th, 2026 https://isc.sans.edu/podcastdetail/10188, (Fri, Nov 20th)",
-     "desc": "",
-     "tags": [
-      "2026-11-20"
-     ],
-     "link": "https://isc.sans.edu/diary/rss/33538"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
-     "desc": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871 (CVSS score: 3.5)…",
-     "tags": [
-      "2026-11-20"
-     ],
-     "link": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html"
     }
    ]
   }
