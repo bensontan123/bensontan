@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T05:00:43.644Z",
+ "updated": "2026-11-22T07:00:44.448Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -341,6 +341,26 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+     "desc": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero…",
+     "tags": [
+      "2026-11-22"
+     ],
+     "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+     "desc": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs…",
+     "tags": [
+      "2026-11-22"
+     ],
+     "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
      "desc": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials…",
      "tags": [
@@ -377,26 +397,6 @@
       "2026-11-21"
      ],
      "link": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
-     "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence…",
-     "tags": [
-      "2026-11-21"
-     ],
-     "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html"
-    },
-    {
-     "cat": "BleepingComputer",
-     "sev": "NEWS",
-     "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
-     "desc": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters.",
-     "tags": [
-      "2026-11-21"
-     ],
-     "link": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/"
     }
    ]
   }
