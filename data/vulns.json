@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T15:00:43.692Z",
+ "updated": "2026-11-22T23:00:40.435Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -605,46 +605,43 @@
    "epss": 0.004
   },
   {
-   "id": "CVE-2026-130766",
+   "id": "CVE-2026-134814",
    "origin": "NVD",
    "product": "",
    "name": "",
-   "desc": "Obot from 0.26.0 before 0.27.0 fails to validate the resource identifier in remote MCP server protected resource metadata, allowing malicious MCP servers to steal access tokens. Attackers can name a different service and authorization server with chosen scopes, causing Obot to obtain the victim's…",
-   "published": "2026-11-18",
-   "cvss": 8.8,
-   "severity": "HIGH",
-   "vector": "Network / High / Passive",
+   "desc": "binary-parser before 2.3.1 contains a code injection vulnerability that allows attackers controlling parser definitions to inject JavaScript through string-typed options passed unvalidated by Context.generateOption(). Attackers can supply crafted length, lengthInBytes, key, tag, offset, or namely()…",
+   "published": "2026-11-22",
+   "cvss": 9.2,
+   "severity": "CRITICAL",
+   "vector": "Network / High / None",
    "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130766",
-   "epss": 0.002
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134814"
   },
   {
-   "id": "CVE-2026-19793",
+   "id": "CVE-2026-134815",
    "origin": "NVD",
    "product": "",
    "name": "",
-   "desc": "The WP Import Export Lite plugin for WordPress is vulnerable to Limited Code Injection in all versions up to, and including, 3.9.32 via the 'comment' parameter. This is due to a two-stage shortcode check that evaluates the raw mapping placeholder before data substitution, causing the neutralizer to…",
-   "published": "2026-11-21",
-   "cvss": 8.8,
-   "severity": "HIGH",
-   "vector": "Network / Low / Required",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19793",
-   "epss": 0.008
+   "desc": "simple-git before 4.1.0 contains an argument injection vulnerability that allows attackers to bypass the allowUnsafePack guard by supplying the --exec option to non-push git operations. Attackers who influence arguments passed to listRemote() or raw() can inject --exec for ls-remote, archive…",
+   "published": "2026-11-22",
+   "cvss": 9.2,
+   "severity": "CRITICAL",
+   "vector": "Network / High / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134815"
   },
   {
-   "id": "CVE-2026-129220",
+   "id": "CVE-2026-134838",
    "origin": "NVD",
    "product": "",
    "name": "",
-   "desc": "The Everest Forms – Contact Form, Payment Form, Quiz, Survey & Custom Form Builder with AI plugin for WordPress is vulnerable to Missing Authorization in all versions up to, and including, 3.6.4 This is due to the plugin not properly verifying that a user is authorized to perform an action. This…",
-   "published": "2026-11-21",
-   "cvss": 8.8,
-   "severity": "HIGH",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129220",
-   "epss": 0.007
+   "desc": "Weblate before 2026.11 contains an account takeover vulnerability in the reset_password view that allows unauthenticated attackers to reset victim passwords by abusing case-insensitive Unicode e-mail matching. Attackers controlling a lookalike mailbox using a dotless i or other case-folding variant…",
+   "published": "2026-11-22",
+   "cvss": 9.1,
+   "severity": "CRITICAL",
+   "vector": "Network / High / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134838"
   },
   {
    "id": "CVE-2026-77309",
