@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T16:00:45.844Z",
+ "updated": "2026-11-22T19:00:42.284Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -341,6 +341,16 @@
    "label": "Threat headlines",
    "items": [
     {
+     "cat": "SANS ISC",
+     "sev": "NEWS",
+     "title": "A brief history of syslog timestamps, (Sun, Nov 22nd)",
+     "desc": "BLUF: Debian and Ubuntu dropped a config directive in the rsyslogd package in early 2023.",
+     "tags": [
+      "2026-11-22"
+     ],
+     "link": "https://isc.sans.edu/diary/rss/33530"
+    },
+    {
      "cat": "The Hacker News",
      "sev": "NEWS",
      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
@@ -363,6 +373,16 @@
     {
      "cat": "BleepingComputer",
      "sev": "NEWS",
+     "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+     "desc": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving…",
+     "tags": [
+      "2026-11-22"
+     ],
+     "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/"
+    },
+    {
+     "cat": "BleepingComputer",
+     "sev": "NEWS",
      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
      "desc": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes.",
      "tags": [
@@ -379,26 +399,6 @@
       "2026-11-22"
      ],
      "link": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
-     "desc": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials…",
-     "tags": [
-      "2026-11-21"
-     ],
-     "link": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
-     "desc": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from…",
-     "tags": [
-      "2026-11-21"
-     ],
-     "link": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html"
     }
    ]
   }
