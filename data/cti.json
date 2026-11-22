@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T07:00:44.448Z",
+ "updated": "2026-11-22T15:00:43.692Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -27,7 +27,7 @@
       "Broadcom VMware vCenter",
       "KEV added 2026-11-20",
       "remediate by 2026-11-23",
-      "EPSS 3.0%"
+      "EPSS 3.5%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890"
     },
@@ -154,7 +154,7 @@
       "OpenBSD OpenSSH",
       "KEV added 2026-11-09",
       "remediate by 2026-11-12",
-      "EPSS 87.7%"
+      "EPSS 95.5%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158"
     },
@@ -243,7 +243,8 @@
      "title": "CVE-2026-125294 — advisory",
      "desc": "The Nexter Blocks Pro plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 5.0.10 via the `tpgb_ajax_register_user()` function. This is due to a byte-level denylist on the `tpgb_acf_key[]` and `tpgb_acf[]` parameters that fails to block Unicode look-alike…",
      "tags": [
-      "published 2026-11-21"
+      "published 2026-11-21",
+      "EPSS 0.8%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-125294"
     },
@@ -264,7 +265,8 @@
      "title": "CVE-2026-134292 — advisory",
      "desc": "SurrealDB 1.0.0 before 4.0.0 contains a capability check bypass in its embedded JavaScript scripting engine, where the surrealdb.functions bridge calls the internal fnc::synchronous() and fnc::asynchronous() dispatchers without enforcing function capability checks. Authenticated users denied access…",
      "tags": [
-      "published 2026-11-21"
+      "published 2026-11-21",
+      "EPSS 0.7%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-134292"
     }
