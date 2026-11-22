@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T15:00:43.692Z",
+ "updated": "2026-11-22T16:00:45.844Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -361,6 +361,26 @@
      "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html"
     },
     {
+     "cat": "BleepingComputer",
+     "sev": "NEWS",
+     "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+     "desc": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes.",
+     "tags": [
+      "2026-11-22"
+     ],
+     "link": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/"
+    },
+    {
+     "cat": "BleepingComputer",
+     "sev": "NEWS",
+     "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+     "desc": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices.",
+     "tags": [
+      "2026-11-22"
+     ],
+     "link": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/"
+    },
+    {
      "cat": "The Hacker News",
      "sev": "NEWS",
      "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
@@ -379,26 +399,6 @@
       "2026-11-21"
      ],
      "link": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-     "desc": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The…",
-     "tags": [
-      "2026-11-21"
-     ],
-     "link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
-     "desc": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The feature applies to…",
-     "tags": [
-      "2026-11-21"
-     ],
-     "link": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html"
     }
    ]
   }
