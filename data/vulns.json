@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T16:00:46.700Z",
+ "updated": "2026-11-23T17:00:48.077Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -521,6 +521,19 @@
    "epss": 0.011
   },
   {
+   "id": "CVE-2026-135208",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Kerberos Agent before 3.14.4 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge administrator tokens because JWTMiddleWare() falls back to the hard-coded key TOBECHANGED. Attackers can sign HS256 tokens with arbitrary username and role claims to access…",
+   "published": "2026-11-23",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135208"
+  },
+  {
    "id": "CVE-2026-130774",
    "origin": "NVD",
    "product": "",
@@ -631,20 +644,6 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134814",
    "epss": 0.006
-  },
-  {
-   "id": "CVE-2026-134815",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "simple-git before 4.1.0 contains an argument injection vulnerability that allows attackers to bypass the allowUnsafePack guard by supplying the --exec option to non-push git operations. Attackers who influence arguments passed to listRemote() or raw() can inject --exec for ls-remote, archive…",
-   "published": "2026-11-22",
-   "cvss": 9.2,
-   "severity": "CRITICAL",
-   "vector": "Network / High / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134815",
-   "epss": 0.008
   },
   {
    "id": "CVE-2026-122247",

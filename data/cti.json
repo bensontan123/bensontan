@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T16:00:46.700Z",
+ "updated": "2026-11-23T17:00:48.077Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -364,6 +364,16 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+     "desc": "A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to break down a door. Sometimes they just use one that's already…",
+     "tags": [
+      "2026-11-23"
+     ],
+     "link": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
      "desc": "A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code. The vulnerability, tracked as CVE-2026-134814 (CVSS score: 9.2 / 8.1)…",
      "tags": [
@@ -390,16 +400,6 @@
       "2026-11-23"
      ],
      "link": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
-     "desc": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild. The…",
-     "tags": [
-      "2026-11-23"
-     ],
-     "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html"
     }
    ]
   }
