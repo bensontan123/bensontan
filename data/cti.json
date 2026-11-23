@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T14:00:49.300Z",
+ "updated": "2026-11-23T14:51:08.281Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -40,7 +40,7 @@
       "SAP NetWeaver",
       "KEV added 2026-11-20",
       "remediate by 2026-11-23",
-      "EPSS 0.7%"
+      "EPSS 0.9%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884"
     },
@@ -168,7 +168,7 @@
       "BerriAI LiteLLM",
       "KEV added 2026-11-18",
       "remediate by 2026-12-02",
-      "EPSS 78.0%"
+      "EPSS 82.8%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217"
     },
@@ -233,7 +233,8 @@
      "title": "CVE-2026-134882 — advisory",
      "desc": "A weakness has been identified in TOTOLINK A7100RU 7.4cu.2313_B20191024. This issue affects the function exportOvpn of the file /cgi-bin/cstecgi.cgi of the component CGI Handler. This manipulation of the argument Username causes os command injection. The attack is possible to be carried out…",
      "tags": [
-      "published 2026-11-23"
+      "published 2026-11-23",
+      "EPSS 2.5%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-134882"
     },
@@ -265,7 +266,8 @@
      "title": "CVE-2026-120382 — advisory",
      "desc": "An improper neutralization of argument delimiters in a command vulnerability in the OAuth API in Synology DiskStation Manager (DSM) before 7.1.1-42962-10, 7.2.1-69057-14, 7.2.2-72806-11, 7.3.2-86009-6, and 7.4.1-90080-2 allows remote attackers to read or write arbitrary files and conduct…",
      "tags": [
-      "published 2026-11-23"
+      "published 2026-11-23",
+      "EPSS 1.2%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120382"
     }
