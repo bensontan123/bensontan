@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T05:00:43.818Z",
+ "updated": "2026-11-23T08:00:49.345Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -341,24 +341,14 @@
    "label": "Threat headlines",
    "items": [
     {
-     "cat": "SANS ISC",
+     "cat": "BleepingComputer",
      "sev": "NEWS",
-     "title": "ISC Stormcast For Monday, November 23rd, 2026 https://isc.sans.edu/podcastdetail/10190, (Mon, Nov 23rd)",
-     "desc": "",
+     "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+     "desc": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild.",
      "tags": [
       "2026-11-23"
      ],
-     "link": "https://isc.sans.edu/diary/rss/33548"
-    },
-    {
-     "cat": "SANS ISC",
-     "sev": "NEWS",
-     "title": "A brief history of syslog timestamps, (Sun, Nov 22nd)",
-     "desc": "BLUF: Debian and Ubuntu dropped a config directive in the rsyslogd package in early 2023.",
-     "tags": [
-      "2026-11-22"
-     ],
-     "link": "https://isc.sans.edu/diary/rss/33530"
+     "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/"
     },
     {
      "cat": "The Hacker News",
@@ -399,6 +389,16 @@
       "2026-11-22"
      ],
      "link": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/"
+    },
+    {
+     "cat": "BleepingComputer",
+     "sev": "NEWS",
+     "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+     "desc": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices.",
+     "tags": [
+      "2026-11-22"
+     ],
+     "link": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/"
     }
    ]
   }
