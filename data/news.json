@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T16:00:46.700Z",
+ "updated": "2026-11-23T18:00:49.477Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -56,6 +56,17 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/whatsapp-multiple-vulnerabilities_20261123"
+  },
+  {
+   "date": "2026-11-23",
+   "region": "CN",
+   "cat": "News",
+   "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
+   "desc": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints, while disguising it as network-monitoring…",
+   "tags": [
+    "The Hacker News"
+   ],
+   "link": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html"
   },
   {
    "date": "2026-11-23",
@@ -122,17 +133,6 @@
     "The Hacker News"
    ],
    "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html"
-  },
-  {
-   "date": "2026-11-20",
-   "region": "CN",
-   "cat": "News",
-   "title": "US companies’ use of Chinese open weight AI draws rebuke from House chairmen",
-   "desc": "An investigation led by the House Homeland Security Committee focused on the dangers of U.S. companies using lower-cost open weight AI models for certain projects.",
-   "tags": [
-    "The Record"
-   ],
-   "link": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation"
   },
   {
    "date": "2026-11-19",
