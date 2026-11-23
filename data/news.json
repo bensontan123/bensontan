@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T09:00:46.852Z",
+ "updated": "2026-11-23T13:00:47.884Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -61,7 +61,7 @@
    "date": "2026-11-23",
    "region": "IN",
    "cat": "News",
-   "title": "AI-Assisted Cyberattacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+   "title": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
    "desc": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country. This…",
    "tags": [
     "The Hacker News"
