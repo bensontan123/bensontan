@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T09:00:46.852Z",
+ "updated": "2026-11-23T10:00:44.870Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -229,6 +229,16 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
+     "title": "CVE-2026-134882 — advisory",
+     "desc": "A weakness has been identified in TOTOLINK A7100RU 7.4cu.2313_B20191024. This issue affects the function exportOvpn of the file /cgi-bin/cstecgi.cgi of the component CGI Handler. This manipulation of the argument Username causes os command injection. The attack is possible to be carried out…",
+     "tags": [
+      "published 2026-11-23"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-134882"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
      "title": "CVE-2026-120539 — advisory",
      "desc": "The Restrictions for BuddyPress plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.5.4 This is due to the plugin splicing the attacker-controlled request URI into a PHP expression inside a double-quoted string and evaluating it with eval(). Because…",
      "tags": [
@@ -257,17 +267,6 @@
       "published 2026-11-23"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120382"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-130786 — advisory",
-     "desc": "Incus before 7.6.0 contains a configuration injection vulnerability that allows users who can launch instances from controlled images to inject LXC directives by embedding line breaks in OCI config.json values or oci.entrypoint and oci.cwd keys. Attackers can add liblxc hooks or crafted tmpfs…",
-     "tags": [
-      "published 2026-11-18",
-      "EPSS 0.5%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-130786"
     }
    ]
   },
@@ -362,6 +361,16 @@
     {
      "cat": "BleepingComputer",
      "sev": "NEWS",
+     "title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
+     "desc": "Microsoft confirmed printing issues on systems running Forcepoint DLP software after installing the KB5132043 November 2026 Windows 11 hotpatch.",
+     "tags": [
+      "2026-11-23"
+     ],
+     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/"
+    },
+    {
+     "cat": "BleepingComputer",
+     "sev": "NEWS",
      "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
      "desc": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild.",
      "tags": [
@@ -388,16 +397,6 @@
       "2026-11-22"
      ],
      "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
-     "desc": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs…",
-     "tags": [
-      "2026-11-22"
-     ],
-     "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html"
     }
    ]
   }

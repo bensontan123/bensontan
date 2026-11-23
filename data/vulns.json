@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T09:00:46.852Z",
+ "updated": "2026-11-23T10:00:44.870Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -437,6 +437,19 @@
    "epss": 0.003
   },
   {
+   "id": "CVE-2026-134882",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "A weakness has been identified in TOTOLINK A7100RU 7.4cu.2313_B20191024. This issue affects the function exportOvpn of the file /cgi-bin/cstecgi.cgi of the component CGI Handler. This manipulation of the argument Username causes os command injection. The attack is possible to be carried out…",
+   "published": "2026-11-23",
+   "cvss": 10,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134882"
+  },
+  {
    "id": "CVE-2026-120539",
    "origin": "NVD",
    "product": "",
@@ -629,19 +642,6 @@
    "vector": "Network / High / None",
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134814"
-  },
-  {
-   "id": "CVE-2026-134815",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "simple-git before 4.1.0 contains an argument injection vulnerability that allows attackers to bypass the allowUnsafePack guard by supplying the --exec option to non-push git operations. Attackers who influence arguments passed to listRemote() or raw() can inject --exec for ls-remote, archive…",
-   "published": "2026-11-22",
-   "cvss": 9.2,
-   "severity": "CRITICAL",
-   "vector": "Network / High / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134815"
   },
   {
    "id": "CVE-2026-77309",
