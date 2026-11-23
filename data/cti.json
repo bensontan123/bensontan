@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T21:00:45.809Z",
+ "updated": "2026-11-23T22:00:43.923Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -278,6 +278,30 @@
     {
      "cat": "GHSA",
      "sev": "MEDIUM",
+     "title": "CVE-2026-63476 — isomorphic-git allows unbounded memory allocation from attacker-controlled delta target size (DoS)",
+     "desc": "isomorphic-git allows unbounded memory allocation from attacker-controlled delta target size (DoS)",
+     "tags": [
+      "npm isomorphic-git",
+      "published 2026-11-23",
+      "EPSS 0.4%"
+     ],
+     "link": "https://github.com/advisories/GHSA-9x82-4j54-863h"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-77423 — jline3 leads to ReDoS in Built-in Less Viewer Search",
+     "desc": "jline3 leads to ReDoS in Built-in Less Viewer Search",
+     "tags": [
+      "maven org.jline:jline-builtins",
+      "published 2026-11-23",
+      "EPSS 0.5%"
+     ],
+     "link": "https://github.com/advisories/GHSA-2v9w-34q6-wpqx"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
      "title": "CVE-2026-63410 — secp256k1-native has a compiler-induced timing side channel in scalar multiplication",
      "desc": "secp256k1-native has a compiler-induced timing side channel in scalar multiplication",
      "tags": [
@@ -310,29 +334,6 @@
       "EPSS 0.3%"
      ],
      "link": "https://github.com/advisories/GHSA-6jcc-5g8w-32mx"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-133469 — Xen Orchestra: Empty-object login token",
-     "desc": "Xen Orchestra: Empty-object login token",
-     "tags": [
-      "npm xo-server",
-      "published 2026-11-23"
-     ],
-     "link": "https://github.com/advisories/GHSA-2r3w-c2vx-fv5g"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-22865 — Gradle causes failure to disable repositories exposing builds to malicious artifacts",
-     "desc": "Gradle causes failure to disable repositories exposing builds to malicious artifacts",
-     "tags": [
-      "maven org.gradle:gradle-core",
-      "published 2026-11-23",
-      "EPSS 0.2%"
-     ],
-     "link": "https://github.com/advisories/GHSA-mqwm-5m85-gmcv"
     }
    ]
   },
@@ -348,6 +349,16 @@
       "2026-11-24"
      ],
      "link": "https://therecord.media/austrian-foreign-ministry-says-website-hacked"
+    },
+    {
+     "cat": "CISA",
+     "sev": "NEWS",
+     "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+     "desc": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-133968 Project MONAI MONAI Label Path Traversal Vulnerability CVE-2026-134624 N-able Mail…",
+     "tags": [
+      "2026-11-23"
+     ],
+     "link": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog"
     },
     {
      "cat": "SANS ISC",
@@ -388,16 +399,6 @@
       "2026-11-23"
      ],
      "link": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
-     "desc": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw…",
-     "tags": [
-      "2026-11-23"
-     ],
-     "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html"
     }
    ]
   }

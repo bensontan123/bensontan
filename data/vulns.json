@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T21:00:45.809Z",
+ "updated": "2026-11-23T22:00:43.923Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -687,19 +687,19 @@
    "epss": 0.007
   },
   {
-   "id": "CVE-2026-132275",
+   "id": "CVE-2026-77423",
    "origin": "GHSA",
-   "product": "pip svglib",
-   "name": "svglib: Exponential resource consumption via nested <use> references in svg2rlg",
-   "desc": "svglib: Exponential resource consumption via nested <use> references in svg2rlg",
-   "published": "2026-11-20",
+   "product": "maven org.jline:jline-builtins",
+   "name": "jline3 leads to ReDoS in Built-in Less Viewer Search",
+   "desc": "jline3 leads to ReDoS in Built-in Less Viewer Search",
+   "published": "2026-11-23",
    "cvss": 7.5,
    "severity": "HIGH",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-555j-qj3j-c8jv",
-   "ghsaId": "GHSA-555j-qj3j-c8jv",
-   "epss": 0.011
+   "url": "https://github.com/advisories/GHSA-2v9w-34q6-wpqx",
+   "ghsaId": "GHSA-2v9w-34q6-wpqx",
+   "epss": 0.005
   },
   {
    "id": "CVE-2026-58262",
