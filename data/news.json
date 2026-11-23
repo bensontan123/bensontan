@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T18:00:49.477Z",
+ "updated": "2026-11-23T21:00:45.809Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -78,6 +78,17 @@
     "The Hacker News"
    ],
    "link": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html"
+  },
+  {
+   "date": "2026-11-23",
+   "region": "KR",
+   "cat": "News",
+   "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
+   "desc": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data.",
+   "tags": [
+    "BleepingComputer"
+   ],
+   "link": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/"
   },
   {
    "date": "2026-11-21",
@@ -254,17 +265,6 @@
     "CISA"
    ],
    "link": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors"
-  },
-  {
-   "date": "2026-10-14",
-   "region": "JP",
-   "cat": "Advisory",
-   "title": "Security Alert: Microsoft Releases October 2026 Security Updates",
-   "desc": "",
-   "tags": [
-    "JPCERT/CC"
-   ],
-   "link": "https://www.jpcert.or.jp/english/at/2026/at260031.html"
   }
  ]
 }

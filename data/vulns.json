@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T19:00:50.699Z",
+ "updated": "2026-11-23T21:00:45.809Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -7,7 +7,7 @@
   "GHSA"
  ],
  "catalogVersion": "2026.11.23",
- "catalogCount": 1790,
+ "catalogCount": 1792,
  "counts": {
   "kev": 24,
   "nvd": 16,
@@ -270,23 +270,6 @@
    "epss": 0.955
   },
   {
-   "id": "CVE-2026-119977",
-   "origin": "KEV",
-   "product": "WordPress WordPress Core",
-   "name": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
-   "desc": "WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability that could allow unauthenticated attackers to execute code on the server during the upgrade window. This is due to predictable, web-accessible staging paths used during full-package core upgrades.",
-   "kevAdded": "2026-11-03",
-   "due": "2026-11-06",
-   "ransomware": false,
-   "published": "2026-10-31",
-   "cvss": 8.1,
-   "severity": "HIGH",
-   "vector": "Network / High / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977",
-   "epss": 0.081
-  },
-  {
    "id": "CVE-2026-123039",
    "origin": "KEV",
    "product": "Check Point Multiple Products",
@@ -389,23 +372,6 @@
    "epss": 0.249
   },
   {
-   "id": "CVE-2024-27834",
-   "origin": "KEV",
-   "product": "Apple Multiple Products",
-   "name": "Apple Multiple Products Improper Authentication Vulnerability",
-   "desc": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication.",
-   "kevAdded": "2026-11-04",
-   "due": "2026-11-18",
-   "ransomware": false,
-   "published": "2024-05-14",
-   "cvss": 5.5,
-   "severity": "MEDIUM",
-   "vector": "Local / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834",
-   "epss": 0.016
-  },
-  {
    "id": "CVE-2026-111793",
    "origin": "KEV",
    "product": "Openwave Messaging Limited Webtop Media Transcoder",
@@ -421,6 +387,40 @@
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793",
    "epss": 0.012
+  },
+  {
+   "id": "CVE-2026-133968",
+   "origin": "KEV",
+   "product": "Project MONAI MONAI Label",
+   "name": "Project MONAI MONAI Label Path Traversal Vulnerability",
+   "desc": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
+   "kevAdded": "2026-11-23",
+   "due": "2026-11-26",
+   "ransomware": false,
+   "published": "",
+   "cvss": null,
+   "severity": "PENDING",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968",
+   "epss": 0.037
+  },
+  {
+   "id": "CVE-2026-134624",
+   "origin": "KEV",
+   "product": "N-able MailAssure",
+   "name": "N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
+   "desc": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services.",
+   "kevAdded": "2026-11-23",
+   "due": "2026-11-26",
+   "ransomware": false,
+   "published": "",
+   "cvss": null,
+   "severity": "PENDING",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624",
+   "epss": 0.004
   },
   {
    "id": "CVE-2026-130778",
@@ -702,18 +702,19 @@
    "epss": 0.011
   },
   {
-   "id": "CVE-2026-104883",
+   "id": "CVE-2026-58262",
    "origin": "GHSA",
-   "product": "composer contao/core-bundle",
-   "name": "contao/core-bundle: Non-admin users can self-grant permissions that implicitly make them administrators",
-   "desc": "contao/core-bundle: Non-admin users can self-grant permissions that implicitly make them administrators",
-   "published": "2026-11-20",
-   "cvss": 7.2,
+   "product": "go github.com/klever-io/klever-go",
+   "name": "Klever Go counts bitmap padding bits toward BLS quorum, allowing blocks with insufficient signatures",
+   "desc": "Klever Go counts bitmap padding bits toward BLS quorum, allowing blocks with insufficient signatures",
+   "published": "2026-11-23",
+   "cvss": null,
    "severity": "HIGH",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-r9qp-pqx5-8369",
-   "ghsaId": "GHSA-r9qp-pqx5-8369"
+   "url": "https://github.com/advisories/GHSA-f9h7-4mmq-vgcq",
+   "ghsaId": "GHSA-f9h7-4mmq-vgcq",
+   "epss": 0.002
   },
   {
    "id": "CVE-2026-22865",
@@ -746,18 +747,19 @@
    "epss": 0.002
   },
   {
-   "id": "CVE-2026-104882",
+   "id": "CVE-2026-63410",
    "origin": "GHSA",
-   "product": "composer contao/core-bundle",
-   "name": "contao/core-bundle: Improper access control in the CSV import wizard",
-   "desc": "contao/core-bundle: Improper access control in the CSV import wizard",
-   "published": "2026-11-20",
-   "cvss": 6.5,
+   "product": "rubygems secp256k1-native",
+   "name": "secp256k1-native has a compiler-induced timing side channel in scalar multiplication",
+   "desc": "secp256k1-native has a compiler-induced timing side channel in scalar multiplication",
+   "published": "2026-11-23",
+   "cvss": 5.9,
    "severity": "MEDIUM",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-23w9-4pg3-xwm3",
-   "ghsaId": "GHSA-23w9-4pg3-xwm3"
+   "url": "https://github.com/advisories/GHSA-vp2j-gqfm-r3cf",
+   "ghsaId": "GHSA-vp2j-gqfm-r3cf",
+   "epss": 0.003
   }
  ]
 }
