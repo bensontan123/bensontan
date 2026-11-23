@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T22:00:43.923Z",
+ "updated": "2026-11-23T23:00:57.772Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -14,6 +14,23 @@
   "ghsa": 8
  },
  "items": [
+  {
+   "id": "CVE-2026-133968",
+   "origin": "KEV",
+   "product": "Project MONAI MONAI Label",
+   "name": "Project MONAI MONAI Label Path Traversal Vulnerability",
+   "desc": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
+   "kevAdded": "2026-11-23",
+   "due": "2026-11-26",
+   "ransomware": false,
+   "published": "2026-11-20",
+   "cvss": 9.8,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968",
+   "epss": 0.037
+  },
   {
    "id": "CVE-2026-129448",
    "origin": "KEV",
@@ -183,6 +200,23 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731",
    "epss": 0.128
+  },
+  {
+   "id": "CVE-2026-134624",
+   "origin": "KEV",
+   "product": "N-able MailAssure",
+   "name": "N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
+   "desc": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services.",
+   "kevAdded": "2026-11-23",
+   "due": "2026-11-26",
+   "ransomware": false,
+   "published": "2026-11-22",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624",
+   "epss": 0.004
   },
   {
    "id": "CVE-2026-116606",
@@ -389,54 +423,6 @@
    "epss": 0.012
   },
   {
-   "id": "CVE-2026-133968",
-   "origin": "KEV",
-   "product": "Project MONAI MONAI Label",
-   "name": "Project MONAI MONAI Label Path Traversal Vulnerability",
-   "desc": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
-   "kevAdded": "2026-11-23",
-   "due": "2026-11-26",
-   "ransomware": false,
-   "published": "",
-   "cvss": null,
-   "severity": "PENDING",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968",
-   "epss": 0.037
-  },
-  {
-   "id": "CVE-2026-134624",
-   "origin": "KEV",
-   "product": "N-able MailAssure",
-   "name": "N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
-   "desc": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services.",
-   "kevAdded": "2026-11-23",
-   "due": "2026-11-26",
-   "ransomware": false,
-   "published": "",
-   "cvss": null,
-   "severity": "PENDING",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624",
-   "epss": 0.004
-  },
-  {
-   "id": "CVE-2026-130778",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Incus before 7.6.0 contains an authentication bypass vulnerability that allows remote attackers to authenticate as any trusted certificate by appending its public certificate to their presented TLS client chain. Attackers can append the server's or a cluster member's certificate to gain…",
-   "published": "2026-11-18",
-   "cvss": 10,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130778",
-   "epss": 0.003
-  },
-  {
    "id": "CVE-2026-134882",
    "origin": "NVD",
    "product": "",
@@ -449,6 +435,45 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134882",
    "epss": 0.025
+  },
+  {
+   "id": "CVE-2026-62841",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Improper authentication in Azure Event Grid allows an unauthorized attacker to elevate privileges over a network.",
+   "published": "2026-11-23",
+   "cvss": 10,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62841"
+  },
+  {
+   "id": "CVE-2026-50691",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Improper authorization in M365 Copilot allows an authorized attacker to elevate privileges over a network.",
+   "published": "2026-11-23",
+   "cvss": 9.9,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50691"
+  },
+  {
+   "id": "CVE-2026-70193",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Improper limitation of a pathname to a restricted directory ('path traversal') in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.",
+   "published": "2026-11-23",
+   "cvss": 9.9,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70193"
   },
   {
    "id": "CVE-2026-120382",
@@ -479,18 +504,43 @@
    "ghsaId": "GHSA-2r3w-c2vx-fv5g"
   },
   {
-   "id": "CVE-2026-130786",
+   "id": "CVE-2026-109480",
    "origin": "NVD",
    "product": "",
    "name": "",
-   "desc": "Incus before 7.6.0 contains a configuration injection vulnerability that allows users who can launch instances from controlled images to inject LXC directives by embedding line breaks in OCI config.json values or oci.entrypoint and oci.cwd keys. Attackers can add liblxc hooks or crafted tmpfs…",
-   "published": "2026-11-18",
-   "cvss": 9.4,
+   "desc": "Server-side request forgery in Profile Data Roaming Service (PDRS) allows an authorized attacker to elevate privileges over a network.",
+   "published": "2026-11-23",
+   "cvss": 9.6,
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130786",
-   "epss": 0.005
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109480"
+  },
+  {
+   "id": "CVE-2026-118285",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Server-side request forgery in Azure Machine Learning allows an authorized attacker to elevate privileges over a network.",
+   "published": "2026-11-23",
+   "cvss": 9.6,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118285"
+  },
+  {
+   "id": "CVE-2026-70305",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Improper neutralization of input during web page generation ('cross-site scripting') in Azure Portal allows an unauthorized attacker to perform spoofing over a network.",
+   "published": "2026-11-23",
+   "cvss": 9.6,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / Required",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70305"
   },
   {
    "id": "CVE-2026-133993",
@@ -520,18 +570,17 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135208"
   },
   {
-   "id": "CVE-2026-130774",
+   "id": "CVE-2026-109490",
    "origin": "NVD",
    "product": "",
    "name": "",
-   "desc": "Incus before 7.6.0 contains a privilege escalation vulnerability: rebuilding a never-started unprivileged container makes it boot without a user namespace. Root processes inside the container run as host uid 0, keeping capabilities like sys_module, with no device cgroup restriction, letting them…",
-   "published": "2026-11-18",
+   "desc": "Improper neutralization of input during web page generation ('cross-site scripting') in Authentication Methods Portal Extension allows an unauthorized attacker to elevate privileges over a network.",
+   "published": "2026-11-23",
    "cvss": 9.3,
    "severity": "CRITICAL",
-   "vector": "Local / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130774",
-   "epss": 0.001
+   "vector": "Network / Low / Required",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109490"
   },
   {
    "id": "CVE-2026-133528",
@@ -546,34 +595,6 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133528",
    "epss": 0.002
-  },
-  {
-   "id": "CVE-2026-130770",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Incus before 7.6.0 creates the NBD servers used for virtual machine migration and disk export on abstract unix sockets, which have no permission checks and whose names are visible in /proc/net/unix. A local unprivileged user can connect while an operation runs to read or modify the VM disk, gaining…",
-   "published": "2026-11-18",
-   "cvss": 9.2,
-   "severity": "CRITICAL",
-   "vector": "Local / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130770",
-   "epss": 0.001
-  },
-  {
-   "id": "CVE-2026-134262",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Admidio 5.0.0 before 5.0.18 contains a stored cross-site scripting vulnerability that allows role administrators to inject JavaScript by placing quote-breaking payloads in role names rendered unencoded in the data-message attribute in modules/profile/roles_functions.php. Attackers can execute…",
-   "published": "2026-11-21",
-   "cvss": 9.2,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / Passive",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134262",
-   "epss": 0.006
   },
   {
    "id": "CVE-2026-134287",
@@ -631,32 +652,6 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135171"
   },
   {
-   "id": "CVE-2026-135211",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "BISHENG before 3.0.0 contains a missing authentication vulnerability in the /api/v2/workflow/invoke and /api/v2/workflow/stop routes that allows unauthenticated attackers to run workflows as the administrator. Attackers knowing a workflow UUID can supply an override replacing a Code node's code…",
-   "published": "2026-11-23",
-   "cvss": 9.2,
-   "severity": "CRITICAL",
-   "vector": "Network / High / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135211"
-  },
-  {
-   "id": "CVE-2026-135300",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Pomerium from 0.30.0 before 0.34.0 contains an authentication bypass vulnerability in the MCP token endpoint that skips client secret verification for client_secret_basic clients. Attackers holding an intercepted authorization code or refresh token can redeem it at /.pomerium/mcp/token with any…",
-   "published": "2026-11-23",
-   "cvss": 9.1,
-   "severity": "CRITICAL",
-   "vector": "Network / High / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135300"
-  },
-  {
    "id": "CVE-2026-122247",
    "origin": "GHSA",
    "product": "npm @budibase/server",
@@ -670,6 +665,20 @@
    "url": "https://github.com/advisories/GHSA-25qc-m4pw-2w8r",
    "ghsaId": "GHSA-25qc-m4pw-2w8r",
    "epss": 0.008
+  },
+  {
+   "id": "CVE-2026-63492",
+   "origin": "GHSA",
+   "product": "composer wwbn/avideo",
+   "name": "AVideo API vulnerable to OS command injection through an unescaped FFmpeg process keyword",
+   "desc": "AVideo API vulnerable to OS command injection through an unescaped FFmpeg process keyword",
+   "published": "2026-11-23",
+   "cvss": 8.1,
+   "severity": "HIGH",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-j44m-77cc-p3cc",
+   "ghsaId": "GHSA-j44m-77cc-p3cc"
   },
   {
    "id": "CVE-2026-122244",
@@ -745,21 +754,6 @@
    "url": "https://github.com/advisories/GHSA-w78c-w6vf-rw82",
    "ghsaId": "GHSA-w78c-w6vf-rw82",
    "epss": 0.002
-  },
-  {
-   "id": "CVE-2026-63410",
-   "origin": "GHSA",
-   "product": "rubygems secp256k1-native",
-   "name": "secp256k1-native has a compiler-induced timing side channel in scalar multiplication",
-   "desc": "secp256k1-native has a compiler-induced timing side channel in scalar multiplication",
-   "published": "2026-11-23",
-   "cvss": 5.9,
-   "severity": "MEDIUM",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-vp2j-gqfm-r3cf",
-   "ghsaId": "GHSA-vp2j-gqfm-r3cf",
-   "epss": 0.003
   }
  ]
 }

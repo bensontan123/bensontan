@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T22:00:43.923Z",
+ "updated": "2026-11-23T23:00:57.772Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -7,7 +7,7 @@
    "items": [
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-133968 — Project MONAI MONAI Label Path Traversal Vulnerability",
      "desc": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
      "tags": [
@@ -20,7 +20,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-134624 — N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
      "desc": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services.",
      "tags": [
@@ -218,17 +218,6 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-130778 — advisory",
-     "desc": "Incus before 7.6.0 contains an authentication bypass vulnerability that allows remote attackers to authenticate as any trusted certificate by appending its public certificate to their presented TLS client chain. Attackers can append the server's or a cluster member's certificate to gain…",
-     "tags": [
-      "published 2026-11-18",
-      "EPSS 0.3%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-130778"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
      "title": "CVE-2026-134882 — advisory",
      "desc": "A weakness has been identified in TOTOLINK A7100RU 7.4cu.2313_B20191024. This issue affects the function exportOvpn of the file /cgi-bin/cstecgi.cgi of the component CGI Handler. This manipulation of the argument Username causes os command injection. The attack is possible to be carried out…",
      "tags": [
@@ -240,6 +229,36 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
+     "title": "CVE-2026-62841 — advisory",
+     "desc": "Improper authentication in Azure Event Grid allows an unauthorized attacker to elevate privileges over a network.",
+     "tags": [
+      "published 2026-11-23"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-62841"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-50691 — advisory",
+     "desc": "Improper authorization in M365 Copilot allows an authorized attacker to elevate privileges over a network.",
+     "tags": [
+      "published 2026-11-23"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-50691"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-70193 — advisory",
+     "desc": "Improper limitation of a pathname to a restricted directory ('path traversal') in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.",
+     "tags": [
+      "published 2026-11-23"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-70193"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
      "title": "CVE-2026-120382 — advisory",
      "desc": "An improper neutralization of argument delimiters in a command vulnerability in the OAuth API in Synology DiskStation Manager (DSM) before 7.1.1-42962-10, 7.2.1-69057-14, 7.2.2-72806-11, 7.3.2-86009-6, and 7.4.1-90080-2 allows remote attackers to read or write arbitrary files and conduct…",
      "tags": [
@@ -247,34 +266,23 @@
       "EPSS 1.2%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120382"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-130786 — advisory",
-     "desc": "Incus before 7.6.0 contains a configuration injection vulnerability that allows users who can launch instances from controlled images to inject LXC directives by embedding line breaks in OCI config.json values or oci.entrypoint and oci.cwd keys. Attackers can add liblxc hooks or crafted tmpfs…",
-     "tags": [
-      "published 2026-11-18",
-      "EPSS 0.5%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-130786"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-133993 — advisory",
-     "desc": "A security flaw has been discovered in D-Link DIR-600L 2.17b02. This affects the function FUN_0040efb0 of the file gena.cgi of the component GENA Subscription Handler. Performing a manipulation of the argument service results in stack-based buffer overflow. The attack is possible to be carried out…",
-     "tags": [
-      "published 2026-11-21",
-      "EPSS 1.1%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133993"
     }
    ]
   },
   {
    "label": "Recently disclosed advisories (GitHub)",
    "items": [
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-63492 — AVideo API vulnerable to OS command injection through an unescaped FFmpeg process keyword",
+     "desc": "AVideo API vulnerable to OS command injection through an unescaped FFmpeg process keyword",
+     "tags": [
+      "composer wwbn/avideo",
+      "published 2026-11-23"
+     ],
+     "link": "https://github.com/advisories/GHSA-j44m-77cc-p3cc"
+    },
     {
      "cat": "GHSA",
      "sev": "MEDIUM",
@@ -322,18 +330,6 @@
       "EPSS 0.2%"
      ],
      "link": "https://github.com/advisories/GHSA-f9h7-4mmq-vgcq"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-63402 — i18next deepExtend recurses into inherited built-ins, allowing corruption of shared built-in objects (DoS)",
-     "desc": "i18next deepExtend recurses into inherited built-ins, allowing corruption of shared built-in objects (DoS)",
-     "tags": [
-      "npm i18next",
-      "published 2026-11-23",
-      "EPSS 0.3%"
-     ],
-     "link": "https://github.com/advisories/GHSA-6jcc-5g8w-32mx"
     }
    ]
   },
