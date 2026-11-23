@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T05:00:43.818Z",
+ "updated": "2026-11-23T09:00:46.852Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -465,6 +465,19 @@
    "epss": 0.008
   },
   {
+   "id": "CVE-2026-120382",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "An improper neutralization of argument delimiters in a command vulnerability in the OAuth API in Synology DiskStation Manager (DSM) before 7.1.1-42962-10, 7.2.1-69057-14, 7.2.2-72806-11, 7.3.2-86009-6, and 7.4.1-90080-2 allows remote attackers to read or write arbitrary files and conduct…",
+   "published": "2026-11-23",
+   "cvss": 9.8,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120382"
+  },
+  {
    "id": "CVE-2026-130786",
    "origin": "NVD",
    "product": "",
@@ -629,19 +642,6 @@
    "vector": "Network / High / None",
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134815"
-  },
-  {
-   "id": "CVE-2026-134838",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Weblate before 2026.11 contains an account takeover vulnerability in the reset_password view that allows unauthenticated attackers to reset victim passwords by abusing case-insensitive Unicode e-mail matching. Attackers controlling a lookalike mailbox using a dotless i or other case-folding variant…",
-   "published": "2026-11-22",
-   "cvss": 9.1,
-   "severity": "CRITICAL",
-   "vector": "Network / High / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134838"
   },
   {
    "id": "CVE-2026-77309",

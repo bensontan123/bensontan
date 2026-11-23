@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T08:00:49.345Z",
+ "updated": "2026-11-23T09:00:46.852Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -251,6 +251,16 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
+     "title": "CVE-2026-120382 — advisory",
+     "desc": "An improper neutralization of argument delimiters in a command vulnerability in the OAuth API in Synology DiskStation Manager (DSM) before 7.1.1-42962-10, 7.2.1-69057-14, 7.2.2-72806-11, 7.3.2-86009-6, and 7.4.1-90080-2 allows remote attackers to read or write arbitrary files and conduct…",
+     "tags": [
+      "published 2026-11-23"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120382"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
      "title": "CVE-2026-130786 — advisory",
      "desc": "Incus before 7.6.0 contains a configuration injection vulnerability that allows users who can launch instances from controlled images to inject LXC directives by embedding line breaks in OCI config.json values or oci.entrypoint and oci.cwd keys. Attackers can add liblxc hooks or crafted tmpfs…",
      "tags": [
@@ -258,17 +268,6 @@
       "EPSS 0.5%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-130786"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-134292 — advisory",
-     "desc": "SurrealDB 1.0.0 before 4.0.0 contains a capability check bypass in its embedded JavaScript scripting engine, where the surrealdb.functions bridge calls the internal fnc::synchronous() and fnc::asynchronous() dispatchers without enforcing function capability checks. Authenticated users denied access…",
-     "tags": [
-      "published 2026-11-21",
-      "EPSS 0.7%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-134292"
     }
    ]
   },
@@ -341,6 +340,26 @@
    "label": "Threat headlines",
    "items": [
     {
+     "cat": "SANS ISC",
+     "sev": "NEWS",
+     "title": "ISC Stormcast For Monday, November 23rd, 2026 https://isc.sans.edu/podcastdetail/10190, (Mon, Nov 23rd)",
+     "desc": "",
+     "tags": [
+      "2026-11-23"
+     ],
+     "link": "https://isc.sans.edu/diary/rss/33548"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "AI-Assisted Cyberattacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+     "desc": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country. This…",
+     "tags": [
+      "2026-11-23"
+     ],
+     "link": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html"
+    },
+    {
      "cat": "BleepingComputer",
      "sev": "NEWS",
      "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
@@ -349,6 +368,16 @@
       "2026-11-23"
      ],
      "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/"
+    },
+    {
+     "cat": "SANS ISC",
+     "sev": "NEWS",
+     "title": "A brief history of syslog timestamps, (Sun, Nov 22nd)",
+     "desc": "BLUF: Debian and Ubuntu dropped a config directive in the rsyslogd package in early 2023.",
+     "tags": [
+      "2026-11-22"
+     ],
+     "link": "https://isc.sans.edu/diary/rss/33530"
     },
     {
      "cat": "The Hacker News",
@@ -369,36 +398,6 @@
       "2026-11-22"
      ],
      "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html"
-    },
-    {
-     "cat": "BleepingComputer",
-     "sev": "NEWS",
-     "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
-     "desc": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving…",
-     "tags": [
-      "2026-11-22"
-     ],
-     "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/"
-    },
-    {
-     "cat": "BleepingComputer",
-     "sev": "NEWS",
-     "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
-     "desc": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes.",
-     "tags": [
-      "2026-11-22"
-     ],
-     "link": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/"
-    },
-    {
-     "cat": "BleepingComputer",
-     "sev": "NEWS",
-     "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
-     "desc": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices.",
-     "tags": [
-      "2026-11-22"
-     ],
-     "link": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/"
     }
    ]
   }
