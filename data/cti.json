@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T13:00:47.884Z",
+ "updated": "2026-11-23T14:00:49.300Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -66,7 +66,8 @@
       "Synology DiskStation Manager (DSM)",
       "KEV added 2026-11-18",
       "remediate by 2026-11-21",
-      "EPSS 3.1%"
+      "EPSS 3.1%",
+      "ransomware use"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
     }
@@ -75,6 +76,19 @@
   {
    "label": "Ransomware-linked exploited vulnerabilities",
    "items": [
+    {
+     "cat": "Ransomware",
+     "sev": "CRITICAL",
+     "title": "CVE-2024-10441 — Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
+     "desc": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.",
+     "tags": [
+      "Synology DiskStation Manager (DSM)",
+      "KEV added 2026-11-18",
+      "remediate by 2026-11-21",
+      "ransomware use"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
+    },
     {
      "cat": "Ransomware",
      "sev": "CRITICAL",
@@ -126,19 +140,6 @@
       "ransomware use"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15409"
-    },
-    {
-     "cat": "Ransomware",
-     "sev": "HIGH",
-     "title": "CVE-2026-15410 — SonicWall SMA1000 Appliances Code Injection Vulnerability",
-     "desc": "SonicWall SMA1000 Appliances contain a code injection vulnerability which in specific conditions could potentially enable a remote authenticated attacker as administrator to execute arbitrary OS commands.",
-     "tags": [
-      "SonicWall SMA1000 Appliances",
-      "KEV added 2026-07-14",
-      "remediate by 2026-07-17",
-      "ransomware use"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15410"
     }
    ]
   },
@@ -339,6 +340,16 @@
    "label": "Threat headlines",
    "items": [
     {
+     "cat": "The Record",
+     "sev": "NEWS",
+     "title": "Hackers breach Austrian Foreign Ministry website, access diplomats' contact details",
+     "desc": "Austria's Foreign Ministry said late last week that hackers breached one of its websites and accessed the names and official contact information of employees at its Vienna headquarters and at Austria’s diplomatic missions abroad.",
+     "tags": [
+      "2026-11-24"
+     ],
+     "link": "https://therecord.media/austrian-foreign-ministry-says-website-hacked"
+    },
+    {
      "cat": "SANS ISC",
      "sev": "NEWS",
      "title": "ISC Stormcast For Monday, November 23rd, 2026 https://isc.sans.edu/podcastdetail/10190, (Mon, Nov 23rd)",
@@ -347,6 +358,16 @@
       "2026-11-23"
      ],
      "link": "https://isc.sans.edu/diary/rss/33548"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+     "desc": "A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code. The vulnerability, tracked as CVE-2026-134814 (CVSS score: 9.2 / 8.1)…",
+     "tags": [
+      "2026-11-23"
+     ],
+     "link": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html"
     },
     {
      "cat": "The Hacker News",
@@ -377,26 +398,6 @@
       "2026-11-23"
      ],
      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
-     "desc": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated…",
-     "tags": [
-      "2026-11-23"
-     ],
-     "link": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
-     "desc": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country. This…",
-     "tags": [
-      "2026-11-23"
-     ],
-     "link": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html"
     }
    ]
   }

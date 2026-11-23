@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-23T13:00:47.884Z",
+ "updated": "2026-11-23T14:00:49.300Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
   "NVD",
   "GHSA"
  ],
- "catalogVersion": "2026.11.20",
+ "catalogVersion": "2026.11.23",
  "catalogCount": 1790,
  "counts": {
   "kev": 24,
@@ -73,7 +73,7 @@
    "desc": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.",
    "kevAdded": "2026-11-18",
    "due": "2026-11-21",
-   "ransomware": false,
+   "ransomware": true,
    "published": "2025-03-19",
    "cvss": 9.8,
    "severity": "CRITICAL",
