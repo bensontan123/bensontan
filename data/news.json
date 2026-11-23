@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T14:00:49.300Z",
+ "updated": "2026-11-23T16:00:46.700Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -135,17 +135,6 @@
    "link": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation"
   },
   {
-   "date": "2026-11-20",
-   "region": "CN",
-   "cat": "News",
-   "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
-   "desc": "A China-linked threat actor used the open source AI penetration testing tool Cairn to persistently attack two universities, and in one case, possibly discover a zero-day bug, researchers said.",
-   "tags": [
-    "The Record"
-   ],
-   "link": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day"
-  },
-  {
    "date": "2026-11-19",
    "region": "SG",
    "cat": "Advisory",
@@ -265,6 +254,17 @@
     "CISA"
    ],
    "link": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors"
+  },
+  {
+   "date": "2026-10-14",
+   "region": "JP",
+   "cat": "Advisory",
+   "title": "Security Alert: Microsoft Releases October 2026 Security Updates",
+   "desc": "",
+   "tags": [
+    "JPCERT/CC"
+   ],
+   "link": "https://www.jpcert.or.jp/english/at/2026/at260031.html"
   }
  ]
 }
