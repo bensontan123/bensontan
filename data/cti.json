@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T10:00:44.870Z",
+ "updated": "2026-11-23T11:00:45.888Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -339,14 +339,24 @@
    "label": "Threat headlines",
    "items": [
     {
-     "cat": "SANS ISC",
+     "cat": "The Hacker News",
      "sev": "NEWS",
-     "title": "ISC Stormcast For Monday, November 23rd, 2026 https://isc.sans.edu/podcastdetail/10190, (Mon, Nov 23rd)",
-     "desc": "",
+     "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+     "desc": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild. The…",
      "tags": [
       "2026-11-23"
      ],
-     "link": "https://isc.sans.edu/diary/rss/33548"
+     "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+     "desc": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated…",
+     "tags": [
+      "2026-11-23"
+     ],
+     "link": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html"
     },
     {
      "cat": "The Hacker News",
@@ -377,16 +387,6 @@
       "2026-11-23"
      ],
      "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/"
-    },
-    {
-     "cat": "SANS ISC",
-     "sev": "NEWS",
-     "title": "A brief history of syslog timestamps, (Sun, Nov 22nd)",
-     "desc": "BLUF: Debian and Ubuntu dropped a config directive in the rsyslogd package in early 2023.",
-     "tags": [
-      "2026-11-22"
-     ],
-     "link": "https://isc.sans.edu/diary/rss/33530"
     },
     {
      "cat": "The Hacker News",
