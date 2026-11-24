@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T23:00:57.772Z",
+ "updated": "2026-11-24T02:00:43.194Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -597,6 +597,19 @@
    "epss": 0.002
   },
   {
+   "id": "CVE-2026-135693",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "rConfig Core 8.0.0 before 8.2.17 and rConfig Pro before 8.4.0 contain a stored cross-site scripting vulnerability in the Config Search View Matches dialog, which renders configuration context via v-html without escaping. Attackers can place markup in device banners, interface descriptions, ACL…",
+   "published": "2026-11-24",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / Passive",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135693"
+  },
+  {
    "id": "CVE-2026-134287",
    "origin": "NVD",
    "product": "",
@@ -637,19 +650,6 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134815",
    "epss": 0.008
-  },
-  {
-   "id": "CVE-2026-135171",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Wing FTP Server before 8.2.8 contains a predictable session identifier vulnerability that allows unauthenticated attackers to hijack administrator sessions by deriving identifiers from process, time, ServerID, and client IP state. Attackers can enumerate candidate identifiers using the…",
-   "published": "2026-11-23",
-   "cvss": 9.2,
-   "severity": "CRITICAL",
-   "vector": "Network / High / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135171"
   },
   {
    "id": "CVE-2026-122247",
