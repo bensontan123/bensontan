@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T22:00:44.830Z",
+ "updated": "2026-11-24T23:00:44.162Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -273,6 +273,42 @@
     {
      "cat": "GHSA",
      "sev": "HIGH",
+     "title": "CVE-2026-64855 — soapbar: verify_envelope_bsp accepts an unauthenticated embedded certificate (signature forgery / authentication bypass)",
+     "desc": "soapbar: verify_envelope_bsp accepts an unauthenticated embedded certificate (signature forgery / authentication bypass)",
+     "tags": [
+      "pip soapbar",
+      "published 2026-11-24",
+      "EPSS 0.2%"
+     ],
+     "link": "https://github.com/advisories/GHSA-859w-52fx-hcm6"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-59191 — TwigView FileLoader may allow arbitrary file reads through user-controlled template paths",
+     "desc": "TwigView FileLoader may allow arbitrary file reads through user-controlled template paths",
+     "tags": [
+      "composer cakephp/twig-view",
+      "published 2026-11-24",
+      "EPSS 0.5%"
+     ],
+     "link": "https://github.com/advisories/GHSA-hq9r-72jq-2pxp"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-59831 — GitHub CLI gh codespace jupyter may allow code execution via unvalidated URLs from malicious Codespaces",
+     "desc": "GitHub CLI gh codespace jupyter may allow code execution via unvalidated URLs from malicious Codespaces",
+     "tags": [
+      "go github.com/cli/cli/v2",
+      "published 2026-11-24",
+      "EPSS 0.3%"
+     ],
+     "link": "https://github.com/advisories/GHSA-8cg3-r6g9-fpg2"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
      "title": "GHSA-jp3c-6v3g-mpxv — github.com/insomniacslk/dhcp permits denial of service through a malformed IPv4 payload length",
      "desc": "github.com/insomniacslk/dhcp permits denial of service through a malformed IPv4 payload length",
      "tags": [
@@ -292,42 +328,6 @@
       "EPSS 0.4%"
      ],
      "link": "https://github.com/advisories/GHSA-3wh4-j44w-pg92"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-59726 — ruflo MCP bridge allows unauthenticated remote code execution in default Docker Compose deployments",
-     "desc": "ruflo MCP bridge allows unauthenticated remote code execution in default Docker Compose deployments",
-     "tags": [
-      "npm ruflo",
-      "published 2026-11-24",
-      "EPSS 6.2%"
-     ],
-     "link": "https://github.com/advisories/GHSA-c4hm-4h84-2cf3"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-63305 — AVideo API FFmpeg process permits OS command injection via notifyCode/callback",
-     "desc": "AVideo API FFmpeg process permits OS command injection via notifyCode/callback",
-     "tags": [
-      "composer wwbn/avideo",
-      "published 2026-11-24",
-      "EPSS 1.8%"
-     ],
-     "link": "https://github.com/advisories/GHSA-g9x9-q7qj-6mv5"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-59192 — Cakephp twig-view unserialize Twig filter allows arbitrary object deserialization",
-     "desc": "Cakephp twig-view unserialize Twig filter allows arbitrary object deserialization",
-     "tags": [
-      "composer cakephp/twig-view",
-      "published 2026-11-24",
-      "EPSS 0.6%"
-     ],
-     "link": "https://github.com/advisories/GHSA-48qj-5wxh-m8hc"
     }
    ]
   },
@@ -337,12 +337,12 @@
     {
      "cat": "CISA",
      "sev": "NEWS",
-     "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
-     "desc": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcoStruxure™ Power Build Rapsody product. The EcoStruxure™ Power Build Rapsody is used to enter or import the single line diagram, to get the extensive bill of…",
+     "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+     "desc": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-131914 Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability CVE-2026-132165…",
      "tags": [
       "2026-11-24"
      ],
-     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02"
+     "link": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog"
     },
     {
      "cat": "CISA",
@@ -357,32 +357,22 @@
     {
      "cat": "CISA",
      "sev": "NEWS",
+     "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
+     "desc": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcoStruxure™ Power Build Rapsody product. The EcoStruxure™ Power Build Rapsody is used to enter or import the single line diagram, to get the extensive bill of…",
+     "tags": [
+      "2026-11-24"
+     ],
+     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02"
+    },
+    {
+     "cat": "CISA",
+     "sev": "NEWS",
      "title": "AutomationDirect C-More EA9 Programming Software",
      "desc": "View CSAF Summary Successful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to arbitrary code execution, if a user is convinced to open a…",
      "tags": [
       "2026-11-24"
      ],
      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01"
-    },
-    {
-     "cat": "SANS ISC",
-     "sev": "NEWS",
-     "title": "Scanning from Subnet 109.160.32.0/24, (Mon, Nov 23rd)",
-     "desc": "This subnet is assigned to a web hosting and virtual private server (VPS) provider BANATSYNC SRL with AS198364, located in Timisoara, Romania. This graph shows the DShield sensor activity over the past 90 days for this subnet and it is…",
-     "tags": [
-      "2026-11-24"
-     ],
-     "link": "https://isc.sans.edu/diary/rss/33550"
-    },
-    {
-     "cat": "SANS ISC",
-     "sev": "NEWS",
-     "title": "ISC Stormcast For Tuesday, November 24th, 2026 https://isc.sans.edu/podcastdetail/10192, (Tue, Nov 24th)",
-     "desc": "",
-     "tags": [
-      "2026-11-24"
-     ],
-     "link": "https://isc.sans.edu/diary/rss/33552"
     },
     {
      "cat": "The Hacker News",
@@ -393,6 +383,16 @@
       "2026-11-24"
      ],
      "link": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+     "desc": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical vulnerability…",
+     "tags": [
+      "2026-11-24"
+     ],
+     "link": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html"
     }
    ]
   }
