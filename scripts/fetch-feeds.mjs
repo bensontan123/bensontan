@@ -32,6 +32,10 @@ const NVD_RECENT_CAP = 30;  // cap recent NVD items merged into the dashboard
 
 const KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json";
 const NVD_KEV_URL = "https://services.nvd.nist.gov/rest/json/cves/2.0?hasKev&resultsPerPage=2000";
+// Optional NVD API key (set as the NVD_API_KEY env var / GitHub Actions secret).
+// Sent in NVD's `apiKey` header; raises the rate limit from 5 to 50 req/30s.
+// Never hard-code the key here — this file is committed to a public repo.
+const NVD_HEADERS = process.env.NVD_API_KEY ? { apiKey: process.env.NVD_API_KEY } : {};
 const NVD_RECENT_URL = (sev, start, end) =>
   `https://services.nvd.nist.gov/rest/json/cves/2.0?cvssV3Severity=${sev}` +
   `&pubStartDate=${encodeURIComponent(start)}&pubEndDate=${encodeURIComponent(end)}&resultsPerPage=500`;
@@ -197,7 +201,7 @@ const engDesc = (cve) => (cve.descriptions?.find((d) => d.lang === "en")?.value 
 /* ── source 1: CISA KEV joined with NVD CVSS ─────────────────────────── */
 
 async function buildKev() {
-  console.log("CISA KEV…");
+  console.log(`CISA KEV…  (NVD API key: ${process.env.NVD_API_KEY ? "present" : "not set — keyless rate limit"})`);
   const kev = await (await get(KEV_URL)).json();
   const sorted = [...kev.vulnerabilities]
     .sort((a, b) => (a.dateAdded < b.dateAdded ? 1 : a.dateAdded > b.dateAdded ? -1 : 0));
@@ -206,7 +210,7 @@ async function buildKev() {
   const nvd = new Map();
   try {
     console.log("NVD (KEV scores)…");
-    const data = await (await get(NVD_KEV_URL, 180_000)).json();
+    const data = await (await get(NVD_KEV_URL, 180_000, NVD_HEADERS)).json();
     for (const v of data.vulnerabilities || []) nvd.set(v.cve.id, v.cve);
     console.log(`  ${nvd.size} CVE records`);
   } catch (e) {
@@ -251,7 +255,7 @@ async function buildNvdRecent() {
   for (const sev of ["CRITICAL", "HIGH"]) {
     try {
       console.log(`NVD recent ${sev}…`);
-      const data = await (await get(NVD_RECENT_URL(sev, fmt(start), fmt(end)), 180_000)).json();
+      const data = await (await get(NVD_RECENT_URL(sev, fmt(start), fmt(end)), 180_000, NVD_HEADERS)).json();
       for (const v of data.vulnerabilities || []) {
         const cve = v.cve; if (!cve?.id || out.has(cve.id)) continue;
         const score = cvssOf(cve);

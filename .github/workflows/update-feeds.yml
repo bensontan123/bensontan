@@ -32,6 +32,7 @@ jobs:
       - name: Fetch feeds
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
         run: node scripts/fetch-feeds.mjs
       - name: Commit updated data
         run: |
