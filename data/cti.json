@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T20:00:56.845Z",
+ "updated": "2026-11-24T21:00:46.186Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -238,16 +238,6 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-123722 — advisory",
-     "desc": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
-     "tags": [
-      "published 2026-11-24"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123722"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
      "title": "CVE-2026-123723 — advisory",
      "desc": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
      "tags": [
@@ -264,12 +254,46 @@
       "published 2026-11-24"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123986"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-123987 — advisory",
+     "desc": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
+     "tags": [
+      "published 2026-11-24"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123987"
     }
    ]
   },
   {
    "label": "Recently disclosed advisories (GitHub)",
    "items": [
+    {
+     "cat": "GHSA",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-59726 — ruflo MCP bridge allows unauthenticated remote code execution in default Docker Compose deployments",
+     "desc": "ruflo MCP bridge allows unauthenticated remote code execution in default Docker Compose deployments",
+     "tags": [
+      "npm ruflo",
+      "published 2026-11-24",
+      "EPSS 6.2%"
+     ],
+     "link": "https://github.com/advisories/GHSA-c4hm-4h84-2cf3"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-63305 — AVideo API FFmpeg process permits OS command injection via notifyCode/callback",
+     "desc": "AVideo API FFmpeg process permits OS command injection via notifyCode/callback",
+     "tags": [
+      "composer wwbn/avideo",
+      "published 2026-11-24",
+      "EPSS 1.8%"
+     ],
+     "link": "https://github.com/advisories/GHSA-g9x9-q7qj-6mv5"
+    },
     {
      "cat": "GHSA",
      "sev": "MEDIUM",
@@ -285,11 +309,12 @@
     {
      "cat": "GHSA",
      "sev": "HIGH",
-     "title": "CVE-2026-63492 — AVideo API vulnerable to OS command injection through an unescaped FFmpeg process keyword",
+     "title": "CVE-2026-63304 — AVideo API vulnerable to OS command injection through an unescaped FFmpeg process keyword",
      "desc": "AVideo API vulnerable to OS command injection through an unescaped FFmpeg process keyword",
      "tags": [
       "composer wwbn/avideo",
-      "published 2026-11-23"
+      "published 2026-11-23",
+      "EPSS 1.7%"
      ],
      "link": "https://github.com/advisories/GHSA-j44m-77cc-p3cc"
     },
@@ -304,30 +329,6 @@
       "EPSS 0.4%"
      ],
      "link": "https://github.com/advisories/GHSA-9x82-4j54-863h"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-77423 — jline3 leads to ReDoS in Built-in Less Viewer Search",
-     "desc": "jline3 leads to ReDoS in Built-in Less Viewer Search",
-     "tags": [
-      "maven org.jline:jline-builtins",
-      "published 2026-11-23",
-      "EPSS 0.5%"
-     ],
-     "link": "https://github.com/advisories/GHSA-2v9w-34q6-wpqx"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-63410 — secp256k1-native has a compiler-induced timing side channel in scalar multiplication",
-     "desc": "secp256k1-native has a compiler-induced timing side channel in scalar multiplication",
-     "tags": [
-      "rubygems secp256k1-native",
-      "published 2026-11-23",
-      "EPSS 0.3%"
-     ],
-     "link": "https://github.com/advisories/GHSA-vp2j-gqfm-r3cf"
     }
    ]
   },

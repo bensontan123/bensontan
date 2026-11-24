@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T20:00:56.845Z",
+ "updated": "2026-11-24T21:00:46.186Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -10,8 +10,8 @@
  "catalogCount": 1795,
  "counts": {
   "kev": 24,
-  "nvd": 16,
-  "ghsa": 8
+  "nvd": 15,
+  "ghsa": 9
  },
  "items": [
   {
@@ -436,6 +436,21 @@
    "epss": 0.025
   },
   {
+   "id": "CVE-2026-59726",
+   "origin": "GHSA",
+   "product": "npm ruflo",
+   "name": "ruflo MCP bridge allows unauthenticated remote code execution in default Docker Compose deployments",
+   "desc": "ruflo MCP bridge allows unauthenticated remote code execution in default Docker Compose deployments",
+   "published": "2026-11-24",
+   "cvss": 10,
+   "severity": "CRITICAL",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-c4hm-4h84-2cf3",
+   "ghsaId": "GHSA-c4hm-4h84-2cf3",
+   "epss": 0.062
+  },
+  {
    "id": "CVE-2026-123342",
    "origin": "NVD",
    "product": "",
@@ -447,19 +462,6 @@
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123342"
-  },
-  {
-   "id": "CVE-2026-123722",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
-   "published": "2026-11-24",
-   "cvss": 9.9,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123722"
   },
   {
    "id": "CVE-2026-123723",
@@ -501,32 +503,6 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123987"
   },
   {
-   "id": "CVE-2026-125676",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
-   "published": "2026-11-24",
-   "cvss": 9.9,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125676"
-  },
-  {
-   "id": "CVE-2026-123266",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Adobe Experience Manager is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation of…",
-   "published": "2026-11-24",
-   "cvss": 9.9,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123266"
-  },
-  {
    "id": "CVE-2026-132877",
    "origin": "NVD",
    "product": "",
@@ -551,6 +527,19 @@
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119582"
+  },
+  {
+   "id": "CVE-2026-112732",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Double free in Microsoft Office Visio allows an unauthorized attacker to execute code over a network.",
+   "published": "2026-11-24",
+   "cvss": 9.8,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112732"
   },
   {
    "id": "CVE-2026-133469",
@@ -648,22 +637,35 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125716"
   },
   {
-   "id": "CVE-2026-122247",
+   "id": "CVE-2026-135792",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "A vulnerability has been found in Panabit Smart Application Gateway TANGr7p10. This issue affects the function send_email_authcode of the file user.cgi of the component Email Auth Code Sender. Such manipulation of the argument Username leads to os command injection. The attack may be launched…",
+   "published": "2026-11-24",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135792"
+  },
+  {
+   "id": "CVE-2026-63305",
    "origin": "GHSA",
-   "product": "npm @budibase/server",
-   "name": "Budibase: Unauthenticated global-admin & database creation via tenant-confusion bypass of the one-time init guard (`POST…",
-   "desc": "Budibase: Unauthenticated global-admin & database creation via tenant-confusion bypass of the one-time init guard (`POST /api/global/users/init`)",
-   "published": "2026-11-20",
-   "cvss": 8.2,
+   "product": "composer wwbn/avideo",
+   "name": "AVideo API FFmpeg process permits OS command injection via notifyCode/callback",
+   "desc": "AVideo API FFmpeg process permits OS command injection via notifyCode/callback",
+   "published": "2026-11-24",
+   "cvss": 8.1,
    "severity": "HIGH",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-25qc-m4pw-2w8r",
-   "ghsaId": "GHSA-25qc-m4pw-2w8r",
-   "epss": 0.008
+   "url": "https://github.com/advisories/GHSA-g9x9-q7qj-6mv5",
+   "ghsaId": "GHSA-g9x9-q7qj-6mv5",
+   "epss": 0.018
   },
   {
-   "id": "CVE-2026-63492",
+   "id": "CVE-2026-63304",
    "origin": "GHSA",
    "product": "composer wwbn/avideo",
    "name": "AVideo API vulnerable to OS command injection through an unescaped FFmpeg process keyword",
@@ -674,22 +676,8 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-j44m-77cc-p3cc",
-   "ghsaId": "GHSA-j44m-77cc-p3cc"
-  },
-  {
-   "id": "CVE-2026-122244",
-   "origin": "GHSA",
-   "product": "npm @budibase/server",
-   "name": "Budibase: Cross-privilege Stored XSS in the Budibase Builder via broken HTML-escaping in `jsonFormatter.format()` rendered through…",
-   "desc": "Budibase: Cross-privilege Stored XSS in the Budibase Builder via broken HTML-escaping in `jsonFormatter.format()` rendered through `{@html}` in the CSP-less Builder origin",
-   "published": "2026-11-20",
-   "cvss": 7.7,
-   "severity": "HIGH",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-r2q3-7m4h-63qg",
-   "ghsaId": "GHSA-r2q3-7m4h-63qg",
-   "epss": 0.007
+   "ghsaId": "GHSA-j44m-77cc-p3cc",
+   "epss": 0.017
   },
   {
    "id": "CVE-2026-77423",
@@ -750,6 +738,21 @@
    "url": "https://github.com/advisories/GHSA-w78c-w6vf-rw82",
    "ghsaId": "GHSA-w78c-w6vf-rw82",
    "epss": 0.002
+  },
+  {
+   "id": "CVE-2026-63410",
+   "origin": "GHSA",
+   "product": "rubygems secp256k1-native",
+   "name": "secp256k1-native has a compiler-induced timing side channel in scalar multiplication",
+   "desc": "secp256k1-native has a compiler-induced timing side channel in scalar multiplication",
+   "published": "2026-11-23",
+   "cvss": 5.9,
+   "severity": "MEDIUM",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-vp2j-gqfm-r3cf",
+   "ghsaId": "GHSA-vp2j-gqfm-r3cf",
+   "epss": 0.003
   }
  ]
 }
