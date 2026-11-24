@@ -1,0 +1,21 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "build": {
+    "builder": "DOCKERFILE",
+    "dockerfilePath": "Dockerfile"
+  },
+  "deploy": {
+    "startCommand": "/app/start.sh -addr :8787 -proxy 127.0.0.1:8788",
+    "healthcheckPath": "/",
+    "healthcheckTimeout": 30,
+    "restartPolicyType": "ON_FAILURE",
+    "restartPolicyMaxRetries": 10
+  },
+  "_notes": [
+    "Prefer deploying the prebuilt image ghcr.io/jiwoochris/artex-global:latest via the Railway dashboard (New > Deploy from Docker image) instead of building the Dockerfile, which expects a precompiled binary at dist/<arch>/artex.",
+    "Set the service's public target port to 8787 under Settings > Networking.",
+    "Bind the traffic proxy to 127.0.0.1:8788 so it is never publicly routable.",
+    "Add a volume mounted at /app/data.",
+    "See deploy/README.md for the full variable list."
+  ]
+}

@@ -1,0 +1,52 @@
+# Fly.io deployment for ARTEX (global edition)
+#
+# ARTEX is a long-running Go server: UI + API + SSE on one port (8787) and a
+# traffic-recording proxy on 8788. It needs PostgreSQL and a persistent volume
+# for /app/data (jwt.key etc.). Only 8787 is ever exposed publicly — never 8788.
+#
+# Replace APP_NAME below and the primary_region, then follow deploy/README.md.
+
+app = "APP_NAME"            # e.g. "artex-benson" — must be globally unique on Fly
+primary_region = "sin"      # pick one near you: sin, iad, lhr, fra, syd, ...
+
+[build]
+  # Use the prebuilt multi-arch image this repo publishes to GHCR.
+  image = "ghcr.io/jiwoochris/artex-global:latest"
+
+[env]
+  # Server-side default output language (en/ko/zh/es/ja). Secrets are NOT set
+  # here — set ANTHROPIC_API_KEY, ARTEX_ADMIN_PASSWORD and ARTEX_PG_DSN with
+  # `fly secrets set` (see deploy/README.md).
+  ARTEX_LANG = "en"
+
+# Public HTTPS front door -> container port 8787 (UI + API + SSE, same origin).
+[http_service]
+  internal_port = 8787
+  force_https = true
+  auto_stop_machines = "off"   # ARTEX runs long autonomous jobs + SSE; do NOT auto-stop
+  auto_start_machines = true
+  min_machines_running = 1
+  [http_service.concurrency]
+    type = "requests"
+    hard_limit = 250
+    soft_limit = 200
+
+  # Health check: the UI root returns 200 once the server is up.
+  [[http_service.checks]]
+    method = "get"
+    path = "/"
+    interval = "15s"
+    timeout = "3s"
+    grace_period = "20s"
+
+# Persistent data (jwt.key, local state). The main store is Postgres; this
+# volume keeps the signing key stable across restarts so sessions survive.
+[mounts]
+  source = "artex_data"
+  destination = "/app/data"
+
+# ARTEX is memory-hungry during multi-worker exploration. 1GB is a floor;
+# bump to 2GB (shared-cpu-2x) for heavier scans.
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "1gb"
