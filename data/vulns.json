@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T19:00:42.703Z",
+ "updated": "2026-11-24T20:00:56.845Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -168,6 +168,23 @@
    "epss": 0.128
   },
   {
+   "id": "CVE-2026-131914",
+   "origin": "KEV",
+   "product": "Idunno AntiCsrf",
+   "name": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+   "desc": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or…",
+   "kevAdded": "2026-11-24",
+   "due": "2026-11-27",
+   "ransomware": false,
+   "published": "2026-11-19",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914",
+   "epss": 0.006
+  },
+  {
    "id": "CVE-2026-134624",
    "origin": "KEV",
    "product": "N-able MailAssure",
@@ -321,6 +338,23 @@
    "epss": 0.017
   },
   {
+   "id": "CVE-2026-132224",
+   "origin": "KEV",
+   "product": "Optimizely Web Experimentation",
+   "name": "Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
+   "desc": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript. Successful exploitation can result in attacker-controlled JavaScript being…",
+   "kevAdded": "2026-11-24",
+   "due": "2026-11-27",
+   "ransomware": false,
+   "published": "2026-11-18",
+   "cvss": 7.1,
+   "severity": "HIGH",
+   "vector": "Network / High / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224",
+   "epss": 0.004
+  },
+  {
    "id": "CVE-2025-42884",
    "origin": "KEV",
    "product": "SAP NetWeaver",
@@ -372,40 +406,6 @@
    "epss": 0.012
   },
   {
-   "id": "CVE-2026-132224",
-   "origin": "KEV",
-   "product": "Optimizely Web Experimentation",
-   "name": "Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
-   "desc": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript. Successful exploitation can result in attacker-controlled JavaScript being…",
-   "kevAdded": "2026-11-24",
-   "due": "2026-11-27",
-   "ransomware": false,
-   "published": "",
-   "cvss": null,
-   "severity": "PENDING",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224",
-   "epss": 0.004
-  },
-  {
-   "id": "CVE-2026-131914",
-   "origin": "KEV",
-   "product": "Idunno AntiCsrf",
-   "name": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
-   "desc": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or…",
-   "kevAdded": "2026-11-24",
-   "due": "2026-11-27",
-   "ransomware": false,
-   "published": "",
-   "cvss": null,
-   "severity": "PENDING",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914",
-   "epss": 0.006
-  },
-  {
    "id": "CVE-2026-132165",
    "origin": "KEV",
    "product": "Drupal Core",
@@ -434,19 +434,6 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134882",
    "epss": 0.025
-  },
-  {
-   "id": "CVE-2026-109484",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Failure to sanitize special elements into a different plane (special element injection) in Azure App Service allows an unauthorized attacker to elevate privileges over a network.",
-   "published": "2026-11-24",
-   "cvss": 10,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109484"
   },
   {
    "id": "CVE-2026-123342",
@@ -514,19 +501,6 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123987"
   },
   {
-   "id": "CVE-2026-125675",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
-   "published": "2026-11-24",
-   "cvss": 9.9,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125675"
-  },
-  {
    "id": "CVE-2026-125676",
    "origin": "NVD",
    "product": "",
@@ -538,6 +512,32 @@
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125676"
+  },
+  {
+   "id": "CVE-2026-123266",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Adobe Experience Manager is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation of…",
+   "published": "2026-11-24",
+   "cvss": 9.9,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123266"
+  },
+  {
+   "id": "CVE-2026-132877",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Adobe Experience Manager is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation of…",
+   "published": "2026-11-24",
+   "cvss": 9.9,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132877"
   },
   {
    "id": "CVE-2026-119582",
@@ -568,19 +568,6 @@
    "epss": 0.008
   },
   {
-   "id": "CVE-2026-123721",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Adobe Campaign Classic (ACC) [NEEDS REVIEW: environment mismatch — product 'Adobe Campaign Classic (ACC)' is only known to appear in the 'Bucket A' bucket but environment_type 'Web Application' is in the 'Bucket B' bucket. This changes the exploitation clause and/or ATO eligibility — verify before…",
-   "published": "2026-11-24",
-   "cvss": 9.6,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123721"
-  },
-  {
    "id": "CVE-2026-125717",
    "origin": "NVD",
    "product": "",
@@ -592,6 +579,19 @@
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125717"
+  },
+  {
+   "id": "CVE-2026-136410",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Thymeleaf before 3.1.6.RELEASE contains a restricted expression mode bypass vulnerability that allows unauthenticated remote attackers to perform forbidden actions through improperly scoped expression objects. Attackers can inject input into restricted contexts like preprocessing, th:utext, th:on*…",
+   "published": "2026-11-24",
+   "cvss": 9.5,
+   "severity": "CRITICAL",
+   "vector": "Network / High / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136410"
   },
   {
    "id": "CVE-2026-136184",

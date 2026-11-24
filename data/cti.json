@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T19:00:42.703Z",
+ "updated": "2026-11-24T20:00:56.845Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -7,7 +7,7 @@
    "items": [
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "HIGH",
      "title": "CVE-2026-132224 — Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
      "desc": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript. Successful exploitation can result in attacker-controlled JavaScript being…",
      "tags": [
@@ -20,7 +20,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-131914 — Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
      "desc": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or…",
      "tags": [
@@ -228,16 +228,6 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-109484 — advisory",
-     "desc": "Failure to sanitize special elements into a different plane (special element injection) in Azure App Service allows an unauthorized attacker to elevate privileges over a network.",
-     "tags": [
-      "published 2026-11-24"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-109484"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
      "title": "CVE-2026-123342 — advisory",
      "desc": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
      "tags": [
@@ -264,6 +254,16 @@
       "published 2026-11-24"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123723"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-123986 — advisory",
+     "desc": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
+     "tags": [
+      "published 2026-11-24"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123986"
     }
    ]
   },
