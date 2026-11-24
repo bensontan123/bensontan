@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T13:00:44.212Z",
+ "updated": "2026-11-24T14:57:34.471Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -10,8 +10,8 @@
  "catalogCount": 1792,
  "counts": {
   "kev": 24,
-  "nvd": 16,
-  "ghsa": 8
+  "nvd": 15,
+  "ghsa": 9
  },
  "items": [
   {
@@ -29,7 +29,7 @@
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968",
-   "epss": 0.037
+   "epss": 0.498
   },
   {
    "id": "CVE-2026-129448",
@@ -46,7 +46,7 @@
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448",
-   "epss": 0.055
+   "epss": 0.401
   },
   {
    "id": "CVE-2026-123890",
@@ -216,7 +216,7 @@
    "vector": "Network / Low / None",
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624",
-   "epss": 0.004
+   "epss": 0.006
   },
   {
    "id": "CVE-2026-116606",
@@ -335,7 +335,7 @@
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713",
-   "epss": 0.011
+   "epss": 0.014
   },
   {
    "id": "CVE-2026-20320",
@@ -447,7 +447,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62841"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62841",
+   "epss": 0.009
   },
   {
    "id": "CVE-2026-50691",
@@ -460,7 +461,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50691"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50691",
+   "epss": 0.008
   },
   {
    "id": "CVE-2026-70193",
@@ -473,7 +475,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70193"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70193",
+   "epss": 0.01
   },
   {
    "id": "CVE-2026-120382",
@@ -500,7 +503,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135202"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135202",
+   "epss": 0.006
   },
   {
    "id": "CVE-2026-119582",
@@ -527,7 +531,8 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://github.com/advisories/GHSA-2r3w-c2vx-fv5g",
-   "ghsaId": "GHSA-2r3w-c2vx-fv5g"
+   "ghsaId": "GHSA-2r3w-c2vx-fv5g",
+   "epss": 0.008
   },
   {
    "id": "CVE-2026-109480",
@@ -540,7 +545,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109480"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109480",
+   "epss": 0.008
   },
   {
    "id": "CVE-2026-118285",
@@ -553,7 +559,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118285"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118285",
+   "epss": 0.007
   },
   {
    "id": "CVE-2026-70305",
@@ -566,7 +573,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / Required",
    "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70305"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70305",
+   "epss": 0.009
   },
   {
    "id": "CVE-2026-133993",
@@ -593,7 +601,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135208"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135208",
+   "epss": 0.006
   },
   {
    "id": "CVE-2026-109490",
@@ -606,7 +615,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / Required",
    "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109490"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109490",
+   "epss": 0.008
   },
   {
    "id": "CVE-2026-133528",
@@ -633,21 +643,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / Passive",
    "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135693"
-  },
-  {
-   "id": "CVE-2026-134287",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "OpenRemote core before 1.34.0 contains an authentication bypass vulnerability in UserAssetProvisioningMQTTHandler that allows unauthenticated attackers to impersonate provisioned devices without proof of private key possession. Attackers can publish a known device's public certificate to the…",
-   "published": "2026-11-21",
-   "cvss": 9.2,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134287",
-   "epss": 0.006
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135693",
+   "epss": 0.004
   },
   {
    "id": "CVE-2026-122247",
@@ -752,6 +749,21 @@
    "url": "https://github.com/advisories/GHSA-w78c-w6vf-rw82",
    "ghsaId": "GHSA-w78c-w6vf-rw82",
    "epss": 0.002
+  },
+  {
+   "id": "CVE-2026-63410",
+   "origin": "GHSA",
+   "product": "rubygems secp256k1-native",
+   "name": "secp256k1-native has a compiler-induced timing side channel in scalar multiplication",
+   "desc": "secp256k1-native has a compiler-induced timing side channel in scalar multiplication",
+   "published": "2026-11-23",
+   "cvss": 5.9,
+   "severity": "MEDIUM",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-vp2j-gqfm-r3cf",
+   "ghsaId": "GHSA-vp2j-gqfm-r3cf",
+   "epss": 0.003
   }
  ]
 }

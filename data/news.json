@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T13:00:44.212Z",
+ "updated": "2026-11-24T14:57:34.471Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -23,6 +23,17 @@
     "The Hacker News"
    ],
    "link": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html"
+  },
+  {
+   "date": "2026-11-24",
+   "region": "JP",
+   "cat": "News",
+   "title": "McDonald's Japan data breach exposes customer location information",
+   "desc": "McDonald's Japan, the fast-food giant's Japanese subsidiary, has disclosed a data breach after attackers accessed a database containing sensitive information for users of the company's official smartphone app.",
+   "tags": [
+    "BleepingComputer"
+   ],
+   "link": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/"
   },
   {
    "date": "2026-11-24",
@@ -254,17 +265,6 @@
     "SingCERT"
    ],
    "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-161"
-  },
-  {
-   "date": "2026-11-11",
-   "region": "JP",
-   "cat": "Advisory",
-   "title": "Security Alert: Microsoft Releases November 2026 Security Updates",
-   "desc": "",
-   "tags": [
-    "JPCERT/CC"
-   ],
-   "link": "https://www.jpcert.or.jp/english/at/2026/at260035.html"
   }
  ]
 }

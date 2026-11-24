@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T14:00:46.259Z",
+ "updated": "2026-11-24T14:57:34.471Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -14,7 +14,7 @@
       "Project MONAI MONAI Label",
       "KEV added 2026-11-23",
       "remediate by 2026-11-26",
-      "EPSS 3.7%"
+      "EPSS 49.8%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968"
     },
@@ -27,7 +27,7 @@
       "N-able MailAssure",
       "KEV added 2026-11-23",
       "remediate by 2026-11-26",
-      "EPSS 0.4%"
+      "EPSS 0.6%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624"
     },
@@ -40,7 +40,7 @@
       "Apache Roller",
       "KEV added 2026-11-20",
       "remediate by 2026-11-23",
-      "EPSS 5.5%"
+      "EPSS 40.1%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448"
     },
@@ -200,15 +200,15 @@
     {
      "cat": "EPSS",
      "sev": "CRITICAL",
-     "title": "CVE-2026-116779 — SignalWire FreeSwitch Code Injection Vulnerability",
-     "desc": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.",
+     "title": "CVE-2026-133968 — Project MONAI MONAI Label Path Traversal Vulnerability",
+     "desc": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
      "tags": [
-      "SignalWire FreeSwitch",
-      "KEV added 2026-11-09",
-      "remediate by 2026-11-12",
-      "EPSS 44.1%"
+      "Project MONAI MONAI Label",
+      "KEV added 2026-11-23",
+      "remediate by 2026-11-26",
+      "EPSS 49.8%"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968"
     }
    ]
   },
@@ -232,7 +232,8 @@
      "title": "CVE-2026-62841 — advisory",
      "desc": "Improper authentication in Azure Event Grid allows an unauthorized attacker to elevate privileges over a network.",
      "tags": [
-      "published 2026-11-23"
+      "published 2026-11-23",
+      "EPSS 0.9%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-62841"
     },
@@ -242,7 +243,8 @@
      "title": "CVE-2026-50691 — advisory",
      "desc": "Improper authorization in M365 Copilot allows an authorized attacker to elevate privileges over a network.",
      "tags": [
-      "published 2026-11-23"
+      "published 2026-11-23",
+      "EPSS 0.8%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-50691"
     },
@@ -252,7 +254,8 @@
      "title": "CVE-2026-70193 — advisory",
      "desc": "Improper limitation of a pathname to a restricted directory ('path traversal') in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.",
      "tags": [
-      "published 2026-11-23"
+      "published 2026-11-23",
+      "EPSS 1.0%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-70193"
     },
