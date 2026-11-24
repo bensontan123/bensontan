@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T05:00:46.959Z",
+ "updated": "2026-11-24T07:00:44.263Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -490,6 +490,19 @@
    "epss": 0.012
   },
   {
+   "id": "CVE-2026-135202",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Several plugins for WordPress published by WP connect (Orders Sync to Airtable for WooCommerce, Add-On for Contact Form 7 to Notion, WP Sync for Notion – Notion to WordPress, Add-On for Contact Form 7 to Airtable, Add-on Brevo for Gravity Forms, and Air WP Sync – Airtable to WordPress) contain…",
+   "published": "2026-11-24",
+   "cvss": 9.8,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135202"
+  },
+  {
    "id": "CVE-2026-133469",
    "origin": "GHSA",
    "product": "npm xo-server",
@@ -636,20 +649,6 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134814",
    "epss": 0.006
-  },
-  {
-   "id": "CVE-2026-134815",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "simple-git before 4.1.0 contains an argument injection vulnerability that allows attackers to bypass the allowUnsafePack guard by supplying the --exec option to non-push git operations. Attackers who influence arguments passed to listRemote() or raw() can inject --exec for ls-remote, archive…",
-   "published": "2026-11-22",
-   "cvss": 9.2,
-   "severity": "CRITICAL",
-   "vector": "Network / High / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134815",
-   "epss": 0.008
   },
   {
    "id": "CVE-2026-122247",

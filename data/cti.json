@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T05:00:46.959Z",
+ "updated": "2026-11-24T07:00:44.263Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -357,6 +357,26 @@
      "link": "https://isc.sans.edu/diary/rss/33552"
     },
     {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+     "desc": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. \"It lets agents write dynamic eBPF controls…",
+     "tags": [
+      "2026-11-24"
+     ],
+     "link": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+     "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The…",
+     "tags": [
+      "2026-11-24"
+     ],
+     "link": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html"
+    },
+    {
      "cat": "The Record",
      "sev": "NEWS",
      "title": "Hackers breach Austrian Foreign Ministry website, access diplomats' contact details",
@@ -375,26 +395,6 @@
       "2026-11-23"
      ],
      "link": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog"
-    },
-    {
-     "cat": "SANS ISC",
-     "sev": "NEWS",
-     "title": "ISC Stormcast For Monday, November 23rd, 2026 https://isc.sans.edu/podcastdetail/10190, (Mon, Nov 23rd)",
-     "desc": "",
-     "tags": [
-      "2026-11-23"
-     ],
-     "link": "https://isc.sans.edu/diary/rss/33548"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
-     "desc": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints, while disguising it as network-monitoring…",
-     "tags": [
-      "2026-11-23"
-     ],
-     "link": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html"
     }
    ]
   }

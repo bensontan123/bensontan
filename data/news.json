@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T02:00:43.194Z",
+ "updated": "2026-11-24T07:00:44.263Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -12,6 +12,17 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/google-chrome-remote-code-execution-vulnerability_20261124"
+  },
+  {
+   "date": "2026-11-24",
+   "region": "JP",
+   "cat": "News",
+   "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+   "desc": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. \"It lets agents write dynamic eBPF controls…",
+   "tags": [
+    "The Hacker News"
+   ],
+   "link": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html"
   },
   {
    "date": "2026-11-23",
@@ -254,17 +265,6 @@
     "SingCERT"
    ],
    "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-160"
-  },
-  {
-   "date": "2026-11-05",
-   "region": "AU",
-   "cat": "News",
-   "title": "Post-Quantum Questions to Ask Your Vendors",
-   "desc": "CISA, the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and the National Security Agency (NSA) released joint guidance and an accompanying quick-reference list to help organizations assess vendor readiness…",
-   "tags": [
-    "CISA"
-   ],
-   "link": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors"
   }
  ]
 }
