@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T21:00:46.186Z",
+ "updated": "2026-11-24T22:00:44.830Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -272,6 +272,29 @@
    "items": [
     {
      "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "GHSA-jp3c-6v3g-mpxv — github.com/insomniacslk/dhcp permits denial of service through a malformed IPv4 payload length",
+     "desc": "github.com/insomniacslk/dhcp permits denial of service through a malformed IPv4 payload length",
+     "tags": [
+      "go github.com/insomniacslk/dhcp",
+      "published 2026-11-24"
+     ],
+     "link": "https://github.com/advisories/GHSA-jp3c-6v3g-mpxv"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-59818 — etcd: CRL enforcement bypass on gRPC listener when `--listen-client-http-urls` is configured",
+     "desc": "etcd: CRL enforcement bypass on gRPC listener when `--listen-client-http-urls` is configured",
+     "tags": [
+      "go go.etcd.io/etcd/v3",
+      "published 2026-11-24",
+      "EPSS 0.4%"
+     ],
+     "link": "https://github.com/advisories/GHSA-3wh4-j44w-pg92"
+    },
+    {
+     "cat": "GHSA",
      "sev": "CRITICAL",
      "title": "CVE-2026-59726 — ruflo MCP bridge allows unauthenticated remote code execution in default Docker Compose deployments",
      "desc": "ruflo MCP bridge allows unauthenticated remote code execution in default Docker Compose deployments",
@@ -305,30 +328,6 @@
       "EPSS 0.6%"
      ],
      "link": "https://github.com/advisories/GHSA-48qj-5wxh-m8hc"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-63304 — AVideo API vulnerable to OS command injection through an unescaped FFmpeg process keyword",
-     "desc": "AVideo API vulnerable to OS command injection through an unescaped FFmpeg process keyword",
-     "tags": [
-      "composer wwbn/avideo",
-      "published 2026-11-23",
-      "EPSS 1.7%"
-     ],
-     "link": "https://github.com/advisories/GHSA-j44m-77cc-p3cc"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-63476 — isomorphic-git allows unbounded memory allocation from attacker-controlled delta target size (DoS)",
-     "desc": "isomorphic-git allows unbounded memory allocation from attacker-controlled delta target size (DoS)",
-     "tags": [
-      "npm isomorphic-git",
-      "published 2026-11-23",
-      "EPSS 0.4%"
-     ],
-     "link": "https://github.com/advisories/GHSA-9x82-4j54-863h"
     }
    ]
   },
