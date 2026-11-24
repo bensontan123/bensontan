@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T07:00:44.263Z",
+ "updated": "2026-11-24T13:00:44.212Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -503,6 +503,19 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135202"
   },
   {
+   "id": "CVE-2026-119582",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in ITG Bilgisayar Teknoloji Grubu Tic. Ltd. Şti. VSRM allows SQL Injection.\n\nThis issue affects vSRM: from v14.08.3 before v14.08.5.",
+   "published": "2026-11-24",
+   "cvss": 9.8,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119582"
+  },
+  {
    "id": "CVE-2026-133469",
    "origin": "GHSA",
    "product": "npm xo-server",
@@ -634,20 +647,6 @@
    "vector": "Network / Low / None",
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134287",
-   "epss": 0.006
-  },
-  {
-   "id": "CVE-2026-134814",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "binary-parser before 2.3.1 contains a code injection vulnerability that allows attackers controlling parser definitions to inject JavaScript through string-typed options passed unvalidated by Context.generateOption(). Attackers can supply crafted length, lengthInBytes, key, tag, offset, or namely()…",
-   "published": "2026-11-22",
-   "cvss": 9.2,
-   "severity": "CRITICAL",
-   "vector": "Network / High / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134814",
    "epss": 0.006
   },
   {

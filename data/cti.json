@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T11:00:46.991Z",
+ "updated": "2026-11-24T13:00:44.212Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -359,42 +359,42 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+     "desc": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it. In March 2026, the hackers who hijacked…",
+     "tags": [
+      "2026-11-24"
+     ],
+     "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
+     "desc": "A quirk in how the .NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows built to block it, Google Project Zero researcher James Forshaw showed in a write-up published…",
+     "tags": [
+      "2026-11-24"
+     ],
+     "link": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
+     "desc": "What if your biggest SOC budget problem isn't how much you spend, but how much analyst time you lose? According to ANY.RUN's estimates, SOC teams could recover 450 analyst hours per 1,000 investigated alerts through faster threat analysis…",
+     "tags": [
+      "2026-11-24"
+     ],
+     "link": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
      "desc": "Norway's National Security Authority (NSM) has disclosed that it became aware of a security vulnerability in Microsoft's Azure API Management (APIM) that has affected multiple businesses in the country, including energy companies Equinor…",
      "tags": [
       "2026-11-24"
      ],
      "link": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
-     "desc": "A flaw in WHMCS's shopping cart, the billing and automation platform many web hosting companies use to run their businesses, could allow anyone on the internet to retrieve customer records and administrator password hashes from an…",
-     "tags": [
-      "2026-11-24"
-     ],
-     "link": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
-     "desc": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. \"It lets agents write dynamic eBPF controls…",
-     "tags": [
-      "2026-11-24"
-     ],
-     "link": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
-     "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The…",
-     "tags": [
-      "2026-11-24"
-     ],
-     "link": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html"
     }
    ]
   }

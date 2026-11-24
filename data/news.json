@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T07:00:44.263Z",
+ "updated": "2026-11-24T13:00:44.212Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -23,6 +23,17 @@
     "The Hacker News"
    ],
    "link": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html"
+  },
+  {
+   "date": "2026-11-24",
+   "region": "JP",
+   "cat": "News",
+   "title": "McDonald’s Japan discloses breach exposing customer purchase and location data",
+   "desc": "McDonald’s Japan disclosed a cybersecurity breach that exposed customers’ purchase histories and mobile device location data.",
+   "tags": [
+    "The Record"
+   ],
+   "link": "https://therecord.media/japan-mcdonalds-cyberattack-breach"
   },
   {
    "date": "2026-11-23",
@@ -254,17 +265,6 @@
     "JPCERT/CC"
    ],
    "link": "https://www.jpcert.or.jp/english/at/2026/at260035.html"
-  },
-  {
-   "date": "2026-11-10",
-   "region": "SG",
-   "cat": "Advisory",
-   "title": "November 2026 Monthly Patch",
-   "desc": "Microsoft has released security patches to address multiple vulnerabilities in their software and products.",
-   "tags": [
-    "SingCERT"
-   ],
-   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-160"
   }
  ]
 }
