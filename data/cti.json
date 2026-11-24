@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T00:00:46.303Z",
+ "updated": "2026-11-24T01:00:45.719Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -357,6 +357,16 @@
      "link": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog"
     },
     {
+     "cat": "SANS ISC",
+     "sev": "NEWS",
+     "title": "ISC Stormcast For Monday, November 23rd, 2026 https://isc.sans.edu/podcastdetail/10190, (Mon, Nov 23rd)",
+     "desc": "",
+     "tags": [
+      "2026-11-23"
+     ],
+     "link": "https://isc.sans.edu/diary/rss/33548"
+    },
+    {
      "cat": "The Hacker News",
      "sev": "NEWS",
      "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
@@ -385,16 +395,6 @@
       "2026-11-23"
      ],
      "link": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
-     "desc": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw…",
-     "tags": [
-      "2026-11-23"
-     ],
-     "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html"
     }
    ]
   }
