@@ -1,10 +1,48 @@
 {
- "updated": "2026-11-24T16:00:47.480Z",
+ "updated": "2026-11-24T18:00:55.633Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
    "label": "Newly exploited — latest CISA KEV additions",
    "items": [
+    {
+     "cat": "KEV",
+     "sev": "PENDING",
+     "title": "CVE-2026-132224 — Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
+     "desc": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript. Successful exploitation can result in attacker-controlled JavaScript being…",
+     "tags": [
+      "Optimizely Web Experimentation",
+      "KEV added 2026-11-24",
+      "remediate by 2026-11-27",
+      "EPSS 0.4%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224"
+    },
+    {
+     "cat": "KEV",
+     "sev": "PENDING",
+     "title": "CVE-2026-131914 — Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+     "desc": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or…",
+     "tags": [
+      "Idunno AntiCsrf",
+      "KEV added 2026-11-24",
+      "remediate by 2026-11-27",
+      "EPSS 0.6%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914"
+    },
+    {
+     "cat": "KEV",
+     "sev": "PENDING",
+     "title": "CVE-2026-132165 — Drupal Core Remote Code Execution Vulnerability",
+     "desc": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site.",
+     "tags": [
+      "Drupal Core",
+      "KEV added 2026-11-24",
+      "remediate by 2026-11-27"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165"
+    },
     {
      "cat": "KEV",
      "sev": "CRITICAL",
@@ -30,45 +68,6 @@
       "EPSS 0.6%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624"
-    },
-    {
-     "cat": "KEV",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-129448 — Apache Roller Deserialization of Untrusted Data Vulnerability",
-     "desc": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability…",
-     "tags": [
-      "Apache Roller",
-      "KEV added 2026-11-20",
-      "remediate by 2026-11-23",
-      "EPSS 40.1%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448"
-    },
-    {
-     "cat": "KEV",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-123890 — VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-     "desc": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
-     "tags": [
-      "Broadcom VMware vCenter",
-      "KEV added 2026-11-20",
-      "remediate by 2026-11-23",
-      "EPSS 3.5%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890"
-    },
-    {
-     "cat": "KEV",
-     "sev": "MEDIUM",
-     "title": "CVE-2025-42884 — SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
-     "desc": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations.",
-     "tags": [
-      "SAP NetWeaver",
-      "KEV added 2026-11-20",
-      "remediate by 2026-11-23",
-      "EPSS 0.9%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884"
     }
    ]
   },
@@ -229,23 +228,22 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-135202 — advisory",
-     "desc": "Several plugins for WordPress published by WP connect (Orders Sync to Airtable for WooCommerce, Add-On for Contact Form 7 to Notion, WP Sync for Notion – Notion to WordPress, Add-On for Contact Form 7 to Airtable, Add-on Brevo for Gravity Forms, and Air WP Sync – Airtable to WordPress) contain…",
-     "tags": [
-      "published 2026-11-24",
-      "EPSS 0.6%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-135202"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
      "title": "CVE-2026-119582 — advisory",
      "desc": "Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in ITG Bilgisayar Teknoloji Grubu Tic. Ltd. Şti. VSRM allows SQL Injection.\n\nThis issue affects vSRM: from v14.08.3 before v14.08.5.",
      "tags": [
       "published 2026-11-24"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-119582"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-136184 — advisory",
+     "desc": "compose-farm 0.19.0 before 1.22.0 contains a cross-site WebSocket hijacking and cross-site request forgery vulnerability because its unauthenticated web UI performs no Origin validation. Malicious websites visited by users can open /ws/shell/{host} or /ws/exec sockets, or abuse unquoted service…",
+     "tags": [
+      "published 2026-11-24"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-136184"
     },
     {
      "cat": "NVD",
@@ -274,6 +272,18 @@
   {
    "label": "Recently disclosed advisories (GitHub)",
    "items": [
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-59192 — Cakephp twig-view unserialize Twig filter allows arbitrary object deserialization",
+     "desc": "Cakephp twig-view unserialize Twig filter allows arbitrary object deserialization",
+     "tags": [
+      "composer cakephp/twig-view",
+      "published 2026-11-24",
+      "EPSS 0.6%"
+     ],
+     "link": "https://github.com/advisories/GHSA-48qj-5wxh-m8hc"
+    },
     {
      "cat": "GHSA",
      "sev": "HIGH",
@@ -320,18 +330,6 @@
       "EPSS 0.3%"
      ],
      "link": "https://github.com/advisories/GHSA-vp2j-gqfm-r3cf"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-58262 — Klever Go counts bitmap padding bits toward BLS quorum, allowing blocks with insufficient signatures",
-     "desc": "Klever Go counts bitmap padding bits toward BLS quorum, allowing blocks with insufficient signatures",
-     "tags": [
-      "go github.com/klever-io/klever-go",
-      "published 2026-11-23",
-      "EPSS 0.2%"
-     ],
-     "link": "https://github.com/advisories/GHSA-f9h7-4mmq-vgcq"
     }
    ]
   },
@@ -391,12 +389,12 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
-     "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
-     "desc": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical vulnerability…",
+     "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+     "desc": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus. Central to the group's operations is a backdoor called…",
      "tags": [
       "2026-11-24"
      ],
-     "link": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html"
+     "link": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html"
     }
    ]
   }

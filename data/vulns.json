@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-24T16:00:47.480Z",
+ "updated": "2026-11-24T18:00:55.633Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
   "NVD",
   "GHSA"
  ],
- "catalogVersion": "2026.11.23",
- "catalogCount": 1792,
+ "catalogVersion": "2026.11.24",
+ "catalogCount": 1795,
  "counts": {
   "kev": 24,
   "nvd": 15,
@@ -149,40 +149,6 @@
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895",
    "epss": 0.188
-  },
-  {
-   "id": "CVE-2026-116779",
-   "origin": "KEV",
-   "product": "SignalWire FreeSwitch",
-   "name": "SignalWire FreeSwitch Code Injection Vulnerability",
-   "desc": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.",
-   "kevAdded": "2026-11-09",
-   "due": "2026-11-12",
-   "ransomware": false,
-   "published": "2026-11-05",
-   "cvss": 9.8,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779",
-   "epss": 0.441
-  },
-  {
-   "id": "CVE-2026-123218",
-   "origin": "KEV",
-   "product": "IBM Aspera Faspex",
-   "name": "IBM Aspera Faspex Incorrect Authorization Vulnerability",
-   "desc": "IBM Aspera Faspex contains an incorrect authorization vulnerability that could allow an authenticated user to craft a specific message to bypass authorization, causing privilege escalations.",
-   "kevAdded": "2026-11-09",
-   "due": "2026-11-12",
-   "ransomware": false,
-   "published": "2026-11-07",
-   "cvss": 9.8,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218",
-   "epss": 0.01
   },
   {
    "id": "CVE-2026-115731",
@@ -355,23 +321,6 @@
    "epss": 0.017
   },
   {
-   "id": "CVE-2026-19868",
-   "origin": "KEV",
-   "product": "SonicWall SonicOS SSLVPN",
-   "name": "SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
-   "desc": "SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA).",
-   "kevAdded": "2026-11-06",
-   "due": "2026-11-20",
-   "ransomware": false,
-   "published": "2026-11-06",
-   "cvss": 7.5,
-   "severity": "HIGH",
-   "vector": "Network / High / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868",
-   "epss": 0.08
-  },
-  {
    "id": "CVE-2025-42884",
    "origin": "KEV",
    "product": "SAP NetWeaver",
@@ -423,6 +372,56 @@
    "epss": 0.012
   },
   {
+   "id": "CVE-2026-132224",
+   "origin": "KEV",
+   "product": "Optimizely Web Experimentation",
+   "name": "Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
+   "desc": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript. Successful exploitation can result in attacker-controlled JavaScript being…",
+   "kevAdded": "2026-11-24",
+   "due": "2026-11-27",
+   "ransomware": false,
+   "published": "",
+   "cvss": null,
+   "severity": "PENDING",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224",
+   "epss": 0.004
+  },
+  {
+   "id": "CVE-2026-131914",
+   "origin": "KEV",
+   "product": "Idunno AntiCsrf",
+   "name": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+   "desc": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or…",
+   "kevAdded": "2026-11-24",
+   "due": "2026-11-27",
+   "ransomware": false,
+   "published": "",
+   "cvss": null,
+   "severity": "PENDING",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914",
+   "epss": 0.006
+  },
+  {
+   "id": "CVE-2026-132165",
+   "origin": "KEV",
+   "product": "Drupal Core",
+   "name": "Drupal Core Remote Code Execution Vulnerability",
+   "desc": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site.",
+   "kevAdded": "2026-11-24",
+   "due": "2026-11-27",
+   "ransomware": false,
+   "published": "",
+   "cvss": null,
+   "severity": "PENDING",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165"
+  },
+  {
    "id": "CVE-2026-134882",
    "origin": "NVD",
    "product": "",
@@ -435,20 +434,6 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134882",
    "epss": 0.025
-  },
-  {
-   "id": "CVE-2026-135202",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Several plugins for WordPress published by WP connect (Orders Sync to Airtable for WooCommerce, Add-On for Contact Form 7 to Notion, WP Sync for Notion – Notion to WordPress, Add-On for Contact Form 7 to Airtable, Add-on Brevo for Gravity Forms, and Air WP Sync – Airtable to WordPress) contain…",
-   "published": "2026-11-24",
-   "cvss": 9.8,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135202",
-   "epss": 0.006
   },
   {
    "id": "CVE-2026-119582",
@@ -477,6 +462,19 @@
    "url": "https://github.com/advisories/GHSA-2r3w-c2vx-fv5g",
    "ghsaId": "GHSA-2r3w-c2vx-fv5g",
    "epss": 0.008
+  },
+  {
+   "id": "CVE-2026-136184",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "compose-farm 0.19.0 before 1.22.0 contains a cross-site WebSocket hijacking and cross-site request forgery vulnerability because its unauthenticated web UI performs no Origin validation. Malicious websites visited by users can open /ws/shell/{host} or /ws/exec sockets, or abuse unquoted service…",
+   "published": "2026-11-24",
+   "cvss": 9.4,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / Passive",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136184"
   },
   {
    "id": "CVE-2026-133993",
@@ -521,18 +519,18 @@
    "epss": 0.002
   },
   {
-   "id": "CVE-2026-135693",
+   "id": "CVE-2026-135736",
    "origin": "NVD",
    "product": "",
    "name": "",
-   "desc": "rConfig Core 8.0.0 before 8.2.17 and rConfig Pro before 8.4.0 contain a stored cross-site scripting vulnerability in the Config Search View Matches dialog, which renders configuration context via v-html without escaping. Attackers can place markup in device banners, interface descriptions, ACL…",
+   "desc": "FFmpeg 4.4 before 9.1 contains a heap out-of-bounds read and write vulnerability in libavfilter/vf_deband.c that allows attackers to corrupt heap memory by sending a runtime coupling command. Attackers can send a 'deband coupling 1' command via sendcmd or an unauthenticated zmq filter, making…",
    "published": "2026-11-24",
-   "cvss": 9.3,
+   "cvss": 9.2,
    "severity": "CRITICAL",
-   "vector": "Network / Low / Passive",
+   "vector": "Network / High / None",
    "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135693",
-   "epss": 0.004
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135736",
+   "epss": 0.007
   },
   {
    "id": "CVE-2026-134287",
@@ -605,34 +603,6 @@
    "epss": 0.011
   },
   {
-   "id": "CVE-2026-101864",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "EUSurvey through 1.6, prior to commit a4161a9, contains a weak password recovery mechanism that allows attackers who obtain a still-valid password-reset link to take over accounts that use a local EUSurvey password. The /auth/reset/ flow checks only the age of a reset code and does not invalidate…",
-   "published": "2026-11-23",
-   "cvss": 9.2,
-   "severity": "CRITICAL",
-   "vector": "Network / High / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101864",
-   "epss": 0.004
-  },
-  {
-   "id": "CVE-2026-135743",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "FFmpeg 4.3 before 9.1 contains a heap out-of-bounds read and write vulnerability in the dynaudnorm filter because cqueue_resize() miscalculates gain history queue element counts when gausssize changes at runtime. Attackers can send gausssize commands via asendcmd scripts or an unauthenticated azmq…",
-   "published": "2026-11-24",
-   "cvss": 9.2,
-   "severity": "CRITICAL",
-   "vector": "Network / High / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135743",
-   "epss": 0.006
-  },
-  {
    "id": "CVE-2026-136126",
    "origin": "NVD",
    "product": "",
@@ -644,6 +614,32 @@
    "vector": "Network / High / None",
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136126"
+  },
+  {
+   "id": "CVE-2026-136132",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Pangolin before 1.21.0 contains an authentication bypass vulnerability in isPathAllowed() in server/lib/pathMatch.ts that splits paths on literal slashes without percent-decoding or resolving dot segments. Unauthenticated remote attackers can send paths with encoded slashes and dot segments to…",
+   "published": "2026-11-24",
+   "cvss": 9.2,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136132"
+  },
+  {
+   "id": "CVE-2026-117593",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Weak Password Recovery Mechanism for Forgotten Password vulnerability in ITG Bilgisayar Teknoloji Grubu Tic. Ltd. Şti. VSRM allows Password Recovery Exploitation.\n\nThis issue affects vSRM: from v14.08.3 before v14.08.5.",
+   "published": "2026-11-24",
+   "cvss": 9.1,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117593"
   },
   {
    "id": "CVE-2026-122247",
