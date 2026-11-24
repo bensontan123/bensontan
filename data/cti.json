@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T09:00:44.335Z",
+ "updated": "2026-11-24T10:00:45.586Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -337,6 +337,26 @@
    "label": "Threat headlines",
    "items": [
     {
+     "cat": "SANS ISC",
+     "sev": "NEWS",
+     "title": "Scanning from Subnet 109.160.32.0/24, (Mon, Nov 23rd)",
+     "desc": "This subnet is assigned to a web hosting and virtual private server (VPS) provider BANATSYNC SRL with AS198364, located in Timisoara, Romania. This graph shows the DShield sensor activity over the past 90 days for this subnet and it is…",
+     "tags": [
+      "2026-11-24"
+     ],
+     "link": "https://isc.sans.edu/diary/rss/33550"
+    },
+    {
+     "cat": "SANS ISC",
+     "sev": "NEWS",
+     "title": "ISC Stormcast For Tuesday, November 24th, 2026 https://isc.sans.edu/podcastdetail/10192, (Tue, Nov 24th)",
+     "desc": "",
+     "tags": [
+      "2026-11-24"
+     ],
+     "link": "https://isc.sans.edu/diary/rss/33552"
+    },
+    {
      "cat": "The Hacker News",
      "sev": "NEWS",
      "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
@@ -359,42 +379,22 @@
     {
      "cat": "The Record",
      "sev": "NEWS",
+     "title": "LaLiga hacked: Spain’s top football league confirms theft of fans’ personal data",
+     "desc": "Spain’s professional soccer league LaLiga said Monday hackers stole personal information belonging to fans in a cyberattack affecting its digital services and those of several Spanish clubs.",
+     "tags": [
+      "2026-11-24"
+     ],
+     "link": "https://therecord.media/laliga-hacked-spain-top-professional-league-confirms-cyber-incident"
+    },
+    {
+     "cat": "The Record",
+     "sev": "NEWS",
      "title": "‘Grand Theft Auto VI’ hacker sentenced to seven years, released the same day",
      "desc": "A British cybercriminal who hacked Rockstar Games and leaked footage of Grand Theft Auto VI was sentenced Monday to seven years in prison, and then released on license because of time served.",
      "tags": [
       "2026-11-24"
      ],
      "link": "https://therecord.media/gta-vi-hacker-arion-kurtaj-released-on-license"
-    },
-    {
-     "cat": "The Record",
-     "sev": "NEWS",
-     "title": "Hackers breach Austrian Foreign Ministry website, access diplomats' contact details",
-     "desc": "Austria's Foreign Ministry said late last week that hackers breached one of its websites and accessed the names and official contact information of employees at its Vienna headquarters and at Austria’s diplomatic missions abroad.",
-     "tags": [
-      "2026-11-24"
-     ],
-     "link": "https://therecord.media/austrian-foreign-ministry-says-website-hacked"
-    },
-    {
-     "cat": "CISA",
-     "sev": "NEWS",
-     "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-     "desc": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-133968 Project MONAI MONAI Label Path Traversal Vulnerability CVE-2026-134624 N-able Mail…",
-     "tags": [
-      "2026-11-23"
-     ],
-     "link": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
-     "desc": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints, while disguising it as network-monitoring…",
-     "tags": [
-      "2026-11-23"
-     ],
-     "link": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html"
     }
    ]
   }
