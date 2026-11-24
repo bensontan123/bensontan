@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T10:00:45.586Z",
+ "updated": "2026-11-24T11:00:46.991Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -359,6 +359,26 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
+     "desc": "Norway's National Security Authority (NSM) has disclosed that it became aware of a security vulnerability in Microsoft's Azure API Management (APIM) that has affected multiple businesses in the country, including energy companies Equinor…",
+     "tags": [
+      "2026-11-24"
+     ],
+     "link": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
+     "desc": "A flaw in WHMCS's shopping cart, the billing and automation platform many web hosting companies use to run their businesses, could allow anyone on the internet to retrieve customer records and administrator password hashes from an…",
+     "tags": [
+      "2026-11-24"
+     ],
+     "link": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
      "desc": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. \"It lets agents write dynamic eBPF controls…",
      "tags": [
@@ -375,26 +395,6 @@
       "2026-11-24"
      ],
      "link": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html"
-    },
-    {
-     "cat": "The Record",
-     "sev": "NEWS",
-     "title": "LaLiga hacked: Spain’s top football league confirms theft of fans’ personal data",
-     "desc": "Spain’s professional soccer league LaLiga said Monday hackers stole personal information belonging to fans in a cyberattack affecting its digital services and those of several Spanish clubs.",
-     "tags": [
-      "2026-11-24"
-     ],
-     "link": "https://therecord.media/laliga-hacked-spain-top-professional-league-confirms-cyber-incident"
-    },
-    {
-     "cat": "The Record",
-     "sev": "NEWS",
-     "title": "‘Grand Theft Auto VI’ hacker sentenced to seven years, released the same day",
-     "desc": "A British cybercriminal who hacked Rockstar Games and leaked footage of Grand Theft Auto VI was sentenced Monday to seven years in prison, and then released on license because of time served.",
-     "tags": [
-      "2026-11-24"
-     ],
-     "link": "https://therecord.media/gta-vi-hacker-arion-kurtaj-released-on-license"
     }
    ]
   }
