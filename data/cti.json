@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T14:57:34.471Z",
+ "updated": "2026-11-24T16:00:47.480Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -229,46 +229,45 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-62841 — advisory",
-     "desc": "Improper authentication in Azure Event Grid allows an unauthorized attacker to elevate privileges over a network.",
+     "title": "CVE-2026-135202 — advisory",
+     "desc": "Several plugins for WordPress published by WP connect (Orders Sync to Airtable for WooCommerce, Add-On for Contact Form 7 to Notion, WP Sync for Notion – Notion to WordPress, Add-On for Contact Form 7 to Airtable, Add-on Brevo for Gravity Forms, and Air WP Sync – Airtable to WordPress) contain…",
      "tags": [
-      "published 2026-11-23",
-      "EPSS 0.9%"
+      "published 2026-11-24",
+      "EPSS 0.6%"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-62841"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-135202"
     },
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-50691 — advisory",
-     "desc": "Improper authorization in M365 Copilot allows an authorized attacker to elevate privileges over a network.",
+     "title": "CVE-2026-119582 — advisory",
+     "desc": "Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in ITG Bilgisayar Teknoloji Grubu Tic. Ltd. Şti. VSRM allows SQL Injection.\n\nThis issue affects vSRM: from v14.08.3 before v14.08.5.",
      "tags": [
-      "published 2026-11-23",
-      "EPSS 0.8%"
+      "published 2026-11-24"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-50691"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-119582"
     },
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-70193 — advisory",
-     "desc": "Improper limitation of a pathname to a restricted directory ('path traversal') in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.",
+     "title": "CVE-2026-133993 — advisory",
+     "desc": "A security flaw has been discovered in D-Link DIR-600L 2.17b02. This affects the function FUN_0040efb0 of the file gena.cgi of the component GENA Subscription Handler. Performing a manipulation of the argument service results in stack-based buffer overflow. The attack is possible to be carried out…",
      "tags": [
-      "published 2026-11-23",
-      "EPSS 1.0%"
+      "published 2026-11-21",
+      "EPSS 1.1%"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-70193"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133993"
     },
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-120382 — advisory",
-     "desc": "An improper neutralization of argument delimiters in a command vulnerability in the OAuth API in Synology DiskStation Manager (DSM) before 7.1.1-42962-10, 7.2.1-69057-14, 7.2.2-72806-11, 7.3.2-86009-6, and 7.4.1-90080-2 allows remote attackers to read or write arbitrary files and conduct…",
+     "title": "CVE-2026-135208 — advisory",
+     "desc": "Kerberos Agent before 3.14.4 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge administrator tokens because JWTMiddleWare() falls back to the hard-coded key TOBECHANGED. Attackers can sign HS256 tokens with arbitrary username and role claims to access…",
      "tags": [
       "published 2026-11-23",
-      "EPSS 1.2%"
+      "EPSS 0.6%"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120382"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-135208"
     }
    ]
   },
@@ -340,6 +339,36 @@
    "label": "Threat headlines",
    "items": [
     {
+     "cat": "CISA",
+     "sev": "NEWS",
+     "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
+     "desc": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcoStruxure™ Power Build Rapsody product. The EcoStruxure™ Power Build Rapsody is used to enter or import the single line diagram, to get the extensive bill of…",
+     "tags": [
+      "2026-11-24"
+     ],
+     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02"
+    },
+    {
+     "cat": "CISA",
+     "sev": "NEWS",
+     "title": "Danfoss AK-SM 8xxA Series",
+     "desc": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges. The following versions of Danfoss AK-SM 8xxA Series are affected: AK-SM8xxA <=5.4.0…",
+     "tags": [
+      "2026-11-24"
+     ],
+     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03"
+    },
+    {
+     "cat": "CISA",
+     "sev": "NEWS",
+     "title": "AutomationDirect C-More EA9 Programming Software",
+     "desc": "View CSAF Summary Successful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to arbitrary code execution, if a user is convinced to open a…",
+     "tags": [
+      "2026-11-24"
+     ],
+     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01"
+    },
+    {
      "cat": "SANS ISC",
      "sev": "NEWS",
      "title": "Scanning from Subnet 109.160.32.0/24, (Mon, Nov 23rd)",
@@ -368,36 +397,6 @@
       "2026-11-24"
      ],
      "link": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
-     "desc": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team. The cluster, dubbed…",
-     "tags": [
-      "2026-11-24"
-     ],
-     "link": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
-     "desc": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it. In March 2026, the hackers who hijacked…",
-     "tags": [
-      "2026-11-24"
-     ],
-     "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
-     "desc": "A quirk in how the .NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows built to block it, Google Project Zero researcher James Forshaw showed in a write-up published…",
-     "tags": [
-      "2026-11-24"
-     ],
-     "link": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html"
     }
    ]
   }
