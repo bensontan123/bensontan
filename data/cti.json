@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T13:00:44.212Z",
+ "updated": "2026-11-24T14:00:46.259Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -359,6 +359,26 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+     "desc": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical vulnerability…",
+     "tags": [
+      "2026-11-24"
+     ],
+     "link": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+     "desc": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team. The cluster, dubbed…",
+     "tags": [
+      "2026-11-24"
+     ],
+     "link": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
      "desc": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it. In March 2026, the hackers who hijacked…",
      "tags": [
@@ -375,26 +395,6 @@
       "2026-11-24"
      ],
      "link": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
-     "desc": "What if your biggest SOC budget problem isn't how much you spend, but how much analyst time you lose? According to ANY.RUN's estimates, SOC teams could recover 450 analyst hours per 1,000 investigated alerts through faster threat analysis…",
-     "tags": [
-      "2026-11-24"
-     ],
-     "link": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
-     "desc": "Norway's National Security Authority (NSM) has disclosed that it became aware of a security vulnerability in Microsoft's Azure API Management (APIM) that has affected multiple businesses in the country, including energy companies Equinor…",
-     "tags": [
-      "2026-11-24"
-     ],
-     "link": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html"
     }
    ]
   }
