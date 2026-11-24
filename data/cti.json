@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T18:00:55.633Z",
+ "updated": "2026-11-24T19:00:42.703Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -228,44 +228,42 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-119582 — advisory",
-     "desc": "Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in ITG Bilgisayar Teknoloji Grubu Tic. Ltd. Şti. VSRM allows SQL Injection.\n\nThis issue affects vSRM: from v14.08.3 before v14.08.5.",
+     "title": "CVE-2026-109484 — advisory",
+     "desc": "Failure to sanitize special elements into a different plane (special element injection) in Azure App Service allows an unauthorized attacker to elevate privileges over a network.",
      "tags": [
       "published 2026-11-24"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-119582"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-109484"
     },
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-136184 — advisory",
-     "desc": "compose-farm 0.19.0 before 1.22.0 contains a cross-site WebSocket hijacking and cross-site request forgery vulnerability because its unauthenticated web UI performs no Origin validation. Malicious websites visited by users can open /ws/shell/{host} or /ws/exec sockets, or abuse unquoted service…",
+     "title": "CVE-2026-123342 — advisory",
+     "desc": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
      "tags": [
       "published 2026-11-24"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-136184"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123342"
     },
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-133993 — advisory",
-     "desc": "A security flaw has been discovered in D-Link DIR-600L 2.17b02. This affects the function FUN_0040efb0 of the file gena.cgi of the component GENA Subscription Handler. Performing a manipulation of the argument service results in stack-based buffer overflow. The attack is possible to be carried out…",
+     "title": "CVE-2026-123722 — advisory",
+     "desc": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
      "tags": [
-      "published 2026-11-21",
-      "EPSS 1.1%"
+      "published 2026-11-24"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133993"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123722"
     },
     {
      "cat": "NVD",
      "sev": "CRITICAL",
-     "title": "CVE-2026-135208 — advisory",
-     "desc": "Kerberos Agent before 3.14.4 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge administrator tokens because JWTMiddleWare() falls back to the hard-coded key TOBECHANGED. Attackers can sign HS256 tokens with arbitrary username and role claims to access…",
+     "title": "CVE-2026-123723 — advisory",
+     "desc": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
      "tags": [
-      "published 2026-11-23",
-      "EPSS 0.6%"
+      "published 2026-11-24"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-135208"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123723"
     }
    ]
   },

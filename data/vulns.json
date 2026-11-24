@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T18:00:55.633Z",
+ "updated": "2026-11-24T19:00:42.703Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -10,8 +10,8 @@
  "catalogCount": 1795,
  "counts": {
   "kev": 24,
-  "nvd": 15,
-  "ghsa": 9
+  "nvd": 16,
+  "ghsa": 8
  },
  "items": [
   {
@@ -436,6 +436,110 @@
    "epss": 0.025
   },
   {
+   "id": "CVE-2026-109484",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Failure to sanitize special elements into a different plane (special element injection) in Azure App Service allows an unauthorized attacker to elevate privileges over a network.",
+   "published": "2026-11-24",
+   "cvss": 10,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109484"
+  },
+  {
+   "id": "CVE-2026-123342",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
+   "published": "2026-11-24",
+   "cvss": 9.9,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123342"
+  },
+  {
+   "id": "CVE-2026-123722",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
+   "published": "2026-11-24",
+   "cvss": 9.9,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123722"
+  },
+  {
+   "id": "CVE-2026-123723",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
+   "published": "2026-11-24",
+   "cvss": 9.9,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123723"
+  },
+  {
+   "id": "CVE-2026-123986",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
+   "published": "2026-11-24",
+   "cvss": 9.9,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123986"
+  },
+  {
+   "id": "CVE-2026-123987",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
+   "published": "2026-11-24",
+   "cvss": 9.9,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123987"
+  },
+  {
+   "id": "CVE-2026-125675",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
+   "published": "2026-11-24",
+   "cvss": 9.9,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125675"
+  },
+  {
+   "id": "CVE-2026-125676",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
+   "published": "2026-11-24",
+   "cvss": 9.9,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125676"
+  },
+  {
    "id": "CVE-2026-119582",
    "origin": "NVD",
    "product": "",
@@ -462,6 +566,32 @@
    "url": "https://github.com/advisories/GHSA-2r3w-c2vx-fv5g",
    "ghsaId": "GHSA-2r3w-c2vx-fv5g",
    "epss": 0.008
+  },
+  {
+   "id": "CVE-2026-123721",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Adobe Campaign Classic (ACC) [NEEDS REVIEW: environment mismatch — product 'Adobe Campaign Classic (ACC)' is only known to appear in the 'Bucket A' bucket but environment_type 'Web Application' is in the 'Bucket B' bucket. This changes the exploitation clause and/or ATO eligibility — verify before…",
+   "published": "2026-11-24",
+   "cvss": 9.6,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123721"
+  },
+  {
+   "id": "CVE-2026-125717",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in privilege escalation. A low-privileged attacker could exploit this vulnerability to gain elevated access to sensitive data or…",
+   "published": "2026-11-24",
+   "cvss": 9.6,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125717"
   },
   {
    "id": "CVE-2026-136184",
@@ -505,141 +635,17 @@
    "epss": 0.006
   },
   {
-   "id": "CVE-2026-133528",
+   "id": "CVE-2026-125716",
    "origin": "NVD",
    "product": "",
    "name": "",
-   "desc": "BeamNG.drive before 0.40.6 contains an out-of-bounds write vulnerability because JIT-compiled LuaJIT traces omit FFI array bounds checks, letting untrusted Lua escape the sandbox. Attackers supplying a malicious mod can JIT-compile an FFI store loop, write out of range using a tostring() address…",
-   "published": "2026-11-20",
+   "desc": "Adobe Campaign Classic (ACC) is affected by a reflected Cross-Site Scripting (XSS) vulnerability. An attacker could exploit this vulnerability to inject malicious scripts into a web page, potentially gaining elevated access or control over the victim's account or session. Exploitation of this issue…",
+   "published": "2026-11-24",
    "cvss": 9.3,
    "severity": "CRITICAL",
-   "vector": "Local / Low / Passive",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133528",
-   "epss": 0.002
-  },
-  {
-   "id": "CVE-2026-135736",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "FFmpeg 4.4 before 9.1 contains a heap out-of-bounds read and write vulnerability in libavfilter/vf_deband.c that allows attackers to corrupt heap memory by sending a runtime coupling command. Attackers can send a 'deband coupling 1' command via sendcmd or an unauthenticated zmq filter, making…",
-   "published": "2026-11-24",
-   "cvss": 9.2,
-   "severity": "CRITICAL",
-   "vector": "Network / High / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135736",
-   "epss": 0.007
-  },
-  {
-   "id": "CVE-2026-134287",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "OpenRemote core before 1.34.0 contains an authentication bypass vulnerability in UserAssetProvisioningMQTTHandler that allows unauthenticated attackers to impersonate provisioned devices without proof of private key possession. Attackers can publish a known device's public certificate to the…",
-   "published": "2026-11-21",
-   "cvss": 9.2,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134287",
-   "epss": 0.006
-  },
-  {
-   "id": "CVE-2026-134814",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "binary-parser before 2.3.1 contains a code injection vulnerability that allows attackers controlling parser definitions to inject JavaScript through string-typed options passed unvalidated by Context.generateOption(). Attackers can supply crafted length, lengthInBytes, key, tag, offset, or namely()…",
-   "published": "2026-11-22",
-   "cvss": 9.2,
-   "severity": "CRITICAL",
-   "vector": "Network / High / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134814",
-   "epss": 0.006
-  },
-  {
-   "id": "CVE-2026-134815",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "simple-git before 4.1.0 contains an argument injection vulnerability that allows attackers to bypass the allowUnsafePack guard by supplying the --exec option to non-push git operations. Attackers who influence arguments passed to listRemote() or raw() can inject --exec for ls-remote, archive…",
-   "published": "2026-11-22",
-   "cvss": 9.2,
-   "severity": "CRITICAL",
-   "vector": "Network / High / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134815",
-   "epss": 0.008
-  },
-  {
-   "id": "CVE-2026-135171",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Wing FTP Server before 8.2.8 contains a predictable session identifier vulnerability that allows unauthenticated attackers to hijack administrator sessions by deriving identifiers from process, time, ServerID, and client IP state. Attackers can enumerate candidate identifiers using the…",
-   "published": "2026-11-23",
-   "cvss": 9.2,
-   "severity": "CRITICAL",
-   "vector": "Network / High / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135171",
-   "epss": 0.005
-  },
-  {
-   "id": "CVE-2026-135211",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "BISHENG before 3.0.0 contains a missing authentication vulnerability in the /api/v2/workflow/invoke and /api/v2/workflow/stop routes that allows unauthenticated attackers to run workflows as the administrator. Attackers knowing a workflow UUID can supply an override replacing a Code node's code…",
-   "published": "2026-11-23",
-   "cvss": 9.2,
-   "severity": "CRITICAL",
-   "vector": "Network / High / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135211",
-   "epss": 0.011
-  },
-  {
-   "id": "CVE-2026-136126",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "c-icap-server through 0.5.15 and 0.6.5 contains an out-of-bounds write in process_encapsulated() that allows unauthenticated attackers to corrupt heap memory by sending six Encapsulated entities. Attackers can send a single ICAP request whose sixth entity overwrites trash_entities[0], triggering…",
-   "published": "2026-11-24",
-   "cvss": 9.2,
-   "severity": "CRITICAL",
-   "vector": "Network / High / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136126"
-  },
-  {
-   "id": "CVE-2026-136132",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Pangolin before 1.21.0 contains an authentication bypass vulnerability in isPathAllowed() in server/lib/pathMatch.ts that splits paths on literal slashes without percent-decoding or resolving dot segments. Unauthenticated remote attackers can send paths with encoded slashes and dot segments to…",
-   "published": "2026-11-24",
-   "cvss": 9.2,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136132"
-  },
-  {
-   "id": "CVE-2026-117593",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Weak Password Recovery Mechanism for Forgotten Password vulnerability in ITG Bilgisayar Teknoloji Grubu Tic. Ltd. Şti. VSRM allows Password Recovery Exploitation.\n\nThis issue affects vSRM: from v14.08.3 before v14.08.5.",
-   "published": "2026-11-24",
-   "cvss": 9.1,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
+   "vector": "Network / Low / Required",
    "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117593"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125716"
   },
   {
    "id": "CVE-2026-122247",
@@ -744,21 +750,6 @@
    "url": "https://github.com/advisories/GHSA-w78c-w6vf-rw82",
    "ghsaId": "GHSA-w78c-w6vf-rw82",
    "epss": 0.002
-  },
-  {
-   "id": "CVE-2026-63410",
-   "origin": "GHSA",
-   "product": "rubygems secp256k1-native",
-   "name": "secp256k1-native has a compiler-induced timing side channel in scalar multiplication",
-   "desc": "secp256k1-native has a compiler-induced timing side channel in scalar multiplication",
-   "published": "2026-11-23",
-   "cvss": 5.9,
-   "severity": "MEDIUM",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-vp2j-gqfm-r3cf",
-   "ghsaId": "GHSA-vp2j-gqfm-r3cf",
-   "epss": 0.003
   }
  ]
 }
