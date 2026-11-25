@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T11:26:17.008Z",
+ "updated": "2026-11-25T13:00:45.297Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -347,6 +347,26 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
+     "desc": "TL;DR More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will break. Validity-only…",
+     "tags": [
+      "2026-11-25"
+     ],
+     "link": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+     "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026…",
+     "tags": [
+      "2026-11-25"
+     ],
+     "link": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
      "desc": "A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesday. Abdulrahman…",
      "tags": [
@@ -373,26 +393,6 @@
       "2026-11-25"
      ],
      "link": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
-     "desc": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts. The…",
-     "tags": [
-      "2026-11-25"
-     ],
-     "link": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
-     "desc": "WordPress has removed six WordPress plugins developed by WP Connect after they were backdoored on November 22, 2026, to enable arbitrary code execution on sites that have them installed, following a suspected compromise of the developer's…",
-     "tags": [
-      "2026-11-25"
-     ],
-     "link": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html"
     }
    ]
   }
