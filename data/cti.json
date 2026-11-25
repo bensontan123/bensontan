@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T22:00:45.412Z",
+ "updated": "2026-11-25T23:00:45.058Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -20,7 +20,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-133469 — Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability",
      "desc": "Vates Xen Orchestra contains an improper validation of specified type of input vulnerability that could allow an unauthenticated attacker to bypass authentication and perform actions with administrative privileges via a specially crafted authentication token containing an empty JSON object.",
      "tags": [
@@ -33,7 +33,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "HIGH",
      "title": "CVE-2025-41450 — Danfoss AK-SM 800A Series Improper Authentication Vulnerability",
      "desc": "Danfoss AK-SM 800A Series contains an improper authentication vulnerability that could allow an attacker to generate a web report exposing sensitive information, including internal IP addresses, usernames, and store names.",
      "tags": [
@@ -46,7 +46,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "HIGH",
      "title": "CVE-2023-25914 — Danfoss AK-SM 800A Series Path Traversal Vulnerability",
      "desc": "Danfoss AK-SM 800A Series contains a path traversal vulnerability that could allow an attacker to access and read underlying server system files via the XML interface.",
      "tags": [
@@ -59,7 +59,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "HIGH",
      "title": "CVE-2023-25915 — Danfoss AK-SM 800A Series Improper Input Validation Vulnerability",
      "desc": "Danfoss AK-SM 800A Series contains an improper input validation vulnerability that could allow a remote attacker to run arbitrary commands on the affected system.",
      "tags": [
@@ -277,6 +277,39 @@
    "items": [
     {
      "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-69181 — TastyIgniter permits Path Traversal in Media Upload",
+     "desc": "TastyIgniter permits Path Traversal in Media Upload",
+     "tags": [
+      "composer tastyigniter/tastyigniter",
+      "published 2026-11-25"
+     ],
+     "link": "https://github.com/advisories/GHSA-rj59-9f77-mvg5"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-69179 — TastyIgniter allows Remote Code Execution (RCE) via Unrestricted file upload in Media Manager",
+     "desc": "TastyIgniter allows Remote Code Execution (RCE) via Unrestricted file upload in Media Manager",
+     "tags": [
+      "composer tastyigniter/tastyigniter",
+      "published 2026-11-25"
+     ],
+     "link": "https://github.com/advisories/GHSA-7wwv-x6mc-pxqx"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-69178 — TastyIgniter mail template editor allows remote code execution via server-side template injection",
+     "desc": "TastyIgniter mail template editor allows remote code execution via server-side template injection",
+     "tags": [
+      "composer tastyigniter/tastyigniter",
+      "published 2026-11-25"
+     ],
+     "link": "https://github.com/advisories/GHSA-743w-g9pf-8p94"
+    },
+    {
+     "cat": "GHSA",
      "sev": "MEDIUM",
      "title": "CVE-2026-69177 — TastyIgniter allows stored XSS via file upload",
      "desc": "TastyIgniter allows stored XSS via file upload",
@@ -297,42 +330,6 @@
       "EPSS 0.7%"
      ],
      "link": "https://github.com/advisories/GHSA-vw2v-g4x7-xcqg"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-65971 — livewire-powergrid: SQL injection via sortDirection in naturalSort queries",
-     "desc": "livewire-powergrid: SQL injection via sortDirection in naturalSort queries",
-     "tags": [
-      "composer power-components/livewire-powergrid",
-      "published 2026-11-25",
-      "EPSS 0.3%"
-     ],
-     "link": "https://github.com/advisories/GHSA-7fgc-3h6c-698r"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-65973 — laradocs  Command injection via unescaped Node.js binary path in KaTeX SSR",
-     "desc": "laradocs  Command injection via unescaped Node.js binary path in KaTeX SSR",
-     "tags": [
-      "composer petebishwhip/laradocs",
-      "published 2026-11-25",
-      "EPSS 0.6%"
-     ],
-     "link": "https://github.com/advisories/GHSA-h746-qpxh-ph7g"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-64670 — @waline/client vulnerable to stored XSS through unsanitized comment edit previews",
-     "desc": "@waline/client vulnerable to stored XSS through unsanitized comment edit previews",
-     "tags": [
-      "npm @waline/client",
-      "published 2026-11-25",
-      "EPSS 0.4%"
-     ],
-     "link": "https://github.com/advisories/GHSA-crj3-q72p-ggqm"
     }
    ]
   },
