@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T05:00:42.338Z",
+ "updated": "2026-11-25T07:00:53.557Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -345,6 +345,16 @@
      "link": "https://isc.sans.edu/diary/rss/33554"
     },
     {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
+     "desc": "WordPress has removed six WordPress plugins developed by WP Connect after they were backdoored on November 22, 2026, to enable arbitrary code execution on sites that have them installed, following a suspected compromise of the developer's…",
+     "tags": [
+      "2026-11-25"
+     ],
+     "link": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html"
+    },
+    {
      "cat": "CISA",
      "sev": "NEWS",
      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
@@ -383,16 +393,6 @@
       "2026-11-24"
      ],
      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01"
-    },
-    {
-     "cat": "SANS ISC",
-     "sev": "NEWS",
-     "title": "Scanning from Subnet 109.160.32.0/24, (Mon, Nov 23rd)",
-     "desc": "This subnet is assigned to a web hosting and virtual private server (VPS) provider BANATSYNC SRL with AS198364, located in Timisoara, Romania. This graph shows the DShield sensor activity over the past 90 days for this subnet and it is…",
-     "tags": [
-      "2026-11-24"
-     ],
-     "link": "https://isc.sans.edu/diary/rss/33550"
     }
    ]
   }
