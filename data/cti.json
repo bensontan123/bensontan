@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T18:00:46.986Z",
+ "updated": "2026-11-25T20:00:46.228Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -276,6 +276,42 @@
    "items": [
     {
      "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-68539 — fulgur allows Unbounded string-set value accumulation causes memory/CPU exhaustion (denial of service)",
+     "desc": "fulgur allows Unbounded string-set value accumulation causes memory/CPU exhaustion (denial of service)",
+     "tags": [
+      "rust fulgur",
+      "published 2026-11-25",
+      "EPSS 0.7%"
+     ],
+     "link": "https://github.com/advisories/GHSA-vw2v-g4x7-xcqg"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "HIGH",
+     "title": "CVE-2026-65971 — livewire-powergrid: SQL injection via sortDirection in naturalSort queries",
+     "desc": "livewire-powergrid: SQL injection via sortDirection in naturalSort queries",
+     "tags": [
+      "composer power-components/livewire-powergrid",
+      "published 2026-11-25",
+      "EPSS 0.3%"
+     ],
+     "link": "https://github.com/advisories/GHSA-7fgc-3h6c-698r"
+    },
+    {
+     "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-65973 — laradocs  Command injection via unescaped Node.js binary path in KaTeX SSR",
+     "desc": "laradocs  Command injection via unescaped Node.js binary path in KaTeX SSR",
+     "tags": [
+      "composer petebishwhip/laradocs",
+      "published 2026-11-25",
+      "EPSS 0.6%"
+     ],
+     "link": "https://github.com/advisories/GHSA-h746-qpxh-ph7g"
+    },
+    {
+     "cat": "GHSA",
      "sev": "CRITICAL",
      "title": "CVE-2026-64670 — @waline/client vulnerable to stored XSS through unsanitized comment edit previews",
      "desc": "@waline/client vulnerable to stored XSS through unsanitized comment edit previews",
@@ -297,41 +333,6 @@
       "EPSS 0.2%"
      ],
      "link": "https://github.com/advisories/GHSA-859w-52fx-hcm6"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-59191 — TwigView FileLoader may allow arbitrary file reads through user-controlled template paths",
-     "desc": "TwigView FileLoader may allow arbitrary file reads through user-controlled template paths",
-     "tags": [
-      "composer cakephp/twig-view",
-      "published 2026-11-24",
-      "EPSS 0.6%"
-     ],
-     "link": "https://github.com/advisories/GHSA-hq9r-72jq-2pxp"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-59831 — GitHub CLI gh codespace jupyter may allow code execution via unvalidated URLs from malicious Codespaces",
-     "desc": "GitHub CLI gh codespace jupyter may allow code execution via unvalidated URLs from malicious Codespaces",
-     "tags": [
-      "go github.com/cli/cli/v2",
-      "published 2026-11-24",
-      "EPSS 0.3%"
-     ],
-     "link": "https://github.com/advisories/GHSA-8cg3-r6g9-fpg2"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "GHSA-jp3c-6v3g-mpxv — github.com/insomniacslk/dhcp permits denial of service through a malformed IPv4 payload length",
-     "desc": "github.com/insomniacslk/dhcp permits denial of service through a malformed IPv4 payload length",
-     "tags": [
-      "go github.com/insomniacslk/dhcp",
-      "published 2026-11-24"
-     ],
-     "link": "https://github.com/advisories/GHSA-jp3c-6v3g-mpxv"
     }
    ]
   },

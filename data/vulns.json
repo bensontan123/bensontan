@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T18:00:46.986Z",
+ "updated": "2026-11-25T20:00:46.228Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -692,33 +692,33 @@
    "epss": 0.025
   },
   {
-   "id": "CVE-2026-63304",
+   "id": "CVE-2026-65971",
    "origin": "GHSA",
-   "product": "composer wwbn/avideo",
-   "name": "AVideo API vulnerable to OS command injection through an unescaped FFmpeg process keyword",
-   "desc": "AVideo API vulnerable to OS command injection through an unescaped FFmpeg process keyword",
-   "published": "2026-11-23",
-   "cvss": 8.1,
+   "product": "composer power-components/livewire-powergrid",
+   "name": "livewire-powergrid: SQL injection via sortDirection in naturalSort queries",
+   "desc": "livewire-powergrid: SQL injection via sortDirection in naturalSort queries",
+   "published": "2026-11-25",
+   "cvss": 7.6,
    "severity": "HIGH",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-j44m-77cc-p3cc",
-   "ghsaId": "GHSA-j44m-77cc-p3cc",
-   "epss": 0.025
+   "url": "https://github.com/advisories/GHSA-7fgc-3h6c-698r",
+   "ghsaId": "GHSA-7fgc-3h6c-698r",
+   "epss": 0.003
   },
   {
-   "id": "CVE-2026-77423",
+   "id": "CVE-2026-68539",
    "origin": "GHSA",
-   "product": "maven org.jline:jline-builtins",
-   "name": "jline3 leads to ReDoS in Built-in Less Viewer Search",
-   "desc": "jline3 leads to ReDoS in Built-in Less Viewer Search",
-   "published": "2026-11-23",
+   "product": "rust fulgur",
+   "name": "fulgur allows Unbounded string-set value accumulation causes memory/CPU exhaustion (denial of service)",
+   "desc": "fulgur allows Unbounded string-set value accumulation causes memory/CPU exhaustion (denial of service)",
+   "published": "2026-11-25",
    "cvss": 7.5,
    "severity": "HIGH",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-2v9w-34q6-wpqx",
-   "ghsaId": "GHSA-2v9w-34q6-wpqx",
+   "url": "https://github.com/advisories/GHSA-vw2v-g4x7-xcqg",
+   "ghsaId": "GHSA-vw2v-g4x7-xcqg",
    "epss": 0.007
   },
   {
@@ -751,19 +751,19 @@
    "epss": 0.003
   },
   {
-   "id": "CVE-2026-59831",
+   "id": "CVE-2026-65973",
    "origin": "GHSA",
-   "product": "go github.com/cli/cli/v2",
-   "name": "GitHub CLI gh codespace jupyter may allow code execution via unvalidated URLs from malicious Codespaces",
-   "desc": "GitHub CLI gh codespace jupyter may allow code execution via unvalidated URLs from malicious Codespaces",
-   "published": "2026-11-24",
-   "cvss": 4.4,
+   "product": "composer petebishwhip/laradocs",
+   "name": "laradocs  Command injection via unescaped Node.js binary path in KaTeX SSR",
+   "desc": "laradocs  Command injection via unescaped Node.js binary path in KaTeX SSR",
+   "published": "2026-11-25",
+   "cvss": 6.4,
    "severity": "MEDIUM",
    "vector": "",
    "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-8cg3-r6g9-fpg2",
-   "ghsaId": "GHSA-8cg3-r6g9-fpg2",
-   "epss": 0.003
+   "url": "https://github.com/advisories/GHSA-h746-qpxh-ph7g",
+   "ghsaId": "GHSA-h746-qpxh-ph7g",
+   "epss": 0.006
   }
  ]
 }
