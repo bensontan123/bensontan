@@ -1,7 +1,29 @@
 {
- "updated": "2026-11-24T20:00:56.845Z",
+ "updated": "2026-11-25T03:00:43.347Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
+  {
+   "date": "2026-11-25",
+   "region": "HK",
+   "cat": "Advisory",
+   "title": "Mozilla Products Multiple Vulnerabilities",
+   "desc": "Multiple vulnerabilities were identified in Mozilla Products. A remote attacker could exploit some of these vulnerabilities to trigger denial of service condition, elevation of privilege, security restriction bypass, sensitive information…",
+   "tags": [
+    "HKCERT"
+   ],
+   "link": "https://www.hkcert.org/security-bulletin/mozilla-products-multiple-vulnerabilities_20261125"
+  },
+  {
+   "date": "2026-11-25",
+   "region": "HK",
+   "cat": "Advisory",
+   "title": "VMWare Products Multiple Vulnerabilities",
+   "desc": "Multiple vulnerabilities were identified in VMware products. A remote attacker could exploit some of these vulnerabilities to trigger denial of service condition, elevation of privilege, security restriction bypass, sensitive information…",
+   "tags": [
+    "HKCERT"
+   ],
+   "link": "https://www.hkcert.org/security-bulletin/vmware-products-multiple-vulnerabilities_20261125"
+  },
   {
    "date": "2026-11-24",
    "region": "HK",
@@ -133,28 +155,6 @@
     "The Hacker News"
    ],
    "link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
-  },
-  {
-   "date": "2026-11-20",
-   "region": "HK",
-   "cat": "Advisory",
-   "title": "ChromeOS Multiple Vulnerabilities",
-   "desc": "Multiple vulnerabilities were identified in ChromeOS. A remote attacker could exploit some of these vulnerabilities to trigger denial of service condition, elevation of privilege, security restriction bypass, sensitive information…",
-   "tags": [
-    "HKCERT"
-   ],
-   "link": "https://www.hkcert.org/security-bulletin/chromeos-multiple-vulnerabilities_20261120"
-  },
-  {
-   "date": "2026-11-20",
-   "region": "HK",
-   "cat": "Advisory",
-   "title": "GitHub Enterprise Server Multiple Vulnerabilities",
-   "desc": "Multiple vulnerabilities were identified in GitHub Enterprise Server. A remote attacker could exploit some of these vulnerabilities to trigger denial of service condition, elevation of privilege, sensitive information disclosure, remote…",
-   "tags": [
-    "HKCERT"
-   ],
-   "link": "https://www.hkcert.org/security-bulletin/github-enterprise-server-multiple-vulnerabilities_20261120"
   },
   {
    "date": "2026-11-20",
