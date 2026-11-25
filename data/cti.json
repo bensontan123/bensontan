@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T08:00:42.662Z",
+ "updated": "2026-11-25T10:00:49.671Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -347,6 +347,16 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
+     "desc": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from. The flaw used in the attack had been in the registry's code…",
+     "tags": [
+      "2026-11-25"
+     ],
+     "link": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
      "desc": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world. The intrusion activity…",
      "tags": [
@@ -377,22 +387,12 @@
     {
      "cat": "BleepingComputer",
      "sev": "NEWS",
-     "title": "Hackers reportedly breached CIA intelligence analysis system",
-     "desc": "Unknown attackers have reportedly breached an open-source intelligence analysis system at the US Central Intelligence Agency (CIA)",
+     "title": "Microsoft confirms authentication issues after November updates",
+     "desc": "Microsoft has confirmed that customers may experience authentication issues after installing November security updates that address a high-severity remote code execution vulnerability.",
      "tags": [
       "2026-11-25"
      ],
-     "link": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/"
-    },
-    {
-     "cat": "CISA",
-     "sev": "NEWS",
-     "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-     "desc": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-131914 Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability CVE-2026-132165…",
-     "tags": [
-      "2026-11-24"
-     ],
-     "link": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog"
+     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/"
     }
    ]
   }
