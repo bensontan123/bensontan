@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T21:00:55.224Z",
+ "updated": "2026-11-25T22:00:45.412Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -708,6 +708,20 @@
    "ghsaId": "GHSA-jp3c-6v3g-mpxv"
   },
   {
+   "id": "CVE-2026-69177",
+   "origin": "GHSA",
+   "product": "composer tastyigniter/tastyigniter",
+   "name": "TastyIgniter allows stored XSS via file upload",
+   "desc": "TastyIgniter allows stored XSS via file upload",
+   "published": "2026-11-25",
+   "cvss": 6.8,
+   "severity": "MEDIUM",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-mqg7-fw3f-mhp7",
+   "ghsaId": "GHSA-mqg7-fw3f-mhp7"
+  },
+  {
    "id": "CVE-2026-59818",
    "origin": "GHSA",
    "product": "go go.etcd.io/etcd/v3",
@@ -751,21 +765,6 @@
    "url": "https://github.com/advisories/GHSA-8cg3-r6g9-fpg2",
    "ghsaId": "GHSA-8cg3-r6g9-fpg2",
    "epss": 0.003
-  },
-  {
-   "id": "CVE-2026-59191",
-   "origin": "GHSA",
-   "product": "composer cakephp/twig-view",
-   "name": "TwigView FileLoader may allow arbitrary file reads through user-controlled template paths",
-   "desc": "TwigView FileLoader may allow arbitrary file reads through user-controlled template paths",
-   "published": "2026-11-24",
-   "cvss": null,
-   "severity": "MEDIUM",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-hq9r-72jq-2pxp",
-   "ghsaId": "GHSA-hq9r-72jq-2pxp",
-   "epss": 0.006
   }
  ]
 }

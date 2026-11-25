@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T21:48:08.587Z",
+ "updated": "2026-11-25T22:00:45.412Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -277,6 +277,17 @@
    "items": [
     {
      "cat": "GHSA",
+     "sev": "MEDIUM",
+     "title": "CVE-2026-69177 — TastyIgniter allows stored XSS via file upload",
+     "desc": "TastyIgniter allows stored XSS via file upload",
+     "tags": [
+      "composer tastyigniter/tastyigniter",
+      "published 2026-11-25"
+     ],
+     "link": "https://github.com/advisories/GHSA-mqg7-fw3f-mhp7"
+    },
+    {
+     "cat": "GHSA",
      "sev": "HIGH",
      "title": "CVE-2026-68539 — fulgur allows Unbounded string-set value accumulation causes memory/CPU exhaustion (denial of service)",
      "desc": "fulgur allows Unbounded string-set value accumulation causes memory/CPU exhaustion (denial of service)",
@@ -322,18 +333,6 @@
       "EPSS 0.4%"
      ],
      "link": "https://github.com/advisories/GHSA-crj3-q72p-ggqm"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "HIGH",
-     "title": "CVE-2026-64855 — soapbar: verify_envelope_bsp accepts an unauthenticated embedded certificate (signature forgery / authentication bypass)",
-     "desc": "soapbar: verify_envelope_bsp accepts an unauthenticated embedded certificate (signature forgery / authentication bypass)",
-     "tags": [
-      "pip soapbar",
-      "published 2026-11-24",
-      "EPSS 0.2%"
-     ],
-     "link": "https://github.com/advisories/GHSA-859w-52fx-hcm6"
     }
    ]
   },
