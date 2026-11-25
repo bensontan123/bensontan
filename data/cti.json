@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T21:00:55.224Z",
+ "updated": "2026-11-25T21:48:08.587Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -341,6 +341,16 @@
    "label": "Threat headlines",
    "items": [
     {
+     "cat": "CISA",
+     "sev": "NEWS",
+     "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
+     "desc": "CISA has added 10 new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2023-25914 Danfoss AK-SM 800A Series Path Traversal Vulnerability CVE-2023-25915 Danfoss AK-SM 800A…",
+     "tags": [
+      "2026-11-25"
+     ],
+     "link": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog"
+    },
+    {
      "cat": "SANS ISC",
      "sev": "NEWS",
      "title": "ISC Stormcast For Wednesday, November 25th, 2026 https://isc.sans.edu/podcastdetail/10194, (Wed, Nov 25th)",
@@ -389,16 +399,6 @@
       "2026-11-25"
      ],
      "link": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
-     "desc": "A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesday. Abdulrahman…",
-     "tags": [
-      "2026-11-25"
-     ],
-     "link": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html"
     }
    ]
   }

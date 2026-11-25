@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T18:00:46.986Z",
+ "updated": "2026-11-25T21:48:08.587Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -23,6 +23,17 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/vmware-products-multiple-vulnerabilities_20261125"
+  },
+  {
+   "date": "2026-11-25",
+   "region": "KR",
+   "cat": "News",
+   "title": "Microsoft: China’s Salt Typhoon hackers are using Artex",
+   "desc": "An AI tool implicated in several high-profile breaches is rapidly being integrated into the hacking suites of groups from China and North Korea, Microsoft said.",
+   "tags": [
+    "The Record"
+   ],
+   "link": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool"
   },
   {
    "date": "2026-11-25",
@@ -254,17 +265,6 @@
     "SingCERT"
    ],
    "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-160"
-  },
-  {
-   "date": "2026-10-14",
-   "region": "JP",
-   "cat": "Advisory",
-   "title": "Security Alert: Microsoft Releases October 2026 Security Updates",
-   "desc": "",
-   "tags": [
-    "JPCERT/CC"
-   ],
-   "link": "https://www.jpcert.or.jp/english/at/2026/at260031.html"
   }
  ]
 }
