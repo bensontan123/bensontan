@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T23:00:44.162Z",
+ "updated": "2026-11-25T00:00:46.080Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -375,24 +375,24 @@
      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01"
     },
     {
-     "cat": "The Hacker News",
+     "cat": "SANS ISC",
      "sev": "NEWS",
-     "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
-     "desc": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus. Central to the group's operations is a backdoor called…",
+     "title": "Scanning from Subnet 109.160.32.0/24, (Mon, Nov 23rd)",
+     "desc": "This subnet is assigned to a web hosting and virtual private server (VPS) provider BANATSYNC SRL with AS198364, located in Timisoara, Romania. This graph shows the DShield sensor activity over the past 90 days for this subnet and it is…",
      "tags": [
       "2026-11-24"
      ],
-     "link": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html"
+     "link": "https://isc.sans.edu/diary/rss/33550"
     },
     {
-     "cat": "The Hacker News",
+     "cat": "SANS ISC",
      "sev": "NEWS",
-     "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
-     "desc": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical vulnerability…",
+     "title": "ISC Stormcast For Tuesday, November 24th, 2026 https://isc.sans.edu/podcastdetail/10192, (Tue, Nov 24th)",
+     "desc": "",
      "tags": [
       "2026-11-24"
      ],
-     "link": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html"
+     "link": "https://isc.sans.edu/diary/rss/33552"
     }
    ]
   }
