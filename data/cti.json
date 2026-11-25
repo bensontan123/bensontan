@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T07:00:53.557Z",
+ "updated": "2026-11-25T08:00:42.662Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -347,12 +347,42 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+     "desc": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world. The intrusion activity…",
+     "tags": [
+      "2026-11-25"
+     ],
+     "link": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+     "desc": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts. The…",
+     "tags": [
+      "2026-11-25"
+     ],
+     "link": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
      "desc": "WordPress has removed six WordPress plugins developed by WP Connect after they were backdoored on November 22, 2026, to enable arbitrary code execution on sites that have them installed, following a suspected compromise of the developer's…",
      "tags": [
       "2026-11-25"
      ],
      "link": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html"
+    },
+    {
+     "cat": "BleepingComputer",
+     "sev": "NEWS",
+     "title": "Hackers reportedly breached CIA intelligence analysis system",
+     "desc": "Unknown attackers have reportedly breached an open-source intelligence analysis system at the US Central Intelligence Agency (CIA)",
+     "tags": [
+      "2026-11-25"
+     ],
+     "link": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/"
     },
     {
      "cat": "CISA",
@@ -363,36 +393,6 @@
       "2026-11-24"
      ],
      "link": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog"
-    },
-    {
-     "cat": "CISA",
-     "sev": "NEWS",
-     "title": "Danfoss AK-SM 8xxA Series",
-     "desc": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges. The following versions of Danfoss AK-SM 8xxA Series are affected: AK-SM8xxA <=5.4.0…",
-     "tags": [
-      "2026-11-24"
-     ],
-     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03"
-    },
-    {
-     "cat": "CISA",
-     "sev": "NEWS",
-     "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
-     "desc": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcoStruxure™ Power Build Rapsody product. The EcoStruxure™ Power Build Rapsody is used to enter or import the single line diagram, to get the extensive bill of…",
-     "tags": [
-      "2026-11-24"
-     ],
-     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02"
-    },
-    {
-     "cat": "CISA",
-     "sev": "NEWS",
-     "title": "AutomationDirect C-More EA9 Programming Software",
-     "desc": "View CSAF Summary Successful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to arbitrary code execution, if a user is convinced to open a…",
-     "tags": [
-      "2026-11-24"
-     ],
-     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01"
     }
    ]
   }

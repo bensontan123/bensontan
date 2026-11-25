@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T03:00:43.347Z",
+ "updated": "2026-11-25T08:00:42.662Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -179,17 +179,6 @@
    "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-167"
   },
   {
-   "date": "2026-11-18",
-   "region": "CN",
-   "cat": "News",
-   "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
-   "desc": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines. \"When attackers are exposed, the cheap…",
-   "tags": [
-    "The Hacker News"
-   ],
-   "link": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html"
-  },
-  {
    "date": "2026-11-17",
    "region": "SG",
    "cat": "Advisory",
@@ -265,6 +254,17 @@
     "JPCERT/CC"
    ],
    "link": "https://www.jpcert.or.jp/english/at/2026/at260035.html"
+  },
+  {
+   "date": "2026-11-10",
+   "region": "SG",
+   "cat": "Advisory",
+   "title": "November 2026 Monthly Patch",
+   "desc": "Microsoft has released security patches to address multiple vulnerabilities in their software and products.",
+   "tags": [
+    "SingCERT"
+   ],
+   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-160"
   }
  ]
 }
