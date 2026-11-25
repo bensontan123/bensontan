@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T05:00:42.338Z",
+ "updated": "2026-11-25T06:00:41.958Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -503,19 +503,6 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123987"
   },
   {
-   "id": "CVE-2026-132877",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Adobe Experience Manager is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation of…",
-   "published": "2026-11-24",
-   "cvss": 9.9,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132877"
-  },
-  {
    "id": "CVE-2026-119582",
    "origin": "NVD",
    "product": "",
@@ -633,6 +620,19 @@
    "vector": "Network / Low / None",
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136404"
+  },
+  {
+   "id": "CVE-2026-136411",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "BusyBox through 1.38.0 contains an absolute path traversal vulnerability in tftpd that allows unauthenticated remote attackers to access files outside any intended directory when started without a DIR argument. Attackers can send RRQ or WRQ packets with file names beginning with '/' to read…",
+   "published": "2026-11-24",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136411"
   },
   {
    "id": "CVE-2026-64855",
