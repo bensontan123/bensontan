@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T04:00:52.240Z",
+ "updated": "2026-11-25T05:00:42.338Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -7,7 +7,7 @@
    "items": [
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "HIGH",
      "title": "CVE-2026-132224 — Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
      "desc": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript. Successful exploitation can result in attacker-controlled JavaScript being…",
      "tags": [
@@ -20,7 +20,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-131914 — Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
      "desc": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or…",
      "tags": [
@@ -45,7 +45,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-133968 — Project MONAI MONAI Label Path Traversal Vulnerability",
      "desc": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
      "tags": [
@@ -58,7 +58,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-134624 — N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
      "desc": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services.",
      "tags": [
@@ -76,7 +76,7 @@
    "items": [
     {
      "cat": "Ransomware",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2024-10441 — Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
      "desc": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.",
      "tags": [
@@ -89,7 +89,7 @@
     },
     {
      "cat": "Ransomware",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-59310 — Broadcom VMware vCenter Path Traversal Vulnerability",
      "desc": "Broadcom VMware vCenter contains a path traversal vulnerability which could allow a threat actor with network access to vCenter to execute arbitrary code.",
      "tags": [
@@ -102,7 +102,7 @@
     },
     {
      "cat": "Ransomware",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-63077 — JetBrains TeamCity Deserialization of Untrusted Data Vulnerability",
      "desc": "JetBrains TeamCity contains a deserialization of untrusted data vulnerability that could allow unauthenticated remote code execution via the agent polling protocol.",
      "tags": [
@@ -115,7 +115,7 @@
     },
     {
      "cat": "Ransomware",
-     "sev": "PENDING",
+     "sev": "MEDIUM",
      "title": "CVE-2026-20316 — Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability",
      "desc": "Cisco Secure Firewall Management Center (FMC) formerly known as Firepower Management Center contains a use of hard-coded password vulnerability that could allow an unauthenticated, remote attacker to log in to an affected device using a low-privileged account to access sensitive data within the…",
      "tags": [
@@ -128,7 +128,7 @@
     },
     {
      "cat": "Ransomware",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-15409 — SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
      "desc": "SonicWall SMA1000 Appliances contain a server-side request forgery vulnerability that could allow a remote unauthenticated attacker to potentially cause the appliance to make requests to unintended location.",
      "tags": [
@@ -146,7 +146,7 @@
    "items": [
     {
      "cat": "EPSS",
-     "sev": "PENDING",
+     "sev": "HIGH",
      "title": "CVE-2026-123158 — OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
      "desc": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
      "tags": [
@@ -159,7 +159,7 @@
     },
     {
      "cat": "EPSS",
-     "sev": "PENDING",
+     "sev": "HIGH",
      "title": "CVE-2026-40217 — BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
      "desc": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
      "tags": [
@@ -172,7 +172,7 @@
     },
     {
      "cat": "EPSS",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-116606 — Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
      "desc": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification…",
      "tags": [
@@ -185,7 +185,7 @@
     },
     {
      "cat": "EPSS",
-     "sev": "PENDING",
+     "sev": "HIGH",
      "title": "CVE-2026-111560 — Barracuda Networks Multiple Products OS Command Injection Vulnerability",
      "desc": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerability could allow an…",
      "tags": [
@@ -198,7 +198,7 @@
     },
     {
      "cat": "EPSS",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-133968 — Project MONAI MONAI Label Path Traversal Vulnerability",
      "desc": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
      "tags": [
