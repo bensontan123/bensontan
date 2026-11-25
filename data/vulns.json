@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T17:00:59.777Z",
+ "updated": "2026-11-25T18:00:46.986Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -465,20 +465,6 @@
    "epss": 0.009
   },
   {
-   "id": "CVE-2026-123723",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
-   "published": "2026-11-24",
-   "cvss": 9.9,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123723",
-   "epss": 0.009
-  },
-  {
    "id": "CVE-2026-123986",
    "origin": "NVD",
    "product": "",
@@ -591,20 +577,6 @@
    "epss": 0.006
   },
   {
-   "id": "CVE-2026-125716",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Adobe Campaign Classic (ACC) is affected by a reflected Cross-Site Scripting (XSS) vulnerability. An attacker could exploit this vulnerability to inject malicious scripts into a web page, potentially gaining elevated access or control over the victim's account or session. Exploitation of this issue…",
-   "published": "2026-11-24",
-   "cvss": 9.3,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / Required",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125716",
-   "epss": 0.01
-  },
-  {
    "id": "CVE-2026-135792",
    "origin": "NVD",
    "product": "",
@@ -645,6 +617,34 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136411",
    "epss": 0.015
+  },
+  {
+   "id": "CVE-2026-136136",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "A vulnerability was identified in Netis WF2409E up to 20261026. Affected by this issue is some unknown functionality of the file /cgi-bin/skk_set.cgi of the component CGI Interface. The manipulation of the argument app/password/new_pwd_confirm/passwd_set/mode_name/wl_link leads to improper…",
+   "published": "2026-11-25",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136136",
+   "epss": 0.009
+  },
+  {
+   "id": "CVE-2026-136548",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "A vulnerability was identified in Tenda RX3 16.03.13.11. The affected element is an unknown function of the file /bin/auto_discover of the component GBK-to-UTF-8 Conversion. The manipulation of the argument Hostname leads to stack-based buffer overflow. Remote exploitation of the attack is…",
+   "published": "2026-11-25",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136548",
+   "epss": 0.009
   },
   {
    "id": "CVE-2026-64670",

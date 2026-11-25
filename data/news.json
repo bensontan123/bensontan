@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T16:00:50.266Z",
+ "updated": "2026-11-25T18:00:46.986Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -23,6 +23,17 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/vmware-products-multiple-vulnerabilities_20261125"
+  },
+  {
+   "date": "2026-11-25",
+   "region": "AU",
+   "cat": "News",
+   "title": "Australia passes tough legislation requiring big tech to preempt foreseeable harms",
+   "desc": "The Digital Duty of Care Act sailed through Australia's Parliament. It will mandate that online providers establish protocols to protect users from threats of violence and rape as well as behavior that could cause significant harms.",
+   "tags": [
+    "The Record"
+   ],
+   "link": "https://therecord.media/australia-passes-online-safety-legislation-preempt-harms"
   },
   {
    "date": "2026-11-24",
@@ -254,17 +265,6 @@
     "JPCERT/CC"
    ],
    "link": "https://www.jpcert.or.jp/english/at/2026/at260031.html"
-  },
-  {
-   "date": "2026-09-09",
-   "region": "JP",
-   "cat": "Advisory",
-   "title": "Security Alert: Alert Regarding Vulnerabilities in Adobe Acrobat and Reader (APSB26-141)",
-   "desc": "",
-   "tags": [
-    "JPCERT/CC"
-   ],
-   "link": "https://www.jpcert.or.jp/english/at/2026/at260026.html"
   }
  ]
 }
