@@ -1,10 +1,23 @@
 {
- "updated": "2026-11-25T15:00:51.662Z",
+ "updated": "2026-11-25T16:00:50.266Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
    "label": "Newly exploited — latest CISA KEV additions",
    "items": [
+    {
+     "cat": "KEV",
+     "sev": "PENDING",
+     "title": "CVE-2026-103406 — Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability",
+     "desc": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.",
+     "tags": [
+      "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session…",
+      "KEV added 2026-11-25",
+      "remediate by 2026-11-28",
+      "EPSS 0.9%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406"
+    },
     {
      "cat": "KEV",
      "sev": "HIGH",
@@ -55,19 +68,6 @@
       "EPSS 27.2%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968"
-    },
-    {
-     "cat": "KEV",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-134624 — N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
-     "desc": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services.",
-     "tags": [
-      "N-able MailAssure",
-      "KEV added 2026-11-23",
-      "remediate by 2026-11-26",
-      "EPSS 1.8%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624"
     }
    ]
   },
@@ -198,16 +198,16 @@
     },
     {
      "cat": "EPSS",
-     "sev": "HIGH",
-     "title": "CVE-2026-123158 — OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
-     "desc": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-116606 — Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+     "desc": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification…",
      "tags": [
-      "OpenBSD OpenSSH",
-      "KEV added 2026-11-09",
-      "remediate by 2026-11-12",
-      "EPSS 14.2%"
+      "Barracuda Networks Barracuda Email Security Gateway (ESG)",
+      "KEV added 2026-11-10",
+      "remediate by 2026-11-13",
+      "EPSS 13.8%"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
     }
    ]
   },
@@ -276,6 +276,18 @@
    "items": [
     {
      "cat": "GHSA",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-64670 — @waline/client vulnerable to stored XSS through unsanitized comment edit previews",
+     "desc": "@waline/client vulnerable to stored XSS through unsanitized comment edit previews",
+     "tags": [
+      "npm @waline/client",
+      "published 2026-11-25",
+      "EPSS 0.4%"
+     ],
+     "link": "https://github.com/advisories/GHSA-crj3-q72p-ggqm"
+    },
+    {
+     "cat": "GHSA",
      "sev": "HIGH",
      "title": "CVE-2026-64855 — soapbar: verify_envelope_bsp accepts an unauthenticated embedded certificate (signature forgery / authentication bypass)",
      "desc": "soapbar: verify_envelope_bsp accepts an unauthenticated embedded certificate (signature forgery / authentication bypass)",
@@ -320,18 +332,6 @@
       "published 2026-11-24"
      ],
      "link": "https://github.com/advisories/GHSA-jp3c-6v3g-mpxv"
-    },
-    {
-     "cat": "GHSA",
-     "sev": "MEDIUM",
-     "title": "CVE-2026-59818 — etcd: CRL enforcement bypass on gRPC listener when `--listen-client-http-urls` is configured",
-     "desc": "etcd: CRL enforcement bypass on gRPC listener when `--listen-client-http-urls` is configured",
-     "tags": [
-      "go go.etcd.io/etcd/v3",
-      "published 2026-11-24",
-      "EPSS 0.3%"
-     ],
-     "link": "https://github.com/advisories/GHSA-3wh4-j44w-pg92"
     }
    ]
   },

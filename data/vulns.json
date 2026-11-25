@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-25T15:00:51.662Z",
+ "updated": "2026-11-25T16:00:50.266Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
   "NVD",
   "GHSA"
  ],
- "catalogVersion": "2026.11.24",
- "catalogCount": 1795,
+ "catalogVersion": "2026.11.25",
+ "catalogCount": 1796,
  "counts": {
   "kev": 24,
   "nvd": 15,
@@ -270,23 +270,6 @@
    "epss": 0.108
   },
   {
-   "id": "CVE-2026-123158",
-   "origin": "KEV",
-   "product": "OpenBSD OpenSSH",
-   "name": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
-   "desc": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
-   "kevAdded": "2026-11-09",
-   "due": "2026-11-12",
-   "ransomware": false,
-   "published": "2026-11-05",
-   "cvss": 8.1,
-   "severity": "HIGH",
-   "vector": "Network / High / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158",
-   "epss": 0.142
-  },
-  {
    "id": "CVE-2026-123039",
    "origin": "KEV",
    "product": "Check Point Multiple Products",
@@ -406,6 +389,23 @@
    "epss": 0.01
   },
   {
+   "id": "CVE-2026-103406",
+   "origin": "KEV",
+   "product": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session…",
+   "name": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability",
+   "desc": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.",
+   "kevAdded": "2026-11-25",
+   "due": "2026-11-28",
+   "ransomware": false,
+   "published": "",
+   "cvss": null,
+   "severity": "PENDING",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406",
+   "epss": 0.009
+  },
+  {
    "id": "CVE-2026-132165",
    "origin": "KEV",
    "product": "Drupal Core",
@@ -521,6 +521,20 @@
    "epss": 0.006
   },
   {
+   "id": "CVE-2026-65817",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Improper neutralization of special elements used in an os command ('os command injection') in Azure Managed Instance for Apache Cassandra allows an unauthorized attacker to execute code over an adjacent network.",
+   "published": "2026-11-23",
+   "cvss": 9.6,
+   "severity": "CRITICAL",
+   "vector": "Adjacent_network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65817",
+   "epss": 0.027
+  },
+  {
    "id": "CVE-2026-125717",
    "origin": "NVD",
    "product": "",
@@ -619,20 +633,6 @@
    "epss": 0.023
   },
   {
-   "id": "CVE-2026-136404",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "ntop n2n supernode 3.0 through 3.1.1 contains a stack-based buffer overflow vulnerability that allows remote unauthenticated attackers to leak memory and execute code by sending an untrusted 16-bit auth token_size in REGISTER_SUPER_NAK datagrams. Attackers can register an edge in a chosen…",
-   "published": "2026-11-24",
-   "cvss": 9.3,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136404",
-   "epss": 0.02
-  },
-  {
    "id": "CVE-2026-136411",
    "origin": "NVD",
    "product": "",
@@ -645,6 +645,21 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136411",
    "epss": 0.015
+  },
+  {
+   "id": "CVE-2026-64670",
+   "origin": "GHSA",
+   "product": "npm @waline/client",
+   "name": "@waline/client vulnerable to stored XSS through unsanitized comment edit previews",
+   "desc": "@waline/client vulnerable to stored XSS through unsanitized comment edit previews",
+   "published": "2026-11-25",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-crj3-q72p-ggqm",
+   "ghsaId": "GHSA-crj3-q72p-ggqm",
+   "epss": 0.004
   },
   {
    "id": "CVE-2026-64855",
@@ -734,21 +749,6 @@
    "url": "https://github.com/advisories/GHSA-3wh4-j44w-pg92",
    "ghsaId": "GHSA-3wh4-j44w-pg92",
    "epss": 0.003
-  },
-  {
-   "id": "CVE-2026-63410",
-   "origin": "GHSA",
-   "product": "rubygems secp256k1-native",
-   "name": "secp256k1-native has a compiler-induced timing side channel in scalar multiplication",
-   "desc": "secp256k1-native has a compiler-induced timing side channel in scalar multiplication",
-   "published": "2026-11-23",
-   "cvss": 5.9,
-   "severity": "MEDIUM",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://github.com/advisories/GHSA-vp2j-gqfm-r3cf",
-   "ghsaId": "GHSA-vp2j-gqfm-r3cf",
-   "epss": 0.005
   },
   {
    "id": "CVE-2026-59831",
