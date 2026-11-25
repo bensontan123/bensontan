@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T13:00:45.297Z",
+ "updated": "2026-11-25T14:00:46.475Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -347,6 +347,26 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+     "desc": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score…",
+     "tags": [
+      "2026-11-25"
+     ],
+     "link": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+     "desc": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on Tuesday. As a precaution…",
+     "tags": [
+      "2026-11-25"
+     ],
+     "link": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
      "desc": "TL;DR More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will break. Validity-only…",
      "tags": [
@@ -373,26 +393,6 @@
       "2026-11-25"
      ],
      "link": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
-     "desc": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from. The flaw used in the attack had been in the registry's code…",
-     "tags": [
-      "2026-11-25"
-     ],
-     "link": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
-     "desc": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world. The intrusion activity…",
-     "tags": [
-      "2026-11-25"
-     ],
-     "link": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html"
     }
    ]
   }
