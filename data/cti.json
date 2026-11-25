@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T11:00:51.055Z",
+ "updated": "2026-11-25T11:26:17.008Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -335,6 +335,26 @@
    "label": "Threat headlines",
    "items": [
     {
+     "cat": "SANS ISC",
+     "sev": "NEWS",
+     "title": "ISC Stormcast For Wednesday, November 25th, 2026 https://isc.sans.edu/podcastdetail/10194, (Wed, Nov 25th)",
+     "desc": "",
+     "tags": [
+      "2026-11-25"
+     ],
+     "link": "https://isc.sans.edu/diary/rss/33554"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
+     "desc": "A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesday. Abdulrahman…",
+     "tags": [
+      "2026-11-25"
+     ],
+     "link": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html"
+    },
+    {
      "cat": "The Hacker News",
      "sev": "NEWS",
      "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
@@ -373,26 +393,6 @@
       "2026-11-25"
      ],
      "link": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html"
-    },
-    {
-     "cat": "BleepingComputer",
-     "sev": "NEWS",
-     "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
-     "desc": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday.",
-     "tags": [
-      "2026-11-25"
-     ],
-     "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/"
-    },
-    {
-     "cat": "BleepingComputer",
-     "sev": "NEWS",
-     "title": "Microsoft confirms authentication issues after November updates",
-     "desc": "Microsoft has confirmed that customers may experience authentication issues after installing November security updates that address a high-severity remote code execution vulnerability.",
-     "tags": [
-      "2026-11-25"
-     ],
-     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/"
     }
    ]
   }
