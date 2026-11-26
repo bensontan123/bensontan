@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T17:00:45.484Z",
+ "updated": "2026-11-26T19:00:46.871Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -437,19 +437,6 @@
    "epss": 0.032
   },
   {
-   "id": "CVE-2026-126984",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "A **server-side request forgery** flaw has been found in the get_remote_artifact_url() function in pulp_python/app/models.py of the pull-through caching feature in the **pulp_python** package. The function uses the redirect query parameter from the client request as the URL to download. A network…",
-   "published": "2026-11-26",
-   "cvss": 10,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126984"
-  },
-  {
    "id": "CVE-2026-123342",
    "origin": "NVD",
    "product": "",
@@ -599,6 +586,20 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135208",
    "epss": 0.02
+  },
+  {
+   "id": "CVE-2026-135792",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "A vulnerability has been found in Panabit Smart Application Gateway TANGr7p10. This issue affects the function send_email_authcode of the file user.cgi of the component Email Auth Code Sender. Such manipulation of the argument Username leads to os command injection. The attack may be launched…",
+   "published": "2026-11-24",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135792",
+   "epss": 0.023
   },
   {
    "id": "CVE-2026-64670",
