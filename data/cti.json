@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T19:00:46.871Z",
+ "updated": "2026-11-26T21:00:45.527Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -338,6 +338,16 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+     "desc": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what…",
+     "tags": [
+      "2026-11-26"
+     ],
+     "link": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
      "desc": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. \"The loader hides in a small utils…",
      "tags": [
@@ -384,16 +394,6 @@
       "2026-11-26"
      ],
      "link": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
-     "desc": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment. \"Most of the packages pose as WinUI 3 and WPF [Windows…",
-     "tags": [
-      "2026-11-26"
-     ],
-     "link": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html"
     }
    ]
   }
