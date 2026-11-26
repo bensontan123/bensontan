@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T23:00:45.058Z",
+ "updated": "2026-11-26T02:00:46.002Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -414,7 +414,7 @@
    "kevAdded": "2026-11-24",
    "due": "2026-11-27",
    "ransomware": false,
-   "published": "",
+   "published": "2026-11-26",
    "cvss": null,
    "severity": "PENDING",
    "vector": "",

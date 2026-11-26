@@ -1,7 +1,18 @@
 {
- "updated": "2026-11-25T21:48:08.587Z",
+ "updated": "2026-11-26T02:00:46.002Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
+  {
+   "date": "2026-11-26",
+   "region": "HK",
+   "cat": "Advisory",
+   "title": "Microsoft Edge Multiple Vulnerabilities",
+   "desc": "Multiple vulnerabilities were identified in Microsoft Edge. A remote attacker could exploit some of these vulnerabilities to trigger denial of service condition, spoofing, security restriction bypass, sensitive information disclosure and…",
+   "tags": [
+    "HKCERT"
+   ],
+   "link": "https://www.hkcert.org/security-bulletin/microsoft-edge-multiple-vulnerabilities_20261126"
+  },
   {
    "date": "2026-11-25",
    "region": "HK",
@@ -111,17 +122,6 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/vmware-products-multiple-vulnerabilities_20261123"
-  },
-  {
-   "date": "2026-11-23",
-   "region": "HK",
-   "cat": "Advisory",
-   "title": "WhatsApp Multiple Vulnerabilities",
-   "desc": "Multiple vulnerabilities were identified in WhatsApp. A remote attacker could exploit some of these vulnerabilities to trigger security restriction bypass, sensitive information disclosure and data manipulation on the targeted system…",
-   "tags": [
-    "HKCERT"
-   ],
-   "link": "https://www.hkcert.org/security-bulletin/whatsapp-multiple-vulnerabilities_20261123"
   },
   {
    "date": "2026-11-23",
