@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T23:00:45.058Z",
+ "updated": "2026-11-26T05:00:47.527Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -337,6 +337,16 @@
    "label": "Threat headlines",
    "items": [
     {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+     "desc": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment. \"Most of the packages pose as WinUI 3 and WPF [Windows…",
+     "tags": [
+      "2026-11-26"
+     ],
+     "link": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html"
+    },
+    {
      "cat": "CISA",
      "sev": "NEWS",
      "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
@@ -385,16 +395,6 @@
       "2026-11-25"
      ],
      "link": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
-     "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026…",
-     "tags": [
-      "2026-11-25"
-     ],
-     "link": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html"
     }
    ]
   }
