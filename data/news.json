@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T04:00:48.894Z",
+ "updated": "2026-11-26T09:00:49.683Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -34,6 +34,28 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/gitlab-multiple-vulnerabilities_20261126"
+  },
+  {
+   "date": "2026-11-25",
+   "region": "SG",
+   "cat": "Advisory",
+   "title": "Active Exploitation of Vulnerability in Cisco Expressway",
+   "desc": "Attackers are exploiting a critical vulnerability in Cisco Expressway to execute arbitrary operating system commands as root. Patch immediately.",
+   "tags": [
+    "SingCERT"
+   ],
+   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-170"
+  },
+  {
+   "date": "2026-11-25",
+   "region": "SG",
+   "cat": "Advisory",
+   "title": "Critical Vulnerabilities in F5 BIG-IP Products",
+   "desc": "Attackers can exploit multiple vulnerabilities in F5 BIG-IP products to cause denial of service and potentially perform remote code execution. Patch immediately.",
+   "tags": [
+    "SingCERT"
+   ],
+   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-169"
   },
   {
    "date": "2026-11-25",
@@ -232,28 +254,6 @@
     "SingCERT"
    ],
    "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-163"
-  },
-  {
-   "date": "2026-11-15",
-   "region": "SG",
-   "cat": "Advisory",
-   "title": "Active Exploitation of Vulnerabilities in Barracuda Networks Products",
-   "desc": "Attackers are exploiting two vulnerabilities in Barracuda Networks products that could allow them to bypass authorisation controls and gain root access to affected devices. Patch immediately.",
-   "tags": [
-    "SingCERT"
-   ],
-   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-162"
-  },
-  {
-   "date": "2026-11-15",
-   "region": "SG",
-   "cat": "Advisory",
-   "title": "Multiple Vulnerabilities in SAP Products",
-   "desc": "Threat actors can exploit multiple critical vulnerabilities in SAP Products to execute arbitrary code, bypass authentication, run operating system commands or read sensitive files. Patch immediately.",
-   "tags": [
-    "SingCERT"
-   ],
-   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-161"
   },
   {
    "date": "2026-11-11",
