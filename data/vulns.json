@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T15:00:46.287Z",
+ "updated": "2026-11-26T16:00:50.147Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -493,6 +493,19 @@
    "epss": 0.006
   },
   {
+   "id": "CVE-2026-104998",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "The Product Input Fields for WooCommerce plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2.1.0 via the process_file_input_field function. This is due to missing file type validation in the process_file_input_field function, which accepts the…",
+   "published": "2026-11-26",
+   "cvss": 9.8,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104998"
+  },
+  {
    "id": "CVE-2026-65817",
    "origin": "NVD",
    "product": "",
@@ -589,20 +602,6 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136411",
    "epss": 0.015
-  },
-  {
-   "id": "CVE-2026-136136",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "A vulnerability was identified in Netis WF2409E up to 20261026. Affected by this issue is some unknown functionality of the file /cgi-bin/skk_set.cgi of the component CGI Interface. The manipulation of the argument app/password/new_pwd_confirm/passwd_set/mode_name/wl_link leads to improper…",
-   "published": "2026-11-25",
-   "cvss": 9.3,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136136",
-   "epss": 0.009
   },
   {
    "id": "CVE-2026-64670",

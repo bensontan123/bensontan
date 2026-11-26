@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T09:00:49.683Z",
+ "updated": "2026-11-26T16:00:50.147Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -34,6 +34,17 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/gitlab-multiple-vulnerabilities_20261126"
+  },
+  {
+   "date": "2026-11-26",
+   "region": "KR",
+   "cat": "News",
+   "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+   "desc": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. \"The loader hides in a small utils…",
+   "tags": [
+    "The Hacker News"
+   ],
+   "link": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html"
   },
   {
    "date": "2026-11-25",
@@ -254,17 +265,6 @@
     "SingCERT"
    ],
    "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-163"
-  },
-  {
-   "date": "2026-11-11",
-   "region": "JP",
-   "cat": "Advisory",
-   "title": "Security Alert: Microsoft Releases November 2026 Security Updates",
-   "desc": "",
-   "tags": [
-    "JPCERT/CC"
-   ],
-   "link": "https://www.jpcert.or.jp/english/at/2026/at260035.html"
   }
  ]
 }
