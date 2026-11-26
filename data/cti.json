@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T16:00:50.147Z",
+ "updated": "2026-11-26T17:00:45.484Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -229,6 +229,16 @@
     {
      "cat": "NVD",
      "sev": "CRITICAL",
+     "title": "CVE-2026-126984 — advisory",
+     "desc": "A **server-side request forgery** flaw has been found in the get_remote_artifact_url() function in pulp_python/app/models.py of the pull-through caching feature in the **pulp_python** package. The function uses the redirect query parameter from the client request as the URL to download. A network…",
+     "tags": [
+      "published 2026-11-26"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-126984"
+    },
+    {
+     "cat": "NVD",
+     "sev": "CRITICAL",
      "title": "CVE-2026-123342 — advisory",
      "desc": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
      "tags": [
@@ -258,17 +268,6 @@
       "EPSS 0.9%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123987"
-    },
-    {
-     "cat": "NVD",
-     "sev": "CRITICAL",
-     "title": "CVE-2026-133303 — advisory",
-     "desc": "A vulnerability in the Audio, Web, and Video Conferencing (AWV) component of Mitel MiCollab through 10.3 (10.3.0.18) could allow an unauthenticated attacker to leverage pre-staged malicious content to conduct an XML injection attack due to insufficient parameter validation. A successful exploit…",
-     "tags": [
-      "published 2026-11-19",
-      "EPSS 1.3%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303"
     }
    ]
   },

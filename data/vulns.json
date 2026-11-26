@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T16:00:50.147Z",
+ "updated": "2026-11-26T17:00:45.484Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -437,6 +437,19 @@
    "epss": 0.032
   },
   {
+   "id": "CVE-2026-126984",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "A **server-side request forgery** flaw has been found in the get_remote_artifact_url() function in pulp_python/app/models.py of the pull-through caching feature in the **pulp_python** package. The function uses the redirect query parameter from the client request as the URL to download. A network…",
+   "published": "2026-11-26",
+   "cvss": 10,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126984"
+  },
+  {
    "id": "CVE-2026-123342",
    "origin": "NVD",
    "product": "",
@@ -477,6 +490,19 @@
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123987",
    "epss": 0.009
+  },
+  {
+   "id": "CVE-2026-137498",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Budibase Server from 3.39.18 before 4.0.0 contains a prototype pollution vulnerability that allows unauthenticated attackers to erase MongoDB query filters by supplying __proto__ as a dynamic JSON key in PUBLIC queries. Attackers can send a single request to the query execution endpoint, reducing…",
+   "published": "2026-11-26",
+   "cvss": 9.9,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137498"
   },
   {
    "id": "CVE-2026-119582",
@@ -548,6 +574,19 @@
    "epss": 0.003
   },
   {
+   "id": "CVE-2026-137544",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "LaraDashboard before 1.5.0 contains a path traversal vulnerability in module.json providers and composer.json psr-4 namespace parsing that derives destination folder names without excluding traversal characters. Attackers with module.create permission can upload a crafted module ZIP to write PHP…",
+   "published": "2026-11-26",
+   "cvss": 9.4,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137544"
+  },
+  {
    "id": "CVE-2026-135208",
    "origin": "NVD",
    "product": "",
@@ -560,48 +599,6 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135208",
    "epss": 0.02
-  },
-  {
-   "id": "CVE-2026-135792",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "A vulnerability has been found in Panabit Smart Application Gateway TANGr7p10. This issue affects the function send_email_authcode of the file user.cgi of the component Email Auth Code Sender. Such manipulation of the argument Username leads to os command injection. The attack may be launched…",
-   "published": "2026-11-24",
-   "cvss": 9.3,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135792",
-   "epss": 0.023
-  },
-  {
-   "id": "CVE-2026-135797",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "A vulnerability was identified in Volans NGFW Next-Generation Firewall r5.1. Impacted is the function exec of the file sslvpn/sslvpn_client.php of the component SSLVPN Client. Such manipulation of the argument img leads to os command injection. The attack can be executed remotely. The exploit is…",
-   "published": "2026-11-24",
-   "cvss": 9.3,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135797",
-   "epss": 0.023
-  },
-  {
-   "id": "CVE-2026-136411",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "BusyBox through 1.38.0 contains an absolute path traversal vulnerability in tftpd that allows unauthenticated remote attackers to access files outside any intended directory when started without a DIR argument. Attackers can send RRQ or WRQ packets with file names beginning with '/' to read…",
-   "published": "2026-11-24",
-   "cvss": 9.3,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136411",
-   "epss": 0.015
   },
   {
    "id": "CVE-2026-64670",
