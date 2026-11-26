@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T08:00:45.439Z",
+ "updated": "2026-11-26T12:00:48.351Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -339,6 +339,26 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+     "desc": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about. At Push…",
+     "tags": [
+      "2026-11-26"
+     ],
+     "link": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+     "desc": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and…",
+     "tags": [
+      "2026-11-26"
+     ],
+     "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
      "desc": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper…",
      "tags": [
@@ -359,16 +379,6 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
-     "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
-     "desc": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and…",
-     "tags": [
-      "2026-11-26"
-     ],
-     "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
      "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
      "desc": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment. \"Most of the packages pose as WinUI 3 and WPF [Windows…",
      "tags": [
@@ -377,24 +387,14 @@
      "link": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html"
     },
     {
-     "cat": "CISA",
+     "cat": "BleepingComputer",
      "sev": "NEWS",
-     "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
-     "desc": "CISA has added 10 new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2023-25914 Danfoss AK-SM 800A Series Path Traversal Vulnerability CVE-2023-25915 Danfoss AK-SM 800A…",
+     "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+     "desc": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails.",
      "tags": [
-      "2026-11-25"
+      "2026-11-26"
      ],
-     "link": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog"
-    },
-    {
-     "cat": "SANS ISC",
-     "sev": "NEWS",
-     "title": "ISC Stormcast For Wednesday, November 25th, 2026 https://isc.sans.edu/podcastdetail/10194, (Wed, Nov 25th)",
-     "desc": "",
-     "tags": [
-      "2026-11-25"
-     ],
-     "link": "https://isc.sans.edu/diary/rss/33554"
+     "link": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/"
     }
    ]
   }
