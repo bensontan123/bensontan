@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T02:00:46.002Z",
+ "updated": "2026-11-26T04:00:48.894Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -534,20 +534,6 @@
    "epss": 0.003
   },
   {
-   "id": "CVE-2026-133993",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "A security flaw has been discovered in D-Link DIR-600L 2.17b02. This affects the function FUN_0040efb0 of the file gena.cgi of the component GENA Subscription Handler. Performing a manipulation of the argument service results in stack-based buffer overflow. The attack is possible to be carried out…",
-   "published": "2026-11-21",
-   "cvss": 9.3,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133993",
-   "epss": 0.014
-  },
-  {
    "id": "CVE-2026-135208",
    "origin": "NVD",
    "product": "",
@@ -602,6 +588,20 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136411",
    "epss": 0.015
+  },
+  {
+   "id": "CVE-2026-136136",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "A vulnerability was identified in Netis WF2409E up to 20261026. Affected by this issue is some unknown functionality of the file /cgi-bin/skk_set.cgi of the component CGI Interface. The manipulation of the argument app/password/new_pwd_confirm/passwd_set/mode_name/wl_link leads to improper…",
+   "published": "2026-11-25",
+   "cvss": 9.3,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136136",
+   "epss": 0.009
   },
   {
    "id": "CVE-2026-64670",

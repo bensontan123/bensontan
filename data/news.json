@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T03:00:49.614Z",
+ "updated": "2026-11-26T04:00:48.894Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -34,6 +34,17 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/gitlab-multiple-vulnerabilities_20261126"
+  },
+  {
+   "date": "2026-11-25",
+   "region": "SG",
+   "cat": "Advisory",
+   "title": "Active Exploitation of Vulnerability in F5 NGINX",
+   "desc": "Attackers are exploiting a high-severity vulnerability in F5 NGINX to access sensitive information, modify data and cause a denial of service. Patch immediately.",
+   "tags": [
+    "SingCERT"
+   ],
+   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-168"
   },
   {
    "date": "2026-11-25",
@@ -254,17 +265,6 @@
     "JPCERT/CC"
    ],
    "link": "https://www.jpcert.or.jp/english/at/2026/at260035.html"
-  },
-  {
-   "date": "2026-11-10",
-   "region": "SG",
-   "cat": "Advisory",
-   "title": "November 2026 Monthly Patch",
-   "desc": "Microsoft has released security patches to address multiple vulnerabilities in their software and products.",
-   "tags": [
-    "SingCERT"
-   ],
-   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-160"
   }
  ]
 }
