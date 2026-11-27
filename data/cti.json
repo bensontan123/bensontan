@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T20:00:44.523Z",
+ "updated": "2026-11-27T21:00:53.801Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -335,6 +335,16 @@
    "label": "Threat headlines",
    "items": [
     {
+     "cat": "CISA",
+     "sev": "NEWS",
+     "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+     "desc": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-120705 OSGeo GeoServer XML Injection Vulnerability CVE-2026-129243 OSGeo GeoServer Incorrect…",
+     "tags": [
+      "2026-11-27"
+     ],
+     "link": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog"
+    },
+    {
      "cat": "The Hacker News",
      "sev": "NEWS",
      "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
@@ -383,16 +393,6 @@
       "2026-11-27"
      ],
      "link": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
-     "desc": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE…",
-     "tags": [
-      "2026-11-27"
-     ],
-     "link": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html"
     }
    ]
   }
