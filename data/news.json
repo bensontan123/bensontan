@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T17:00:47.116Z",
+ "updated": "2026-11-27T22:00:44.468Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -23,17 +23,6 @@
     "The Hacker News"
    ],
    "link": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html"
-  },
-  {
-   "date": "2026-11-27",
-   "region": "JP",
-   "cat": "News",
-   "title": "Japan’s education ministry discloses breach of government procurement system",
-   "desc": "Japan’s education ministry disclosed earlier this week that hackers breached its government procurement system, potentially exposing records containing business information and email addresses.",
-   "tags": [
-    "The Record"
-   ],
-   "link": "https://therecord.media/japan-education-ministry-cyberattack"
   },
   {
    "date": "2026-11-26",
@@ -265,6 +254,17 @@
     "JPCERT/CC"
    ],
    "link": "https://www.jpcert.or.jp/english/at/2026/at260035.html"
+  },
+  {
+   "date": "2026-10-14",
+   "region": "JP",
+   "cat": "Advisory",
+   "title": "Security Alert: Microsoft Releases October 2026 Security Updates",
+   "desc": "",
+   "tags": [
+    "JPCERT/CC"
+   ],
+   "link": "https://www.jpcert.or.jp/english/at/2026/at260031.html"
   }
  ]
 }
