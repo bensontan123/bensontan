@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T19:00:46.871Z",
+ "updated": "2026-11-27T03:00:47.633Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -519,6 +519,32 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104998"
   },
   {
+   "id": "CVE-2026-106125",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "The Sneeit Framework plugin for WordPress is vulnerable to Remote Code Execution in versions up to, and including, 8.7 via the 'callback' parameter of the sneeit_compact_menu_mega_content AJAX action. The handler sneeit_compact_menu_mega_content_callback() is registered on the wp_ajax_nopriv_ hook…",
+   "published": "2026-11-27",
+   "cvss": 9.8,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106125"
+  },
+  {
+   "id": "CVE-2026-115867",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "The Database for Contact Form 7, WPforms, Elementor forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1.5.5 via the copy_files function. This is due to missing file extension validation in the copy_files function, which accepts…",
+   "published": "2026-11-27",
+   "cvss": 9.8,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115867"
+  },
+  {
    "id": "CVE-2026-65817",
    "origin": "NVD",
    "product": "",
@@ -572,34 +598,6 @@
    "vector": "Network / Low / None",
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137544"
-  },
-  {
-   "id": "CVE-2026-135208",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Kerberos Agent before 3.14.4 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge administrator tokens because JWTMiddleWare() falls back to the hard-coded key TOBECHANGED. Attackers can sign HS256 tokens with arbitrary username and role claims to access…",
-   "published": "2026-11-23",
-   "cvss": 9.3,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135208",
-   "epss": 0.02
-  },
-  {
-   "id": "CVE-2026-135792",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "A vulnerability has been found in Panabit Smart Application Gateway TANGr7p10. This issue affects the function send_email_authcode of the file user.cgi of the component Email Auth Code Sender. Such manipulation of the argument Username leads to os command injection. The attack may be launched…",
-   "published": "2026-11-24",
-   "cvss": 9.3,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135792",
-   "epss": 0.023
   },
   {
    "id": "CVE-2026-64670",
