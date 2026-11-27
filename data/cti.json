@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T12:00:48.219Z",
+ "updated": "2026-11-27T13:00:46.091Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -7,7 +7,7 @@
    "items": [
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-103406 — Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability",
      "desc": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.",
      "tags": [
@@ -20,7 +20,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-133469 — Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability",
      "desc": "Vates Xen Orchestra contains an improper validation of specified type of input vulnerability that could allow an unauthenticated attacker to bypass authentication and perform actions with administrative privileges via a specially crafted authentication token containing an empty JSON object.",
      "tags": [
@@ -33,7 +33,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "HIGH",
      "title": "CVE-2025-41450 — Danfoss AK-SM 800A Series Improper Authentication Vulnerability",
      "desc": "Danfoss AK-SM 800A Series contains an improper authentication vulnerability that could allow an attacker to generate a web report exposing sensitive information, including internal IP addresses, usernames, and store names.",
      "tags": [
@@ -46,7 +46,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "HIGH",
      "title": "CVE-2023-25914 — Danfoss AK-SM 800A Series Path Traversal Vulnerability",
      "desc": "Danfoss AK-SM 800A Series contains a path traversal vulnerability that could allow an attacker to access and read underlying server system files via the XML interface.",
      "tags": [
@@ -59,7 +59,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "HIGH",
      "title": "CVE-2023-25915 — Danfoss AK-SM 800A Series Improper Input Validation Vulnerability",
      "desc": "Danfoss AK-SM 800A Series contains an improper input validation vulnerability that could allow a remote attacker to run arbitrary commands on the affected system.",
      "tags": [
@@ -77,7 +77,7 @@
    "items": [
     {
      "cat": "Ransomware",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2024-10441 — Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
      "desc": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.",
      "tags": [
@@ -90,7 +90,7 @@
     },
     {
      "cat": "Ransomware",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-59310 — Broadcom VMware vCenter Path Traversal Vulnerability",
      "desc": "Broadcom VMware vCenter contains a path traversal vulnerability which could allow a threat actor with network access to vCenter to execute arbitrary code.",
      "tags": [
@@ -103,7 +103,7 @@
     },
     {
      "cat": "Ransomware",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-63077 — JetBrains TeamCity Deserialization of Untrusted Data Vulnerability",
      "desc": "JetBrains TeamCity contains a deserialization of untrusted data vulnerability that could allow unauthenticated remote code execution via the agent polling protocol.",
      "tags": [
@@ -116,7 +116,7 @@
     },
     {
      "cat": "Ransomware",
-     "sev": "PENDING",
+     "sev": "MEDIUM",
      "title": "CVE-2026-20316 — Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability",
      "desc": "Cisco Secure Firewall Management Center (FMC) formerly known as Firepower Management Center contains a use of hard-coded password vulnerability that could allow an unauthenticated, remote attacker to log in to an affected device using a low-privileged account to access sensitive data within the…",
      "tags": [
@@ -129,7 +129,7 @@
     },
     {
      "cat": "Ransomware",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-15409 — SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
      "desc": "SonicWall SMA1000 Appliances contain a server-side request forgery vulnerability that could allow a remote unauthenticated attacker to potentially cause the appliance to make requests to unintended location.",
      "tags": [
@@ -147,7 +147,7 @@
    "items": [
     {
      "cat": "EPSS",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-133469 — Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability",
      "desc": "Vates Xen Orchestra contains an improper validation of specified type of input vulnerability that could allow an unauthenticated attacker to bypass authentication and perform actions with administrative privileges via a specially crafted authentication token containing an empty JSON object.",
      "tags": [
@@ -160,7 +160,7 @@
     },
     {
      "cat": "EPSS",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-133968 — Project MONAI MONAI Label Path Traversal Vulnerability",
      "desc": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
      "tags": [
@@ -173,7 +173,7 @@
     },
     {
      "cat": "EPSS",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-129448 — Apache Roller Deserialization of Untrusted Data Vulnerability",
      "desc": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability…",
      "tags": [
@@ -186,7 +186,7 @@
     },
     {
      "cat": "EPSS",
-     "sev": "PENDING",
+     "sev": "HIGH",
      "title": "CVE-2026-40217 — BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
      "desc": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
      "tags": [
@@ -199,7 +199,7 @@
     },
     {
      "cat": "EPSS",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-90817 — Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
      "desc": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access an unintended controller route from a…",
      "tags": [
