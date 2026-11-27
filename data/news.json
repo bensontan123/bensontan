@@ -1,7 +1,18 @@
 {
- "updated": "2026-11-26T16:00:50.147Z",
+ "updated": "2026-11-27T02:00:46.277Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
+  {
+   "date": "2026-11-27",
+   "region": "HK",
+   "cat": "Advisory",
+   "title": "MongoDB Multiple Vulnerabilities",
+   "desc": "Multiple vulnerabilities were identified in MongoDB. A remote attacker could exploit some of these vulnerabilities to trigger denial of service condition, elevation of privilege, security restriction bypass, sensitive information…",
+   "tags": [
+    "HKCERT"
+   ],
+   "link": "https://www.hkcert.org/security-bulletin/mongodb-multiple-vulnerabilities_20261127"
+  },
   {
    "date": "2026-11-26",
    "region": "HK",
@@ -155,17 +166,6 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/f5-big-ip-remote-code-execution-vulnerability_20261123"
-  },
-  {
-   "date": "2026-11-23",
-   "region": "HK",
-   "cat": "Advisory",
-   "title": "Palo Alto Products Multiple Vulnerabilities",
-   "desc": "Multiple vulnerabilities were identified in Palo Alto Products. A remote attacker could exploit some of these vulnerabilities to trigger denial of service condition and remote code execution on the targeted system. Note: Proof of Concept…",
-   "tags": [
-    "HKCERT"
-   ],
-   "link": "https://www.hkcert.org/security-bulletin/palo-alto-products-multiple-vulnerabilities_20261123"
   },
   {
    "date": "2026-11-23",
