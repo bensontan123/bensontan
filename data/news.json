@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T11:00:46.826Z",
+ "updated": "2026-11-27T12:00:48.219Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -62,7 +62,7 @@
    "region": "KR",
    "cat": "News",
    "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
-   "desc": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. \"The loader hides in a small utils…",
+   "desc": "The threat actors behind the PolinRider campaign have compromised over 7,600 GitHub repositories, in some cases planting a Python loader capable of delivering next-stage payloads, as evidence emerges that the activity may have started as…",
    "tags": [
     "The Hacker News"
    ],
@@ -201,17 +201,6 @@
    "link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
   },
   {
-   "date": "2026-11-20",
-   "region": "CN",
-   "cat": "News",
-   "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-   "desc": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability…",
-   "tags": [
-    "The Hacker News"
-   ],
-   "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html"
-  },
-  {
    "date": "2026-11-19",
    "region": "SG",
    "cat": "Advisory",
@@ -265,6 +254,17 @@
     "JPCERT/CC"
    ],
    "link": "https://www.jpcert.or.jp/english/at/2026/at260035.html"
+  },
+  {
+   "date": "2026-10-14",
+   "region": "JP",
+   "cat": "Advisory",
+   "title": "Security Alert: Microsoft Releases October 2026 Security Updates",
+   "desc": "",
+   "tags": [
+    "JPCERT/CC"
+   ],
+   "link": "https://www.jpcert.or.jp/english/at/2026/at260031.html"
   }
  ]
 }
