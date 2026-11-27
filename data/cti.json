@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T16:00:46.359Z",
+ "updated": "2026-11-27T17:00:47.116Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -339,6 +339,16 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+     "desc": "A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea defense and military agreements. The…",
+     "tags": [
+      "2026-11-27"
+     ],
+     "link": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
      "desc": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrusion, according to eSentire, begins with…",
      "tags": [
@@ -385,16 +395,6 @@
       "2026-11-27"
      ],
      "link": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html"
-    },
-    {
-     "cat": "BleepingComputer",
-     "sev": "NEWS",
-     "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
-     "desc": "Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Department.",
-     "tags": [
-      "2026-11-27"
-     ],
-     "link": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/"
     }
    ]
   }

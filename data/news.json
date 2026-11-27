@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T15:00:47.515Z",
+ "updated": "2026-11-27T17:00:47.116Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -12,6 +12,17 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/mongodb-multiple-vulnerabilities_20261127"
+  },
+  {
+   "date": "2026-11-27",
+   "region": "CN",
+   "cat": "News",
+   "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+   "desc": "A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea defense and military agreements. The…",
+   "tags": [
+    "The Hacker News"
+   ],
+   "link": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html"
   },
   {
    "date": "2026-11-27",
@@ -254,17 +265,6 @@
     "JPCERT/CC"
    ],
    "link": "https://www.jpcert.or.jp/english/at/2026/at260035.html"
-  },
-  {
-   "date": "2026-10-14",
-   "region": "JP",
-   "cat": "Advisory",
-   "title": "Security Alert: Microsoft Releases October 2026 Security Updates",
-   "desc": "",
-   "tags": [
-    "JPCERT/CC"
-   ],
-   "link": "https://www.jpcert.or.jp/english/at/2026/at260031.html"
   }
  ]
 }
