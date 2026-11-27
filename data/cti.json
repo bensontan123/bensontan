@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T21:00:45.527Z",
+ "updated": "2026-11-27T07:00:48.052Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -338,6 +338,26 @@
     {
      "cat": "The Hacker News",
      "sev": "NEWS",
+     "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+     "desc": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted…",
+     "tags": [
+      "2026-11-27"
+     ],
+     "link": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+     "desc": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE…",
+     "tags": [
+      "2026-11-27"
+     ],
+     "link": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html"
+    },
+    {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
      "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
      "desc": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what…",
      "tags": [
@@ -374,26 +394,6 @@
       "2026-11-26"
      ],
      "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
-     "desc": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper…",
-     "tags": [
-      "2026-11-26"
-     ],
-     "link": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
-     "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last…",
-     "tags": [
-      "2026-11-26"
-     ],
-     "link": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html"
     }
    ]
   }
