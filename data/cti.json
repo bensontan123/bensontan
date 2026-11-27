@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T19:00:47.713Z",
+ "updated": "2026-11-27T20:00:44.523Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -31,7 +31,7 @@
     },
     {
      "cat": "KEV",
-     "sev": "PENDING",
+     "sev": "CRITICAL",
      "title": "CVE-2026-136716 — Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability",
      "desc": "Drupal Core contains an improper check for unusual or exceptional conditions vulnerability that allows an unauthenticated remote attacker to take over a site via the exposed Drupal installer when the site is in one of the affected unusual or incomplete installation states.",
      "tags": [

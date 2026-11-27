@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T19:00:47.713Z",
+ "updated": "2026-11-27T20:00:44.523Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -14,6 +14,23 @@
   "ghsa": 11
  },
  "items": [
+  {
+   "id": "CVE-2026-136716",
+   "origin": "KEV",
+   "product": "Drupal Core",
+   "name": "Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability",
+   "desc": "Drupal Core contains an improper check for unusual or exceptional conditions vulnerability that allows an unauthenticated remote attacker to take over a site via the exposed Drupal installer when the site is in one of the affected unusual or incomplete installation states.",
+   "kevAdded": "2026-11-27",
+   "due": "2026-11-30",
+   "ransomware": false,
+   "published": "2026-11-26",
+   "cvss": 9.8,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136716",
+   "epss": 0.012
+  },
   {
    "id": "CVE-2026-103406",
    "origin": "KEV",
@@ -402,23 +419,6 @@
    "vector": "",
    "cvssVersion": "",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129243"
-  },
-  {
-   "id": "CVE-2026-136716",
-   "origin": "KEV",
-   "product": "Drupal Core",
-   "name": "Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability",
-   "desc": "Drupal Core contains an improper check for unusual or exceptional conditions vulnerability that allows an unauthenticated remote attacker to take over a site via the exposed Drupal installer when the site is in one of the affected unusual or incomplete installation states.",
-   "kevAdded": "2026-11-27",
-   "due": "2026-11-30",
-   "ransomware": false,
-   "published": "",
-   "cvss": null,
-   "severity": "PENDING",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136716",
-   "epss": 0.012
   },
   {
    "id": "CVE-2026-134882",
