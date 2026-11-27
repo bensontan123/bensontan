@@ -1,10 +1,47 @@
 {
- "updated": "2026-11-27T17:00:47.116Z",
+ "updated": "2026-11-27T19:00:47.713Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
    "label": "Newly exploited — latest CISA KEV additions",
    "items": [
+    {
+     "cat": "KEV",
+     "sev": "PENDING",
+     "title": "CVE-2026-120705 — OSGeo GeoServer XML Injection Vulnerability",
+     "desc": "OsGeo GeoServer contains an XML injection vulnerability that allows an unauthenticated remote attacker to cause the server to read local text files accessible to the GeoServer process or fetch attacker-specified HTTP or HTTPS URLs via a crafted ID parameter in the WFS 2.0 GetFeatureById stored…",
+     "tags": [
+      "OSGeo GeoServer",
+      "KEV added 2026-11-27",
+      "remediate by 2026-11-30"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120705"
+    },
+    {
+     "cat": "KEV",
+     "sev": "PENDING",
+     "title": "CVE-2026-129243 — OSGeo GeoServer Incorrect Authorization Vulnerability",
+     "desc": "GeoServer contains an incorrect authorization vulnerability that allows an unauthenticated remote attacker to bypass service-level role checks and invoke operations protected solely by those checks via a request with a prefixed service parameter. This vulnerability can be chained with…",
+     "tags": [
+      "OSGeo GeoServer",
+      "KEV added 2026-11-27",
+      "remediate by 2026-11-30"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-129243"
+    },
+    {
+     "cat": "KEV",
+     "sev": "PENDING",
+     "title": "CVE-2026-136716 — Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability",
+     "desc": "Drupal Core contains an improper check for unusual or exceptional conditions vulnerability that allows an unauthenticated remote attacker to take over a site via the exposed Drupal installer when the site is in one of the affected unusual or incomplete installation states.",
+     "tags": [
+      "Drupal Core",
+      "KEV added 2026-11-27",
+      "remediate by 2026-11-30",
+      "EPSS 1.2%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-136716"
+    },
     {
      "cat": "KEV",
      "sev": "CRITICAL",
@@ -30,45 +67,6 @@
       "EPSS 31.8%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469"
-    },
-    {
-     "cat": "KEV",
-     "sev": "HIGH",
-     "title": "CVE-2025-41450 — Danfoss AK-SM 800A Series Improper Authentication Vulnerability",
-     "desc": "Danfoss AK-SM 800A Series contains an improper authentication vulnerability that could allow an attacker to generate a web report exposing sensitive information, including internal IP addresses, usernames, and store names.",
-     "tags": [
-      "Danfoss AK-SM 800A Series",
-      "KEV added 2026-11-25",
-      "remediate by 2026-12-09",
-      "EPSS 4.3%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-41450"
-    },
-    {
-     "cat": "KEV",
-     "sev": "HIGH",
-     "title": "CVE-2023-25914 — Danfoss AK-SM 800A Series Path Traversal Vulnerability",
-     "desc": "Danfoss AK-SM 800A Series contains a path traversal vulnerability that could allow an attacker to access and read underlying server system files via the XML interface.",
-     "tags": [
-      "Danfoss AK-SM 800A Series",
-      "KEV added 2026-11-25",
-      "remediate by 2026-11-28",
-      "EPSS 1.8%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2023-25914"
-    },
-    {
-     "cat": "KEV",
-     "sev": "HIGH",
-     "title": "CVE-2023-25915 — Danfoss AK-SM 800A Series Improper Input Validation Vulnerability",
-     "desc": "Danfoss AK-SM 800A Series contains an improper input validation vulnerability that could allow a remote attacker to run arbitrary commands on the affected system.",
-     "tags": [
-      "Danfoss AK-SM 800A Series",
-      "KEV added 2026-11-25",
-      "remediate by 2026-11-28",
-      "EPSS 2.5%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2023-25915"
     }
    ]
   },
@@ -200,15 +198,15 @@
     {
      "cat": "EPSS",
      "sev": "CRITICAL",
-     "title": "CVE-2026-90817 — Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
-     "desc": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access an unintended controller route from a…",
+     "title": "CVE-2026-132165 — Drupal Core Remote Code Execution Vulnerability",
+     "desc": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site.",
      "tags": [
-      "Vanderbilt University Research Electronic Data Capture (REDCap)",
-      "KEV added 2026-11-18",
-      "remediate by 2026-11-21",
-      "EPSS 18.9%"
+      "Drupal Core",
+      "KEV added 2026-11-24",
+      "remediate by 2026-11-27",
+      "EPSS 8.4%"
      ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817"
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165"
     }
    ]
   },
