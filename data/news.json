@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T02:00:46.277Z",
+ "updated": "2026-11-27T08:45:40.292Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -12,6 +12,17 @@
     "HKCERT"
    ],
    "link": "https://www.hkcert.org/security-bulletin/mongodb-multiple-vulnerabilities_20261127"
+  },
+  {
+   "date": "2026-11-26",
+   "region": "SG",
+   "cat": "Advisory",
+   "title": "Critical Vulnerabilities in VMware Products",
+   "desc": "Attackers can exploit critical vulnerabilities in VMware products to bypass authentication and execute arbitrary code on affected systems. Patch immediately.",
+   "tags": [
+    "SingCERT"
+   ],
+   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-171"
   },
   {
    "date": "2026-11-26",
@@ -254,17 +265,6 @@
     "SingCERT"
    ],
    "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-164"
-  },
-  {
-   "date": "2026-11-15",
-   "region": "SG",
-   "cat": "Advisory",
-   "title": "Creative Labs – Multiple Vulnerabilities in Android Packages, Firmware installers, and Drivers",
-   "desc": "Multiple vulnerabilities have been discovered in Creative Labs products. Creative Labs has released fixes to address these vulnerabilities. Special thanks to the researchers and Creative Labs for coordinating through CSA's Responsible…",
-   "tags": [
-    "SingCERT"
-   ],
-   "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-163"
   }
  ]
 }

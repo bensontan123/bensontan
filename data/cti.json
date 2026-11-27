@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T07:00:48.052Z",
+ "updated": "2026-11-27T08:45:40.292Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -356,6 +356,16 @@
      "link": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html"
     },
     {
+     "cat": "BleepingComputer",
+     "sev": "NEWS",
+     "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+     "desc": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges.",
+     "tags": [
+      "2026-11-27"
+     ],
+     "link": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/"
+    },
+    {
      "cat": "The Hacker News",
      "sev": "NEWS",
      "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
@@ -384,16 +394,6 @@
       "2026-11-26"
      ],
      "link": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
-     "desc": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and…",
-     "tags": [
-      "2026-11-26"
-     ],
-     "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html"
     }
    ]
   }
