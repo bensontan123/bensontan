@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T10:00:46.822Z",
+ "updated": "2026-11-27T11:00:46.826Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -358,6 +358,16 @@
     {
      "cat": "BleepingComputer",
      "sev": "NEWS",
+     "title": "Drupal warns of new site takeover flaw exploited in attacks",
+     "desc": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites.",
+     "tags": [
+      "2026-11-27"
+     ],
+     "link": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/"
+    },
+    {
+     "cat": "BleepingComputer",
+     "sev": "NEWS",
      "title": "SAP confirms security incident after suspicious GitHub activity",
      "desc": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment.",
      "tags": [
@@ -384,16 +394,6 @@
       "2026-11-27"
      ],
      "link": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
-     "desc": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what…",
-     "tags": [
-      "2026-11-26"
-     ],
-     "link": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html"
     }
    ]
   }

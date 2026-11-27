@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T08:45:40.292Z",
+ "updated": "2026-11-27T11:00:46.826Z",
  "source": "SingCERT, JPCERT/CC, HKCERT, CISA, security news feeds",
  "items": [
   {
@@ -135,17 +135,6 @@
    "link": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool"
   },
   {
-   "date": "2026-11-25",
-   "region": "AU",
-   "cat": "News",
-   "title": "Australia passes tough legislation requiring big tech to preempt foreseeable harms",
-   "desc": "The Digital Duty of Care Act sailed through Australia's Parliament. It will mandate that online providers establish protocols to protect users from threats of violence and rape as well as behavior that could cause significant harms.",
-   "tags": [
-    "The Record"
-   ],
-   "link": "https://therecord.media/australia-passes-online-safety-legislation-preempt-harms"
-  },
-  {
    "date": "2026-11-24",
    "region": "HK",
    "cat": "Advisory",
@@ -265,6 +254,17 @@
     "SingCERT"
    ],
    "link": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-164"
+  },
+  {
+   "date": "2026-11-11",
+   "region": "JP",
+   "cat": "Advisory",
+   "title": "Security Alert: Microsoft Releases November 2026 Security Updates",
+   "desc": "",
+   "tags": [
+    "JPCERT/CC"
+   ],
+   "link": "https://www.jpcert.or.jp/english/at/2026/at260035.html"
   }
  ]
 }
