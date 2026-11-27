@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T13:00:46.091Z",
+ "updated": "2026-11-27T14:00:46.796Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -10,8 +10,8 @@
  "catalogCount": 1805,
  "counts": {
   "kev": 24,
-  "nvd": 14,
-  "ghsa": 10
+  "nvd": 13,
+  "ghsa": 11
  },
  "items": [
   {
@@ -81,6 +81,23 @@
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323",
    "epss": 0.056
+  },
+  {
+   "id": "CVE-2026-132165",
+   "origin": "KEV",
+   "product": "Drupal Core",
+   "name": "Drupal Core Remote Code Execution Vulnerability",
+   "desc": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site.",
+   "kevAdded": "2026-11-24",
+   "due": "2026-11-27",
+   "ransomware": false,
+   "published": "2026-11-26",
+   "cvss": 9.8,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "3.1",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
+   "epss": 0.111
   },
   {
    "id": "CVE-2026-133968",
@@ -406,23 +423,6 @@
    "epss": 0.008
   },
   {
-   "id": "CVE-2026-132165",
-   "origin": "KEV",
-   "product": "Drupal Core",
-   "name": "Drupal Core Remote Code Execution Vulnerability",
-   "desc": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site.",
-   "kevAdded": "2026-11-24",
-   "due": "2026-11-27",
-   "ransomware": false,
-   "published": "2026-11-26",
-   "cvss": null,
-   "severity": "PENDING",
-   "vector": "",
-   "cvssVersion": "",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
-   "epss": 0.111
-  },
-  {
    "id": "CVE-2026-134882",
    "origin": "NVD",
    "product": "",
@@ -600,19 +600,6 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137544"
   },
   {
-   "id": "CVE-2026-137706",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "Smart Portal developed by Direk Tech has a Missing Authorization vulnerability. Authenticated remote attackers can add a specified account to the Active Directory Domain Admins group, thereby obtaining domain administrator privileges.",
-   "published": "2026-11-27",
-   "cvss": 9.4,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137706"
-  },
-  {
    "id": "CVE-2026-64670",
    "origin": "GHSA",
    "product": "npm @waline/client",
@@ -756,6 +743,21 @@
    "url": "https://github.com/advisories/GHSA-h746-qpxh-ph7g",
    "ghsaId": "GHSA-h746-qpxh-ph7g",
    "epss": 0.006
+  },
+  {
+   "id": "CVE-2026-59831",
+   "origin": "GHSA",
+   "product": "go github.com/cli/cli/v2",
+   "name": "GitHub CLI gh codespace jupyter may allow code execution via unvalidated URLs from malicious Codespaces",
+   "desc": "GitHub CLI gh codespace jupyter may allow code execution via unvalidated URLs from malicious Codespaces",
+   "published": "2026-11-24",
+   "cvss": 4.4,
+   "severity": "MEDIUM",
+   "vector": "",
+   "cvssVersion": "",
+   "url": "https://github.com/advisories/GHSA-8cg3-r6g9-fpg2",
+   "ghsaId": "GHSA-8cg3-r6g9-fpg2",
+   "epss": 0.003
   }
  ]
 }
