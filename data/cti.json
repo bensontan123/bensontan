@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T08:45:40.292Z",
+ "updated": "2026-11-27T10:00:46.822Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -358,6 +358,26 @@
     {
      "cat": "BleepingComputer",
      "sev": "NEWS",
+     "title": "SAP confirms security incident after suspicious GitHub activity",
+     "desc": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment.",
+     "tags": [
+      "2026-11-27"
+     ],
+     "link": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/"
+    },
+    {
+     "cat": "BleepingComputer",
+     "sev": "NEWS",
+     "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+     "desc": "Microsoft has released an emergency hotpatch update to address Windows Server 2025 crashes triggered after installing this month's security hotpatch update (KB5131077).",
+     "tags": [
+      "2026-11-27"
+     ],
+     "link": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/"
+    },
+    {
+     "cat": "BleepingComputer",
+     "sev": "NEWS",
      "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
      "desc": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges.",
      "tags": [
@@ -374,26 +394,6 @@
       "2026-11-26"
      ],
      "link": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
-     "desc": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. \"The loader hides in a small utils…",
-     "tags": [
-      "2026-11-26"
-     ],
-     "link": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
-     "desc": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about. At Push…",
-     "tags": [
-      "2026-11-26"
-     ],
-     "link": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html"
     }
    ]
   }
