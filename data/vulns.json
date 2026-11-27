@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T14:00:46.796Z",
+ "updated": "2026-11-27T15:00:47.515Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -97,7 +97,7 @@
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
-   "epss": 0.111
+   "epss": 0.084
   },
   {
    "id": "CVE-2026-133968",
@@ -250,7 +250,7 @@
    "vector": "Network / Low / None",
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914",
-   "epss": 0.043
+   "epss": 0.042
   },
   {
    "id": "CVE-2026-134624",
@@ -318,7 +318,7 @@
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217",
-   "epss": 0.202
+   "epss": 0.206
   },
   {
    "id": "CVE-2025-41450",
@@ -489,7 +489,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137498"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137498",
+   "epss": 0.011
   },
   {
    "id": "CVE-2026-119582",
@@ -516,7 +517,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104998"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104998",
+   "epss": 0.013
   },
   {
    "id": "CVE-2026-106125",
@@ -529,7 +531,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106125"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106125",
+   "epss": 0.012
   },
   {
    "id": "CVE-2026-115867",
@@ -542,7 +545,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "3.1",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115867"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115867",
+   "epss": 0.009
   },
   {
    "id": "CVE-2026-65817",
@@ -597,7 +601,8 @@
    "severity": "CRITICAL",
    "vector": "Network / Low / None",
    "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137544"
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137544",
+   "epss": 0.015
   },
   {
    "id": "CVE-2026-64670",
