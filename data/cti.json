@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T09:00:46.950Z",
+ "updated": "2026-11-28T15:00:44.644Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -38,7 +38,7 @@
       "Drupal Core",
       "KEV added 2026-11-27",
       "remediate by 2026-11-30",
-      "EPSS 1.2%"
+      "EPSS 5.5%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-136716"
     },
@@ -64,7 +64,7 @@
       "Vates Xen Orchestra",
       "KEV added 2026-11-25",
       "remediate by 2026-11-28",
-      "EPSS 31.8%"
+      "EPSS 33.3%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469"
     }
@@ -146,28 +146,28 @@
     {
      "cat": "EPSS",
      "sev": "CRITICAL",
-     "title": "CVE-2026-133469 — Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability",
-     "desc": "Vates Xen Orchestra contains an improper validation of specified type of input vulnerability that could allow an unauthenticated attacker to bypass authentication and perform actions with administrative privileges via a specially crafted authentication token containing an empty JSON object.",
-     "tags": [
-      "Vates Xen Orchestra",
-      "KEV added 2026-11-25",
-      "remediate by 2026-11-28",
-      "EPSS 31.8%"
-     ],
-     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469"
-    },
-    {
-     "cat": "EPSS",
-     "sev": "CRITICAL",
      "title": "CVE-2026-133968 — Project MONAI MONAI Label Path Traversal Vulnerability",
      "desc": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
      "tags": [
       "Project MONAI MONAI Label",
       "KEV added 2026-11-23",
       "remediate by 2026-11-26",
-      "EPSS 27.2%"
+      "EPSS 62.8%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968"
+    },
+    {
+     "cat": "EPSS",
+     "sev": "CRITICAL",
+     "title": "CVE-2026-133469 — Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability",
+     "desc": "Vates Xen Orchestra contains an improper validation of specified type of input vulnerability that could allow an unauthenticated attacker to bypass authentication and perform actions with administrative privileges via a specially crafted authentication token containing an empty JSON object.",
+     "tags": [
+      "Vates Xen Orchestra",
+      "KEV added 2026-11-25",
+      "remediate by 2026-11-28",
+      "EPSS 33.3%"
+     ],
+     "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469"
     },
     {
      "cat": "EPSS",
@@ -204,7 +204,7 @@
       "Drupal Core",
       "KEV added 2026-11-24",
       "remediate by 2026-11-27",
-      "EPSS 8.4%"
+      "EPSS 14.0%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165"
     }
@@ -253,7 +253,7 @@
      "desc": "A vulnerability in the Audio, Web, and Video Conferencing (AWV) component of Mitel MiCollab through 10.3 (10.3.0.18) could allow an unauthenticated attacker to leverage pre-staged malicious content to conduct an XML injection attack due to insufficient parameter validation. A successful exploit…",
      "tags": [
       "published 2026-11-19",
-      "EPSS 1.3%"
+      "EPSS 1.6%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303"
     },
@@ -264,7 +264,7 @@
      "desc": "A vulnerability in the Audio, Web, and Video Conferencing (AWV) component of Mitel MiCollab through 10.3 (10.3.0.18) could allow an unauthenticated attacker to conduct a blind command injection attack due to insufficient parameter sanitization. A successful exploit could allow an attacker to…",
      "tags": [
       "published 2026-11-19",
-      "EPSS 5.6%"
+      "EPSS 7.3%"
      ],
      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323"
     }
