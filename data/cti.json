@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T05:00:47.386Z",
+ "updated": "2026-11-28T09:00:46.950Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -335,6 +335,16 @@
    "label": "Threat headlines",
    "items": [
     {
+     "cat": "The Hacker News",
+     "sev": "NEWS",
+     "title": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+     "desc": "Cross-platform password manager pCloud Pass has confirmed it was targeted by a cyber attack after users reported seeing unknown devices being connected to their accounts. \"A cyber attack targeting pCloud Pass occurred, which was promptly…",
+     "tags": [
+      "2026-11-28"
+     ],
+     "link": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html"
+    },
+    {
      "cat": "CISA",
      "sev": "NEWS",
      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
@@ -383,16 +393,6 @@
       "2026-11-27"
      ],
      "link": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
-     "desc": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted…",
-     "tags": [
-      "2026-11-27"
-     ],
-     "link": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html"
     }
    ]
   }
