@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T15:00:44.644Z",
+ "updated": "2026-11-28T16:00:43.457Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -345,6 +345,16 @@
      "link": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html"
     },
     {
+     "cat": "BleepingComputer",
+     "sev": "NEWS",
+     "title": "Q-Dir and DesktopOK Windows utilities compromised to push Python RAT",
+     "desc": "Official distribution channels for the Q-Dir and DesktopOK Windows utilities were compromised to deliver trojanized installers containing Python-based remote access malware.",
+     "tags": [
+      "2026-11-28"
+     ],
+     "link": "https://www.bleepingcomputer.com/news/security/q-dir-and-desktopok-windows-utilities-compromised-to-push-python-rat/"
+    },
+    {
      "cat": "CISA",
      "sev": "NEWS",
      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
@@ -383,16 +393,6 @@
       "2026-11-27"
      ],
      "link": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
-     "desc": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. \"Evidence indicates that malicious files were…",
-     "tags": [
-      "2026-11-27"
-     ],
-     "link": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html"
     }
    ]
   }
