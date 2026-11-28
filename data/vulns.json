@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T20:00:44.523Z",
+ "updated": "2026-11-28T04:00:48.617Z",
  "source": "CISA KEV · NVD · GitHub advisories · EPSS",
  "sources": [
   "KEV",
@@ -421,20 +421,6 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129243"
   },
   {
-   "id": "CVE-2026-134882",
-   "origin": "NVD",
-   "product": "",
-   "name": "",
-   "desc": "A weakness has been identified in TOTOLINK A7100RU 7.4cu.2313_B20191024. This issue affects the function exportOvpn of the file /cgi-bin/cstecgi.cgi of the component CGI Handler. This manipulation of the argument Username causes os command injection. The attack is possible to be carried out…",
-   "published": "2026-11-23",
-   "cvss": 10,
-   "severity": "CRITICAL",
-   "vector": "Network / Low / None",
-   "cvssVersion": "4.0",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134882",
-   "epss": 0.032
-  },
-  {
    "id": "CVE-2026-123342",
    "origin": "NVD",
    "product": "",
@@ -601,6 +587,20 @@
    "cvssVersion": "4.0",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137544",
    "epss": 0.015
+  },
+  {
+   "id": "CVE-2026-137706",
+   "origin": "NVD",
+   "product": "",
+   "name": "",
+   "desc": "Smart Portal developed by Direk Tech has a Missing Authorization vulnerability. Authenticated remote attackers can add a specified account to the Active Directory Domain Admins group, thereby obtaining domain administrator privileges.",
+   "published": "2026-11-27",
+   "cvss": 9.4,
+   "severity": "CRITICAL",
+   "vector": "Network / Low / None",
+   "cvssVersion": "4.0",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137706",
+   "epss": 0.005
   },
   {
    "id": "CVE-2026-64670",
