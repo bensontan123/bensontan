@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T16:00:43.457Z",
+ "updated": "2026-11-28T18:00:44.741Z",
  "source": "CISA KEV, NVD, GitHub advisories, EPSS, security news",
  "briefings": [
   {
@@ -347,6 +347,16 @@
     {
      "cat": "BleepingComputer",
      "sev": "NEWS",
+     "title": "College Board confirms data breach after unauthorized password changes",
+     "desc": "College Board has confirmed it suffered a data breach after students reported unexpected password changes on Thanksgiving, and the organization said threat actors gained access to its account registration and financial aid application…",
+     "tags": [
+      "2026-11-28"
+     ],
+     "link": "https://www.bleepingcomputer.com/news/security/college-board-confirms-data-breach-after-unauthorized-password-changes/"
+    },
+    {
+     "cat": "BleepingComputer",
+     "sev": "NEWS",
      "title": "Q-Dir and DesktopOK Windows utilities compromised to push Python RAT",
      "desc": "Official distribution channels for the Q-Dir and DesktopOK Windows utilities were compromised to deliver trojanized installers containing Python-based remote access malware.",
      "tags": [
@@ -383,16 +393,6 @@
       "2026-11-27"
      ],
      "link": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html"
-    },
-    {
-     "cat": "The Hacker News",
-     "sev": "NEWS",
-     "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
-     "desc": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is…",
-     "tags": [
-      "2026-11-27"
-     ],
-     "link": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html"
     }
    ]
   }
